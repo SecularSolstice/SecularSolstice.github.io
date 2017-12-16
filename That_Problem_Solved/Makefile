@@ -1,4 +1,5 @@
 PREFIX=That_Problem_Solved-
+FILES_TO_LIST=lyrics.txt sheet-music.pdf sheet-music-compact.pdf chord-chart.html from-midi.mp3
 
 gen/${PREFIX}lyrics.txt: chart.csv
 	../scripts/csv-to-lyrics.py chart.csv gen/${PREFIX}lyrics.txt 5

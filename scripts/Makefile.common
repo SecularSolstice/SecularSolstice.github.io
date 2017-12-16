@@ -1,9 +1,16 @@
+clean:
+	rm gen/*
 
-gen/${PREFIX}notes.midi: gen/${PREFIX}sheet-music.pdf
-	mv gen/${PREFIX}sheet-music.midi gen/${PREFIX}notes.midi
-
-gen/${PREFIX}from-midi.wav: gen/${PREFIX}notes.midi
-	timidity gen/${PREFIX}notes.midi -Ow -o gen/${PREFIX}from-midi.wav
+gen/${PREFIX}from-midi.wav: gen/${PREFIX}sheet-music.midi
+	timidity gen/${PREFIX}sheet-music.midi -Ow -o gen/${PREFIX}from-midi.wav
 
 gen/${PREFIX}from-midi.mp3: gen/${PREFIX}from-midi.wav
 	lame  gen/${PREFIX}from-midi.wav gen/${PREFIX}from-midi.mp3
+
+gen/${PREFIX}chord-chart.html: chart.csv
+	../scripts/csv-to-html.py chart.csv gen/${PREFIX}chord-chart.html
+
+FILES=$(foreach f, ${FILES_TO_LIST}, gen/${PREFIX}${f})
+
+gen/index.html: README.md ${FILES}
+	../scripts/create-index.sh > gen/index.html
