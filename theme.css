@@ -1,0 +1,61 @@
+body {
+    background: radial-gradient(ellipse at 50% 100%,
+                                #f9fc32 0%,
+                                #f9fc32 3%,
+                                #ff7c32 10%,
+                                #aa0077 20%,
+                                #000055 50%,
+                                #000000 90%);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    padding-bottom: 200px;
+}
+
+h1 {
+    text-align: center;
+    color: yellow;
+    font-size: 72pt;
+    text-shadow: 0 0 25px yellow;
+    margin-bottom: 30px;
+    
+}
+
+h2 {
+    text-align:center;
+    min-width: 40%;
+    width: fit-content;
+    margin: 0.5em auto ;
+    background: rgba(0,0,0,0.5);
+    padding: 0.5em;
+    white-space: nowrap;
+}
+
+p,ul {
+    margin: auto ;
+    background: rgba(0,0,0,0.5);
+}
+
+p {
+    padding: 0.5em;
+    width: 80%;
+}
+
+ul {
+    width: 50%;
+}
+
+a {
+    color: #ccf;
+}
+
+table {
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+td {
+    border: 1px solid #ddd;
+    white-space: nowrap;
+    padding: 1px 4px;
+}
