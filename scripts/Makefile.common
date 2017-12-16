@@ -1,0 +1,9 @@
+
+gen/${PREFIX}notes.midi: gen/${PREFIX}sheet-music.pdf
+	mv gen/${PREFIX}sheet-music.midi gen/${PREFIX}notes.midi
+
+gen/${PREFIX}from-midi.wav: gen/${PREFIX}notes.midi
+	timidity gen/${PREFIX}notes.midi -Ow -o gen/${PREFIX}from-midi.wav
+
+gen/${PREFIX}from-midi.mp3: gen/${PREFIX}from-midi.wav
+	lame  gen/${PREFIX}from-midi.wav gen/${PREFIX}from-midi.mp3
