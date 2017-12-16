@@ -1,12 +1,8 @@
 body {
-    background: radial-gradient(ellipse at 50% 100%,
-                                #f9fc32 0%,
-                                #f9fc32 3%,
-                                #ff7c32 10%,
-                                #aa0077 20%,
-                                #000055 50%,
-                                #000000 90%);
+    background-color: black;
+    background-image: url(dawn-bkg.jpg);
     background-size: cover;
+    background-position: center 80%;
     background-attachment: fixed;
     color: white;
     padding-bottom: 200px;
