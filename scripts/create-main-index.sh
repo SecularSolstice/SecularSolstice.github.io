@@ -9,7 +9,7 @@ cat <<EOF
     <link rel=stylesheet href=theme.css>
   </head>
   <body>
-    <h1>Secular Solstice</h1>
+    <h1>Secular Solstice Resources</h1>
 EOF
 
 for i in lists/gen/*.html *.html; do
@@ -19,5 +19,7 @@ for i in lists/gen/*.html *.html; do
              echo "</a></h2>"
          fi
 done
+
+echo "<a href=https://github.com/SecularSolstice/SecularSolstice.github.io>Raw Git</a>"
 
 echo "</body></html>"
