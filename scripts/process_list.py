@@ -62,7 +62,7 @@ for line in inf:
 if inul:
     outf.write('</ul>')
     
-outf.write("<a href=https://github.com/SecularSolstice/SecularSolstice.github.io/blob/master/lists/%s.lst>Raw Git</a>" % fn)
+outf.write("<a href=https://github.com/SecularSolstice/SecularSolstice.github.io/blob/master/lists/%s>Raw Git</a>" % fn)
     
 outf.write('</body></html>')
 outf.close()
