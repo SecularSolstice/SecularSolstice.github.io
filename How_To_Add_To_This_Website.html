@@ -1,0 +1,96 @@
+<html>
+  <head>
+    <title>How to Add to this Website</title>
+    <link rel=stylesheet href=theme.css>
+  </head>
+  <body>
+    <h1>How to Add to this Website</h1>
+    <h2>General Principles</h2>
+    <p>This website is hosted <a
+        href="https://github.com/SecularSolstice/SecularSolstice.github.io/">on
+        a github repository</a>.  In addition to robust, ad-free
+        hosting, this gets us version tracking, history, collaboration
+        and branching/merging support.</p>
+    <p>This is as close to a bag of files as I could get it while
+        still being a viable website.  Almost all the HTML is
+        auto-generated using makefiles.  Most of the content is in
+        markdown.  Hopefully this will make it pretty easy to modify
+        things and to bring things into formats not-yet-conceived
+        while also making things pretty.</p>
+    <p>Cloning your own git repo is recommended, as that will make
+        the autogeneration go much more smoothly.  If that's not
+        practical, you can use github's web interface and ask someone
+        else to run <tt>make all</tt>.</p>
+    <p>Programs used in the autogen scripts include lilypond, timidity,
+        lame, pandoc and python.  Future developments are likely to
+        include wkhtmltopdf, LaTeX, abc2ly, imagemagick and ffmpeg.
+        All of these are available through apt or non-debian equivalents.</p>
+    <p>There are a few cases where make's dependency detection won't
+        work.  If this seems to be happening, delete and remake the
+        relevant files.</p>
+    <p><b>When in doubt, copy something already here.</b></p>
+    
+    <h2>Adding a Song</h2>
+    <ul>
+        <li>Create a directory for it and a <tt>gen/</tt> subdirectory
+        <li>Create a <tt>README.md</tt> file, starting with the
+            title as a level-1 header and the attribution and summary as level
+            2.
+        <li>Create a canonical representation of the song.  If a chord
+            chart, call it <tt>chart.csv</tt>.  If Lilypond, call it
+            <tt>sheet-music.ly</tt>.
+        <li>Create a Makefile.  This must define the
+            <tt>PREFIX</tt>tt> and <tt>FILES_TO_LIST</tt> variables,
+            provide a rule for <tt>gen/${PREFIX}lyrics.txt</tt> and
+            include <tt>../scripts/Makefile.common</tt>.  It may also
+            provide rules for other files (such as the voice-only
+            sheet music for Voicing of Fear).  Note that the simple
+            conversions are provided for you, but the lyrics are not
+            because there's too much variation (but helpful scripts
+            are provided).
+        <li>Add any other files you want to make available.
+        <li>Run <tt>make all</tt>
+        <li>Add the song to the All Songs list in the appropriate
+            place and to any other relevant lists.
+        <li>Run <tt>make all</tt> on the lists as well.
+        <li>Check that everything looks correct
+        <li>Add everything to git, including the generated files
+        <li>Commit and push
+    </ul>
+
+    <h2>Adding a Speech</h2>
+    <ul>
+        <li>Put it in the speeches directory in markdown format
+        <li>Begin with the title as a level-1 header and the author as
+        a level-2
+        <li>Add it to the All Speeches lists and any other relevant lists
+        <li>Run <tt>make all</tt> on first the speeches and then the
+            lists
+        <li>Check that everything looks correct
+        <li>Add everything to git, including the generated files
+        <li>Commit and push
+    </ul>
+
+    <h2>Adding a List</h2>
+    <ul>
+        <li>Create a file in the <tt>lists/</tt> directory.  Use
+            <tt>#</tt> marks for headers.  For speeches and songs, use
+            the file/directory name, not the formatted title.
+        <li>The name of your file should have underscores for spaces,
+            but the capitalization you want to display.  Also, lists will
+            be alphabetized on the main page, so name accordingly
+            (if this becomes a problem, alter the
+            <tt>create-main-index.sh</tt> script).
+        <li>Run <tt>make all</tt> in both the lists directory and the
+            root.</li>
+        <li>Check that everything looks correct
+        <li>Add everything, including the generated files
+        <li>Commit and push
+    </ul>
+
+    <h2>Always check everything</h2>
+    <h2>Always <tt>git add</tt> the generated files</h2>
+    <h2>When in doubt, copy something already here</h2>
+  </body>
+</html>
+            

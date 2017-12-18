@@ -1,7 +1,7 @@
 PREFIX=Always_Look_on_the_Bright_Side-
-FILES_TO_LIST=lyrics.txt chord-chart.html
+FILES_TO_LIST=lyrics.txt
 
-gen/${PREFIX}lyrics.txt: chart.csv
-	../scripts/csv-to-lyrics.py chart.csv gen/${PREFIX}lyrics.txt 6
+gen/${PREFIX}lyrics.txt: like-a-chord-chart.html
+	cat like-a-chord-chart.html | grep -v '<' > gen/${PREFIX}lyrics.txt
 
 include ../scripts/Makefile.common

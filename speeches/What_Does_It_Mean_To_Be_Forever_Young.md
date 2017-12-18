@@ -1,0 +1,48 @@
+# What Does It Mean To Be Forever Young?
+## By Daniel Speyer
+
+What does it mean to be forever young? Is not youth the property that by its very nature seeks to destroy itself?
+
+When I was young, my working assumption was that I could do anything. I might not know how, but I could learn. When I was ten years old and set out to convert a small electric motor and some glass jars into a self-playing musical instrument, I had no idea how to do it. But I didn't worry about that. It's not so much that I believed I could, as that I never stopped to ask.
+
+As I got older, and various failures beat me over the head, I began to take on tasks I knew roughly how to do.
+
+But to make solstice happen, I needed to reach back to that younger self. To trust, again, in my ability to learn. At the time, I had never written music. I had no real evidence that I ever would be able to write music. But now I've written some.
+
+Short of just not happening, the obvious failure mode for Solstice would be to create a copy of Christmas with the serial numbers filed off. The most naïve way to avoid that would be to make a list of all things Christmasy and carefully not do any of them. But such a celebration would be almost as much defined by Christmas as one that copied it. I want to do whichever things work best for Solstice, and leave Christmas with those who celebrate it.
+
+This is easier said than done. I often rely on intuitions I cannot entirely introspect. So I second-guess: have I picked up a bit of Christmasness from my surrounding culture? Have I done so in a negative way, flinching away from something that resembles an irritating aspect. And, in my previous worries, did I overcompensate and overshoot? Or did I do the same thing in *those* worries? Or in those, or...
+
+Sometimes I want to give up and just drink the iocaine powder in front of me.
+
+But what I really want is to go back to my very young self who literally did not know about Christmas. Who could have optimized for Solsticiness without distraction.
+
+Now, these changes are not entirely a loss. And I do not mean other changes that happened at the same time for the same reason. I mean these changes.
+
+Knowing my fallibility allows me to plan for it. To set deadlines with safety margins. To seek help when I need it. To advise my friends to craft contingency plans for “if I drop off the face of the earth”. (Just glad we didn't need those.)
+
+Knowing about Christmas prepares me for a congregation that knows about Christmas: And it allows me to – carefully – search Christmas traditions for any good, universal ideas that we do want to copy.
+
+Even youth's greatest benefit – the awareness of how much is out there to learn – trades off at its high end against the ability to act confidently on what you know.
+
+Even youth's greatest weakness – the lack of power – forces you to stay honest, and honesty often serves you well in the long run.
+
+So we speak of moderation, and of balance. Not because we like these things but because we haven't got better. When the good and the bad are the same thing, you cannot have one without the other. It is an iron law of psychology.
+
+So if the virtues of youth and age are trade-offs, why do we sing Forever Young? Especially after we spent the rest of the evening talking about growing up? If what causes you to grow up is staring into darkness and not backing down, that is precisely what we are here to do!
+
+Have we changed our mind?
+
+No.
+
+We have gotten *ambitious*.
+
+May you be forever young and old as it shall please you. Not “or”. “And”.
+
+An “iron laws of psychology”, I said. But compared to all we have done, and to all we must do if we are to survive, what matters an iron law? Let us drag it to our anvil, and hammer it into a more pleasing shape. It seems our current spectrum of minds cannot solve our problems. And as the amount of change we live through increases, whether through longevity or accelerating change, the danger increases. So it goes. Let us hammer ourselves into something better.
+
+Our hammers might be philosophy or neurology or robotics or something yet uninvented. It doesn't matter. Is we survive, we will have them.
+
+Perhaps, as you look to the future, and toward growth, you look not for yourself but for your community. Or your family, or your teacher-student lineage, or your traditions. It makes little difference. Everything that applies to individuals in youth and in age applies to collectives as well. Those have additional ways to age badly: to lose energy, to lose sight of goals, to lose the right people... But even in this broader scope, the principles still apply.
+
+Whether you take it for yourself, for your community, or for both, this is the blessing we wish to offer you. That as you grow old, as you grow strong, as you grow wise, may you nevertheless stay forever young, though you grow for another five thousand years.

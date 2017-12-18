@@ -1,6 +1,9 @@
 clean:
 	rm gen/*
 
+gen/${PREFIX}sheet-music.pdf: sheet-music.ly
+	lilypond -o gen/${PREFIX}sheet-music sheet-music.ly
+
 gen/${PREFIX}from-midi.wav: gen/${PREFIX}sheet-music.midi
 	timidity gen/${PREFIX}sheet-music.midi -Ow -o gen/${PREFIX}from-midi.wav
 
@@ -14,3 +17,5 @@ FILES=$(foreach f, ${FILES_TO_LIST}, gen/${PREFIX}${f})
 
 gen/index.html: README.md ${FILES}
 	../scripts/create-index.sh > gen/index.html
+
+all: gen/index.html

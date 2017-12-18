@@ -1,0 +1,11 @@
+# A Little Echo
+## By Raymond Arnold (with a few bits by Daniel Speyer)
+## Love, life, death, and the desperate hope for life again
+
+Having two voices for this is highly recommended.
+
+Emphasize to the pianist that we really do want that steady, high-c heartbeat.  If a drummer is available, have a bass drum at half the rhythm (the left side of the heart).
+
+The [original](https://humanistculture.bandcamp.com/track/a-little-echo) was more explicitly about cryonics.  This version is designed to be ambiguous as to what the metal circle is.
+
+The sheet music has not been properly proofread and may contain small errors.  When we performed this at NYC2017, there was more memory and improvisation than reading of the score, so that wasn't really a test.

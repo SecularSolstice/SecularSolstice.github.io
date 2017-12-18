@@ -11,25 +11,26 @@ body {
 h1 {
     text-align: center;
     color: yellow;
-    font-size: 72pt;
+    font-size: 40pt;
     text-shadow: 0 0 25px yellow;
     margin-bottom: 30px;
-    
 }
 
 h2 {
     text-align:center;
     min-width: 40%;
     width: fit-content;
-    margin: 0.5em auto ;
-    background: rgba(0,0,0,0.5);
-    padding: 0.5em;
+    margin: 1em auto;
+    background: rgba(0,0,0,0.3);
+    padding: 0.25em 1em;
     white-space: nowrap;
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.6);
+    border-radius: 30px;
 }
 
-p,ul {
+p,ul,table {
     margin: auto ;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.6);
 }
 
 p {
@@ -39,6 +40,8 @@ p {
 
 ul {
     width: 50%;
+    padding: 1em;
+    padding-left: 2em;
 }
 
 a {
@@ -47,11 +50,14 @@ a {
 
 table {
     width: 100%;
-    background: rgba(0,0,0,0.5);
 }
 
 td {
     border: 1px solid #ddd;
     white-space: nowrap;
     padding: 1px 4px;
+}
+
+.small {
+    font-size: smaller;
 }

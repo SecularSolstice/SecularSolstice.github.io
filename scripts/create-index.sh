@@ -24,15 +24,18 @@ cat gen/*lyrics.txt |
 echo "</p>"
 
 echo "<h2>Files</h2><ul>"
-FILES=$( ls gen/*.pdf gen/*.midi gen/*.html gen/*.mp3 |
+FILES=$( ls gen/*.pdf gen/*.midi gen/*.html gen/*.mp3 gen/*.txt 2>/dev/null |
                grep -v index |
                sed 's@gen/@@' |
                sort)
 for f in $FILES; do
     echo "<li><a href=$f>$f</a>"
 done
-for f in chart.csv sheet-music.ly; do
-    if [ -e $f ]; then
+for f in *; do
+    if     [ "$f" != "gen" ] &&
+           [ "$f" != "Makefile" ] &&
+           [ "$f" != "lyrics.txt" ] &&
+           [ "$f" != "README.md" ] ; then
         echo "<li><a href=../$f>$f</a>"
     fi
 done
