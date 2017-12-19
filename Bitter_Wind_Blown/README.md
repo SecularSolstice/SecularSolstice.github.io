@@ -5,3 +5,6 @@
 
 This song takes on the "winter" concept most directly: the cold and
 darkness and *danger* for the unprepared.
+
+In some places, it is referred to as "Bitter Wind Lullaby" to distinguish it
+from the later [Bitter Wind March](../../Bitter_Wind_March/gen/)
