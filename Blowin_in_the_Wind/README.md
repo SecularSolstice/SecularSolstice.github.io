@@ -13,3 +13,5 @@ certainly not our perspective.
 
 If using this song, consider its role as a sacred anthem of hippiism,
 a philosophy we have a complex relationship with.
+
+[NYC2016 performance is on Youtube](https://www.youtube.com/watch?v=ovDHalP-yLc&list=PL2kAZU4YexD8EtbrNfI6RP0rjsTAIYwK6)

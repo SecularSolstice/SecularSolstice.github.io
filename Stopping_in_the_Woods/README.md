@@ -2,6 +2,8 @@
 ## By Robert Frost and Randall Thompson
 ## A vignette of looking into snowy woods at night
 
+[NYC2016 Performance on Youtube](https://www.youtube.com/watch?v=ovDHalP-yLc&list=PL2kAZU4YexD8EtbrNfI6RP0rjsTAIYwK6#t=4m)
+
 Previous discussion about this song:
 
 **Daniel:**
