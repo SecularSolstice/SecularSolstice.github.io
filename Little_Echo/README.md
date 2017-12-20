@@ -10,4 +10,4 @@ The [original](https://humanistculture.bandcamp.com/track/a-little-echo) was mor
 
 The sheet music has not been properly proofread and may contain small errors.  When we performed this at NYC2017, there was more memory and improvisation than reading of the score, so that wasn't really a test.
 
-This song is available for sale via bandcamp in the [2013](https//humanistculturebandcampcom/album/brighter-than-today-a-secular-solstice) album.
+This song is available for sale via bandcamp in the [2013](https://humanistculturebandcampcom/album/brighter-than-today-a-secular-solstice) album.

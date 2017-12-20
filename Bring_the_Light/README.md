@@ -24,5 +24,5 @@ sung melody, the instrumentalists have followed the singer.  In short,
 Treat this page as containing *examples* of this song, not as
 containing *the song*.
 
-This song is available for sale via bandcamp in [all three albums](https//humanistculture.bandcamp.com/).
+This song is available for sale via bandcamp in [all three albums](https://humanistculture.bandcamp.com/).
 

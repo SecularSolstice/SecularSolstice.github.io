@@ -9,5 +9,5 @@ darkness and *danger* for the unprepared.
 In some places, it is referred to as "Bitter Wind Lullaby" to distinguish it
 from the later [Bitter Wind March](../../Bitter_Wind_March/gen/)
 
-This song is available for sale via bandcamp in [all three albums](https//humanistculture.bandcamp.com/).
+This song is available for sale via bandcamp in [all three albums](https://humanistculture.bandcamp.com/).
 
