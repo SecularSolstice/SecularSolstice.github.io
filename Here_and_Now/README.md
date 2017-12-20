@@ -18,3 +18,5 @@ One happened and by now it's become something of a tradition.
 
 There'd be a certain logic in updating this song regularly, but
 somehow it doesn't seem to need it.
+
+This song is available for sale via bandcamp in the [2015](https://humanistculture.bandcamp.com/album/solstice-2015) album.

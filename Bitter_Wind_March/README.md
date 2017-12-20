@@ -14,3 +14,6 @@ on Brighter Than Today's toes.
 
 The [NYC 2016
 Performance](https://www.youtube.com/watch?v=qmKx-NQ6iWU) is on Youtube
+
+This song is available for sale via bandcamp in [all three albums](https//humanistculture.bandcamp.com/).
+

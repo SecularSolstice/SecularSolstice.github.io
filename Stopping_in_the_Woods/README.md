@@ -31,3 +31,5 @@ Previous discussion about this song:
 > I think the core, important interpretation of Stopping in the Woods is also actually pretty literal: imagine that you, in particular, are stopping in the middle of the woods on the darkest night of the year and have miles to go before you sleep. What would you, in particular, be thinking about while that happened?
 
 We never really resolved this.  But whatever you think of the words, the melody is beuatifully haunting.
+
+This song is available for sale via bandcamp in the [2015](https://humanistculture.bandcamp.com/album/solstice-2015) album.

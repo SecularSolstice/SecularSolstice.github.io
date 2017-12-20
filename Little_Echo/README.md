@@ -9,3 +9,5 @@ Emphasize to the pianist that we really do want that steady, high-c heartbeat.  
 The [original](https://humanistculture.bandcamp.com/track/a-little-echo) was more explicitly about cryonics.  This version is designed to be ambiguous as to what the metal circle is.
 
 The sheet music has not been properly proofread and may contain small errors.  When we performed this at NYC2017, there was more memory and improvisation than reading of the score, so that wasn't really a test.
+
+This song is available for sale via bandcamp in the [2013](https//humanistculturebandcampcom/album/brighter-than-today-a-secular-solstice) album.

@@ -8,3 +8,5 @@ rationalist project is not to find flaws in religious fundamentalists
 and laugh at them, but to find flaws in ourselves and fix them.
 Thinking of irrationality as "that thing biblical literalists do" will
 make it *harder* to recognize in ourselves.
+
+This song is available for sale via bandcamp in the [2015](https://humanistculture.bandcamp.com/album/solstice-2015) album.
