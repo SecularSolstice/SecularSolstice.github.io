@@ -10,3 +10,5 @@ into a dark headspace after intermission.
 The [official music
 video](https://www.youtube.com/watch?v=lPXWt2ESxVY) is available.  Our
 performances are more mournful and less psychedelic.
+
+A [Bayesian Choir Performance](https://www.youtube.com/watch?v=DQKskwd6b2A) of this song is on Youtube.

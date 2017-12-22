@@ -17,3 +17,6 @@ Performance](https://www.youtube.com/watch?v=qmKx-NQ6iWU) is on Youtube
 
 This song is available for sale via bandcamp in [all three albums](https://humanistculture.bandcamp.com/).
 
+
+
+A [Bayesian Choir Performance](https://www.youtube.com/watch?v=C8fRlZUDpmk) of this song is on Youtube.

@@ -8,3 +8,6 @@ We traditionally end with this one.
 
 This song is available for sale via bandcamp in [all three albums](https://humanistculture.bandcamp.com/).
 
+
+
+A [Bayesian Choir Performance](https://www.youtube.com/watch?v=MFTkoy9pfC0) of this song is on Youtube.

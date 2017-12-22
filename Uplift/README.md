@@ -8,3 +8,6 @@ We often blend the end of this into the beginning of Five Thousand Years.
 
 This song is available for sale via bandcamp in [all three albums](https://humanistculture.bandcamp.com/).
 
+
+
+A [Bayesian Choir Performance](https://www.youtube.com/watch?v=HWdr_YTJrg8) of this song is on Youtube.

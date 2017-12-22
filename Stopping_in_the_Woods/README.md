@@ -33,3 +33,6 @@ Previous discussion about this song:
 We never really resolved this.  But whatever you think of the words, the melody is beuatifully haunting.
 
 This song is available for sale via bandcamp in the [2015](https://humanistculture.bandcamp.com/album/solstice-2015) album.
+
+
+A [Bayesian Choir Performance](https://www.youtube.com/watch?v=gzBzlLWfPwM) of this song is on Youtube.
