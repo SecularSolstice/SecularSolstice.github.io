@@ -11,7 +11,9 @@ for line in inf:
     if '\\lyricmode' in line:
         inlyrics=True
     elif '}' in line:
+        if inlyrics:
+            outf.write('\n')
         inlyrics=False
     elif inlyrics:
-        outf.write(line.replace(' -- ','').replace('"',''))
+        outf.write(line.replace(' -- ','').replace('"','').replace(' _',''))
 outf.close()
