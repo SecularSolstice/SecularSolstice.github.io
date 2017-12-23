@@ -1,0 +1,50 @@
+# Bold Orion
+
+    Em                                          D 
+     When the days are gettin' shorter, and the nights are growin' long,
+              C                 D             Em
+     And the north wind puts a tear into your eye,
+                                                  D 
+     If you're out about 'round midnight and you look off to the east,
+                C             D           Em
+     There you may see bold Orion on the rise.
+               G                             Em
+     You may know him by his stance or the starry shield he holds,
+            G                            Em
+     As he rises silent in a clear cold sky.
+                  D                                  Em
+     Young Jack Frost and Old Man Winter, they both beckon to the call
+               D            C           Em
+     Of their master bold Orion on the rise.
+     
+                    C            Em            D                Em
+     CHORUS: Bold Orion, mighty hunter, rising in a clear cold sky,
+              C             Em              D C           Em
+     See the summer fall before him. Bold Orion's on the rise.
+
+For seven starry ages, he has ruled the winter skies
+With the fires of lost eons in his eyes.
+He has seen the rise and fall of kings and continents and all,
+Rising silent, bold Orion on the rise.
+When he ascends, no hesitation; when he moves, no turnin' round,
+Like a soul been called to glory, earthly born but heavenly bound.
+Now the bird is on the wing, and it's southward that she flies,
+Hastened on by bold Orion on the rise. CHORUS
+
+Orion had a lover. She's the goddess of the hunt,
+And of the forest and the golden moon.
+Artemis they called her, the fair sister of the sun,
+But their time together ended all too soon.
+Apollo took his vengeance on the man his sister loved.
+An arrow sped him to a painful death;
+But once a month she visits him, a moon among the stars,
+Looking down with whispered love upon her breath. CHORUS
+
+Summer comes on all too slowly, and it passes far too fast,
+And you wonder, is there nothin' that can last?
+Here today and gone tomorrow as the green leaves turn to red,
+As the present quickly turns into the past.
+Cut the wood and stack it high now. Stoke the fires in your home.
+Burnin' nightly send the smoke up to the sky.
+Keep the winter at your door and keep the summer in your heart.
+Drink a toast to bold Orion on the rise. CHORUS 2X

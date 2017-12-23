@@ -28,12 +28,12 @@ h2 {
     border-radius: 30px;
 }
 
-p,ul,table {
+p,ul,table,pre {
     margin: auto ;
     background: rgba(0,0,0,0.6);
 }
 
-p {
+p,pre {
     padding: 0.5em;
     width: 80%;
 }
