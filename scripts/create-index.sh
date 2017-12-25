@@ -15,7 +15,7 @@ pandoc -f markdown README.md
 
 echo "<h2>Lyrics</h2><p>"
 
-cat gen/*lyrics.txt |
+cat gen/*lyrics.txt 2>/dev/null |
     sed 's/&/\&amp;/g' |
     sed 's/</\&lt;/g' |    
     awk '{print $0 "<br>"}' |
