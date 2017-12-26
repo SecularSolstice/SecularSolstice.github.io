@@ -12,10 +12,10 @@ cat <<EOF
     <h1>Secular Solstice Resources</h1>
 EOF
 
-for i in lists/gen/*.html *.html; do
+for i in lists/gen/*.html misc/gen/*.html; do
          if [ "$i" != "index.html" ]; then
              echo "<h2><a href=$i>"
-             echo "$i" | sed 's@lists/gen/@@' | sed 's/.html//' | tr '_' ' '
+             echo "$i" | sed 's@.*/gen/@@' | sed 's/.html//' | tr '_' ' '
              echo "</a></h2>"
          fi
 done

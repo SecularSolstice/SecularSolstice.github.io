@@ -4,3 +4,4 @@ gen/%.html: %.md
 ALLH=$(patsubst %.md, gen/%.html, $(wildcard *.md))
 all: ${ALLH}
 	echo done
+
