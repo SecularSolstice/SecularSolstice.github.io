@@ -27,6 +27,76 @@ this seems to be happening, delete and remake the relevant files.
 
 When in doubt, copy something already here.
 
+## GitHub Advice
+
+If you've used Github before, you can probably ignore this section.
+Just remember that not everyone is, so don't do anything really
+sophisticated with branches anywhere that anyone else will need to
+look at it.
+
+To do almost anything with Github, you need an account.  Go to
+[github.com](https://github.com) and sign up.  Giving them your email
+is safe: they won't spam you.  Don't worry about the features you
+could pay for: you won't need any of them.
+
+The most proper way to contribute content is a "pull request", a
+bundle of proposed changes.  To do this, you must first create a
+"fork", a copy of the project under your own username, still on
+Github.  This may seem inelegantly heavyweight, but it's very little
+actual effort, and puts very little burden on the servers.  Just go to
+the [main project
+page](https://github.com/SecularSolstice/SecularSolstice.github.io)
+and click "fork".
+
+Now you have your own copy of everything.  You can do whatever you
+want here and it won't effect the main repository at all.
+
+There are (at least) two ways to make changes.  One is through the web
+interface.  There are "Create a new file" and "Upload files" buttons,
+and when you view a file, there's a button with an icon of a pencil to
+edit it.  Note that every change you make this way is a separate
+commit (a commit is the fundamental unit of changing things in git)
+and needs a message.  A one line explanation of what you did will
+suffice.  Note that all the auto-generation scripts won't work this
+way, but that's not a big deal.
+
+Alternatively, you can clone the repository unto your local computer.
+If you click the "Clone or download" button, you'll get a URL.  Go to
+your command line and type `git clone ${THAT_URL}`.  You'll now have a
+third copy of everything, this time on your own computer.  Make the
+changes using your favorite tools, `git add` any files you create,
+`git commit` everything, and then `git push` it all back to
+your copy on github.
+
+There are lots of guides to git on the internet.  [This
+one](https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/)
+seems pretty good.
+
+Once you've made your changes, send a pull request back to the main
+repository.  Github's [own
+documentation](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)
+takes you through the process.  If you're not sure you did things
+right, just mention your concerns in the pull request message.
+
+## If That's Still Too Much
+
+Git can be a lot to take on, depending on your background.  If you
+want to contribute but don't want to deal with all this, send your
+content to either Ruthan Freese (rcfreese [at] gmail [dot] com) who
+has volunteered to be "official Github intermediary" or to Daniel
+Speyer (dspeyer [at] gmail [dot] com) who set this whole thing up.
+Try to get your content as close to the forms used here as is easy,
+but don't sweat it.
+
+## Want Push Access?
+
+If you think you should have permissions to push straight here without
+going through a pull request, you're probably right.  Contact Daniel
+Speyer and remind him who you are.  Make sure to mention your Github
+username.
+
+(If you don't know what this means, don't worry, it doesn't affect you.)
+
 ## Adding a Song
 
   * Create a directory for it and a `gen/` subdirectory
@@ -74,9 +144,5 @@ When in doubt, copy something already here.
   * Check that everything looks correct
   * Add everything, including the generated files
   * Commit and push
-
-## Always check everything
-
-## Always git add the generated files
 
 ## When in doubt, copy something already here
