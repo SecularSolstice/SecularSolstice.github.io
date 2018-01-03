@@ -97,6 +97,26 @@ username.
 
 (If you don't know what this means, don't worry, it doesn't affect you.)
 
+## What Belongs Here?
+
+If it's been used at a Solstice or was written for Solstice, it
+belongs here.  If it was neither, but seems really good, that belongs
+here too.  Songs that seem only kind of relevant probably don't belong
+here, unless there's some specific reason to include them, or you
+really want to.
+
+Putting things here imposes very few costs.  Unless you're
+thinking of adding so much that a list becomes unreadable, go ahead.
+And if you are, then consider putting these things into a separate
+list.
+
+For songs used at Solstice, but not written for it and easy to find
+elsewhere, I sometimes created stubs.  For example, [John Lennon's
+Imagine](/Imagine/gen).  This enables including the song in setlists,
+but doesn't take much effort or get in anyone's way.  When I do this,
+I *don't* include them in the All Songs list, to avoid cluttering that
+with links to pointless pages.
+
 ## Adding a Song
 
   * Create a directory for it and a `gen/` subdirectory
