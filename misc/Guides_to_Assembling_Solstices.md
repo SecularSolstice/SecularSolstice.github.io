@@ -6,6 +6,11 @@
 * [Solstice as Campbellian Monomyth](http://secularsolstice.com/a-campbellian-perspective-on-solstice/)
 * [The Thinking Behind The NYC 2017 Setlist](http://secularsolstice.com/the-thinking-behind-the-nyc-2017-setlist/)
 
+## Practical Advice
+
+* [Running a Solstice](http://secularsolstice.com/running-brighter-than-today/)
+* [Material Components](http://secularsolstice.com/material-components/)
+* [NYC Playbook/Checklist](https://docs.google.com/document/d/1yzDMuEmNvFXQbR2_KCuwntXxs97K1XtGTIyA8eG_zx0/edit#) (WIP)
 
 ## The Ritual Subsequence on Lesswrong [2012]
 
