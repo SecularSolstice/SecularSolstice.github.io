@@ -3,7 +3,9 @@
 ## Arc Perspectives
 * [The Arc Breakdown](http://secularsolstice.com/the-arc-breakdown/)
 * [~~Three~~ Four Journeys](http://secularsolstice.com/musical-arcs-and-goals/) (just the first part)
-* [Solstice as Campbellian Monomyth](https://www.reddit.com/r/dspeyer/comments/7jlt4v/something_i_was_only_partly_aware_of_while/)
+* [Solstice as Campbellian Monomyth](http://secularsolstice.com/a-campbellian-perspective-on-solstice/)
+* [The Thinking Behind The NYC 2017 Setlist](http://secularsolstice.com/the-thinking-behind-the-nyc-2017-setlist/)
+
 
 ## The Ritual Subsequence on Lesswrong [2012]
 
