@@ -1,0 +1,24 @@
+# I Have Seen the Tops of Clouds
+## By Daniel Speyer
+## The miracles of today taken in context
+
+Based on the blog post [I Have Seen the Tops of Clouds](https://medium.com/message/i-have-seen-the-tops-of-clouds-e21c5941de32) by Quinn Norton.
+
+This song has not been tested by actual singers.
+
+I had to invent two small bits of musical notation.  When the voice
+has a dotted whole note, that means to hold through the next measure
+with the lyrics there sung by someone else.  Possibly by the
+audience.  *Mostly* the song calls for a single singer -- just not
+those echoes.  Also, the C^1.3^ chord means just the major third (C and
+E) with neither A nor G.  It's the intersection of A Minor and C Major
+and is therefore ambiguous as to what it's a part of.
+
+Placing this song in the arc may be tricky.  It's a little dark for
+morning, but the light in it is clearly the light of morning and not
+the light of the day before.
+
+Also, "To hope is a thing you can choose" may conflict with people's
+sense of "If we are doomed, I want to believe we are doomed".  But
+hope isn't about belief -- it's about attention.  And that *is* a
+thing you can choose.
