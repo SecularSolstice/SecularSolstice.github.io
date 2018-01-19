@@ -16,6 +16,12 @@ outf.write("""
     <link rel="stylesheet" type="text/css" href="../../theme.css">
   </head>
   <body>
+    <div class=header>
+      <a href="/">Home</a>
+      <a href="/lists/gen/All_Songs.html">Songs</a>
+      <a href="/lists/gen/All_Speeches.html">Speeches</a>
+      <a href="http://secularsolstice.com/blog/">Blog</a>
+    </div>
     <h1>%s</h1>
 """ % (title,title))
 
