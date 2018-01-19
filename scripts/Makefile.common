@@ -13,9 +13,12 @@ gen/${PREFIX}from-midi.mp3: gen/${PREFIX}from-midi.wav
 gen/${PREFIX}chord-chart.html: chart.csv
 	../scripts/csv-to-html.py chart.csv gen/${PREFIX}chord-chart.html
 
+gen/thumb.png: $(wildcard gen/${PREFIX}sheet-music.pdf)
+	../scripts/create-thumb.sh "${PREFIX}"
+
 FILES=$(foreach f, ${FILES_TO_LIST}, gen/${PREFIX}${f})
 
-gen/index.html: README.md ${FILES}
+gen/index.html: README.md ${FILES} gen/thumb.png
 	../scripts/create-index.sh > gen/index.html
 
 all: gen/index.html

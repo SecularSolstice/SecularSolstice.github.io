@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash 
 
 TITLE="$(basename $(pwd) | tr '_' ' ')"
 
@@ -7,9 +7,15 @@ cat <<EOF
   <head>
     <title>$TITLE</title>
     <link rel=stylesheet href=../../theme.css>
-  </head>
-  <body>
 EOF
+
+if [ -e gen/thumb.png ]; then
+    echo '<meta property="og:image" content="thumb.png" />'
+    echo '<meta name="twitter:image" content="thumb.png" />'
+fi
+
+echo "  </head>  <body> "
+
 
 pandoc -f markdown README.md
 
@@ -24,7 +30,7 @@ cat gen/*lyrics.txt 2>/dev/null |
 echo "</p>"
 
 echo "<h2>Files</h2><ul>"
-FILES=$( ls gen/*.pdf gen/*.midi gen/*.html gen/*.mp3 gen/*.txt 2>/dev/null |
+FILES=$( ls gen/*.pdf gen/*.midi gen/*.html gen/*.mp3 gen/*.txt gen/*.png 2>/dev/null |
                grep -v index |
                sed 's@gen/@@' |
                sort)
@@ -35,7 +41,8 @@ for f in *; do
     if     [ "$f" != "gen" ] &&
            [ "$f" != "Makefile" ] &&
            [ "$f" != "lyrics.txt" ] &&
-           [ "$f" != "README.md" ] ; then
+           [ "$f" != "README.md" ] &&
+           [[ "$f" =~ ^[^~]*$ ]]; then
         echo "<li><a href=../$f>$f</a>"
     fi
 done
