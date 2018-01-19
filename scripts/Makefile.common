@@ -18,7 +18,7 @@ gen/thumb.png: $(wildcard gen/${PREFIX}sheet-music.pdf)
 
 FILES=$(foreach f, ${FILES_TO_LIST}, gen/${PREFIX}${f})
 
-gen/index.html: README.md ${FILES} gen/thumb.png
+gen/index.html: README.md ${FILES} gen/thumb.png ../scripts/create-index.sh
 	../scripts/create-index.sh > gen/index.html
 
 all: gen/index.html

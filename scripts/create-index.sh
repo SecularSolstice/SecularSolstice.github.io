@@ -13,10 +13,11 @@ cat <<EOF
 EOF
 
 if [ -e gen/thumb.png ]; then
-    echo '<meta property="og:image" content="thumb.png" />'
-    echo '<meta name="twitter:image" content="thumb.png" />'
+    THUMB="https://secularsolstice.github.io/$(basename $(pwd))/gen/thumb.png"
+    echo "    <meta property='og:image' content='${THUMB}' />"
+    echo "    <meta name='twitter:image' content='${THUMB}' />"
 fi
-echo "<meta property='og:title' content='${TITLE}' />"
+echo "    <meta property='og:title' content='${TITLE}' />"
 DESC="$(cat README.md | 
            head -n 5 |
            tail -n 4 |
@@ -24,7 +25,7 @@ DESC="$(cat README.md |
            tr '\n' '%' |
            sed 's/% *%/%/g' |
            sed 's@%@ // @g')"
-echo "<meta property='og:description' content='${DESC}' />"
+echo "    <meta property='og:description' content='${DESC}' />"
 
 
 echo "  </head>  <body> "
