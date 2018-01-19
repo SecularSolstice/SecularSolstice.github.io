@@ -1,6 +1,9 @@
 #!/bin/bash 
 
-TITLE="$(basename $(pwd) | tr '_' ' ')"
+TITLE="$(grep '^# ' README.md | head -n 1 | sed 's/# //g')"
+if [ -z "$TITLE" ]; then 
+    TITLE="$(basename $(pwd) | tr '_' ' ')"
+fi
 
 cat <<EOF
 <html>
@@ -13,6 +16,8 @@ if [ -e gen/thumb.png ]; then
     echo '<meta property="og:image" content="thumb.png" />'
     echo '<meta name="twitter:image" content="thumb.png" />'
 fi
+echo "<meta property='og:title' content='${TITLE}' />"
+    
 
 echo "  </head>  <body> "
 
