@@ -18,7 +18,7 @@ autogeneration go much more smoothly. If that's not practical, you can
 use github's web interface and ask someone else to run `make all`.
 
 Programs used in the autogen scripts include lilypond, timidity, lame,
-pandoc and python. Future developments are likely to include
+pandoc, wkhtmltoimage and python. Future developments are likely to include
 wkhtmltopdf, LaTeX, abc2ly, imagemagick and ffmpeg. All of these are
 available through apt or non-debian equivalents.
 
