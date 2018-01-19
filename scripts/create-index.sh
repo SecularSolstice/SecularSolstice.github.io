@@ -17,7 +17,15 @@ if [ -e gen/thumb.png ]; then
     echo '<meta name="twitter:image" content="thumb.png" />'
 fi
 echo "<meta property='og:title' content='${TITLE}' />"
-    
+DESC="$(cat README.md | 
+           head -n 5 |
+           tail -n 4 |
+           tr -d "'#" |
+           tr '\n' '%' |
+           sed 's/% *%/%/g' |
+           sed 's@%@ // @g')"
+echo "<meta property='og:description' content='${DESC}' />"
+
 
 echo "  </head>  <body> "
 
