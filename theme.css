@@ -78,6 +78,9 @@ td {
 }
 .header a:last-child { margin-right: 0; }
 
-a[href^="https://github.com/SecularSolstice/SecularSolstice.github.io/"] { /*This should only get the "raw git" links */
-    text-align: center; /*This doesn't actually work to center the text, but it should. */
+body>a[href^="https://github.com/SecularSolstice/SecularSolstice.github.io"] { /*This should only get the "raw git" links */
+    text-align: center;
+    display: block;
+    font-size: 1.25em;
+    margin: 1em 0;
 }
