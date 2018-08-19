@@ -1,6 +1,6 @@
-body {
-    background-color: black;
+html {
     background-image: url(dawn-bkg.jpg);
+    background-color: #334477;
     background-size: cover;
     background-position: center 80%;
     background-attachment: fixed;
@@ -9,49 +9,71 @@ body {
     margin: 0px;
 }
 
+body {
+    width: 45em;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0.001em 1em 10em;
+}
+
 h1 {
     text-align: center;
     color: yellow;
     font-size: 40pt;
-    text-shadow: 0 0 25px yellow;
+    text-shadow: 0 5px 20px rgba(255,255,0,0.6),
+                 0 -5px 20px rgba(255,255,0,0.6);
     margin-bottom: 30px;
     margin-top: 0px;
 }
 
 h2 {
     text-align:center;
-    min-width: 40%;
-    width: fit-content;
-    margin: 1em auto;
-    background: rgba(0,0,0,0.3);
-    padding: 0.25em 1em;
-    white-space: nowrap;
-    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.6);
-    border-radius: 30px;
+    text-shadow: 0 0 0.5em black, 0 0 2em #003;
+    font-size: 20pt;
 }
 
-p,ul,table,pre {
+ul,p.lyrics {
     margin: auto ;
-    background: rgba(0,0,0,0.6);
-}
-
-p,pre {
     padding: 0.5em;
-    width: 80%;
+    padding-right: 5%;
+    background: linear-gradient(to right, 
+                               rgba(0,0,0,0.6),
+                               rgba(0,0,0,0.4) 60%,
+                               rgba(0,0,0,0.01));
 }
 
 ul {
-    width: 50%;
-    padding: 1em;
-    padding-left: 2em;
+    padding-left: 1.5em;
+}
+
+li {
+    margin-bottom: 0.2em;
+}
+
+div.notes {
+    box-shadow: 0px 2px rgba(210, 173, 249, 0.2),
+                0px 1px rgba(210, 173, 249, 0.2);
+}
+div.notes p{
+    box-shadow: 2px 0px rgba(210, 173, 249, 0.2),
+                1px 0px rgba(210, 173, 249, 0.2);
 }
 
 a {
     color: #ccf;
 }
 
+p,table,pre {
+    margin: auto ;
+    background: rgba(0,0,0,0.6);
+}
+
+p {
+    padding: 0.5em;
+}
+
 table {
-    width: 100%;
+    border-collapse: collapse;
 }
 
 td {
@@ -65,22 +87,30 @@ td {
 }
 
 .header {
-    width: 100%;
-    background: black;
-    padding-top: .5em;
-    padding-bottom: 4em;
-    padding: .5em;
-    background: linear-gradient(to bottom,
-                                rgba(20,0,20,1) 0%,
-                                rgba(90,15,50,0.8) 60%,
-                                rgba(90,15,50,0) 100%);
+    margin-bottom: 3em;
+    text-align: center;
 }
 .header a {
-    width: 23%;
+    min-width: 16%;
+    background: #313;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    margin-right: 5.5%;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
     text-decoration: none;
     text-align:center;
     display: inline-block;
     color: #aee;
     font-weight: bold;
-    padding-bottom: 1em;
+}
+.header a:last-child { margin-right: 0; }
+
+a.rawgit {
+    text-align: center;
+    display: block;
+    font-size: 1.25em;
+    margin: 1em 0;
+    font-family: monospace;
+    text-shadow: 0 0 2px black;
 }
