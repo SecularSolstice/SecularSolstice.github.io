@@ -40,15 +40,24 @@ cat <<EOF
 EOF
 
 
+echo '<div class=notes>'
 pandoc -f markdown README.md
+echo '</div>'
 
-echo "<h2>Lyrics</h2><p>"
+echo "<h2>Lyrics</h2><p class=lyrics>"
 
 cat gen/*lyrics.txt 2>/dev/null |
     sed 's/&/\&amp;/g' |
     sed 's/</\&lt;/g' |    
-    awk '{print $0 "<br>"}' |
-    sed 's/^   /\&nbsp; \&nbsp; \&nbsp; /'
+    sed 's/>/\&gt;/g' |    
+    tr '\n' '>' |          # So that we can use sed to mess with lines
+    sed 's/ *>/>/g'  |     # Trailing spaces confuse what follows
+    sed 's/>>>*/>>/g' |    # No more than one skipped line
+    sed 's/^>*//' |        # No leading skipped lines
+    sed 's/>$//' |         # No trailing skipped lines 
+    tr '>' '\n' |          # Back to normal
+    sed 's/^   /\&nbsp; \&nbsp; \&nbsp; /' |
+    awk '{print $0 "<br>"}' 
 
 echo "</p>"
 
@@ -72,6 +81,6 @@ done
 
 echo "</ul>"
 
-echo "<a href=https://github.com/SecularSolstice/SecularSolstice.github.io/tree/master/$(basename $(pwd))>Raw Git Folder</a>"
+echo "<a class=rawgit href=https://github.com/SecularSolstice/SecularSolstice.github.io/tree/master/$(basename $(pwd))>Raw Git Folder</a>"
 
 echo "</body></html>"

@@ -20,6 +20,6 @@ for i in lists/gen/*.html misc/gen/*.html; do
          fi
 done
 
-echo "<a href=https://github.com/SecularSolstice/SecularSolstice.github.io>Raw Git</a>"
+echo "<a class=rawgit href=https://github.com/SecularSolstice/SecularSolstice.github.io>Raw Git</a>"
 
 echo "</body></html>"
