@@ -1,14 +1,13 @@
 \version "2.18.2"
 
 \header {
-  title = "The Voicing of Fear, Simplified"
+  title = "The Voicing of Fear"
   subtitle = "A Song of Night"
   composer = "Daniel Speyer"
-  arranger = "shamelessly immitating Randall Thompson"
   copyright = "CC-SA-BY"
 }
 
-vocal = \relative c' {
+melody = {
   \numericTimeSignature
   \key c \minor
   r1 r1 r1 r1 r1 r2 r4 r8
@@ -107,22 +106,42 @@ lp = \relative c {
   g'8 c, g c, g''8 c, g c,
   
   \chordmode {
-             es,,4:1.5 f,,8:1.5 g,,4:1.5 bes,,8:1.5 as,,4:1.5 f,,8:1.5 c,4.:1.5 ~ c,4:1.5
-    c,,8:1.5 es,,4:1.5 f,,8:1.5 g,,4:1.5 bes,,8:1.5 as,,4:1.5 f,,8:1.5 c,4.:1.5 ~ c,4:1.5
-    c,,8:1.5 f,,4:1.5 g,,8:1.5 bes,,4:1.5 c,8:1.5 g,,4:1.5 es,,8:1.5 as,,4:1.5
-    c,,8:1.5 c,,4:1.5 d,,8:1.5 g,,4.:1.5 ~g,,4:1.5 as,,16:1.5 es,,:1.5 bes,,,4:1.5 as,,,8:1.5 c,,1:1.3-.5.8
+    c,,4.:m g,,4.:1.5 
+    as,,4.:1.5 c,,4.:1.5.8 ~
+    c,,4.:1.5.8
+    
+    c,,4.:m
+    g,,4.:1.5 as,,4.:1.5 
+    c,4.:1.5.8 ~ g,,4.:1.4.8
+    
+    f,,4.:m bes,,4.: 
+    g,,4.:1.5 as,,4.:1.5 
+    c,,4.:m g,,4.:1.5.8 ~
+    g,,4.:1.5 bes,,,4.:1.4.6 
+    c,,1:m
   }
-  
-  <c es bes'>
+
+  <c es bes'>1
   <es as c>1
   <g c es>2
   g'8 c, g c,
   
   \chordmode {
-              c,,4:1.5 es,,8:1.5 es,,4:1.5 g,,8:1.5 f,,4:1.5 es,,8:1.5 g,,4.:1.5 ~g,,4:1.5 
-    c,,8:1.5 c,,4:1.5 es,,8:1.5 es,,4:1.5 g,,8:1.5 f,,4:1.5 es,,8:1.5 g,,4:1.5 
-    c,,8:1.5 c,,4:1.5 f,,8:1.5 f,,4:1.5 bes,,8:1.5 as,,4:1.5 f,,8:1.5 c,4.:1.5 ~c,,4:1.5 
-    c,,8:1.5 c,,4:1.5 d,,8:1.5 g,,4.:1.5 ~g,,4:1.5 as,,16:1.5 es,,:1.5 bes,,,4:1.5 as,,,8:1.5 c,,1:1.3-.5.8 
+    c,,4.:m es,,4.:
+    f,,4.:1.5 g,,4.:1.5.8 ~
+    g,,4.:1.5.8
+    
+    c,,4.:m
+    es,,4.: f,,4.:1.5 
+    g,,4.:1.5.8
+
+    c,,:m
+    f,,4.:m as,,4.: 
+    c,2:1.5.8 ~ c,4:1.5
+    
+    c,,4.:m g,,4.:1.5 ~
+    g,,4.:1.5 bes,,,4.:1.4.6 
+    c,,1:m
   }
 
   <c es bes'>
@@ -131,10 +150,21 @@ lp = \relative c {
   g'8 c, g c,
 
   \chordmode {
-              c,,4:1.5 es,,8:1.5 es,,4:1.5 g,,8:1.5 f,,4:1.5 es,,8:1.5 g,,4.:1.5 ~g,,4:1.5 
-    c,,8:1.5 c,,4:1.5 es,,8:1.5 es,,4:1.5 g,,16:1.5 f,,:1.5 es,,4:1.5 c,,8:1.5 g,,4:1.5 
-    bes,,8:1.5 c,,4:1.5 bes,,8:1.5 c,,4:1.5 bes,,8:1.5 d,,4:1.5- c,,8:1.5 c,4.:1.5 ~c,4:1.5 
-    c,,8:1.5 c,,4:1.5 d,,8:1.5 g,,4.:1.5 ~g,,4:1.5 as,,16:1.5 es,,:1.5 bes,,,4:1.5 as,,,8:1.5 c,,1:1.3-.5.8 
+    c,,4.:m es,,4.:1.5
+    f,,4.:1.5 g,,4.:1.5.8 ~
+    g,,4.:1.5.8
+    
+    c,,4.:m
+    es,,4.: c,,4.:m 
+    g,,4.:1.5
+
+    c,,:1.5
+    c,,4.:1.5 d,,4.:1.4
+    c,2:1.5.8 ~ c,4:1.5
+    
+    c,,4.:m g,,4.:1.5 ~
+    g,,4.:1.5 bes,,,4.:1.4.6 
+    c,,1:m
   }
 
   <c es bes'>
@@ -143,10 +173,21 @@ lp = \relative c {
   g'8 c, g c,
 
   \chordmode {
-              f,,4:1.5 g,,8:1.5 bes,,4:1.5 c,8:1.5 g,,4:1.5 es,,8:1.5 as,,4:1.5
-     c,,8:1.5 f,,4:1.5 g,,8:1.5 bes,,4:1.5 c,8:1.5 g,,4:1.5 es,,8:1.5 as,,4:1.5
-     c,,8:1.5 c,,4:1.5 d,,8:1.5 g,,4.:1.5 ~g,,4:1.5 as,,16:1.5 es,,:1.5 bes,,,4:1.5 as,,,8:1.5 c,,4.:1.5 ~ c,,4:1.5 
-     c,,8:1.5 c,,4:1.5 bes,,8:1.5 g,,4.:1.5 ~g,,2.:1.5 bes,,,4.:1.5 as,,,4.:1.5 c,,1:1.3-.5.8 
+    es,,4.: bes,,4.:1.5
+    g,,4.:1.5 as,,4.:1.5.8
+
+    es,,4.:1.4
+    bes,,4.:1.5
+    g,,4.:1.4 as,,4.:1.5.8 
+
+    c,,4.:m
+    g,,:1.5 ~ g,,:1.5
+    bes,,,:1.4.6
+    c,,2.:1.5.8
+    
+    c,,4.:1.5 g,,4.:1.5 ~
+    g,,2.:1.5 bes,,,2.:1.4.6 
+    c,,1:m
   }
   
   <f c' es>1
@@ -175,28 +216,46 @@ verseOne = \lyricmode {
   'Cause some -- one must and no one will
   'Cause some -- one must and no one will
 }
+
 \score {
   <<
-    \new Voice = "one" {
+    #(if (not (ly:get-option 'hidevoice)) #{
+      \new Voice = "one" {
          \tempo 8 = 84
          \set Staff.midiInstrument = #"voice oohs"
          \set Staff.midiMinimumVolume = #0.8
          \set Staff.midiMaximumVolume = #1
-         \set Staff.instrumentName = #"VOICE"
-         \set Staff.shortInstrumentName = #"V"
-         \vocal
-    }
-    \new Lyrics \lyricsto "one" {
+         \set Staff.instrumentName = #(if (ly:get-option 'hidecello) "VOI&CEL" "VOICE")
+         \set Staff.shortInstrumentName = #(if (ly:get-option 'hidecello) "VC" "V")
+         \relative c' { \melody }
+       }
+      #} )
+    #(if (not (ly:get-option 'hidevoice)) #{
+      \new Lyrics \lyricsto "one" {
          \verseOne
-    }
-    #(if (not (ly:get-option 'voicepart)) #{
+       }
+    #} )
+
+    #(if (not (ly:get-option 'hidecello)) #{
+      \new Voice  {
+         \set Staff.midiInstrument = #"cello"
+         \set Staff.midiMinimumVolume = #0.4
+         \set Staff.midiMaximumVolume = #0.6
+         \set Staff.instrumentName = #"CELLO"
+         \set Staff.shortInstrumentName = #"C"
+         \relative c { \clef bass
+                        \melody }
+       }
+      #} )
+    
+    #(if (not (ly:get-option 'hidepiano)) #{
       \new PianoStaff <<
         \set PianoStaff.instrumentName = #"PIANO"
         \set PianoStaff.shortInstrumentName = #"P"
         \new Voice {
             \set Staff.midiInstrument = #"acoustic grand"
-            \set Staff.midiMinimumVolume = #0.4
-            \set Staff.midiMaximumVolume = #0.6
+            \set Staff.midiMinimumVolume = #0.6
+            \set Staff.midiMaximumVolume = #0.8
             \rp
         }
         \new Voice {
@@ -207,7 +266,8 @@ verseOne = \lyricmode {
             \lp
         }
       >>
-    #} )
+      #} )
+    
   >>
   \layout {}
   \midi {}
