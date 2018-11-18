@@ -190,8 +190,8 @@ lp = \relative c {
     c,,1:m
   }
   
-  <f c' es>1
-  <es g c>
+  <fis c' es>2 ~ <c' es>2
+  <es g c>1
   <c es g>
 }
 
