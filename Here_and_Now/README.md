@@ -2,21 +2,16 @@
 ## By Raymond Arnold
 ## A celebration of now
 
-These lyrics are for a week before a Star Wars launch.  Week after is
-trivial.  Same day (the original lyrics) is:
-
-> Here and now, here and now
-> We've got smallpox locked up tight.
-> Here and now, here and now
-> Brand new Star Wars out tonight!
-> Here and now, here and now
-> Gotta run and catch my flight.
-
-The song premiered along with The Force Awakens, which was especially
-exciting.  The plan was to change the lyric the next year, but Rogue
-One happened and by now it's become something of a tradition.
-
 There'd be a certain logic in updating this song regularly, but
 somehow it doesn't seem to need it.
+
+Except for the Star Wars bit.  This song appeared alongside Force
+awakens, hence "Brand new Star Wars out tonight" was a pretty exciting
+thing.  We kept the lyric for Rogue One, mostly because reusing it
+amused us.  The third time we met a week early, so "deeper truthes to
+seek / brand new Star Wars out next week."  But Solo was neither
+song-worthy nor released in december, so cookies instead.  The ability
+to summon cookies late at night is a triumph of modern civilization
+that we will never tire of. 
 
 This song is available for sale via bandcamp in the [2015](https://humanistculture.bandcamp.com/album/solstice-2015) album.
