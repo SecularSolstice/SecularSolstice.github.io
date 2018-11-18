@@ -20,10 +20,10 @@ chExceptions = #( append
 voic = \relative c' {
   \numericTimeSignature
   \time 3/4
-  \repeat volta 3 {
-    r2 a4 e' a, c e a, c e a, c e c
-    a \break e' e a, e' e a, f' g f e
-    a, c \break f a, c f a, c f f g f e
+  \repeat volta 2 {
+    r4 a2 e'4 a, c e a, c e a, c e c
+    r8 a \break e'4 e a, e' e a, f' g f e
+    r8 a,8 c4 \break f4 a, c f a, c f f g f e
     a, \break e' e a, e' e a, g' a g e 
 
     r r \break r r
@@ -49,18 +49,74 @@ voic = \relative c' {
 
 }
 
+decor = \relative c {
+  \numericTimeSignature
+  \time 3/4
+  \repeat volta 2 {
+    r2.
+    c8 g' r2
+    e8 g r2
+    \tuplet 3/2 {c,8 g' e} r2
+    g8 e r2
+    g8 c, g' c, r4
+    g'8 c, g' c, r4
+    c'2.
+    r
+    c,4 r2
+    a'4 r2
+    c,4 r2
+    a'4 r2
+    g8 c, g' c, r4
+    g'8 c, g' c, r4
+    d'2.
+    r
+    r
+    g,4 g r
+    e4 e r
+    c2.
+    <c g>4 r2
+    c'4 c r
+    a4 a r
+    f2.
+    <a c>4 r2
+    g4 g r
+    e4 e r
+    c2.
+    <c e>4 r2
+    c8 e r2
+    f,8 c' r2
+    f,8 c' r2
+    f,8 c' r2
+    a4 c a
+    c a c
+    a c e
+    g2 e4 f2 e4 g2. ~ g4
+    c, e g2 g4 e2 e4 c2. ~ c4
+    c e f2 e4 g2 e8 e f2 e4 g2.
+    r4 c, e g2 a4 f2 e8 e g2 e4 c2.
+  }
+  g'4 e c
+  g4 e c
+  c4 e g b2 g4 a2 g4 b2. ~ b2.
+  c,4 e g b2 b4 g2 g4 e2. ~ e2.
+  c4 e g a2 g4 b2 g8 g a2 g4 b2.
+  r4 c, g' b2 c4 a2 g8 g b2 g4 e2.
+  b'2 g4 e2. b'2 g8 r c2. f2. g2. c2.
+  
+}
+
 accomp =  \relative c{
   \chordmode {
-    \repeat volta 3 {
+    \repeat volta 2 {
       s2. 
-      a,,:m d,:m a,,:m d,:m
-      a,,:m a,,:m e,:m a,,:m
-      d,:m a,,:m e,:m a,,:m
-      a,,:m a,,:m e,:m a,,:m
+      a,,:m7 d,:m a,,:m d,:m
+      a,,:m7 a,,:m e,:m a,,:m7
+      d,:m a,,:m e,:m a,,:m7
+      a,,:m a,,:m e,:m a,,:m7
       a,,:m
       d,:m e,:m f, e,:m
       e,:m f, g, f,
-      f, g, a,:m g,
+      f, g, a,:m7 g,
       g, a,:m a,,:1.3-.5.8 a,,:1.3-.5.8
       c,:1.3 c,:1.3
       c,:1.3 c, g,, c,
@@ -79,10 +135,10 @@ accomp =  \relative c{
 }
 
 
-vera = \lyricmode {
+verse_a_chorus_and_finale = \lyricmode {
   Some nights I a -- wake from my bed in cold ter -- ror
   with ec -- hoes of night -- mares just roam -- ing my skin.
-  All the wrongs, all the da -- ngers I hold off in day -- time
+  All the wrongs, all the dang -- ers I hold off in day -- time
   re -- turn to my thoughts as the night clos -- es in.
 
   It gets so much hard -- er when mon -- sters are true.
@@ -90,30 +146,27 @@ vera = \lyricmode {
   A mi -- ra -- cle's need -- ed to see us all through.
   But what have we got?  We've got me; we've got you.
   And I...
+
+% }
+% chorus = \lyricmode {
+
+    I have seen the tops of clouds.
+    I can breathe be -- neath the sea.
+    I laugh with friends from a -- cross the world.
+    Where I go a li -- bra -- ry goes with me.                
+
+% }
+% finale = \lyricmode {
+
+  Yes I have seen the tops of clouds (tops of clouds)
+  And you can breathe be -- neath the sea (the sea)
+  And how we laugh with friends from ac -- ross the world
+  Where I go a lib -- ra -- ry goes with me.  Goes with me.
+  Goes with me! 
 }
 
-chorus = \lyricmode {
-  I have seen the tops of clouds.
-  I can breathe be -- neath the sea.
-  I laugh with friends from a -- cross the world.
-  Where I go a li -- bra -- ry goes with me.                
-}
 
-verb = \lyricmode {
-  I see the des -- truc -- tion of earth, sky and o -- cean.
-  See ig -- nor -- ant think -- ing and hate in the heart,
-  Signs of fra -- il -- ty through -- out our ci -- vi -- li -- za -- tion
-  It may be our ti -- cket was punched from the start.
-
-  I'd ne -- ver say ``co -- ver your eyes from bad news.''
-  But gi -- ving up now is a sure way to lose.
-  So know that to hope is a thing you can choose.
-  Just dig through our past: there are signs; there are clues.
-  Like that...
-
-}
-
-verc = \lyricmode {
+verse_b = \lyricmode {
   This is -- n't a thing that our past selves ex -- pec -- ted.
   Lord Kel -- vin as -- sured us that steel can -- not fly.
   His mis -- take was quite sub -- tle and all we need hope for
@@ -124,14 +177,6 @@ verc = \lyricmode {
   For one shi -- ning mom -- ent life saw it -- self clear,
   And dreamed of how soon to the stars it might steer.
   And how...
-}
-
-finale = \lyricmode {
-  Yes I have seen the tops of clouds (tops of clouds)
-  And I can breathe be -- neath the sea (the sea)
-  And how I laugh with friends from ac -- ross the world
-  Where I go a lib -- ra -- ry goes with me.  Goes with me.
-  Goes with me!
 }
 
 #(if (ly:get-option 'chordsheet) 
@@ -149,19 +194,26 @@ finale = \lyricmode {
       }
     #} )
     \new Voice = "voice" {
+      \set Staff.instrumentName = #"Voice"
+      \set Staff.shortInstrumentName = #"V"
       \clef "treble"
       \tempo 4=150
       \voic 
     }
     \new Lyrics \lyricsto "voice" {
       <<
-        \new Lyrics \vera
-        \new Lyrics \verb
-        \new Lyrics \verc
+        \new Lyrics \verse_a_chorus_and_finale
+        \new Lyrics \verse_b
       >>
-      \new Lyrics \chorus
-      \new Lyrics \finale
     }
+    #(if (not (ly:get-option 'chordsheet)) #{
+      \new Staff {
+        \set Staff.instrumentName = #"Cello"
+        \set Staff.shortInstrumentName = #"C"
+        \clef "bass"
+        \decor
+      }
+    #})
     #(if (ly:get-option 'allnotations) #{
       \new Staff {
         \clef "treble_8"
@@ -182,9 +234,15 @@ finale = \lyricmode {
   <<
     \unfoldRepeats
     \new Voice {
-      \set Staff.midiInstrument=#"acoustic guitar (nylon)"
-      \set Staff.midiMaximumVolume=#0.4
+      \set Staff.midiInstrument=#"acoustic grand"
+      \set Staff.midiMaximumVolume=#0.5
       \accomp
+    }
+    \unfoldRepeats
+    \new Voice {
+      \set Staff.midiInstrument=#"cello"
+      \set Staff.midiMaximumVolume=#0.5
+      \decor
     }
     \unfoldRepeats
     \new Voice = "voice" {

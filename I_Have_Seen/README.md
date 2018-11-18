@@ -16,9 +16,5 @@ and is therefore ambiguous as to what it's a part of.
 
 Placing this song in the arc may be tricky.  It's a little dark for
 morning, but the light in it is clearly the light of morning and not
-the light of the day before.
-
-Also, "To hope is a thing you can choose" may conflict with people's
-sense of "If we are doomed, I want to believe we are doomed".  But
-hope isn't about belief -- it's about attention.  And that *is* a
-thing you can choose.
+the light of the day before.  The cello parts that keep trying to turn
+the melody into major chords seem to help keep it lighter, though.
