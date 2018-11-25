@@ -7,6 +7,12 @@
   copyright = "CC-SA-BY"
 }
 
+#(set! paper-alist (cons '("my size" . (cons (* 6.5 in) (* 3 in))) paper-alist))
+
+\paper {
+  #(set-paper-size "my size")
+}
+
 melody = \relative c'' {
   \time 6/8
   \numericTimeSignature
