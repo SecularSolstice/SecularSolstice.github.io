@@ -13,7 +13,7 @@ cat <<EOF
 EOF
 
 for i in lists/gen/*.html misc/gen/*.html; do
-         if [ "$i" != "index.html" ]; then
+         if [ "$i" != "index.html" ] && ! echo "$i" | grep tentative > /dev/null; then
              echo "<h2><a href=$i>"
              echo "$i" | sed 's@.*/gen/@@' | sed 's/.html//' | tr '_' ' '
              echo "</a></h2>"
