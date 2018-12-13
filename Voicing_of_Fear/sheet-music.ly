@@ -9,190 +9,190 @@
 
 melody = {
   \numericTimeSignature
-  \key c \minor
+  \key a \minor
   r1 r1 r1 r1 r1 r2 r4 r8
 
-  c \time 6/8 es4 f8 g4 bes8 as4 f8 c'4. ~c4
-  c,8 es4 f8 g4 bes8 as4 f8 c'4. ~c4
-  c,8 f4 g8 bes4 c8 g4 es8 as4
-  c,8 c4 d8 g4.~ ~g4 as16([ es)] bes4 as8 \time 4/4 c1
+  a \time 6/8 c4 d8 e4 g8 f4 d8 a'4. ~a4
+  a,8 c4 d8 e4 g8 f4 d8 a'4. ~a4
+  a,8 d4 e8 g4 a8 e4 c8 f4
+  a,8 a4 b8 e4.~ ~e4 f16([ c)] g4 f8 \time 4/4 a1
   
   r1 r r2 r4 r8
   
-  c \time 6/8 c4 es8 es4 g8 f4 es8 g4. ~g4
-  c,8 c4 es8 es4 g8 f4 es8 g4
-  c,8 c4 f8 f4 bes8 as4 f8 c'4. ~c4
-  c,8 c4 d8 g4.~ ~g4 as16([ es)] bes4 as8 \time 4/4 c1
+  a \time 6/8 a4 c8 c4 e8 d4 c8 e4. ~e4
+  a,8 a4 c8 c4 e8 d4 c8 e4
+  a,8 a4 d8 d4 g8 f4 d8 a'4. ~a4
+  a,8 a4 b8 e4.~ ~e4 f16([ c)] g4 f8 \time 4/4 a1
 
   r1 r r2 r4 r8
   
-  c \time 6/8 c4 es8 es4 g8 f4 es8 g4. ~ g4
-  c,8 c4 es8 es4 g16 f16 es4 c8 g'4
-  bes,8 c4 bes8 c4 bes8 d4 c8 c'4. ~c4
-  c,8 c4 d8 g4.~ ~g4 as16([ es)] bes4 as8 \time 4/4 c1
+  a \time 6/8 a4 c8 c4 e8 d4 c8 e4. ~ e4
+  a,8 a4 c8 c4 e16 d16 c4 a8 e'4
+  g,8 a4 g8 a4 g8 b4 a8 a'4. ~a4
+  a,8 a4 b8 e4.~ ~e4 f16([ c)] g4 f8 \time 4/4 a1
 
   r1 r r2 r4 r8
 
-  c8 \time 6/8 f4 g8 bes4 c8 g4 es8 as4
-  c,8 f4 g8 bes4 c8 g4 es8 as4
-  c,8 c4 d8 g4.~ ~g4 as16([ es)] bes4 as8 c4. ~c4
-  c8 c4 bes'8 g4.~ ~g4 r8 r4 as16([ es16)] bes4. as4 r8 \time 4/4 c1
+  a8 \time 6/8 d4 e8 g4 a8 e4 c8 f4
+  a,8 d4 e8 g4 a8 e4 c8 f4
+  a,8 a4 b8 e4.~ ~e4 f16([ c)] g4 f8 a4. ~a4
+  a8 a4 g'8 e4.~ ~e4 r8 r4 f16([ c16)] g4. f4 r8 \time 4/4 a1
 
   r r r
-
 }
-rp = \relative c''' {
+
+rp = \relative c'' {
   \numericTimeSignature
   \time 4/4
-  \key c \minor
-  r2 g8 r c,, r
-  r2 c'8 r c, r
-  r2 g''8 g, c c,
-  es'8 es, bes' bes, es'8 es, bes' bes,
-  g''8 c, g c,  g'' c, g c,
-  g'8 c, g c,  g'' c, g c,
+  \key a \minor
+  r2 e8 r a,, r
+  r2 a'8 r a, r
+  r2 e''8 e, a a,
+  c'8 c, g' g, c'8 c, g' g,
+  e'8 a, e a,  e'' a, e a,
+  e''8 a, e a,  e'' a, e a,
   
-  r2. r4. r8 c''[ g c, g] r8 r4.
-  r2. r8 c'[ c, g' g,] r8
-  r f'' r r bes,, r r g'' r r as,, r
-  r4. r8 g''[ g, c g,] r r4.
+  r2. r4. r8 a''[ e a, e] r8 r4.
+  r2. r8 a'[ a, e' e,] r8
+  r d'' r r g,, r r e'' r r f,, r
+  r4. r8 e''[ e, a e,] r r4.
   
-  r4. c8 g'' c, g c,
-  bes'' bes, f' f, bes' bes, f' f,
-  as' es as, es as' es as, es
-  c'' c, g' g, g' c, g c,
+  r4. a8 e'' a, e a,
+  g'' g, d' d, g' g, d' d,
+  f' c f, c f' c f, c
+  a'' a, e' e, e' a, e a,
   
-  r2. r4. r8 g''[ g, c c,] r
-  r c'' r r g r r c, r r g r
-  r8 c r r f, r r c r 
-  r g''[ c, g c,] r
-  r4. r8 c'[ c, g' g,] r r4.
+  r2. r4. r8 e''[ e, a a,] r
+  r a'' r r e r r a, r r e r
+  r8 a r r d, r r a r 
+  r e''[ a, e a,] r
+  r4. r8 a'[ a, e' e,] r r4.
   
-  r2 g''8 c, g c,
-  bes'' bes, f' f, bes' bes, f' f,
-  as' es as, es as' es as, es
-  c'' c, g' g, g' c, g c,
+  r2 e''8 a, e a,
+  g'' g, d' d, g' g, d' d,
+  f' c f, c f' c f, c
+  a'' a, e' e, e' a, e a,
 
-  r2. r4. r8 g''[ g, c c,] r
-  r c'' r r c, r r r r r g, r
-  r8 c'' r r c, r r c, r 
-  r g''[ c, g c,] r
-  r4. r8 c'[ c, g' g,] r r4.
+  r2. r4. r8 e''[ e, a a,] r
+  r a'' r r a, r r r r r e, r
+  r8 a'' r r a, r r a, r 
+  r e''[ a, e a,] r
+  r4. r8 a'[ a, e' e,] r r4.
   
-  r2 g''8 c, g c,
-  bes'' bes, f' f, bes' bes, f' f,
-  as' es as, es as' es as, es
-  c'' c, g' g, g' c, g c,
+  r2 e''8 a, e a,
+  g'' g, d' d, g' g, d' d,
+  f' c f, c f' c f, c
+  a'' a, e' e, e' a, e a,
   
-  r f' r r bes,, r r g' r r as, r
-  r f'' r r bes,, r r g' r r as, r
-  r4. r8 c''[ c, g' g,] r r4.
-  r8 g'[ c, g c,] r
-  r4. g''8[ c, g c,] c''[ g c, g] r8
+  r d' r r g,, r r e' r r f, r
+  r d'' r r g,, r r e' r r f, r
+  r4. r8 a''[ a, e' e,] r r4.
+  r8 e'[ a, e a,] r
+  r4. e''8[ a, e a,] a''[ e a, e] r8
   r2.
-  r2 c8 g c, g
-  fis'' c fis, c f' c f, c
-  g''8 r g, r c'8 r c,, r r1
+  r2 a8 e a, e
+  dis'' a dis, a d' a d, a
+  e''8 r e, r a'8 r a,, r r1
 }
 
 lp = \relative c {
   \numericTimeSignature
-  \key c \minor
-  <c g c,>1
-  <f, c' es>1
-  <g c es>1
-  <f c' es>1
-  <g c es>1
-  g'8 c, g c, g''8 c, g c,
+  \key a \minor
+  <a e a,>1
+  <d, a' c>1
+  <e a c>1
+  <d a' c>1
+  <e a c>1
+  e'8 a, e a, e''8 a, e a,
   
   \chordmode {
-    c,,4.:m g,,4.:1.5 
-    as,,4.:1.5 c,,4.:1.5.8 ~
-    c,,4.:1.5.8
+    a,,,4.:m e,,4.:1.5 
+    f,,4.:1.5 a,,,4.:1.5.8 ~
+    a,,,4.:1.5.8
     
-    c,,4.:m
-    g,,4.:1.5 as,,4.:1.5 
-    c,4.:1.5.8 ~ g,,4.:1.4.8
+    a,,,4.:m
+    e,,4.:1.5 f,,4.:1.5 
+    a,,4.:1.5.8 ~ e,,4.:1.4.8
     
-    f,,4.:m bes,,4.: 
-    g,,4.:1.5 as,,4.:1.5 
-    c,,4.:m g,,4.:1.5.8 ~
-    g,,4.:1.5 bes,,,4.:1.4.6 
-    c,,1:m
+    d,,4.:m g,,4.: 
+    e,,4.:1.5 f,,4.:1.5 
+    a,,,4.:m e,,4.:1.5.8 ~
+    e,,4.:1.5 g,,4.:1.4.6 
+    a,,,1:m
   }
 
-  <c es bes'>1
-  <es as c>1
-  <g c es>2
-  g'8 c, g c,
+  <a c g'>1
+  <c f a>1
+  <e a c>2
+  e'8 a, e a,
   
   \chordmode {
-    c,,4.:m es,,4.:
-    f,,4.:1.5 g,,4.:1.5.8 ~
-    g,,4.:1.5.8
+    a,,,4.:m c,,4.:
+    d,,4.:1.5 e,,4.:1.5.8 ~
+    e,,4.:1.5.8
     
-    c,,4.:m
-    es,,4.: f,,4.:1.5 
-    g,,4.:1.5.8
+    a,,,4.:m
+    c,,4.: d,,4.:1.5 
+    e,,4.:1.5.8
 
-    c,,:m
-    f,,4.:m as,,4.: 
-    c,2:1.5.8 ~ c,4:1.5
+    a,,,:m
+    d,,4.:m f,,4.: 
+    a,,2:1.5.8 ~ a,,4:1.5
     
-    c,,4.:m g,,4.:1.5 ~
-    g,,4.:1.5 bes,,,4.:1.4.6 
-    c,,1:m
+    a,,,4.:m e,,4.:1.5 ~
+    e,,4.:1.5 g,,,4.:1.4.6 
+    a,,,1:m
   }
 
-  <c es bes'>
-  <es as c>1
-  <g c es>2
-  g'8 c, g c,
+  <a c g'>
+  <c f a>1
+  <e a c>2
+  e'8 a, e a,
 
   \chordmode {
-    c,,4.:m es,,4.:1.5
-    f,,4.:1.5 g,,4.:1.5.8 ~
-    g,,4.:1.5.8
+    a,,,4.:m c,,4.:1.5
+    d,,4.:1.5 e,,4.:1.5.8 ~
+    e,,4.:1.5.8
     
-    c,,4.:m
-    es,,4.: c,,4.:m 
+    a,,,4.:m
+    c,,4.: a,,,4.:m 
+    e,,4.:1.5
+
+    a,,,:1.5
+    a,,,4.:1.5 b,,,4.:1.4
+    a,,2:1.5.8 ~ a,,4:1.5
+    
+    a,,,4.:m e,,4.:1.5 ~
+    e,,4.:1.5 g,,,4.:1.4.6 
+    a,,,1:m
+  }
+
+  <a c g'>
+  <c f a>1
+  <e a c>2
+  e'8 a, e a,
+
+  \chordmode {
+    c,,4.: g,,4.:1.5
+    e,,4.:1.5 f,,4.:1.5.8
+
+    c,,4.:1.4
     g,,4.:1.5
+    e,,4.:1.4 f,,4.:1.5.8 
 
-    c,,:1.5
-    c,,4.:1.5 d,,4.:1.4
-    c,2:1.5.8 ~ c,4:1.5
+    a,,,4.:m
+    e,,:1.5 ~ e,,:1.5
+    g,,,:1.4.6
+    a,,,2.:1.5.8
     
-    c,,4.:m g,,4.:1.5 ~
-    g,,4.:1.5 bes,,,4.:1.4.6 
-    c,,1:m
-  }
-
-  <c es bes'>
-  <es as c>1
-  <g c es>2
-  g'8 c, g c,
-
-  \chordmode {
-    es,,4.: bes,,4.:1.5
-    g,,4.:1.5 as,,4.:1.5.8
-
-    es,,4.:1.4
-    bes,,4.:1.5
-    g,,4.:1.4 as,,4.:1.5.8 
-
-    c,,4.:m
-    g,,:1.5 ~ g,,:1.5
-    bes,,,:1.4.6
-    c,,2.:1.5.8
-    
-    c,,4.:1.5 g,,4.:1.5 ~
-    g,,2.:1.5 bes,,,2.:1.4.6 
-    c,,1:m
+    a,,,4.:1.5 e,,4.:1.5 ~
+    e,,2.:1.5 g,,,2.:1.4.6 
+    a,,,1:m
   }
   
-  <fis c' es>2 ~ <c' es>2
-  <es g c>1
-  <c es g>
+  <dis a' c>2 ~ <a' c>2
+  <c e a>1
+  <a c e>
 }
 
 verseOne = \lyricmode {
