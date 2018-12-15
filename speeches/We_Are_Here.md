@@ -1,5 +1,5 @@
 # We Are Here
-## by Daniel Speyer
+## By Daniel Speyer
 
 Is there someone out there to hear?
 
