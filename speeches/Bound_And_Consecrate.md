@@ -1,11 +1,17 @@
-# Bound and Consecreate
+# Bound and Consecrate
 ## By Daniel Speyer
 
-At this time, in this place, we have gathered to celebrate the Solstice.
+Now that we're warmed up, let me welcome you properly to the 2018 New York Solstice.
 
-At other times, in this place, there might be an art gallery or a corporate meeting hall. Perhaps one day we will consecrate a lasting space for ourselves. But today, tonight, this place is what we have, and what we have is this.
+We gather now, at the darkest time of year, to face darkness.  Because winter used to be scary, and it is still a good time to face fear.
 
-Let us divide here and now from here and yesterday, or from now and anywhere else. Where we are affects who we are. So let us claim this space fully. Let it become entirely ours, so that we can be entirely ourselves.
+We gather here, in this theatre, because it available, affordable, and almost big enough.
+
+Where we are affects who we are.  We should not come to this night as our theater-going selves, but as something deeper.
+
+So let us bound this space.  That is, let us set boundaries for it, to divide it from the outside world.  From wall to wall, including the AV booth in the back, is ours.  The outside world is... outside.
+
+And let us consecrate this space.  This is not just our space for conducting ordinary business, but for this special occasion.
 
 In that spirit, I ask you to rise and turn to the East (that way) with me...
 
