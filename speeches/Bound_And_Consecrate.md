@@ -5,11 +5,11 @@ Now that we're warmed up, let me welcome you properly to the 2018 New York Solst
 
 We gather now, at the darkest time of year, to face darkness.  Because winter used to be scary, and it is still a good time to face fear.
 
-We gather here, in this theatre, because it available, affordable, and almost big enough.
+We gather here, in this theatre, because it available, affordable, and almost big enough.  So it goes.
 
-Where we are affects who we are.  We should not come to this night as our theater-going selves, but as something deeper.
+Where we are affects who we are.  We should not come to this night as our theater-going selves, but as something deeper.  So let's do something about that.
 
-So let us bound this space.  That is, let us set boundaries for it, to divide it from the outside world.  From wall to wall, including the AV booth in the back, is ours.  The outside world is... outside.
+Let us bound this space.  That is, let us set boundaries for it, to divide it from the outside world.  From wall to wall, including the AV booth in the back, is ours.  The outside world is... outside.
 
 And let us consecrate this space.  This is not just our space for conducting ordinary business, but for this special occasion.
 
