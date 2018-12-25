@@ -13,14 +13,14 @@ gen/${PREFIX}from-midi.mp3: gen/${PREFIX}from-midi.wav
 gen/${PREFIX}chord-chart.html: chart.csv
 	../scripts/csv-to-html.py chart.csv gen/${PREFIX}chord-chart.html
 
-gen/${PREFIX}chord-sheet.pdf: $(wildcard chord-sheet.chordpro) $(wildcard gen/${PREFIX}chord-sheet.chordpro)
-	( cat chord-sheet.chordpro gen/${PREFIX}chord-sheet.chordpro 2>/dev/null ) | chordpro --output gen/${PREFIX}chord-sheet.pdf -
+gen/${PREFIX}chord-sheet.pdf: $(wildcard chord-sheet.cho) $(wildcard gen/${PREFIX}chord-sheet.cho)
+	( cat chord-sheet.cho gen/${PREFIX}chord-sheet.cho 2>/dev/null ) | chordpro --output gen/${PREFIX}chord-sheet.pdf -
 
-gen/${PREFIX}chord-sheet-2col.pdf: $(wildcard chord-sheet.chordpro) $(wildcard gen/${PREFIX}chord-sheet.chordpro)
-	( echo '{columns:2}' ; cat chord-sheet.chordpro gen/${PREFIX}chord-sheet.chordpro 2>/dev/null ) | chordpro --output gen/${PREFIX}chord-sheet-2col.pdf -
+gen/${PREFIX}chord-sheet-2col.pdf: $(wildcard chord-sheet.cho) $(wildcard gen/${PREFIX}chord-sheet.cho)
+	( echo '{columns:2}' ; cat chord-sheet.cho gen/${PREFIX}chord-sheet.cho 2>/dev/null ) | chordpro --output gen/${PREFIX}chord-sheet-2col.pdf -
 
-gen/${PREFIX}chord-sheet.chordpro: chord-sheet.ugc
-	../scripts/parse_ugc.py chord-sheet.ugc --cp > gen/${PREFIX}chord-sheet.chordpro
+gen/${PREFIX}chord-sheet.cho: chord-sheet.ugc
+	../scripts/parse_ugc.py chord-sheet.ugc --cp > gen/${PREFIX}chord-sheet.cho
 
 gen/thumb.png: $(wildcard gen/${PREFIX}sheet-music.pdf)
 	../scripts/create-thumb.sh "${PREFIX}"
