@@ -73,7 +73,6 @@ done
 for f in *; do
     if     [ "$f" != "gen" ] &&
            [ "$f" != "Makefile" ] &&
-           [ "$f" != "lyrics.txt" ] &&
            [ "$f" != "README.md" ] &&
            [[ "$f" =~ ^[^~]*$ ]]; then
         echo "<li><a href=../$f>$f</a>"
