@@ -42,6 +42,7 @@ EOF
 
 echo '<div class=notes>'
 pandoc -f markdown README.md
+echo "<p><a href=https://github.com/SecularSolstice/SecularSolstice.github.io/edit/master/$(basename $PWD)/README.md class=editbutton>edit description</a></p>"
 echo '</div>'
 
 echo "<h2>Lyrics</h2><p class=lyrics>"
@@ -76,6 +77,9 @@ for f in *; do
            [ "$f" != "README.md" ] &&
            [[ "$f" =~ ^[^~]*$ ]]; then
         echo "<li><a href=../$f>$f</a>"
+        if file $f | grep text > /dev/null; then
+            echo "<a href=https://github.com/SecularSolstice/SecularSolstice.github.io/edit/master/$(basename $PWD)/$f class=editbutton>edit</a>"
+        fi
     fi
 done
 

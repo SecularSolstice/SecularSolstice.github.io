@@ -114,3 +114,21 @@ a.rawgit {
     font-family: monospace;
     text-shadow: 0 0 2px black;
 }
+
+a.editbutton {
+    font-size: smaller;
+    background: #314;
+    padding: 3px;
+    text-decoration: none;
+    font-family: monospace;
+    margin: 2px;
+    border: 1px solid #60a;
+    border-radius: 3px;
+}
+
+a.editbutton::before {
+    content: "\270D";
+    font-family: serif;
+    font-size: larger;
+}
+                 
