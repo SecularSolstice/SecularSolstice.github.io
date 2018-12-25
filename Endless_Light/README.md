@@ -1,4 +1,4 @@
-#  Endless Light
+#  Endless Lights
 ## By Raymond Arnold
 ## A song of hope, generations, stories and infinite possibilities
 
