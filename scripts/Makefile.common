@@ -19,6 +19,9 @@ gen/${PREFIX}chord-sheet.pdf: $(wildcard chord-sheet.chordpro) $(wildcard gen/${
 gen/${PREFIX}chord-sheet-2col.pdf: $(wildcard chord-sheet.chordpro) $(wildcard gen/${PREFIX}chord-sheet.chordpro)
 	( echo '{columns:2}' ; cat chord-sheet.chordpro gen/${PREFIX}chord-sheet.chordpro 2>/dev/null ) | chordpro --output gen/${PREFIX}chord-sheet-2col.pdf -
 
+gen/${PREFIX}chord-sheet.chordpro: chord-sheet.ugc
+	../scripts/parse_ugc.py chord-sheet.ugc --cp > gen/${PREFIX}chord-sheet.chordpro
+
 gen/thumb.png: $(wildcard gen/${PREFIX}sheet-music.pdf)
 	../scripts/create-thumb.sh "${PREFIX}"
 

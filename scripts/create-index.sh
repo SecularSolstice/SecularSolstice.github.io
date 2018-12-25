@@ -62,7 +62,7 @@ cat gen/*lyrics.txt 2>/dev/null |
 echo "</p>"
 
 echo "<h2>Files</h2><ul>"
-FILES=$( ls gen/*.pdf gen/*.midi gen/*.html gen/*.mp3 gen/*.txt gen/*.png 2>/dev/null |
+FILES=$( ls gen/*.pdf gen/*.midi gen/*.html gen/*.mp3 gen/*.txt gen/*.png gen/*.chordpro 2>/dev/null |
                grep -v index |
                sed 's@gen/@@' |
                sort)
