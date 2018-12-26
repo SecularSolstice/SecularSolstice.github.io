@@ -1,5 +1,5 @@
 # How We Remember and What
-## By Sideria and Jeff Kaufman
+## By Sideria and Taymon Beal
 
 *(based on [this blog post](https://siderea.dreamwidth.org/1439898.html))*
 

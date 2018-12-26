@@ -1,5 +1,5 @@
 # The Sun Is A Miasma of Incandescent Plasma, Shortened
-## By They Might Be Giants and ???
+## By They Might Be Giants and Raymond Arnold
 ## An truly modern ode to the sun
 
 Based on TMBG's own [The Sun Is A Miasma of Incandescent Plasma](../../The_Sun_Is_A_Miasma/gen) but shorter, more solsticy and (arguably) with better rhymes.  Exact orgiin unknown.
