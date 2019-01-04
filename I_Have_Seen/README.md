@@ -4,8 +4,6 @@
 
 Based on the blog post [I Have Seen the Tops of Clouds](https://medium.com/message/i-have-seen-the-tops-of-clouds-e21c5941de32) by Quinn Norton.
 
-This song has not been tested by actual singers.
-
 I had to invent two small bits of musical notation.  When the voice
 has a dotted whole note, that means to hold through the next measure
 with the lyrics there sung by someone else.  Possibly by the
