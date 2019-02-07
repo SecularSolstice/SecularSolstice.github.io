@@ -131,4 +131,10 @@ a.editbutton::before {
     font-family: serif;
     font-size: larger;
 }
+
+@media (max-width: 600px) {
+    body {
+        max-width: 95%;
+    }
+}
                  
