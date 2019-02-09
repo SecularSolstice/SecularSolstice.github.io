@@ -156,6 +156,7 @@ with links to pointless pages.
   * Create a file in the lists/ directory. Use # marks for headers. For
     speeches and songs, use the file/directory name, not the formatted
     title.
+      * You may wish to use the [list builder](../list_building.html) for this.  It offers autocompletion.
   * The name of your file should have underscores for spaces, but the
     capitalization you want to display. Also, lists will be
     alphabetized on the main page, so name accordingly (if this becomes

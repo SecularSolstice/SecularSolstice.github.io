@@ -1,3 +1,6 @@
+gen/autocomp.js: $(wildcard ../*) $(wildcard ../speeches/*) $(wildcard ../lists/*) ../scripts/gather_lists.sh
+	../scripts/gather_lists.sh > gen/autocomp.js
+
 gen/%.html: %.md head.html header.html
 	cat head.html > $@
 	head -n 1 $< | tr -d '#' >> $@
@@ -7,5 +10,5 @@ gen/%.html: %.md head.html header.html
 	echo '</body></html>' >> $@
 
 ALLH=$(patsubst %.md, gen/%.html, $(wildcard *.md))
-all: ${ALLH}
+all: ${ALLH} gen/autocomp.js
 

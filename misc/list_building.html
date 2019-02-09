@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <title>List Builder</title>
+        <script src="gen/autocomp.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <style>
+        </style>
+    </head>
+    <body>
+        <table><tr>
+            <td>
+                <textarea cols="50"  rows="50" id="content"></textarea>
+            </td>
+            <td id="annots" style="position:relative;min-width:200px;"></td>
+            <td id="info" valign="top"></td>
+        </tr></table>
+
+        <script>
+
+         cont = $('#content')[0];
+         lh = cont.getBoundingClientRect().height / cont.rows;
+         annots = []
+         for (var i=0; i<$('#content').prop('rows'); i++) {
+             annots.push($('<div>').css('position','absolute')
+                                   .css('top',Math.floor(i*lh)+'px')
+                                   .css('z-index','0')
+                                   .appendTo($('#annots')));
+         }
+         
+         function dbg(str) {
+             $('<p>').text(str).appendTo($('#info'));
+         }
+
+         function common_start(l){
+             for (var pos=0; pos<999; pos++) {
+                 for (i in l) {
+                     if (pos > l[i].length ||
+                         l[i].substring(0,pos) != l[0].substring(0,pos)) {
+                         return pos-1;
+                     }
+                 }
+             }
+             return 'ERROR!';
+         }
+        
+         $('#content').keydown(function(ev){
+             if (ev.which!=13) return;
+             this.selectionStart = this.selectionEnd;
+         });
+
+         $('#content').keyup(function(ev){
+             if ( (ev.which<48 || ev.which>127) &&
+                  ev.which!=8 && // Backspace
+                  ev.which!=13 && // New line
+                  ev.which!=46) { // Delete
+                 return;
+             }
+
+             lines = this.value.split('\n')
+             for (i in lines) {
+                 annots[i].empty()
+                          .css('z-index','0')
+                          .css('white-space','nowrap');
+                 li = lines[i]
+                 if (li in content) {
+                     $('<b>').text(content[li][0]+' ').appendTo(annots[i]);
+                     $('<i>').text(content[li][1]+': ').appendTo(annots[i]);
+                     $('<span>').text(content[li][2]).appendTo(annots[i]);
+                 }
+             }
+             for (; i<annots.length; i++) {
+                 annots[i].empty();
+             }
+
+             if (ev.which < 48) return;
+             
+             ss = this.selectionStart;
+             se = this.selectionEnd;
+             if (ss != se) return;
+             val = this.value;
+             lastsp = val.lastIndexOf(' ',ss-1);
+             lastrt = val.lastIndexOf('\n',ss-1);
+             lasthash = val.lastIndexOf('#',ss-1);
+             wordstart = Math.max(lastsp,lastrt)+1;
+             prefix = val.substring(wordstart,ss);
+             if (prefix=='') return;
+             //dbg(prefix);
+             options=[];
+             if (lasthash > lastrt) {
+                 for (i in sections) {
+                     if (sections[i].startsWith(prefix)) options.push(sections[i]);
+                 }
+             } else {
+                 for (c in content) {
+                     if (c.startsWith(prefix)) options.push(c);
+                 }
+             }
+             if (options.length==0) return;
+             len_common = common_start(options);
+             to_insert = options[0].substring(prefix.length, len_common);
+             this.value = val.substring(0,ss) + to_insert + val.substring(ss)
+             this.setSelectionRange(ss, ss+to_insert.length, 'backward')
+             if (options.length>1) {
+                 line = val.substring(0,ss).split('\n').length - 1;
+                 annots[line].empty()
+                             .css('z-index','1')
+                             .css('white-space','normal');
+                 $('<div>').text(options.join(', '))
+                           .css('background','#aaa')
+                           .css('border-radius','3px')
+                           .appendTo(annots[line]);
+             }
+         });
+             
+        </script>
+        
+    </body>
+</html>
