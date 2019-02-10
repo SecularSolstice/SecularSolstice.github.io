@@ -52,8 +52,9 @@ def process_song(line):
     return True
 
 def process_speech(line):
+    pieces = line.split(': ')
     try:
-        f = file('../speeches/%s.md' % line)
+        f = file('../speeches/%s.md' % pieces[0])
     except IOError:
         return False
     for fl in f:
@@ -61,7 +62,9 @@ def process_speech(line):
         if fl[:2]=='##' and ('by' in fl or 'By' in fl):
             outf.write(' <i class=small>%s</i>' % fl[2:].replace('By ','by '))
         elif fl[:1]=='#':
-            outf.write('<li><b><a href=../../speeches/gen/%s.html>%s</a></b> ' % (line, fl[1:]))
+            outf.write('<li><b><a href=../../speeches/gen/%s.html>%s</a></b> ' % (pieces[0], fl[1:]))
+    if len(pieces)==2:
+        outf.write(' -- %s...' % pieces[1])
     return True
 
 def process_failure(line):

@@ -596,6 +596,18 @@ content = {
     "[speech]",
   ],
 
+  'Nothing_Is_Mere': [
+    "Nothing is Mere",
+    "By John Keats and Richard Feynman",
+    "[speech]",
+  ],
+
+  'Not_Today': [
+    "Not Today",
+    "By G.R.R. Martin",
+    "[speech]",
+  ],
+
   'Only_Human': [
     "Only Human",
     "By Jai Dhyani",
@@ -635,6 +647,11 @@ content = {
   'Road_to_Wisdom': [
     "The Road to Wisdom",
     "By Piet Hein",
+    "[speech]",
+  ],
+
+  'Serenity': [
+    "Serenity Meditation",
     "[speech]",
   ],
 
@@ -744,6 +761,7 @@ content = {
 sections = [
   "Bonfire",
   "Darkness",
+  "Dawm",
   "Dawn",
   "Days to Come",
   "Dusk",
@@ -751,6 +769,7 @@ sections = [
   "Eve",
   "Evening",
   "Hope",
+  "Into Darkness",
   "Light",
   "Morning",
   "Night",
