@@ -135,6 +135,6 @@ a.editbutton::before {
 @media (max-width: 600px) {
     body {
         max-width: 95%;
+        padding: 0.001em 0.2em 10em;
     }
 }
-                 
