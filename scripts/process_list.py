@@ -25,6 +25,49 @@ outf.write("""
     <h1>%s</h1>
 """ % (title,title))
 
+def process_instruction(line):
+    if line[0]=='[' and line[-1]==']':
+        outf.write('<li style="list-style:none;font-size:smaller;"><i>%s</i>' % line)
+        return True
+    else:
+        return False
+
+def process_song(line):
+    try:
+        readme = file('../%s/README.md' % line)
+    except IOError:
+        return False
+    for rl in readme:
+        rl=rl.strip()
+        if rl[:3]=='###':
+            pass
+        elif rl[:2]=='##':
+            if rl[:6]=='## By ' or rl[:5]=='##By ':
+                outf.write(' <i class=small>%s</i>' % rl[2:].replace('By ','by '))
+            else:
+                outf.write(' &#x25e6; '+rl[2:])
+        elif rl[:1]=='#':
+            outf.write('<li><b><a href=../../%s/gen/>%s</a></b> ' % (line, rl[1:]))
+    outf.write('\n')
+    return True
+
+def process_speech(line):
+    try:
+        f = file('../speeches/%s.md' % line)
+    except IOError:
+        return False
+    for fl in f:
+        fl=fl.strip()
+        if fl[:2]=='##' and ('by' in fl or 'By' in fl):
+            outf.write(' <i class=small>%s</i>' % fl[2:].replace('By ','by '))
+        elif fl[:1]=='#':
+            outf.write('<li><b><a href=../../speeches/gen/%s.html>%s</a></b> ' % (line, fl[1:]))
+    return True
+
+def process_failure(line):
+    outf.write('<li>%s [Not Available]' % line)
+    return True
+
 inul=False
 for line in inf:
     line=line.strip()
@@ -39,31 +82,7 @@ for line in inf:
         if not inul:
             outf.write('<ul>\n')
             inul=True
-        try:
-            readme = file('../%s/README.md' % line)
-            for rl in readme:
-                rl=rl.strip()
-                if rl[:3]=='###':
-                    pass
-                elif rl[:2]=='##':
-                    if rl[:6]=='## By ' or rl[:5]=='##By ':
-                        outf.write(' <i class=small>%s</i>' % rl[2:].replace('By ','by '))
-                    else:
-                        outf.write(' &#x25e6; '+rl[2:])
-                elif rl[:1]=='#':
-                    outf.write('<li><b><a href=../../%s/gen/>%s</a></b> ' % (line, rl[1:]))
-            outf.write('\n')
-        except IOError:
-            try:
-                f = file('../speeches/%s.md' % line)
-                for fl in f:
-                    fl=fl.strip()
-                    if fl[:6]=='## By ' or fl[:5]=='##By ':
-                        outf.write(' <i class=small>%s</i>' % fl[2:].replace('By ','by '))
-                    elif fl[:1]=='#':
-                        outf.write('<li><b><a href=../../speeches/gen/%s.html>%s</a></b> ' % (line, fl[1:]))
-            except IOError:
-                outf.write('<li>%s [Not Available]' % line)
+        process_instruction(line) or process_song(line) or process_speech(line) or process_failure(line)
 
 if inul:
     outf.write('</ul>')

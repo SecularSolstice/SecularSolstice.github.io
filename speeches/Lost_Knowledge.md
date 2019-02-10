@@ -1,0 +1,18 @@
+# Lost Knowledge
+## probably by Chelsea Voss or Jim Babcock
+
+At Solstices, we like to tell the story of humanity’s past triumphs. Today is Smallpox Eradication Day, the thirty-seventh anniversary of when we certified its eradication. It’s an inspiring story. Little by little, we pushed on the frontiers of our medical knowledge, from the first experimental vaccines in the 18th century to better vaccines and distribution and culminating in a massive organized push to wipe it out entirely.
+
+But this isn’t always what happens when you push on frontiers, whether they’re frontiers of knowledge or of geography or of something else.
+
+Sometimes, you push on a frontier and the result simply doesn’t stick.
+
+In 1747, James Lind proved that citrus fruits were an effective cure for scurvy. Ideally, that story would have been similar to the story of smallpox: incremental improvements in knowledge culminating in the elimination of a disease, or at least relegating it to obscure corners of the world. That is how we think of knowledge as working; once a discovery is made, and published, the intellectual frontier is pushed back forever. But that didn’t happen in this case. Instead, the cure was lost, and scurvy was a recurring problem for sailors in the nineteenth and early twentieth centuries. In 1860 the British switched from giving their sailors lemons to giving them limes, not having the language to distinguish the two and not knowing that the lime juice they were using lacked vitamin C. It wasn’t until 1932 that ascorbic acid - vitamin C - was isolated and determined to be the thing that prevents scurvy. That should have been the end of that. And yet, according to the National Health and Nutrition Examination Survey, the vitamin C deficiency rate in the United States is 13%, as measured by blood tests.^1
+
+Sometimes frontiers stop being frontiers. In the 1980s, there was a frontier called Usenet, where tech-savvy people would gather to discuss things. But in the 90s, it opened up to everyone - the “eternal September” - and it stopped being a frontier. In one sense, this was a positive outcome; but for everyone who wanted to be on a frontier, it was bad.
+
+In 1969, we launched the Apollo 11 rocket to the moon. In principle, that should have pushed back the frontier - to have made space a place where it’s possible to go. But the successor to the Apollo rocket - the Space Shuttle - was not well designed. It could not go to the moon, and each launch was fantastically expensive. And so we gradually retreated from space, and today, we have forgotten how to make Saturn Vs. Parts of the design, and the tooling, have been lost.
+
+This song is about that.
+
+[1]  http://ajcn.nutrition.org/content/90/5/1252.long

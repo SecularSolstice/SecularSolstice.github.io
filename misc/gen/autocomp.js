@@ -174,6 +174,13 @@ content = {
   'Her_Mysteries': [
     "Her Mysteries",
     "By Allison Lonsdale",
+    "A hymn to the Goddess for math and physics majors.",
+  ],
+
+  'Heros_Song': [
+    "Heros' Song",
+    "By Julia Ecklar",
+    "The glory of space exploration",
   ],
 
   'Hymn_to_the_Breaking_Strain': [
@@ -194,6 +201,12 @@ content = {
     "It could be a wonderful world if we just stopped messing it up",
   ],
 
+  'Jewel_In_The_Night': [
+    "Jewel in the Night",
+    "By Chris Hadfield",
+    "The beuaty of Earth from above, and a re-affirmation of Christmas",
+  ],
+
   'Joy_to_the_World': [
     "Joy to the World",
     "By Three Dog Night",
@@ -212,6 +225,12 @@ content = {
     "A pledge of support",
   ],
 
+  'Legends': [
+    "Legends",
+    "By Julia Ecklar",
+    "Our space program passes into the past, and maybe into legend",
+  ],
+
   'Let_It_Snow': [
     "Let It Snow!",
     "By Sammy Cahn and Jule Styne ",
@@ -222,6 +241,12 @@ content = {
     "A Little Echo",
     "By Raymond Arnold (with a few bits by Daniel Speyer)",
     "Love, life, death, and the desperate hope for life again",
+  ],
+
+  'Mals_Song': [
+    "Mal's Song aka Ballad of Serenity",
+    "By Sonny Rhodes",
+    "The Absolute Freedom of Space",
   ],
 
   'Malthusian_Trap_Song': [
@@ -542,6 +567,12 @@ content = {
     "[speech]",
   ],
 
+  'Lost_Knowledge': [
+    "Lost Knowledge",
+    "probably by Chelsea Voss or Jim Babcock",
+    "[speech]",
+  ],
+
   'Matches': [
     "Matches",
     "By Sifu Hotman",
@@ -568,6 +599,12 @@ content = {
   'Only_Human': [
     "Only Human",
     "By Jai Dhyani",
+    "[speech]",
+  ],
+
+  'Opening_Speech_Boston2016': [
+    "Boston 2016 Opening Speech",
+    "By Jim Babcock",
     "[speech]",
   ],
 
@@ -645,6 +682,12 @@ content = {
   'The_Man_Who_Lived': [
     "The Man Who Lived",
     "By Miranda Dixon-Luinenburg",
+    "[speech]",
+  ],
+
+  'The_Scientific_Frontier': [
+    "The Scientific Frontier / Truth and Beauty",
+    "By Chelsea Voss",
     "[speech]",
   ],
 
