@@ -18,6 +18,12 @@ content = {
     "A simple AI metaphor",
   ],
 
+  'Ballad_of_Smallpox_Gone': [
+    "Ballad Of Smallpox Gone",
+    "By Leslie Fish",
+    "Celebrating this victory",
+  ],
+
   'Beneath_Midwinter_Midnight': [
     "Beneath Midwinter Midnight",
     "By Raymond Arnold",
@@ -93,6 +99,12 @@ content = {
     "Deck the Halls",
     "By Thomas Oliphant",
     "A celebration of celebration",
+  ],
+
+  'Demon_Sultan_Azathoth': [
+    "Demon Sultan Azathoth",
+    "By The H.P. Lovecraft Historical Society",
+    "An ode to the invincible creator of all",
   ],
 
   'Do_You_Realize': [
@@ -195,6 +207,12 @@ content = {
     "The miracles of today taken in context",
   ],
 
+  'I_Love_the_World': [
+    "I Love The World",
+    "By Brian Chapman",
+    "All the awesome things on this planet",
+  ],
+
   'Imagine': [
     "Imagine",
     "By John Lennon",
@@ -285,6 +303,24 @@ content = {
     "A boast of coming collective victory over time, fear, pain and hate",
   ],
 
+  'Scarborough_Fair_Dark_Reprise': [
+    "Scarborough Fair Dark Reprise",
+    "By Cy Carson",
+    "A lament for the fallen",
+  ],
+
+  'Scarborough_Fair': [
+    "Scarborough Fair",
+    "Traditional",
+    "A series of impossible challenges",
+  ],
+
+  'Scarborough_Fair_Triumphant_Reprise': [
+    "Scarborough Fair Triumphant Reprise",
+    "By Tricky Talks (?)",
+    "A return of sorts to Scarborough Fair",
+  ],
+
   'Seasons_of_Love': [
     "Seasons of Love",
     "By Johnathon Larson (from Rent)",
@@ -351,6 +387,18 @@ content = {
     "I can solve my problems with my parents' teachings... until I can't",
   ],
 
+  'The_Drummers_Little_Boy': [
+    "The Drummers Little Boy",
+    "By Raymond Arnold",
+    "Refusing to give up",
+  ],
+
+  'The_Pantheon': [
+    "The Pantheon aka Ain't Gonna Catch You",
+    "By Darren Korb",
+    "There is no one to protect you from yourself",
+  ],
+
   'The_Sun_Is_A_Guy_Who_Travels_Through_The_Sky': [
     "The Sun Is A Guy Who Travels Through The Sky",
     "By Raymond Arnold and They Might Be Giants",
@@ -411,6 +459,17 @@ content = {
     "A celebration of exploration",
   ],
 
+  'We_Will_All_Go_Together_When_We_Go': [
+    "We Will All Go Together When We Go",
+    "By Tom Lehrer",
+    "A darkly humurous silver lining for mushroom clouds",
+  ],
+
+  'We_Wish_You_A_Scary_Solstice': [
+    "We Wish You A Scary Solstice",
+    "By the H.P. Lovecraft Historical Society",
+  ],
+
   'What_a_Wonderful_World': [
     "What a Wonderful World",
     "By Louis Armstrong",
@@ -459,6 +518,11 @@ content = {
     "[speech]",
   ],
 
+  'An_Alien_God': [
+    "An Alien God (Abridged)",
+    "[speech]",
+  ],
+
   'Atoms_With_Consciousness': [
     "Atoms with Consciousness, Matter with Curiousity",
     "By Richard Feynman",
@@ -477,6 +541,12 @@ content = {
     "[speech]",
   ],
 
+  'Breaking_Your_Hand_Punching_Moloch': [
+    "Breaking Your Hand Punching Moloch",
+    "By Taymon Beal or James Babcock (plus Allen Ginsberg)",
+    "[speech]",
+  ],
+
   'Call_and_Response_Defiance_Abridged': [
     "Call and Response: Defiance",
     "By Jai Dhyani (Abridged by Daniel Speyer)",
@@ -486,6 +556,12 @@ content = {
   'Call_and_Response_Defiance': [
     "Call and Response: Defiance",
     "By Jai Dhyani",
+    "[speech]",
+  ],
+
+  'd6_activity': [
+    "d6 Activity",
+    "By Cy Carson",
     "[speech]",
   ],
 
@@ -543,6 +619,12 @@ content = {
     "[speech]",
   ],
 
+  'Intro_to_Demon_Sultan_Azathoth': [
+    "Intro to Demon Sultan Azathoth ",
+    "By Jim Babcock ",
+    "[speech]",
+  ],
+
   'Invincible_Winter': [
     "Invincible Winter",
     "By Georgia Ray (sometimes credited to Brienne Yudkowsky (why?))",
@@ -582,6 +664,12 @@ content = {
   'Meditations_on_Moloch': [
     "Meditations on Moloch",
     "By Scott Alexander",
+    "[speech]",
+  ],
+
+  'Metta_Meditation': [
+    "Metta Meditation",
+    "By Cassandra McClure",
     "[speech]",
   ],
 
@@ -644,6 +732,12 @@ content = {
     "[speech]",
   ],
 
+  'Radical_Acceptance_Practice': [
+    "Radical Acceptance Practice",
+    "By Ozymandias (Adapted by others)",
+    "[speech]",
+  ],
+
   'Road_to_Wisdom': [
     "The Road to Wisdom",
     "By Piet Hein",
@@ -685,8 +779,20 @@ content = {
     "[speech]",
   ],
 
+  'The_Fae': [
+    "The Fae",
+    "By James Babcock",
+    "[speech]",
+  ],
+
   'The_First_Victims': [
     "The First Victims (Of Smallpox)",
+    "[speech]",
+  ],
+
+  'The_Goddess_of_Everything_Else_Abridged': [
+    "The Goddess of Everything Else (Abridged)",
+    "By Scott Alexander",
     "[speech]",
   ],
 
@@ -735,6 +841,12 @@ content = {
   'What_I_Learned_About_Risk_from_Parenting': [
     "What I Learned About Risk from Parenting",
     "By Julia Wise",
+    "[speech]",
+  ],
+
+  'Why_Solstice_Why_Lovecraft': [
+    "Why Solstice? Why Lovecraft?",
+    "By James Babcock",
     "[speech]",
   ],
 

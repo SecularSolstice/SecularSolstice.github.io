@@ -6,6 +6,7 @@ TYPE="$2"
 mkdir $NAME
 mkdir $NAME/gen
 touch $NAME/README.md
+echo '# ' $NAME | tr '_' ' ' | sed 's/.*/\L&/; s/[a-z]*/\u&/g' > $NAME/README.md
 
 echo "PREFIX=${NAME}-" > $NAME/Makefile
 
@@ -62,6 +63,9 @@ esac
 echo 'include ../scripts/Makefile.common' >>$NAME/Makefile
 
 cd $NAME
+shopt -s extglob
+test -e /tmp/emacs1000/server && emacsclient *.@(md|ugc|cho|txt)
 make all
 git add * gen/*
 cd ..
+

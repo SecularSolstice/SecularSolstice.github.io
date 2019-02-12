@@ -1,0 +1,167 @@
+# Radical Acceptance Practice
+## By Ozymandias (Adapted by others)
+
+[Tap foot at a rate of about 1.8/s] Tap. Tap. Tap. Tap.
+
+Every time I tap my foot, a person dies.
+
+Tap. A three-year-old will never play with his dolls again. Tap. A
+retiree’s last poem will never be finished. Tap. A woman will never be
+able to meet her grandchildren. Tap. A man dies, under the impression
+that it is 1930 and he is only twenty years old. Tap. A woman dies
+rescuing her children from a fire. Tap. Elsewhere in the world, the
+children burn to death.
+
+Tap. Tap. Tap.
+
+Each one a person just like you– a person who loved, who hated, who
+grieved, who experienced joy, who felt the warmth of the sun on their
+skin and the cool taste of water when you’re really thirsty. Each gone
+in less time than it takes to read this sentence.
+
+Your mind will flinch away from this. Gently bring it back.
+
+A whole bunch of rationalizations may spring up inside your head: that
+death is what gives life meaning, or that without death society would
+never progress, or that immortals would be forever bored. Release
+them. You don’t have to twist your mind into thinking that death is
+okay. It is just bad. Everyone who is alive right now will die; and it
+is just as bad staggered as it would be happening all at once.
+
+Notice what’s happening in your body right now– the feeling of your
+feet in your shoes, the breeze on your hands, your heart beating. You
+may notice the physical sensations associated with some
+emotions. That’s okay. When you’re ready, gently bring your attention
+to what’s going on in your mind right now.
+
+You may feel sadness or grief or anger or despair or guilt. That’s
+okay. Let yourself feel whatever you’re feeling. Don’t flinch
+away. Don’t try to suppress your feelings. Don’t beat yourself up
+about what you feel or don’t feel. Just notice what you’re feeling.
+
+If you feel angry: why? What is there to be angry at? There is no
+person who decided that things ought to be this way; this is just how
+the inexorable laws of the universe work themselves out. The universe
+does not love us or hate us; it is indifferent. There is not some
+grand cosmic contract of fairness that the universe is violating;
+fairness exists only inside the human mind, and the pitiless
+arrangements of electrons and protons have no duty to obey it.
+
+If you feel guilt: why? You have no power to prevent those deaths. If
+you could flick a switch and cause them to live, then clearly you
+would be doing something wrong; but the effort to cure death will
+involve thousands of people working across dozens of fields, and it
+may not be possible at all. Right now, with our technology, there is
+nothing we can do. Even the hope of cryonics is thin.
+
+And yet: bad things do not stop being bad just because we cannot fix
+them. Death is bad, and we cannot fix it; the one doesn’t make the
+other false.
+
+If you despair: remember that true things do not stop being true just
+because you don’t think about them. Those people were always dying,
+even when you weren’t listening to the tapping foot. All the things
+that made your life worthwhile before– interesting work, friends who
+love you, the taste of cake– are still there. The evil that exists in
+the world doesn’t invalidate the good. But the good doesn’t invalidate
+the evil, either.
+
+If you notice you are breathing fast, breathe more slowly. If you are
+frowning, smile. If your hands have clenched into fists, unclench
+them. If your muscles are tense, make the effort to relax.
+
+ 
+
+Now, if you are an animal person, imagine some beloved animal: your
+dog, your cat, your snake. Really think about the love you feel for
+them: the way they greet you when you come home, comfort you when you
+are sad, or wake you up at 5 am when they’re feeling hungry. If you
+are not an animal person, you will have to stretch your empathy
+farther.
+
+Imagine your animal on the run for his life, desperately fleeing and
+tremendously afraid; then imagine their pain as they lose and their
+guts spill out over the ground, their heart still beating. Imagine
+them limping with a broken leg that will never be treated or sick with
+worms that will never be cured. Imagine them curled up on the ground,
+whimpering with hunger, because the winter was bad and as hard as they
+try they will never be able to find food.
+
+Again, rationalizations will rush in. You may think of the beauty of
+the wild, or of Mother Earth who loves all her creatures, or of the
+balance of nature in which all these have their place. These are lies
+made up by the Romantics and the Lion King. It is bad when animals
+suffer; it is bad when your pet dog suffers, and it is still bad when
+a wild deer suffers.
+
+You may think that we cannot do anything about wild animal
+suffering. This is true. Wild animal suffering is, if possible, a
+problem even more intractable than death; if we tried to intervene to
+prevent wild animal suffering, we may cause damage to the biosphere
+that causes more suffering and (depending on the scale of the project)
+an end to life itself. But problems are still bad when we cannot fix
+them.
+
+It is okay to feel rage, sorrow, guilt. Just feel what you feel, don’t
+rationalize, and don’t flinch away.
+
+Relax your hands. Untense your muscles. Breathe.
+
+At first this will hurt quite a lot. This is normal. But if you keep
+doing it– if you stare unflinchingly at the void– eventually you will
+come to a sense of acceptance, of peace, even of relief. You will not
+be able to comprehend the scale of human suffering, of wild animal
+suffering, of death. But you do not have to pretend it does not
+exist. It will not destroy you. And it is always easier to look your
+problems square in the face than to pretend that they don’t exist at
+all.
+
+Breathe.
+
+If you will, imagine a group of nine people: perhaps a group of your
+closest friends, or your immediate family. One of them will not have
+enough to eat; imagine their hunger pangs. Two will live in homes that
+don’t protect them from the weather; imagine how they shiver. One will
+not have access to safe water. Three do not have access to good
+sanitation. One will not be able to read. One– assuming they all lived
+to the age of 15, which is hardly guaranteed– won’t live to see sixty.
+
+Now, repeat what you did last time. Don’t flinch away. Don’t
+rationalize. Notice what you are feeling in your body. Breathe. Notice
+your emotions. Don’t tense your muscles. Allow yourself to feel what
+you are feeling, whether it is anger or guilt or sadness.
+
+This is practice holding two things in the mind at once. Think, also,
+about the progress we’ve made:
+
+Between 1990 and 2002 average overall incomes increased by
+approximately 21 percent. The number of people in extreme poverty
+declined by an estimated 130 million. Child mortality rates fell from
+103 deaths per 1,000 live births a year to 88. Life expectancy rose
+from 63 years to nearly 65 years. An additional 8 percent of the
+developing world’s people received access to water. And an additional
+15 percent acquired access to improved sanitation services.  If you
+wish, think of those numbers as people: one of your friends has access
+to water; one of your friends has good sanitation. The suffering in
+the world is enormously, unimaginably large; but it used to be even
+more enormously, unimaginably large than it is right now. Within my
+lifetime, the world has become a better place.
+
+It didn’t happen because people ignored poverty or pretended it didn’t
+exist. It happened because people were like “look at this unimaginable
+suffering in the world!” and then said to themselves “I am going to
+fix it.”
+
+H P Lovecraft was right about one thing: the world is merciless and
+pitiless; it is not cruel only because cruelty implies malice, a
+desire to hurt, and the universe hurts us out of its profound
+indifference. There is no term for our pain in the laws of
+physics. Our pain is just the inevitable outcome of molecule combining
+with molecule, atom bashing against atom.
+
+H P Lovecraft was wrong about another thing: that we would go mad from
+the revelation. Nothing is scarier. When you avoid, when you deny, the
+problem seems like the worst thing in the world. If we look the
+problem square in the face, if we don’t flinch, if we make an effort
+to think about the scale of the problem… well, we will grieve, and we
+will mourn, and then we will pick up our loads and we will work.
