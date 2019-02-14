@@ -95,6 +95,12 @@ content = {
     "The special horror when your employer has root on your brain",
   ],
 
+  'Cosmos': [
+    "Cosmos",
+    "By Carl Sagan (lyrics) and Kenley Kristofferson (music)",
+    "Somewhere, something incredible is waiting to be known",
+  ],
+
   'Deck_the_Halls': [
     "Deck the Halls",
     "By Thomas Oliphant",
@@ -135,6 +141,12 @@ content = {
     "Find My Tribe",
     "By Raymond Arnold",
     "Seeking a community, despite our individualist natures",
+  ],
+
+  'Fire_in_the_Sky': [
+    "Fire In The Sky",
+    "By Jordin Kare",
+    "A celebration of space flight",
   ],
 
   'Five_Thousand_Years': [
@@ -506,6 +518,11 @@ content = {
     "[speech]",
   ],
 
+  '500_Years_From_Today': [
+    "500 Years From Today",
+    "[speech]",
+  ],
+
   'A_Bottomless_Pit': [
     "A Bottomless Pit of Suffering",
     "By Nelson Lugo",
@@ -515,6 +532,12 @@ content = {
   'A_Changing_Mythology': [
     "A Changing Mythology",
     "By Raymond Arnold",
+    "[speech]",
+  ],
+
+  'A_Day_in_My_Utopia': [
+    "A Day in My Utopia",
+    "by Ozy Brennan",
     "[speech]",
   ],
 
@@ -637,6 +660,12 @@ content = {
     "[speech]",
   ],
 
+  'Letting_Go_Without_Giving_Up': [
+    "Letting Go Without Giving Up ",
+    "by Jeffrey Ladish",
+    "[speech]",
+  ],
+
   'Life_Death_and_Love': [
     "Life Death and Love",
     "By Raymond Arnold",
@@ -675,6 +704,12 @@ content = {
 
   'Minute_of_Silence': [
     "Minute of Silence",
+    "[speech]",
+  ],
+
+  'Nihil_Supernum': [
+    "Nihil Supernum",
+    "by Eliezer Yudkowsky",
     "[speech]",
   ],
 
@@ -790,8 +825,20 @@ content = {
     "[speech]",
   ],
 
+  'The_Fragility_of_Progress': [
+    "The Fragility of Progress",
+    "by Alex Altair",
+    "[speech]",
+  ],
+
   'The_Goddess_of_Everything_Else_Abridged': [
     "The Goddess of Everything Else (Abridged)",
+    "By Scott Alexander",
+    "[speech]",
+  ],
+
+  'The_Goddess_of_Everything_Else_First_Person': [
+    "The Goddess of Everything Else",
     "By Scott Alexander",
     "[speech]",
   ],
@@ -811,6 +858,12 @@ content = {
   'The_Scientific_Frontier': [
     "The Scientific Frontier / Truth and Beauty",
     "By Chelsea Voss",
+    "[speech]",
+  ],
+
+  'The_Virtue_of_Ash': [
+    "The Virtue of Ash",
+    "by Cody Wild",
     "[speech]",
   ],
 
@@ -862,9 +915,21 @@ content = {
     "[speech]",
   ],
 
+  'Worlds_That_Never_Were': [
+    "Worlds That Never Were",
+    "by Claire Wang",
+    "[speech]",
+  ],
+
   'You_Cant_Save_Them_All': [
     "You Can't Save Them All",
     "By Miranda Dixon-Luinenburg ",
+    "[speech]",
+  ],
+
+  'Zettai_Tsuyoku_Narimasu': [
+    "Zettai Tsuyoku Narimasu: You will definitely become stronger",
+    "by Tilia Bell",
     "[speech]",
   ],
 };

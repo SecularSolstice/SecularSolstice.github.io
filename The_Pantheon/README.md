@@ -6,7 +6,6 @@ Originally from the video game Bastion ([Original Recording](https://www.youtube
 
 Raymond Arnold offered a variant with more familiar gods:
 
-
 > Yahweh... cranky old man,    
 > Gonna smite ya for what you done
 >
@@ -14,9 +13,24 @@ Raymond Arnold offered a variant with more familiar gods:
 > Gonna eat ya for what you done
 >
 > Azathoth... blind designer,    
-> Tear yer mind up for what you done
+> Tear yer mind up for what you done    
+>
+> I’m sayin’    
+> Physics... queen sadistic,    
+> Kill yer whole world for what you done    
+> Kill yer whole world for what you done    
 
-The reference to Yahweh is likely to alienate those who practice some form of Abrahamic tradition, especially since the smite-happy cranky old man is a weak-man if not straw-man of the tradition.
+and elsewhere
+
+> Brahma, Shiva Vishnu,    
+> Gonna eat ya for what you done
+>
+> Reaper, creepy mystic,    
+> Take your family for what you done.
+
+replacing the Lovecraftians.
+
+The reference to Yahweh is likely to alienate those who practice some form of Abrahamic tradition, especially since the smite-happy cranky old man is a weak-man if not straw-man of the tradition.  The Hindu gods might provoke similar reactions.
 
 A possibly alternative might be:
 
