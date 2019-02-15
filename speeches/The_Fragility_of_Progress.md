@@ -1,0 +1,115 @@
+# The Fragility of Progress
+## by Alex Altair
+
+
+It is Tuesday, August 4th. You sit in a cafe, enjoying the morning
+hours before you head to work.
+
+Yesterday was a bank holiday; some family friends visited you in the
+city. You took them to Madame Tussauds wax museum, and the little ones
+wanted to see the science museum downtown. It was a cloudless
+day. Your friends talked about how strange it was that your city life
+was surrounded by people, and how did you manage to deal with them
+all? You joked that mostly you ignored them like ducks walking along a
+pond. But in your heart, each pair of shoes that walked past you was a
+kindling soul, a well of potential ready to burst its light out into
+the world. Every shuffling elder was a life well lived, and every
+boisterous child was a force that would change the world.
+
+The turning of the last century, during which you were a child, was a
+symbol of the future that we had all collectively achieved. The
+startling pace of change has left the world of your parents' childhood
+almost unrecognizable to you, as much as your grandparents' world is
+unrecognizable to your parents. There is no reason to think that the
+pace of change will ever stop. To you, just freshly into adulthood,
+continuous progress is a law of nature.
+
+Your work centers around coordination. You help to lubricate trade
+between countless other people, located in cities across the
+globe. You trust your clients and they trust you, a long railway of
+trust that lies founded on unprecedented international stability. The
+world is so big and rich that it’s hard for any individual to change
+it; and this global interdependence has furthered the economic
+incentive for cooperation. The more we trust, the more we gain; so
+says the new law of nature. Propelled by this fresh sense of meaning,
+you head to your office, knowing that what you do matters.
+
+It is Wednesday, August 5th. You walk into the cafe, and pick up the
+paper. You sit down with your coffee and look at the headline.
+
+“GREAT BRITAIN DECLARES WAR ON GERMANY”
+
+You stare at the page. You read the words, but they meet with
+resistance. Why? Over what? To what end? Sure, Germany has not exactly
+been Britain’s ally, and every up-and-coming economy needs to do a bit
+of posturing and teeth baring. But war? Like men running around with
+bayonets and dueling in a field? It was an anachronism.
+
+Never has your life been touched by a real war. There are always
+conflicts abroad, somewhere in the world. But you don't know anyone
+who has died in a war. Your older brother didn't serve. Your parents
+didn't serve. You don't recall your grandparents talking about
+war. It’s been decades. Maybe half a century. You’d have to look it
+up, that’s how long it had been.
+
+War was a tool we used before we had a sense of what the future could
+become. Before the Renaissance, before the Enlightenment. We have
+better ways, now.
+
+You’ve heard that the idea called nationalism is all the rage these
+days. Each patriot felt the same passion, only with a different
+subject in their heart. Why couldn't they see that one country being
+great did not preclude other countries from also being great? Why
+can't they see that the working people in the north are natural allies
+to the working people in the south? They put on different clothes,
+they breathe the fresh scent of different forests, but they each love
+their families the same, and the sun rises and sets on them
+all. Surely they can see that it is their humanity that makes them
+great, and that same humanity that unites us. Surely, they won't march
+against their mirror image just for the sake of nationalism.
+
+You realize that your cousins will volunteer. They would not miss the
+chance to defend the glory of Britain for anything. You hope to God
+that they will be okay. You hope that the war will be short. You get
+up from your table and head to work, because you do not know what else
+to do.
+
+It is August 5th, 1914, and the war will not be short.
+_________________________________________
+
+The First World War is considered to be the first truly modern
+war. The technological products of humankind had improved so much
+since the last major conflict that no one really knew what would
+happen after it started. What happened was that on the very first day,
+thousands of men died walking straight into the astoundingly effective
+fire of machine guns. What happened was that 27,000 men died in a
+single day two weeks later, akin to having 9/11 happen every hour from
+9 in the morning to 5 in the evening. What happened was that the
+greatest nations of the world spent the next four years draining each
+other of blood, taking 15 million human lives from the cradle of life.
+
+The momentum of the early 20th century looks very similar to the
+momentum of the 21st century. Replace planes, trains and automobiles
+with smartphones and machine learning, and replace Einstein’s miracle
+year with the discovery of the Higgs Boson and gravity waves.
+
+Somehow, despite all this optimism, despite the works of the Goddess
+of Everything Else, the momentum of progress was split into parts, the
+allied powers and the central powers, and those parts were slammed
+together, their economic prowess consuming each other, whittling down
+the modern world until so many once-great countries were on the edge
+of societal starvation.
+
+The war ended, largely from mutual exhaustion, on November 11th, 1918,
+one hundred years ago. At the time it was called The Great War, or
+sometimes the War to End All Wars. We do not know it by that name
+today, because we did not learn our lessons in time.
+
+The efforts of all people since have brought us back from the brink of
+those two world wars, and the Goddess of Everything Else has worked
+her ways once more. But her powers are devious and subtle, and we do
+not know how the story continues. The outside view is our most
+powerful tool for predicting the future, and yet trends are not
+laws. There is no particular reason to think that another total war
+will come, and there is no particular reason to think that the future
+is assured.

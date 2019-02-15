@@ -24,6 +24,12 @@ content = {
     "Celebrating this victory",
   ],
 
+  'Beautiful_Tomorrow': [
+    "Beautiful Tomorrow",
+    "By Evgeny Krylatov (Music), Yuri Entin (Original Lyrics) and Anna Tchetchetkine (English Translation)",
+    "Tomorrow calls to me",
+  ],
+
   'Beneath_Midwinter_Midnight': [
     "Beneath Midwinter Midnight",
     "By Raymond Arnold",
@@ -351,6 +357,12 @@ content = {
     "A surreal song about Christmas truces in the Peanuts comic strip",
   ],
 
+  'Sogno_di_Volare': [
+    "Sogno Di Volare: The Dream of Flight",
+    "By Christopher Tin",
+    "Man will be lifted by his own creation, filling the universe with wonder and glory",
+  ],
+
   'Somebody_Will': [
     "Somebody Will",
     "By Sassafrass",
@@ -373,6 +385,12 @@ content = {
     "Space Oddity",
     "By David Bowie",
     "A confused account of going into space",
+  ],
+
+  'Stars': [
+    "Stars",
+    "By Sara Teasdale (lyrics) and Eriks Esenvalds (Music)",
+    "The beuaty of the night sky",
   ],
 
   'Starwind_Rising': [
@@ -838,7 +856,7 @@ content = {
   ],
 
   'The_Goddess_of_Everything_Else_First_Person': [
-    "The Goddess of Everything Else",
+    "The Goddess of Everything Else (First Person Version)",
     "By Scott Alexander",
     "[speech]",
   ],
