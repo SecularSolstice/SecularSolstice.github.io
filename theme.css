@@ -72,6 +72,20 @@ p {
     padding: 0.5em;
 }
 
+blockquote {
+    margin: 0px;
+}
+blockquote p {
+    padding-left: 4em;
+    padding-right: 4em;
+    background: linear-gradient(to right,
+                                rgba(0,0,0,0.6) 0%,
+                                rgba(0,0,0,0.6) 2%,
+                                rgba(0,0,255,0.6) 3.5%,
+                                rgba(0,0,0,0.6) 5%,
+                                rgba(0,0,0,0.6) 100%);
+}
+
 table {
     border-collapse: collapse;
 }
