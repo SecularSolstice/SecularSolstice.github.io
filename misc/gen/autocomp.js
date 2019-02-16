@@ -119,6 +119,12 @@ content = {
     "An ode to the invincible creator of all",
   ],
 
+  'Do_You_Hear_What_I_Hear': [
+    "Do You Hear What I Hear",
+    "By Noel Regney",
+    "A growing story about a shivering child",
+  ],
+
   'Do_You_Realize': [
     "Do You Realize",
     "By The Flaming Lips",
@@ -722,6 +728,12 @@ content = {
 
   'Minute_of_Silence': [
     "Minute of Silence",
+    "[speech]",
+  ],
+
+  'Mistakes_were_Made': [
+    "Mistakes were Made",
+    "By Raymond Arnold",
     "[speech]",
   ],
 
