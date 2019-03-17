@@ -18,14 +18,9 @@ outf.write("""
     <meta name="viewport" content="width=device-width initial-scale=1.0">
   </head>
   <body>
-    <div class=header>
-      <a href="/">Home</a>
-      <a href="/lists/gen/All_Songs.html">Songs</a>
-      <a href="/lists/gen/All_Speeches.html">Speeches</a>
-      <a href="http://secularsolstice.com/blog/">Blog</a>
-    </div>
+    %s
     <h1>%s</h1>
-""" % (title,title))
+""" % (title,file('../misc/header.html').read(),title))
 
 def process_instruction(line):
     if line[0]=='[' and line[-1]==']':
@@ -83,6 +78,8 @@ for line in inf:
             outf.write('</ul>\n')
             inul=False
         outf.write('<h2>%s</h2>\n' % line[1:])
+    elif line[0]=='{' and line[-1]=='}':
+        outf.write('<h3>%s</h3>\n' % line[1:-1])
     else:
         if not inul:
             outf.write('<ul>\n')

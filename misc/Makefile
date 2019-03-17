@@ -9,6 +9,9 @@ gen/%.html: %.md head.html header.html
 	pandoc -f markdown $< >> $@
 	echo '</body></html>' >> $@
 
+gen/Programs.html: ../scripts/create-program-list.sh $(wildcard ../lists/*.lst)
+	cd .. && ./scripts/create-program-list.sh > misc/gen/Programs.html
+
 ALLH=$(patsubst %.md, gen/%.html, $(wildcard *.md))
 all: ${ALLH} gen/autocomp.js
 

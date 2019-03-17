@@ -11,6 +11,7 @@
 * [Running a Solstice](http://secularsolstice.com/running-brighter-than-today/)
 * [Material Components](http://secularsolstice.com/material-components/)
 * [NYC Playbook/Checklist](https://docs.google.com/document/d/1yzDMuEmNvFXQbR2_KCuwntXxs97K1XtGTIyA8eG_zx0/edit#) (WIP)
+* [Discussion of Leadership Teams](https://www.facebook.com/daniel.speyer/posts/10209881322668426)
 
 ## The Ritual Subsequence on Lesswrong [2012]
 
@@ -18,3 +19,8 @@
 * [The Value and Danger of Ritual](http://lesswrong.com/lw/93l/the_value_and_danger_of_ritual/)
 * [Designing Ritual](http://lesswrong.com/lw/9aw/designing_ritual/)
 * [The Gift I Give Tomorrow](http://lesswrong.com/lw/9bb/the_gift_i_give_tomorrow/)
+
+## Using this Website
+
+* [Overly Verbose Instructions](How_To_Add_To_This_Website.html)
+* [Program-Building Tool](../list_building.html)

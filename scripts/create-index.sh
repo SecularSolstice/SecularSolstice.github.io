@@ -30,17 +30,8 @@ DESC="$(cat README.md |
 echo "    <meta property='og:description' content='${DESC}' />"
 
 
-cat <<EOF 
-  </head>
-  <body> 
-    <div class=header>
-      <a href="/">Home</a>
-      <a href="/lists/gen/All_Songs.html">Songs</a>
-      <a href="/lists/gen/All_Speeches.html">Speeches</a>
-      <a href="http://secularsolstice.com/blog/">Blog</a>
-    </div>
-EOF
-
+echo "  </head>  <body> "
+cat ../misc/header.html
 
 echo '<div class=notes>'
 pandoc -f markdown README.md
