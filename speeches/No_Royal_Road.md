@@ -5,7 +5,7 @@ Life is hard.
 
 And we've got the long end of the stick, compared to most of the world or most of history.  But the long end of a stick is still a stick.  And life is still hard.  It doesn't take that big a mis-step to get into serious trouble.
 
-There's the urgent problems trap, where you're so busy putting out today's fires that you have no evenry left to extricate yourself with.
+There's the urgent problems trap, where you're so busy putting out today's fires that you have no energy left to extricate yourself with.
 
 There are intellectual traps: models that explain everything, or throw out all input, and therefore are never updated against.
   
