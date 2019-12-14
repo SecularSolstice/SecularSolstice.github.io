@@ -176,10 +176,10 @@ accomp = {
     \new Voice = "voiceA" {
       \tempo 8=600
       \time 6/8
-      \melody
       \set Staff.midiInstrument=#"voice oohs"
       \set Staff.midiMaximumVolume=#1
       \set Staff.midiMinimumVolume=#1
+      \melody
     }
 
     \new Lyrics \lyricsto "voiceA" {
