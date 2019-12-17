@@ -1,5 +1,5 @@
 # Still Alive
-## By Johnathon Coulton
+## By Jonathan Coulton
 ## A smug, sociopathic celebration of survival and science
 
 From the video game Portal.
