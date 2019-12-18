@@ -163,3 +163,11 @@ a.editbutton::before {
         padding: 0.001em 0.2em 10em;
     }
 }
+
+@media print {
+    * {
+        background: white !important;
+        color: black !important;
+    }
+}
+                    
