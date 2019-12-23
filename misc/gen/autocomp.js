@@ -26,7 +26,7 @@ content = {
 
   'Beautiful_Tomorrow': [
     "Beautiful Tomorrow",
-    "By Evgeny Krylatov (Music), Yuri Entin (Original Lyrics) and Anna Tchetchetkine (English Translation)",
+    "By Evgeny Krylatov (Music), Yuri Entin (Original Lyrics) and Anna Tchetchetkine et. al. (English Translation)",
     "Tomorrow calls to me",
   ],
 
@@ -279,6 +279,12 @@ content = {
     "We don't mind bad weather so long as we have each other",
   ],
 
+  'Let_There_Be_Love': [
+    "Let There Be Love",
+    "by Daniel Speyer",
+    "A future worth fighting for",
+  ],
+
   'Little_Echo': [
     "A Little Echo",
     "By Raymond Arnold (with a few bits by Daniel Speyer)",
@@ -301,6 +307,12 @@ content = {
     "Mindspace is Deep and Wide",
     "By Raymond Arnold",
     "A warning against anthropromophizing optimizers",
+  ],
+
+  'Momma_Look_Sharp': [
+    "Momma Look Sharp",
+    "by Sherman Edwards (from 1776)",
+    "A young soldier faces death",
   ],
 
   'Move_the_World': [
@@ -407,7 +419,7 @@ content = {
 
   'Still_Alive': [
     "Still Alive",
-    "By Johnathon Coulton",
+    "By Jonathan Coulton",
     "A smug, sociopathic celebration of survival and science",
   ],
 
@@ -612,9 +624,21 @@ content = {
     "[speech]",
   ],
 
+  'Disneyland_with_No_Children': [
+    "Disneyland with No Children",
+    "by Nick Bostrom, Scott Alexander and Daniel Speyer",
+    "[speech]",
+  ],
+
   'Do_Not_Go_Gentle': [
     "Do Not Go Gentle Into That Good Night",
     "By Dylan Thomas",
+    "[speech]",
+  ],
+
+  'Dont_Shoot_The_Messenger': [
+    "Don't Shoot the Messenger",
+    "By Sarah Constantin, adapted for speech by Daniel Speyer",
     "[speech]",
   ],
 
@@ -681,6 +705,12 @@ content = {
   'Last_Victim': [
     "The Last Victim (Of Smallpox)",
     "By Glen Raphael",
+    "[speech]",
+  ],
+
+  'Letter_From_Utopia': [
+    "Letter from Utopia",
+    "by Nick Bostrom, excerpted by Daniel Speyer",
     "[speech]",
   ],
 
@@ -788,6 +818,31 @@ content = {
   'Pale_Blue_Dot': [
     "The Pale Blue Dot",
     "By Carl Sagan",
+    "[speech]",
+  ],
+
+  'Prediction_Artificial_Intelligence': [
+    "Prediction: Artificial Intelligence",
+    "[speech]",
+  ],
+
+  'Prediction_Invent_It': [
+    "Prediction: Invent It",
+    "[speech]",
+  ],
+
+  'Prediction_Ozone': [
+    "Prediction: Ozone",
+    "[speech]",
+  ],
+
+  'Prediction_Phenotypes': [
+    "Prediction: Phenotypes",
+    "[speech]",
+  ],
+
+  'Prediction_WWII': [
+    "Prediction: WWII",
     "[speech]",
   ],
 
@@ -900,6 +955,12 @@ content = {
   'Villanelle': [
     "Villanelle",
     "By Danielle Blau",
+    "[speech]",
+  ],
+
+  'We_Are_Gathered': [
+    "We Are Gathered",
+    "by Daniel Speyer",
     "[speech]",
   ],
 
