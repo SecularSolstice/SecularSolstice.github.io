@@ -21,8 +21,6 @@ And if you are working indirectly, by giving money, evaluating levers, administe
 
 If you want to do something, or hope to do something, but it will have to wait until you find the right lever, or until you grow stronger, (and I fully expect that everyone in this room will grow stronger), then please rise and say that you are here.
 
-If you do not want an active role, but will still seize a good opportunity if it comes your way, please rise and say that you are here.
-
 If you are prepared to be a friend to someone who is doing something, please rise and say that you are here.
 
 If anyone is still seated, please rise.

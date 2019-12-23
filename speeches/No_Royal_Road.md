@@ -21,7 +21,7 @@ It would be nice to say, “Trust in tradition: it might come up blank when conf
 
 And the fact that I point out other's bad traditions and not my own doesn't mean I don't have any. My only reasonable conclusion is that I do. I just don't know which ones.
 
-Or it would be nice to say, “Trust in yourself: it might require tremendous effort, but you will find the right answer in the end.” But you can't say that. Not in a world where rationalization looks so much like rationality from the inside. Not in a world where people very much like us supported Stalinism as the next stage in human civilization, with freedom and prosperity for all. Not in a world where young people routinely stumble into toxic or abusive relationships that the conventional wisdom of the experienced could see coming.
+Or it would be nice to say, “Trust in yourself: it might require tremendous effort, but you will find the right answer in the end.” But you can't say that. Not in a world where rationalization looks so much like rationality from the inside. Not in a world where people very much like us supported Stalinism as the next stage in human civilization, with freedom and prosperity for all.
 
 Or to say, “Trust in your friends. The likelihood of universal error drops exponentially.” But you can't. Not when they might be saying the same. And even if they are not, your errors and there's are hardly uncorrelated.
 
@@ -40,8 +40,6 @@ Nor can you even say, “I will trust the speeches at the Secular Solstice celeb
 No. There is nothing you can say. There is no royal road to knowledge.
 
 And without one, it would be nice to comfort oneself saying, “I don't need one. Perhaps my mistakes will deprive me of a sandwich, but they will not get me hit by a car.” But failure to know which cars are coming is the most common reason for getting hit.
-
-Nor can you say, “I will err, and I will learn from it, and I will go back and err less.” You will do that. And doing that well is one of the most important skills you can develop. But sometimes, there is no going back.
 
 Nor can you say, “My errors will be in obscure, hard-to-learn subjects, with little real-world cost.” Not when a small mistake regarding the ecology of sparrows can generate a famine that leaves twenty million dead. Not when a subtle cyclicness of thinking turned decent, civilized people into the greatest monsters in history.
 
