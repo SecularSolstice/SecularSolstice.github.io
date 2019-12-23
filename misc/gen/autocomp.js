@@ -1037,6 +1037,7 @@ sections = [
   "Eve",
   "Evening",
   "Hope",
+  "Intermission",
   "Into Darkness",
   "Light",
   "Morning",
