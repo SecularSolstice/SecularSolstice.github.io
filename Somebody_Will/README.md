@@ -34,3 +34,7 @@ heroic vs. modest responsibility is a tradeoff, our memeplex is
 probably erring on the heroic side.  Just proceed carefully.
 
 The song is [purchasable in many forms](https://sassafrass.bandcamp.com/album/somebody-will-teaching-collection) from Sassafrass's bandcamp.
+
+The Boston group has a [simplified
+melody](https://www.jefftk.com/p/resetting-somebody-will-v2) that is a
+better fit for group singing.
