@@ -10,9 +10,13 @@ stronger sense of community, and that this is *our* space.  On the
 other hand, some of those people are people we'd rather have around.
 Proceed with caution.
 
-The music provided here is from 2019.  This *was* sung prior to that,
-but the melody used is lost.  It's kind of remarkable how quickly such
-things can be lost.
+The music provided here (and included as a live recording in the files
+section) is from 2019.  This *was* sung prior to that,
+but the melody used is lost.  Raymond has described the older melody
+as "sort of vaguely almost-but-not-quite to the tune of Pirates of
+Penzance: I Am The Very Model Of A.... It's kind of remarkable how
+quickly such things can be lost.
+
 
 The intention in this melody is for the Managerial Em to sing an
 octave below the Contract-Drafting Em.  This symbolizes the manager's

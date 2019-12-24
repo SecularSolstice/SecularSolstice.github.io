@@ -15,3 +15,5 @@ to summon cookies late at night is a triumph of modern civilization
 that we will never tire of. 
 
 This song is available for sale via bandcamp in the [2015](https://humanistculture.bandcamp.com/album/solstice-2015) album.
+
+A live NYC2019 recording is in the Files section.
