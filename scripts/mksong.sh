@@ -5,8 +5,8 @@ TYPE="$2"
 
 mkdir $NAME
 mkdir $NAME/gen
-touch $NAME/README.md
-echo '# ' $NAME | tr '_' ' ' | sed 's/.*/\L&/; s/[a-z]*/\u&/g' > $NAME/README.md
+test -e $NAME/README.md ||
+    echo '# ' $NAME | tr '_' ' ' | sed 's/.*/\L&/; s/[a-z]*/\u&/g' > $NAME/README.md
 
 echo "PREFIX=${NAME}-" > $NAME/Makefile
 
@@ -23,6 +23,16 @@ EOF
         touch $NAME/lyrics.txt
         ;;
     
+
+    stub)
+        cat >>$NAME/Makefile <<EOF
+FILES_TO_LIST=
+
+EOF
+        touch $NAME/lyrics.txt
+        ;;
+    
+
     ugc)
         cat >>$NAME/Makefile <<EOF
 FILES_TO_LIST=lyrics.txt chord-sheet.cho chord-sheet.pdf 
@@ -55,7 +65,7 @@ EOF
         ;;
 
     *)
-        echo "Unrecognized format '$TYPE', can be text, ugc, cho or ly"
+        echo "Unrecognized format '$TYPE', can be text, stub, ugc, cho or ly"
         ;;
 
 esac
