@@ -95,6 +95,12 @@ content = {
     "Our struggle for understanding",
   ],
 
+  'Christmas_in_the_Trenches': [
+    "Christmas in the Trenches",
+    "by John McCutcheon",
+    "The Christmas truce and the humanity of our enemies",
+  ],
+
   'Contract_Drafting_Em': [
     "The Contract Drafting Em",
     "By Zack Davis",
@@ -471,10 +477,22 @@ content = {
     "An truly modern ode to the sun",
   ],
 
+  'The_Wild_West_Is_Where_I_Want_To_Be': [
+    "The Wild West Is Where I Want To Be",
+    "by Tom Lehrer",
+    "A lighthearted take on the development of nuclear weapons",
+  ],
+
   'Time_Wrote_the_Rocks': [
     "Time Wrote the Rocks",
     "By Cat Faber",
     "Truth is found in the world",
+  ],
+
+  'Unison_in_Harmony': [
+    "Unison in Harmony",
+    "by Coope, Boyes, and Simpson",
+    "Joyful unity across nations",
   ],
 
   'Uplift': [
@@ -672,6 +690,16 @@ content = {
     "[speech]",
   ],
 
+  'Henry_Williamson_on_Christmas_Aftermath': [
+    "Henry Williamson on Christmas Aftermath",
+    "[speech]",
+  ],
+
+  'Henry_Williamsons_Letter_Home': [
+    "Henry Williamson's Letter Home",
+    "[speech]",
+  ],
+
   'High_Flight': [
     "High Flight ",
     "By John Gillespie Magee, Jr.",
@@ -699,6 +727,11 @@ content = {
   'Invincible_Winter': [
     "Invincible Winter",
     "By Georgia Ray (sometimes credited to Brienne Yudkowsky (why?))",
+    "[speech]",
+  ],
+
+  'Joseph_Rotblat_on_the_Development_of_Nuclear_Weapons': [
+    "Joseph Rotblat on the Development of Nuclear Weapons",
     "[speech]",
   ],
 
@@ -949,6 +982,11 @@ content = {
   'The_Virtue_of_Ash': [
     "The Virtue of Ash",
     "by Cody Wild",
+    "[speech]",
+  ],
+
+  'Vadim_Orlov_on_How_Close_We_Came_to_Nuclear_War': [
+    "Vadim Orlov on How Close We Came to Nuclear War",
     "[speech]",
   ],
 
