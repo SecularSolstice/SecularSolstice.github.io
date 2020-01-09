@@ -31,6 +31,10 @@ for line in inf:
         #if inlyrics:
         #    outf.write('\n')
         inlyrics=False
+    elif line.startswith('% lyricnote:'):
+        note = line[len('% lyricnote:'):-1]
+        dashes = '-' * len(note)
+        outf.write('\n%s\n%s\n%s\n' % (dashes,note,dashes))
     elif inlyrics:
         txt = line.replace(' | ',' ').replace(' -- ','').replace('"','').replace(' _','')
         if is_chorus and txt.strip():

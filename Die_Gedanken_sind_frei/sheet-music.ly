@@ -1,7 +1,7 @@
 \version "2.18.2"
 
 \header {
-  title = "Die Gedanken Sind Frei/"
+  title = "Die Gedanken Sind Frei"
   subtitle = "A Song of Twilight"
 }
 
@@ -12,6 +12,7 @@ melody = \relative c'' {
   c' | b d d | c e e | b d d | c e
   c | a a c8([ a]) | g2 g8 e' | e([ d]) c4 b | c2 \bar "|."
 }
+
 
 verse_a = \lyricmode {
   Die Ge -- | dan -- ken sind | frei, wer | kann sie er -- | ra -- then?
@@ -38,7 +39,7 @@ verse_d = \lyricmode {
   _ Drum | will ich auf | im -- merden |  Sor -- gen ent -- | sa -- gen
   und | will mich auch | nim -- mermit | Grill -- en  mehr | pla --  gen.
   Man | kann ja im | Her -- zen stets | lach -- en und | scher -- zen
-  und | den -- ken da -- |bei: Die Ge -- | dan -- ken sind | frei!
+  und | den -- ken da -- | bei: Die Ge -- | dan -- ken sind | frei!
 }
   
 verse_e = \lyricmode {
@@ -48,20 +49,60 @@ verse_e = \lyricmode {
   mein | Mäd -- chen da -- | bei: Die Ge -- | dan -- ken sind | frei!
 }
 
+% lyricnote: English Version
 
+english_a = \lyricmode {
+  Oh my think -- ing is free.  No one can it har -- ness. 
+  My log -- ic soars high, like ow -- ls in dark -- ness.
+  No spy can dis -- play it; no hunt -- er can slay it;
+  With Glock nor U -- zi.  Oh, my thoughts they are free!
+  
+}
+
+english_b = \lyricmode {
+  Yes I think as I choose and by my de -- si -- re.
+  The world may grow still; my int' -- rest seeks high -- er.
+  My val -- ues im -- pli -- cit: no one can in -- hi -- bit.
+  As 'twill al -- ways be.  Oh, my thoughts they are free!
+}
+
+english_c = \lyricmode {
+  Ev -- en if I am cast in -- to deep -- est dung -- eon.
+  It will help them naught; no game have they won then.
+  If ram -- part and tow -- er face think -- ing's own pow -- er,
+  They'll soon cease to be.  Oh, my thoughts they are free!
+}
+
+english_d = \lyricmode {
+  So I bid a fare -- well to sor -- row for -- ev -- er.
+  So pet -- ty mise -- ry will trou -- ble me nev -- er.
+  Ro -- man -- ces and deep truths, la -- zy puns and neat proofs.
+  Stay al -- ways in me.  Oh, my thoughts they are free!
+}
+  
+  
 \score {
   <<
     \new Voice = "voice" {
       \melody
     }
     \new Lyrics \lyricsto "voice" {
-      <<
-        \new Lyrics \verse_a
-        \new Lyrics \verse_b
-        \new Lyrics \verse_c
-        \new Lyrics \verse_d
-        \new Lyrics \verse_e
-      >>
+      #(if (ly:get-option 'english) #{
+        <<
+          \new Lyrics \english_a
+          \new Lyrics \english_b
+          \new Lyrics \english_c
+          \new Lyrics \english_d
+        >>
+      #} #{
+        <<
+          \new Lyrics \verse_a
+          \new Lyrics \verse_b
+          \new Lyrics \verse_c
+          \new Lyrics \verse_d
+          \new Lyrics \verse_e
+        >>
+      #} )          
     }
   >>
 }
