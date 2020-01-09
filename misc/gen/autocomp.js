@@ -12,6 +12,12 @@ content = {
     "A lament of love, pain and acceptance",
   ],
 
+  'A_Thousand_Stars': [
+    "A Thousand Stars",
+    "By Siegfried Köhler, translated by Daniel Böttger",
+    "Beauty in Dark Places",
+  ],
+
   'Baby_Genie': [
     "Baby Genie",
     "By Raymond Arnold",
@@ -46,6 +52,12 @@ content = {
     "Bitter Wind March",
     "By Raymond Arnold",
     "A return to Bitter Wind Blown, but with determination to do something about it",
+  ],
+
+  'Blackbird': [
+    "Blackbird",
+    "By The Beatles",
+    "Encouragement to those who have been caged or wing-clipped",
   ],
 
   'Blowin_in_the_Wind': [
@@ -89,6 +101,12 @@ content = {
     "A lament of senseless war",
   ],
 
+  'Cantina_Band': [
+    "Cantina Band",
+    "By John Williams",
+    "An instrumental piece Star Wars fans will recognize",
+  ],
+
   'Chasing_Patterns': [
     "Chasing Patterns",
     "By Raymond Arnold",
@@ -123,6 +141,12 @@ content = {
     "Demon Sultan Azathoth",
     "By The H.P. Lovecraft Historical Society",
     "An ode to the invincible creator of all",
+  ],
+
+  'Die_Gedanken_sind_frei': [
+    "Die Gedanken Sind Frei",
+    "By Hoffmann von Fallersleben et. al.",
+    "Thought is free",
   ],
 
   'Do_You_Hear_What_I_Hear': [
@@ -173,10 +197,34 @@ content = {
     "Looking to the far future",
   ],
 
+  'Fix_You': [
+    "Fix You",
+    "By Coldplay",
+    "Reaching out to a friend in pain",
+  ],
+
   'Forever_Young': [
     "Forever Young",
     "By Bob Dylan and Joan Baez",
     "An outsider's blessing that verges on transhumanism",
+  ],
+
+  'Froh_dabei_zu_sein': [
+    "Froh Dabei Zu Sein",
+    "By Philipp Poisel",
+    "A Celebration of Friendship",
+  ],
+
+  'Froh_zu_sein_bedarf_es_wenig': [
+    "Froh Zu Sein Bedarf Es Wenig",
+    "By August Mühling",
+    "It takes so little to be happy",
+  ],
+
+  'Galaxy_Song': [
+    "Galaxy Song",
+    "By Monte Python",
+    "How big the universe is and how lucky we are to be a part of it",
   ],
 
   'Garden_Song': [
@@ -249,6 +297,12 @@ content = {
     "It could be a wonderful world if we just stopped messing it up",
   ],
 
+  'I_Want_to_Hold_Your_Hand': [
+    "I Want To Hold Your Hand",
+    "By The Beatles",
+    "A silly love song",
+  ],
+
   'Jewel_In_The_Night': [
     "Jewel in the Night",
     "By Chris Hadfield",
@@ -297,6 +351,12 @@ content = {
     "Love, life, death, and the desperate hope for life again",
   ],
 
+  'Mad_World': [
+    "Mad World",
+    "By Gary Jules",
+    "A lament of uncopeable insanity",
+  ],
+
   'Mals_Song': [
     "Mal's Song aka Ballad of Serenity",
     "By Sonny Rhodes",
@@ -319,6 +379,12 @@ content = {
     "Momma Look Sharp",
     "by Sherman Edwards (from 1776)",
     "A young soldier faces death",
+  ],
+
+  'Moon_Song': [
+    "Moon Song",
+    "By Karen O",
+    "The lunar surface is quiet and comfortable",
   ],
 
   'Move_the_World': [
@@ -367,6 +433,11 @@ content = {
     "Seasons of Love",
     "By Johnathon Larson (from Rent)",
     "Five hundred twenty five thousand six hundred minutes...",
+  ],
+
+  'Simulacrum': [
+    "Simulacrum",
+    "Trying to blend in",
   ],
 
   'Sinner_Man_Pandemic': [
@@ -483,6 +554,12 @@ content = {
     "A lighthearted take on the development of nuclear weapons",
   ],
 
+  'This_Too_Shall_Pass': [
+    "This Too Shall Pass",
+    "By Danny Schmidt",
+    "Good or bad: it all goes fast",
+  ],
+
   'Time_Wrote_the_Rocks': [
     "Time Wrote the Rocks",
     "By Cat Faber",
@@ -595,6 +672,11 @@ content = {
     "[speech]",
   ],
 
+  'Ambient_Noise': [
+    "Ambient Noise",
+    "[speech]",
+  ],
+
   'An_Alien_God': [
     "An Alien God (Abridged)",
     "[speech]",
@@ -636,9 +718,26 @@ content = {
     "[speech]",
   ],
 
+  'Communal_Meal': [
+    "Communal Meal",
+    "[speech]",
+  ],
+
   'd6_activity': [
     "d6 Activity",
     "By Cy Carson",
+    "[speech]",
+  ],
+
+  'Das_Photonenraumschiff': [
+    "Das Photonenraumschiff",
+    "By Dimitar Peew, translated to German by ???",
+    "[speech]",
+  ],
+
+  'Demiurges_Older_Brother': [
+    "The Demiurge's Older Brother",
+    "By Scott Alexander",
     "[speech]",
   ],
 
@@ -666,6 +765,12 @@ content = {
     "[speech]",
   ],
 
+  'Epsilon_Eridani': [
+    "Epsilon Eridani",
+    "By Adrien Pfeuffer",
+    "[speech]",
+  ],
+
   'Eternal_Winter': [
     "Eternal Winter, Endless Light",
     "By Raymond Arnold",
@@ -678,15 +783,38 @@ content = {
     "[speech]",
   ],
 
+  'Frankfurt_2018_Introduction_Speech': [
+    "Introduction Speech in Frankfurt Main 2018",
+    "by Martin Sawitzki",
+    "[speech]",
+  ],
+
+  'Frankfurt_2019_Introduction_Speech': [
+    "Introduction Speech in Frankfurt Main 2019",
+    "by Martin Sawitzki",
+    "[speech]",
+  ],
+
   'Future_Worth_It': [
     "A Future That's Worth It",
     "By Jefferey Ladish",
     "[speech]",
   ],
 
+  'Gewitterabend': [
+    "Der Gewitterabend",
+    "By Georg Trakl",
+    "[speech]",
+  ],
+
   'Gift_We_Give_Tommorow': [
     "The Gift We Give Tomorrow",
     "By Eliezer Yudkowsky and Raymond Arnold",
+    "[speech]",
+  ],
+
+  'Happiness_Letters': [
+    "Happiness Letters",
     "[speech]",
   ],
 
@@ -706,9 +834,20 @@ content = {
     "[speech]",
   ],
 
+  'Hot_Seat': [
+    "Hot Seat",
+    "[speech]",
+  ],
+
   'Howl': [
     "Howl",
     "By Allen Ginsberg",
+    "[speech]",
+  ],
+
+  'How_to_Be_Happy': [
+    "How to Be Happy",
+    "Based on an essay by Luke Muehlhauser",
     "[speech]",
   ],
 
@@ -727,6 +866,11 @@ content = {
   'Invincible_Winter': [
     "Invincible Winter",
     "By Georgia Ray (sometimes credited to Brienne Yudkowsky (why?))",
+    "[speech]",
+  ],
+
+  'ISS_Time_Lapse': [
+    "International Space Station Time Laps Video",
     "[speech]",
   ],
 
@@ -777,6 +921,11 @@ content = {
     "[speech]",
   ],
 
+  'Matches_Ritual': [
+    "Matches Ritual",
+    "[speech]",
+  ],
+
   'Meditations_on_Moloch': [
     "Meditations on Moloch",
     "By Scott Alexander",
@@ -797,6 +946,11 @@ content = {
   'Mistakes_were_Made': [
     "Mistakes were Made",
     "By Raymond Arnold",
+    "[speech]",
+  ],
+
+  'Ms_Poppins': [
+    "Ms. Poppins",
     "[speech]",
   ],
 
@@ -891,14 +1045,42 @@ content = {
     "[speech]",
   ],
 
+  'Raisin_Mediation': [
+    "The Raisin Meditation",
+    "[speech]",
+  ],
+
   'Road_to_Wisdom': [
     "The Road to Wisdom",
     "By Piet Hein",
     "[speech]",
   ],
 
+  'Runaway_Nebulae': [
+    "How Mikromil and Gigatian Provoked the Runaway of Nebulae",
+    "By Stanislaw Lem",
+    "[speech]",
+  ],
+
+  'Samurai': [
+    "Samurai",
+    "[speech]",
+  ],
+
+  'Schedule_Planning': [
+    "Schedule Planning",
+    "Before the Solstice",
+    "[speech]",
+  ],
+
   'Serenity': [
     "Serenity Meditation",
+    "[speech]",
+  ],
+
+  'Seventh_Sally': [
+    "The Seventh Sally or How Trurl's Own Perfection Led to No Good",
+    "By Stanislaw Lem",
     "[speech]",
   ],
 
@@ -914,6 +1096,12 @@ content = {
     "[speech]",
   ],
 
+  'Space_Fails': [
+    "Space Fails – Stories of Human Experiences",
+    "By Moya Schiller, Secular Solstice Frankfurt 2019",
+    "[speech]",
+  ],
+
   'Stories_Untold': [
     "Stories Untold",
     "By Jai Dhyani",
@@ -926,9 +1114,27 @@ content = {
     "[speech]",
   ],
 
+  'Ten_Offers': [
+    "The Ten Offers of Evolutionary Humanism",
+    "By Michael Schmidt-Salomon",
+    "[speech]",
+  ],
+
   'The_Children_of_4_3_Billion_Years_of_Evolution': [
     "The Children of 4.3 Billion Years of Evolution",
     "By Georgia Ray",
+    "[speech]",
+  ],
+
+  'The_Cube': [
+    "The Cube",
+    "By Annie Gottlieb",
+    "[speech]",
+  ],
+
+  'The_Fable_of_the_Dragon-Tyrant': [
+    "The Fable of the Dragon-Tyrant",
+    "By Nick Bostrom",
     "[speech]",
   ],
 
@@ -973,6 +1179,12 @@ content = {
     "[speech]",
   ],
 
+  'The_Martian': [
+    "The Martian",
+    "By Andy Weir",
+    "[speech]",
+  ],
+
   'The_Scientific_Frontier': [
     "The Scientific Frontier / Truth and Beauty",
     "By Chelsea Voss",
@@ -985,6 +1197,28 @@ content = {
     "[speech]",
   ],
 
+  'This_Is_a_Dawn': [
+    "This Is a Dawn",
+    "By Nate Soares",
+    "[speech]",
+  ],
+
+  'Toasts_Boasts_and_Oaths': [
+    "Toasts Boasts and Oaths",
+    "[speech]",
+  ],
+
+  'Travelers': [
+    "Travelers",
+    "[speech]",
+  ],
+
+  'Unsong_Prologue_German': [
+    "Unsong Prologue (German Translation)",
+    "By Scott Alexander, Translated by Adrien Pfeuffer",
+    "[speech]",
+  ],
+
   'Vadim_Orlov_on_How_Close_We_Came_to_Nuclear_War': [
     "Vadim Orlov on How Close We Came to Nuclear War",
     "[speech]",
@@ -993,6 +1227,23 @@ content = {
   'Villanelle': [
     "Villanelle",
     "By Danielle Blau",
+    "[speech]",
+  ],
+
+  'Voyager_Golden_Record': [
+    "Voyager Golden Record",
+    "[speech]",
+  ],
+
+  'Wanderers': [
+    "Wanderers",
+    "By Carl Sagan and Erik Wernquist",
+    "[speech]",
+  ],
+
+  'Watched_Over_by_Machines_of_Loving_Grace': [
+    "Watched Over by Machines of Loving Grace",
+    "By Alexis C. Madrigal",
     "[speech]",
   ],
 
@@ -1065,6 +1316,7 @@ content = {
 
 
 sections = [
+  "Afterwards",
   "Bonfire",
   "Darkness",
   "Dawm",
@@ -1080,6 +1332,7 @@ sections = [
   "Light",
   "Morning",
   "Night",
+  "Preparation",
   "Tomorrow",
   "Twilight",
 ];

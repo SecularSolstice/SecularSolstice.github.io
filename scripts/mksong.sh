@@ -29,7 +29,6 @@ EOF
 FILES_TO_LIST=
 
 EOF
-        touch $NAME/lyrics.txt
         ;;
     
 

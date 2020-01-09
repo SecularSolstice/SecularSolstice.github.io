@@ -13,6 +13,6 @@ echo
 echo "Speeches:"
 SPEECHES=$(ls speeches/*.md | sed 's@speeches/@@' | sed 's/.md$//')
 for i in $SPEECHES; do
-    grep $i lists/All_Speeches.lst >/dev/null || echo $i
+    grep $i lists/All_Speeches.lst >/dev/null || grep $i lists/All_Activities.lst >/dev/null || echo $i
 done
 

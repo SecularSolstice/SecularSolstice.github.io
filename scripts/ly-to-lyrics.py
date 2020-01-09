@@ -32,7 +32,7 @@ for line in inf:
         #    outf.write('\n')
         inlyrics=False
     elif inlyrics:
-        txt = line.replace(' -- ','').replace('"','').replace(' _','')
+        txt = line.replace(' | ',' ').replace(' -- ','').replace('"','').replace(' _','')
         if is_chorus and txt.strip():
             txt = '    '+txt
             chorus += txt

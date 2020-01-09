@@ -58,7 +58,7 @@ def process_speech(line):
         fl=fl.strip()
         if fl[:2]=='##' and ('by' in fl or 'By' in fl):
             outf.write(' <i class=small>%s</i>' % fl[2:].replace('By ','by '))
-        elif fl[:1]=='#':
+        elif fl[:1]=='#' and fl[1]!='#':
             outf.write('<li><b><a href=../../speeches/gen/%s.html>%s</a></b> ' % (pieces[0], fl[1:]))
     if len(pieces)==2:
         outf.write(' -- %s...' % pieces[1])

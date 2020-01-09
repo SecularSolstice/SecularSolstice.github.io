@@ -1,0 +1,106 @@
+# Unsong Prologue (German Translation)
+## By Scott Alexander, Translated by Adrien Pfeuffer
+
+*[English original [here](http://unsongbook.com/prologue-2/)]*
+
+#### I
+
+Rückblickend, hatte es Vorzeichen und Omen gegeben.
+
+(„Wir nähern uns nun dem Sonnenaufgang auf dem Mond,“ sagte William Anders, „und die
+Besatzung der 'Apollo 8' möchte eine Nachricht an alle Menschen zu hause auf der Erde senden.“)
+
+Flüsse flossen bergan. Am Nachthimmel wurde ein neuer Stern gesichtet. Auf der Leber eines
+geschlachteten Schweines stand in deutlichen Buchstaben das Wort „OMEN“ geschrieben.
+
+(„Am Anfang schuf Gott Himmel und Erde. Und die Erde war wüst und leer, und es war finster auf
+der Tiefe.“)
+
+Blitze fuhren aus klarem Himmel. Aus den Wolken fielen Kröten. Die Wasser aller zehntausend
+Seen in Minnesota wurden zu Blut; Wissenschaftler machten „Phytoplankton“ verantwortlich.
+
+(„Und der Geist Gottes schwebte auf dem Wasser. Und Gott sprach: Es werde Licht! Und es ward
+Licht. Und Gott sah, daß das Licht gut war. Da schied Gott das Licht von der Finsternis“)
+
+Ein majestätischer, goldener Adler flog auf den Balkon des Vatikans hernieder während Papst Paul
+VI zu den Gläubigen sprach. Behutsam nahm der Vogel mit seinem Schnabel die Brille des Heiligen
+Vaters herab, hackte dessen linkes Auge aus und flog mit einem markerschütternden Schrei von
+dannen.
+
+(„Und nannte das Licht Tag“, las Jim Lovell, „und die Finsternis Nacht. Da ward aus Abend und 
+Morgen der erste Tag.“)
+
+Hunderte Meilen von der Küste wurde ein gestrandeter Wal gefunden. Ein Kind mit vier Augen
+wurde geboren.
+
+(„Und Gott sprach: Es werde eine Feste zwischen den Wassern, und die sei ein Unterschied
+zwischen den Wassern.“)
+
+Aus den Wolken fielen Zettel auf welchen das Wort „OMEN“ geschrieben stand. Am Nachthimmel
+wurde ein gestrandeter Wal gesichtet. Unbeobachtete Babys rollten langsam, aber klar erkennbar
+bergan.
+
+(„Da machte Gott die Feste und schied das Wasser unter der Feste von dem Wasser über der Feste.
+Und es geschah also. Und Gott nannte die Feste Himmel. Da ward aus Abend und Morgen der
+andere Tag.“)
+
+Eines der überzähligen Augen des vieräugigen Babys stellte sich als das linke Auge Papst Pauls VI
+heraus, welches seit dem Adler-Zwischenfall vermisst wurde. Die Herkunft des vierten Auges blieb
+unbekannt.
+
+(„Und Gott sprach: Es sammle sich das Wasser unter dem Himmel an besondere Örter,“, las Frank
+Borman, „daß man das Trockene sehe. Und es geschah also.“)
+
+Eine Reihe gezielter Blitzeinschläge brannte das Wort „OMEN“ in den rostroten Sand der Sonora-
+Wüste; Wissenschaftler machten „Phytoplankton“ verantwortlich.
+
+(„Und Gott nannte das Trockene Erde, und die Sammlung der Wasser nannte er Meer. Und Gott
+sah, daß es gut war.“)
+
+Die New Yorker Börse stieg elf Tage in Folge um exakt ganzzahlige Beträge. Ein Gynäkologe
+veröffentlichte einen Artikel in einer obskuren, medizinischen Fachzeitschrift, in welchem er
+behauptete die Tritte ungeborener Kinder ergäben, als Morsezeichen interpretiert, Botschaften, die
+einem das Blut in den Adern gefrieren ließen.
+
+(„Wir, die Besatzung der 'Apollo 8' beenden diese Nachricht mit 'Gute Nacht', viel Glück und frohe
+Weihnachten. Gott segne euch alle - ...“ [Plötzliches Rauschen, dann Stille])
+
+#### II
+
+Wenn ich einen Höhepunkt in der bisherigen Geschichte der Menschheit benennen sollte, so wäre es
+der 24. Dezember 1968.
+
+1968 war ein Jahr der zerborstenen Träume. Im April wurde Martin Luther King ermordet. Im Juni
+wurde Robert Kennedy, Hoffnungsträger der Demokraten, ermordet. Im August walzten russische
+Panzer den Prager Frühling nieder. Es schien, als werde jeder Funke Hoffnung auf eine bessere Welt
+systematisch erstickt, einer nach dem anderen.
+
+Eines Tages dann schalteten die Amerikaner ihre Fernsehgeräte ein und erfuhren, ohne jede
+Vorwarnung, eine Raumkapsel sei auf dem Weg zum Mond. Am 22. Dezember teilte die Besatzung
+in einer Live-Übertragung den Zuschauern auf der Erde mit, sie seien im Begriff die allerersten
+Menschen zu werden, die sich einem anderen Himmelskörper nähern. Übertragungsprobleme
+beendeten die Nachricht nach siebzehn Minuten, die Astronauten versprachen jedoch eine
+Fortsetzung nach Erreichen der Mondumlaufbahn.
+
+Am 24. Dezember 1968 dann schalteten eine Milliarde Menschen – eine Zuschauerzahl, unerreicht
+in Vergangenheit und Zukunft – ihre Fernsehgeräte ein, um sich die kurze Botschaft von Apollo 8
+anzusehen. Die Astronauten waren noch im Halbschlaf, übermüdet nach Tagen komplizierter
+Berechnungen und Beinahe-Katastrophen – aber ihre Stimmen drangen kräftig und klar durch das
+Rauschen. Kommandant Frank Borman stellte die anderen beiden Besatzungsmitglieder vor. Sie
+beschrieben den Mond, aus der Nähe betrachtet, als „eine wüste, einsame Ausdehnung des Nichts“.
+„Ein ahnungsvoller Horizont, ein dunkler und abweisender Ort“. Dann die Erde, aus der Ferne
+betrachtet: „Eine grüne Oase, in der großen Einöde des Weltraums.“
+
+Nur noch zwei Minuten, bis der Sonnenaufgang die Verbindung unterbrechen würde. Die einzige
+Anweisung der NASA an die Astronauten war, „etwas Angemessenes zu tun“.
+
+„Am Anfang“, las Bill Anders, „schuf Gott Himmel und Erde. Und die Erde war wüst und leer, und
+es war finster auf der Tiefe.“
+
+Und so lasen an Heiligabend für zwei Minuten, drei Astronauten aus dem Buche Genesis für eine
+Milliarde Zuhörer, von ihrer winzigen Blechbüchse herab, in welcher sie in hundert Meilen Höhe
+über die Mondoberfläche schossen.
+
+Dann, mitten im Satz, krachten sie in die Kristallsphäre die unsere Welt umgibt, denn wie sich
+herausstellte, gibt es weit weniger Ding' im Himmel und auf Erden als fast jede Schulweisheit sich
+träumt.
