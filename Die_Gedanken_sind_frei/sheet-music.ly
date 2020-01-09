@@ -2,7 +2,7 @@
 
 \header {
   title = "Die Gedanken Sind Frei"
-  subtitle = "A Song of Morning"
+  subtitle = "A Traditional Song of Freedom"
   composer = "Hoffmann von Fallersleben et. al."
   arranger = #(if (ly:get-option 'english) "Translated by Daniel Speyer" "")
 }
