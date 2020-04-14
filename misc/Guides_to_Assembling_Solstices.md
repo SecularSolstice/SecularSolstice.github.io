@@ -22,5 +22,7 @@
 
 ## Using this Website
 
-* [Overly Verbose Instructions](How_To_Add_To_This_Website.html)
+* [How To Do Specific Things](How_To_Do_Things.html)
+* [What's Happening Underneath](What_Is_Happening_Underneath.html)
+* [Why It's Designed this Way](https://secularsolstice.com/solstice-resource-repository/)
 * [Program-Building Tool](../list_building.html)
