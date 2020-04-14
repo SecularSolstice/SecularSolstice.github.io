@@ -1,6 +1,8 @@
 FROM ubuntu:18.04
-RUN apt-get update
 ENV DEBIAN_FRONTEND noninteractive
+RUN apt-get update
+RUN apt-get -y install software-properties-common
+RUN add-apt-repository ppa:git-core/ppa
 RUN apt-get -y install lilypond timidity lame pandoc python git bash make cpanminus imagemagick gcc wget
 RUN cpanm install chordpro
 WORKDIR /root
