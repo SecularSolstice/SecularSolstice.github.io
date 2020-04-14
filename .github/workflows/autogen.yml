@@ -35,6 +35,8 @@ jobs:
         
     - name: Commit files
       run: |
+        pwd
+        ls
         cd SecularSolstice.github.io
         echo ${{ github.ref }}
         git add .
