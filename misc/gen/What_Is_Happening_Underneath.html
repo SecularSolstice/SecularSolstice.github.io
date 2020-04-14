@@ -45,4 +45,9 @@
 <p>When you push, a github action is triggered. Through this, a github server spins up a docker container, pulls the repo, runs make all, adds/commits/pushes the results, and spins down the container. This is all defined in <code>.github/workflows/autogen.yml</code>.</p>
 <p>The docker image is defined in <code>.github/workflows/Dockerfile</code>, but github doesn't look at the Dockerfile directly. Instead it pulls the image from dockerhub.</p>
 <p>To view the status on an autobuild, click the &quot;Actions&quot; tab on github, then the push of interest, then the &quot;build&quot; job in the box on the left. Github supports having multiple jobs in one workflow, and the UI is optimized for that case, even though I can't think of a case where it's useful.</p>
+<h2 id="color-themes">Color Themes</h2>
+<p>By default, everything appears light-on-dark, as is appropriate for the longest night of the year. But this caused throuble for some people, especially for copy-pasting into wysiwyg word processors. So there's now a button to toggle to a dark-on-light color scheme.</p>
+<p>The button and its behavior are all in the file <code>theme-switcher.js</code>, which uses raw javascript for its DOM manipulations.</p>
+<p>The light theme is implemented by sticking a <code>light</code> css class on the root <code>html</code> element, and letting ancester-based css selectors do the rest of the work.</p>
+<p>The user's chosen theme is stored in a cookie, but can be overridden by appending ?light or ?dark to the url (to allow convenient iframing).</p>
 </body></html>
