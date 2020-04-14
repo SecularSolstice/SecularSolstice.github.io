@@ -14,6 +14,7 @@ outf.write("""
   <head>
     <title>%s</title>
     <link rel="stylesheet" type="text/css" href="../../theme.css">
+    <script src='../../theme-switcher.js'></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1.0">
   </head>

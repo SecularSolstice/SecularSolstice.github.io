@@ -97,3 +97,20 @@ then the push of interest, then the "build" job in the box on the
 left.  Github supports having multiple jobs in one workflow, and the
 UI is optimized for that case, even though I can't think of a case
 where it's useful.
+
+## Color Themes
+
+By default, everything appears light-on-dark, as is appropriate for
+the longest night of the year.  But this caused throuble for some
+people, especially for copy-pasting into wysiwyg word processors.  So
+there's now a button to toggle to a dark-on-light color scheme.
+
+The button and its behavior are all in the file `theme-switcher.js`,
+which uses raw javascript for its DOM manipulations.
+
+The light theme is implemented by sticking a `light` css class on the
+root `html` element, and letting ancester-based css selectors do the
+rest of the work.
+
+The user's chosen theme is stored in a cookie, but can be overridden
+by appending ?light or ?dark to the url (to allow convenient iframing).

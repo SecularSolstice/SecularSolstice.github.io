@@ -9,6 +9,12 @@ html {
     margin: 0px;
 }
 
+html.light {
+    background-image: url(snow-bkg.jpg);
+    background-color: white;
+    color: black;
+}
+
 body {
     width: 45em;
     max-width: 90%;
@@ -26,11 +32,25 @@ h1 {
     margin-top: 0px;
 }
 
+.light h1 {
+    color: black;
+    text-shadow: 5px 5px 5px rgba(255,255,0,1),
+                 -5px -5px 5px rgba(255,255,0,1),
+                 5px -5px 5px rgba(255,255,0,1),
+                 -5px 5px 5px rgba(255,255,0,1);
+}    
+
 h2 {
     text-align:center;
     text-shadow: 0 0 0.5em black, 0 0 2em #003;
     font-size: 20pt;
 }
+
+.light h2 {
+    text-shadow: 2px 2px 0.5em white,
+                 -2px -2px 0.5em white,
+                 0 0 2em #ffb;
+}    
 
 h3 {
     text-align: center;
@@ -43,6 +63,29 @@ h3 {
     font-style: italic;
 }
 
+.light h3 {
+    color: yellow;
+    text-shadow: 1px 1px 1px black,
+                 -1px 1px 1px black,
+                 1px -1px 1px black,
+                 -1px -1px 1px black;
+}
+
+.light a h3 {
+    color: inherit;
+    text-shadow: 2px 2px 0.5em white,
+                 -2px -2px 0.5em white,
+                 0 0 2em #ffb;
+}    
+
+.light h4 {
+    text-shadow: 1px 1px 2px white,
+                 -1px -1px 2px white,
+                 1px -1px 2px white,
+                 -1px 1px 2px white;
+}
+    
+
 ul,p.lyrics {
     margin: auto ;
     padding: 0.5em;
@@ -52,6 +95,20 @@ ul,p.lyrics {
                                rgba(0,0,0,0.4) 60%,
                                rgba(0,0,0,0.01));
 }
+
+.light ul {
+    background: linear-gradient(to right, 
+                               rgba(255,255,255,0.7),
+                               rgba(255,255,255,0.5) 60%,
+                               rgba(255,255,255,0.01));
+}
+.light p.lyrics {
+    background: linear-gradient(to right, 
+                               rgba(255,255,255,0.7),
+                               rgba(255,255,255,0.5) 60%,
+                               rgba(255,255,255,0.01));
+}
+    
 
 ul {
     padding-left: 1.5em;
@@ -74,10 +131,25 @@ a {
     color: #ccf;
 }
 
+.light a {
+    color: #006;
+}
+
 p,table,pre {
     margin: auto ;
     background: rgba(0,0,0,0.6);
 }
+
+.light p {
+    background: rgba(255,255,255,0.7);
+}
+.light table {
+    background: rgba(255,255,255,0.7);
+}
+.light pre {
+    background: rgba(255,255,255,0.7);
+}
+
 
 p {
     padding: 0.5em;
@@ -96,6 +168,16 @@ blockquote p {
                                 rgba(0,0,0,0.6) 5%,
                                 rgba(0,0,0,0.6) 100%);
 }
+
+.light blockquote p {
+    background: linear-gradient(to right,
+                                rgba(255,255,255,0.7) 0%,
+                                rgba(255,255,255,0.7) 2%,
+                                rgba(255,255,0,1) 3.5%,
+                                rgba(255,255,255,0.7) 5%,
+                                rgba(255,255,255,0.7) 100%);
+}
+
 
 table {
     border-collapse: collapse;
@@ -131,6 +213,13 @@ td {
 }
 .header a:last-child { margin-right: 0; }
 
+.light .header a {
+    background: #eeb;
+    color: #511;
+    border: 1px #770 outset;
+    border-top: none;
+}
+
 a.rawgit {
     text-align: center;
     display: block;
@@ -138,6 +227,10 @@ a.rawgit {
     margin: 1em 0;
     font-family: monospace;
     text-shadow: 0 0 2px black;
+}
+
+.light a.rawgit {
+    text-shadow: 0 0 2px #af7;
 }
 
 a.editbutton {
@@ -155,6 +248,30 @@ a.editbutton::before {
     content: "\270D";
     font-family: serif;
     font-size: larger;
+}
+
+.light a.editbutton {
+    background: #ceb;
+}
+
+a.themeSwitcher {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    border-radius: 1em;
+    text-align: center;
+    font-size: 10pt;
+    background: #aaa;
+    border: 1px solid #770;
+    color: black;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.light a.themeSwitcher {
+    background: #555;
+    border: 1px solid #ff0;
+    color: white;
 }
 
 @media (max-width: 600px) {

@@ -12,6 +12,7 @@ cat <<EOF
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width initial-scale=1.0">
     <link rel=stylesheet href=../../theme.css>
+    <script src='../../theme-switcher.js'></script>
 EOF
 
 if [ -e gen/thumb.png ]; then
