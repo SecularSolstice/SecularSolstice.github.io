@@ -11,3 +11,5 @@ The heart of the song is the middle. The second stanza speaks of all that might 
 The ending very deliberately drops the "else" from The Comet King's motto ("Someone must and no one else will"). This is, AFAICT, the actual viewpoint of most X-risk mitigators. MIRI doesn't say "we can do this", only "no one else is trying".
 
 I tried to make it timeless. It should fit a neolithic farmer facing winter or a MIRI researcher facing endgame (whatever that turns out to be). I think it mostly succeeds. The bit about oceans burning isn't very neolithic, but induction without a model is hard, so maybe it is something you have to worry about if you can't get a chemistry textbook.
+
+If you're using this song, make sure to get the sheet music to the pianist early, so they have enough time to learn and rehearse it -- and to raise an objection if necessary.  Thus far every pianist who's taken it on has managed, but the part is more difficult than most of what we have here.
