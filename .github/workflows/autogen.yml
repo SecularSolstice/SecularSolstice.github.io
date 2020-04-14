@@ -35,6 +35,7 @@ jobs:
         
     - name: Commit files
       run: |
+        cd SecularSolstice.github.io
         echo ${{ github.ref }}
         git add .
         git config --local user.email "action@github.com"
