@@ -16,7 +16,7 @@ window.onload = function() {
     toggle.innerText = 'color '+document.cookie;
     toggle.onclick = function() {
         is_light = !is_light;
-        document.cookie = 'theme='+(is_light?'light':'dark');
+        document.cookie = 'theme='+(is_light?'light':'dark')+';path=/';
         document.getElementsByTagName('html')[0].className = is_light?'light':'';
     };
     document.getElementsByTagName('body')[0].append(toggle);
