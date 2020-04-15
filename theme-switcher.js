@@ -1,10 +1,10 @@
 window.onload = function() {
     var is_light;
     
-    if (window.location.search == 'theme=dark') is_light=false;
-    else if (window.location.search == 'theme=light') is_light=true;
-    else if (document.cookie == 'dark') is_light=false;
-    else if (document.cookie == 'light') is_light=true;
+    if (window.location.search == 'dark') is_light=false;
+    else if (window.location.search == 'light') is_light=true;
+    else if (document.cookie == 'theme=dark') is_light=false;
+    else if (document.cookie == 'theme=light') is_light=true;
     else is_light=false;
 
     if (is_light) {
