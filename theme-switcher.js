@@ -13,7 +13,7 @@ window.onload = function() {
 
     var toggle = document.createElement('a');
     toggle.className = 'themeSwitcher';
-    toggle.innerText = 'color';
+    toggle.innerText = 'color '+document.cookie;
     toggle.onclick = function() {
         is_light = !is_light;
         document.cookie = 'theme='+(is_light?'light':'dark');
