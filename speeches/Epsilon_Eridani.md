@@ -13,7 +13,7 @@ Ich wache auf. Dunkel. Ich öffne die Augen. Immer noch dunkel. Kopfweh. Ich ver
 
 
 
-Ich döse eine Weile vor mich hin, vielleicht Stunden, vielleicht nur Minuten. Langsam werden meine Gedanken klarer, und einzelne Erinnerungen kommen zurück. Ich bin auf einer Party. War das gestern? Das würde den Kater erklären – obwohl ich normalerweise nicht so viel trinke. Da war dieser Mann, mit dem ich mich unterhielt. Mitte dreißig, irgend ein osteuropäischer Name. Ilja oder Eli1 oder so. Wir sprachen über Philosophie, über Ethik, über Medizin. Es kommt selten vor, dass ich mich mit einem Fremden so früh über so tiefe Themen unterhalten kann, aber hier klappte es sofort. Viele seiner Ideen waren ungewöhnlich, überraschend, seltsam. Manchmal auch etwas verrückt. Aber wenn ich genauer drüber nachdenke, hat er gar nicht so viel gesagt, er hat fast nur Fragen gestellt. Erst in meinem Kopf wurden daraus seltsame, fast schon verstörende Gedanken. Ich versuche, mich an die Unterhaltung zu erinnern. Die erste seiner Fragen war so banal, dass sie fast schon lächerlich wirkte:
+Ich döse eine Weile vor mich hin, vielleicht Stunden, vielleicht nur Minuten. Langsam werden meine Gedanken klarer, und einzelne Erinnerungen kommen zurück. Ich bin auf einer Party. War das gestern? Das würde den Kater erklären – obwohl ich normalerweise nicht so viel trinke. Da war dieser Mann, mit dem ich mich unterhielt. Mitte dreißig, irgend ein osteuropäischer Name. Ilja oder Eli [1] oder so. Wir sprachen über Philosophie, über Ethik, über Medizin. Es kommt selten vor, dass ich mich mit einem Fremden so früh über so tiefe Themen unterhalten kann, aber hier klappte es sofort. Viele seiner Ideen waren ungewöhnlich, überraschend, seltsam. Manchmal auch etwas verrückt. Aber wenn ich genauer drüber nachdenke, hat er gar nicht so viel gesagt, er hat fast nur Fragen gestellt. Erst in meinem Kopf wurden daraus seltsame, fast schon verstörende Gedanken. Ich versuche, mich an die Unterhaltung zu erinnern. Die erste seiner Fragen war so banal, dass sie fast schon lächerlich wirkte:
 
 
 
@@ -48,8 +48,6 @@ Ich zögere. Er setzt nach: „Das ist auch keine Fangfrage.“
 „Ist das in dem Alter nicht mehr oder weniger normal?“
 
 
-
-1Vorbild: „Transhumanism as Simplified Humanism“ von Eliezer Yudkowsky
 
 „Das Medikament würde ihm auch helfen. Ist Gesundheit nur bis zu einem bestimmten Alter erhaltenswert, und danach nicht mehr? Wo ist die Grenze?“
 
@@ -114,3 +112,5 @@ So starre ich eine ganze Weile durch das Fenster im Boden, während sich die Ste
 Schließlich mache ich mich auf, meine Umgebung zu erkunden. Als ich mich an der Wand neben meinem Bett entlangtaste, werde ich plötzlich von einem grellen Licht geblendet. Ich blinzele, und sehe dass ich versehentlich eine Art Bildschirm aktiviert habe. Vor mir erscheint ein menschliches Gesicht, so perfekt dass es eine Computergrafik sein muss. Ich höre eine leicht mechanisch klingende Stimme:
 
 „Guten Morgen! Sie befinden sich auf der ICS Zheng He, zehn Komma zwei Lichtjahre von der Sonne entfernt. Das aktuelle Datum auf der Erde ist Dienstag, der neunte April 2148. Ich bedauere ihnen mitteilen zu müssen, dass es nicht möglich war, Sie auf der Erde zu reanimieren, weil die Bevölkerung des Sonnensystems auf zwanzig Milliarden Menschen beschränkt ist. Da es für eine längere Raumreise unvermeidlich ist, die Passagiere einzufrieren, bot es sich an, Ihnen einen freien Platz auf einem unserer Kolonieschiffe zuzulosen. Sie sind null Komma drei Lichtjahre vom Epsilon Eridani-System entfernt, in dem sich unseren Berechnungen zufolge mindestens ein bewohnbarer Planet befindet. Viel Glück!“
+
+[1] Vorbild: „Transhumanism as Simplified Humanism“ von Eliezer Yudkowsky
