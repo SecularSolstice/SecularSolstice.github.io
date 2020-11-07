@@ -25,5 +25,5 @@ echo
 
 LISTS=$(ls lists/*.lst | grep -v All_)
 echo 'sections = ['
-grep -h '^#' $LISTS | sed 's/^# */  "/' | sed 's/[ \t]*$/",/' | sort | uniq
+grep -h '^#' $LISTS | sed 's/^# */  "/' | sed $'s/[ \t]*$/",/' | sort | uniq
 echo '];'
