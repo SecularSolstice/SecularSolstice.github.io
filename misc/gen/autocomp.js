@@ -8,7 +8,7 @@ content = {
 
   'Always_Look_on_the_Bright_Side': [
     "Always Look on the Bright Side",
-    "By Monte Python",
+    "By Monty Python",
     "A silly song about making the best of terrible things",
   ],
 
@@ -223,7 +223,7 @@ content = {
 
   'Galaxy_Song': [
     "Galaxy Song",
-    "By Monte Python",
+    "By Monty Python",
     "How big the universe is and how lucky we are to be a part of it",
   ],
 
