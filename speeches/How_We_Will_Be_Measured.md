@@ -1,0 +1,30 @@
+# How We Will Be Measured
+## By Nate Soares
+
+When all is said and done, and Nature passes her final judgement, [you will not be measured by the number of moments in which you worked as hard as you could](http://mindingourway.com/stop-before-you-drop/). You will not be judged by someone rooting around in your mind to see [whether you were good or bad](http://mindingourway.com/there-are-no/). You will not be evaluated according to how [unassailable your explanations are](http://mindingourway.com/have-no-excuses/), for why the things that you couldn't possibly have prevented the things that went wrong.
+
+You will be measured only by what _actually happens,_ as will we all.
+
+That doesn't mean all of us are using the same measuring stick: Some people are working to ensure that our universe-history is one in which they in particular have a happy and fulfilled life; others are working to ensure that our universe-history is one in which their children never have to debase themselves to survive. Still others look wide, and see poverty and destitution and suffering, and work to ensure that those blemishes fade from our universe-history, in the places they can reach, near the time of their lives. Others look far forward, working to ensure that our universe-history is full of flourishing sentient civilizations and other nice things.
+
+All it means is that the _type_ of thing we're all trying to do, one way or another, is ensure that the actual history of our universe, the actual timeless structure of the place we're embedded, is as desirable as possible. That's the type of game we're playing: We manipulate universe-histories, for the sake of the future.
+
+Some people have a listless guilt, thinking that nothing matters but feeling vaguely restless as they watch themselves spend their lives on things they think are pointless. Other people have a pointed guilt, thinking that _everything_ matters, and berating themselves whenever they fall short of perfection. For me, the framing that _we act to determine the shape of our actual universe-history_ is a framing that avoids both these pitfalls. Is there a way you want the completed, timeless story of our universe to go? Then act to ensure that the future is as good as you can make it. Are you wracked with guilt about your inability to act as you wish, or regret for the things you did in the past? Then act to ensure that the future is as good as you can make it. That's the sort of game we're playing: At all times, act to ensure that our future is bright.
+
+* * *
+
+I think many people get a bit mixed up about what type of game we're playing. They get stuck playing a social game, measuring their accomplishments by comparison to the accomplishments of their neighbors; or they [mistake someone else's expectations for their preferences](http://mindingourway.com/half-assing-it-with-everything-youve-got/) and get stuck chasing [lost purposes](http://lesswrong.com/lw/le/lost_purposes/); or someone slights them and their vision narrows as their sole objective becomes _retaliation._
+
+I'm not saying social goals are intrinsically bad. Wealth and status are useful aids when it comes to determining the future; the accomplishments and expectations of your peers can provide useful measurements of your abilities. But there's a difference between pursuing social goals for the sake of determining the course of our universe-history, and forgetting entirely that success is measured in terms of what actually happens throughout the course of history.
+
+I alluded to this when I described [defiance](http://mindingourway.com/defiance/) as "choosing self-reliance." At the end of the day, each and every one of us is engaged in a personal struggle to determine the future. We are not _alone;_ there are many around us who can be friends and allies and support us in our struggle. But the goal, in the end, is to use what resources we have at our disposal to ensure that the universe-history is filled with light, whatever our light may be. I hope yours includes friends and family and loved ones, but _making it happen_ — that is your personal task. You are encouraged to draw on the support of friends and allies where possible; and ensuring that you have close connections may be one of the properties you're putting into the timeless history of our universe: But even then, the task of _ensuring our universe-history is one in which you have close connections_ is your personal task.
+
+* * *
+
+What we are doing, on this earth, is acting in such a way that our future is filled with light. From this framing, "guilt-based motivation" is a foreign concept: If you start to feel guilty, simply [look at your situation with fresh eyes](http://mindingourway.com/be-a-new-homunculus/), and then act such that the future is filled with light. Our lives are not status competitions; the world is not a proving ground. We are participating in a _gambit for the future_ (or, more likely, a gambit for the shape of the multiverse), and that is all.
+
+When there are people who oppose us out of nothing save for petty spite; when there are obstacles that stand between us and something important to us which seem all but insurmountable; when we encounter personal limitations that prevent us from acting as we wish to; it is easy to confuse retaliation, overcoming adversity, and growing stronger, with our actual goals. But crossing those hurdles is not the final objective: those hurdles are only parameters in our calculations about how to affect the future; they are nothing but the state of the game board in a game with cosmic states.
+
+In that game, some people have stronger positions than others, and more leverage with which to determine the timeless story of our universe. Life isn't fair. But all of us, one way or another, are here to make sure that our universe history is filled with light — whatever 'light' may be to each of us.
+
+So find allies, find friends, find everything you need to improve your ability to ensure that our universe-history tells a story you like. Move towards whatever levers on our future you can find. And then _fill it with light._
