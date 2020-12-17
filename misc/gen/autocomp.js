@@ -839,6 +839,18 @@ content = {
     "[speech]",
   ],
 
+  'How_We_Will_Be_Measured': [
+    "How We Will Be Measured",
+    "By Nate Soares",
+    "[speech]",
+  ],
+
+  'How_We_Will_Be_Measured_Abridged': [
+    "How We Will Be Measured (abridged)",
+    "By Nate Soares",
+    "[speech]",
+  ],
+
   'How_to_Be_Happy': [
     "How to Be Happy",
     "Based on an essay by Luke Muehlhauser",
