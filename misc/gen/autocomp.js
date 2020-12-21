@@ -864,7 +864,7 @@ content = {
   ],
 
   'ISS_Time_Lapse': [
-    "International Space Station Time Laps Video",
+    "International Space Station Time Lapse Video",
     "[speech]",
   ],
 
