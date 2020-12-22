@@ -12,6 +12,6 @@ Nevertheless, there are a lot of old variants out there.
 
 This song is available for sale via bandcamp in [all three albums](https://humanistculture.bandcamp.com/).
 
-
-
 A [Bayesian Choir Performance](https://www.youtube.com/watch?v=go9RFttl_-E) of this song is on Youtube.
+
+The 2020 version is [here](https://youtu.be/OHJmYyp6f4s?t=297) and 2020 version with everyone singing [here](https://www.jefftk.com/solstice-2020/08-five-hundred-million--brighter-than-today--2020-12-20-022605.mp3) (skip to time 4:57).

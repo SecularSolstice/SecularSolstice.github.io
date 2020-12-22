@@ -36,3 +36,5 @@ This song is available for sale via bandcamp in the [2015](https://humanistcultu
 
 
 A [Bayesian Choir Performance](https://www.youtube.com/watch?v=gzBzlLWfPwM) of this song is on Youtube.
+
+[A recording of this from the 2020 North American Distributed Chorus](https://www.jefftk.com/solstice-2020/05-whose-woods--blowin-in-the-wind--2020-12-20-014819.mp3) is available (first half).

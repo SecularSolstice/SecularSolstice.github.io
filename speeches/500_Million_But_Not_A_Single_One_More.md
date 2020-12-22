@@ -1,6 +1,8 @@
 # 500 Million, But Not a Single One More
 ## By Jai Dhyani
 
+*[Editor's note: a spoken version of this over background instrumentation, segueing into Brighter than Today [is available](https://www.youtube.com/watch?v=OHJmYyp6f4s) ]*
+
 We will never know their names.
 
 The first victim could not have been recorded, for there was no written language to record it. They were someone’s daughter, or son, and someone’s friend, and they were loved by those around them. And they were in pain, covered in rashes, confused, scared, not knowing why this was happening to them or what they could do about it – victim of a mad, inhuman god. There was nothing to be done – humanity was not strong enough, not aware enough, not knowledgeable enough, to fight back against a monster that could not be seen.

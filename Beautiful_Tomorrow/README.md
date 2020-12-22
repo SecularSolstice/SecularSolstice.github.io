@@ -13,3 +13,5 @@ In 1984, Soviet Central Television converted this novel into a five-episode mini
 In 2018, Anna Tchetchetkine and the Bayesian Choir translated the song into English.
 
 The original can be found [here](https://www.youtube.com/watch?v=GJB_kRkwUOk)
+
+[A recording of this from the 2020 North American Distributed Chorus](https://www.jefftk.com/solstice-2020/10-beautiful-tomorrow--2020-12-20-024637.mp3) is available.

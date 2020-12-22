@@ -1,11 +1,5 @@
 content = {
 
-  'A_Thousand_Stars': [
-    "A Thousand Stars",
-    "By Siegfried Köhler, translated by Daniel Böttger",
-    "Beauty in Dark Places",
-  ],
-
   'Always_Look_on_the_Bright_Side': [
     "Always Look on the Bright Side",
     "By Monte Python",
@@ -16,6 +10,12 @@ content = {
     "And So It Goes",
     "By Billy Joel",
     "A lament of love, pain and acceptance",
+  ],
+
+  'A_Thousand_Stars': [
+    "A Thousand Stars",
+    "By Siegfried Köhler, translated by Daniel Böttger",
+    "Beauty in Dark Places",
   ],
 
   'Baby_Genie': [
@@ -161,12 +161,6 @@ content = {
     "A surreal song of love and death",
   ],
 
-  'Endless_Light': [
-    "Endless Lights",
-    "By Raymond Arnold",
-    "A song of hope, generations, stories and infinite possibilities",
-  ],
-
   'Endless_Light_Above': [
     "Endless Light Above Me",
     "By Raymond Arnold",
@@ -177,6 +171,12 @@ content = {
     "Endless Light Around Me",
     "By Raymond Arnold",
     "The second part of a song of hope, generations, stories and infinite possibilities",
+  ],
+
+  'Endless_Light': [
+    "Endless Lights",
+    "By Raymond Arnold",
+    "A song of hope, generations, stories and infinite possibilities",
   ],
 
   'Find_My_Tribe': [
@@ -249,10 +249,16 @@ content = {
     "Transhumanism through the ages",
   ],
 
-  'Her_Mysteries': [
-    "Her Mysteries",
-    "By Allison Lonsdale",
-    "A hymn to the Goddess for math and physics majors.",
+  'Hard_Times_Come_Again_No_More': [
+    "Hard Times Come Again No More",
+    "By Stephen Foster",
+    "An old song of sorrow, hope and compassion",
+  ],
+
+  'Here_and_Now': [
+    "Here and Now",
+    "By Raymond Arnold",
+    "A celebration of now",
   ],
 
   'Here_Comes_the_Sun': [
@@ -261,10 +267,10 @@ content = {
     "A light-hearted celebration of the sun",
   ],
 
-  'Here_and_Now': [
-    "Here and Now",
-    "By Raymond Arnold",
-    "A celebration of now",
+  'Her_Mysteries': [
+    "Her Mysteries",
+    "By Allison Lonsdale",
+    "A hymn to the Goddess for math and physics majors.",
   ],
 
   'Heros_Song': [
@@ -291,16 +297,16 @@ content = {
     "All the awesome things on this planet",
   ],
 
-  'I_Want_to_Hold_Your_Hand': [
-    "I Want To Hold Your Hand",
-    "By The Beatles",
-    "A silly love song",
-  ],
-
   'Imagine': [
     "Imagine",
     "By John Lennon",
     "It could be a wonderful world if we just stopped messing it up",
+  ],
+
+  'I_Want_to_Hold_Your_Hand': [
+    "I Want To Hold Your Hand",
+    "By The Beatles",
+    "A silly love song",
   ],
 
   'Jewel_In_The_Night': [
@@ -411,16 +417,16 @@ content = {
     "A boast of coming collective victory over time, fear, pain and hate",
   ],
 
-  'Scarborough_Fair': [
-    "Scarborough Fair",
-    "Traditional",
-    "A series of impossible challenges",
-  ],
-
   'Scarborough_Fair_Dark_Reprise': [
     "Scarborough Fair Dark Reprise",
     "By Cy Carson",
     "A lament for the fallen",
+  ],
+
+  'Scarborough_Fair': [
+    "Scarborough Fair",
+    "Traditional",
+    "A series of impossible challenges",
   ],
 
   'Scarborough_Fair_Triumphant_Reprise': [
@@ -474,6 +480,12 @@ content = {
     "Somewhere to Begin",
     "by Sara Thompsen",
     "Music and Dreams aren't solutions, but they are starting points",
+  ],
+
+  'Sound_of_Silence': [
+    "Sound Of Silence",
+    "By Paul Simon, Originally",
+    "Trying to hold to something meaningful amidst modern banality and suffering",
   ],
 
   'Space_Oddity': [
@@ -706,9 +718,9 @@ content = {
     "[speech]",
   ],
 
-  'Call_and_Response_Defiance': [
-    "Call and Response: Defiance",
-    "By Jai Dhyani",
+  'Brighter_Futures': [
+    "Brighter Futures",
+    "By Laura Vaughan",
     "[speech]",
   ],
 
@@ -718,8 +730,20 @@ content = {
     "[speech]",
   ],
 
+  'Call_and_Response_Defiance': [
+    "Call and Response: Defiance",
+    "By Jai Dhyani",
+    "[speech]",
+  ],
+
   'Communal_Meal': [
     "Communal Meal",
+    "[speech]",
+  ],
+
+  'd6_activity': [
+    "d6 Activity",
+    "By Cy Carson",
     "[speech]",
   ],
 
@@ -807,6 +831,12 @@ content = {
     "[speech]",
   ],
 
+  'Grief_Comes_In_Many_Forms': [
+    "Grief Comes in Many Forms ",
+    "By Cody Wild",
+    "[speech]",
+  ],
+
   'Happiness_Letters': [
     "Happiness Letters",
     "[speech]",
@@ -833,21 +863,9 @@ content = {
     "[speech]",
   ],
 
-  'How_We_Remember_and_What': [
-    "How We Remember and What",
-    "By Sideria and Taymon Beal",
-    "[speech]",
-  ],
-
-  'How_We_Will_Be_Measured': [
-    "How We Will Be Measured",
-    "By Nate Soares",
-    "[speech]",
-  ],
-
-  'How_We_Will_Be_Measured_Abridged': [
-    "How We Will Be Measured (abridged)",
-    "By Nate Soares",
+  'Howl': [
+    "Howl",
+    "By Allen Ginsberg",
     "[speech]",
   ],
 
@@ -857,14 +875,27 @@ content = {
     "[speech]",
   ],
 
-  'Howl': [
-    "Howl",
-    "By Allen Ginsberg",
+  'How_We_Remember_and_What': [
+    "How We Remember and What",
+    "By Sideria and Taymon Beal",
     "[speech]",
   ],
 
-  'ISS_Time_Lapse': [
-    "International Space Station Time Lapse Video",
+  'How_We_Will_Be_Measured_Abridged': [
+    "How We Will Be Measured (abridged)",
+    "By Nate Soares",
+    "[speech]",
+  ],
+
+  'How_We_Will_Be_Measured': [
+    "How We Will Be Measured",
+    "By Nate Soares",
+    "[speech]",
+  ],
+
+  'I_Dont_Know': [
+    "I Don't Know",
+    "By Raymond Arnold",
     "[speech]",
   ],
 
@@ -880,8 +911,19 @@ content = {
     "[speech]",
   ],
 
+  'ISS_Time_Lapse': [
+    "International Space Station Time Lapse Video",
+    "[speech]",
+  ],
+
   'Joseph_Rotblat_on_the_Development_of_Nuclear_Weapons': [
     "Joseph Rotblat on the Development of Nuclear Weapons",
+    "[speech]",
+  ],
+
+  'Keeping_your_eyes_open': [
+    "Keeping Your Eyes Open",
+    "By Jeffrey Ladish",
     "[speech]",
   ],
 
@@ -932,6 +974,24 @@ content = {
     "[speech]",
   ],
 
+  'Meditation_on_the_future': [
+    "Meditation on the Future",
+    "By Nate",
+    "[speech]",
+  ],
+
+  'Meditation_on_the_past': [
+    "Meditation on the Past",
+    "By Julia Wise",
+    "[speech]",
+  ],
+
+  'Meditation_on_the_present': [
+    "Meditation on the Present: Remember to Breathe",
+    "By Tessa Alexanian",
+    "[speech]",
+  ],
+
   'Meditations_on_Moloch': [
     "Meditations on Moloch",
     "By Scott Alexander",
@@ -972,15 +1032,15 @@ content = {
     "[speech]",
   ],
 
-  'Not_Today': [
-    "Not Today",
-    "By G.R.R. Martin",
-    "[speech]",
-  ],
-
   'Nothing_Is_Mere': [
     "Nothing is Mere",
     "By John Keats and Richard Feynman",
+    "[speech]",
+  ],
+
+  'Not_Today': [
+    "Not Today",
+    "By G.R.R. Martin",
     "[speech]",
   ],
 
@@ -993,6 +1053,12 @@ content = {
   'Opening_Speech_Boston2016': [
     "Boston 2016 Opening Speech",
     "By Jim Babcock",
+    "[speech]",
+  ],
+
+  'Orders_of_Magnitude': [
+    "Orders of Magnitude",
+    "By Alex Altair",
     "[speech]",
   ],
 
@@ -1120,6 +1186,12 @@ content = {
     "[speech]",
   ],
 
+  'Technical_Note': [
+    "Technical Note",
+    "by Alex Altair",
+    "[speech]",
+  ],
+
   'Ten_Offers': [
     "The Ten Offers of Evolutionary Humanism",
     "By Michael Schmidt-Salomon",
@@ -1161,12 +1233,6 @@ content = {
     "[speech]",
   ],
 
-  'The_Goddess_of_Everything_Else': [
-    "The Goddess of Everything Else",
-    "By Scott Alexander",
-    "[speech]",
-  ],
-
   'The_Goddess_of_Everything_Else_Abridged': [
     "The Goddess of Everything Else (Abridged)",
     "By Scott Alexander",
@@ -1175,6 +1241,12 @@ content = {
 
   'The_Goddess_of_Everything_Else_First_Person': [
     "The Goddess of Everything Else (First Person Version)",
+    "By Scott Alexander",
+    "[speech]",
+  ],
+
+  'The_Goddess_of_Everything_Else': [
+    "The Goddess of Everything Else",
     "By Scott Alexander",
     "[speech]",
   ],
@@ -1200,6 +1272,12 @@ content = {
   'The_Virtue_of_Ash': [
     "The Virtue of Ash",
     "by Cody Wild",
+    "[speech]",
+  ],
+
+  'The_Virtues_of_Solstice': [
+    "The Virtues of Solstice",
+    "By Raymond Arnold (and ?)",
     "[speech]",
   ],
 
@@ -1265,6 +1343,12 @@ content = {
     "[speech]",
   ],
 
+  'Welcome_to_Solstice_2020': [
+    "Welcome to Secular Solstice 2020",
+    "By Raymond Arnold, Alex Altair and Laura Vaughan (?)",
+    "[speech]",
+  ],
+
   'What_Does_It_Mean_To_Be_Forever_Young': [
     "What Does It Mean To Be Forever Young?",
     "By Daniel Speyer",
@@ -1318,22 +1402,21 @@ content = {
     "by Tilia Bell",
     "[speech]",
   ],
-
-  'd6_activity': [
-    "d6 Activity",
-    "By Cy Carson",
-    "[speech]",
-  ],
 };
 
 
 sections = [
   "Afterwards",
+  "Beforehand",
   "Bonfire",
+  "Bright",
+  "Candlelit",
+  "Dark",
   "Darkness",
   "Dawm",
   "Dawn",
   "Days to Come",
+  "Dim",
   "Dusk",
   "Embers",
   "Eve",

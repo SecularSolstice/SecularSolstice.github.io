@@ -11,6 +11,6 @@ from the later [Bitter Wind March](../../Bitter_Wind_March/gen/)
 
 This song is available for sale via bandcamp in [all three albums](https://humanistculture.bandcamp.com/).
 
-
-
 A [Bayesian Choir Performance](https://www.youtube.com/watch?v=VNIaA5WJaHE) of this song is on Youtube.
+
+[A recording of this from the 2020 North American Distributed Chorus](https://www.jefftk.com/solstice-2020/01-bitter-wind-blown--2020-12-20-011646.mp3) is available.

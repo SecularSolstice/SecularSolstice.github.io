@@ -8,6 +8,6 @@ We traditionally end with this one.
 
 This song is available for sale via bandcamp in [all three albums](https://humanistculture.bandcamp.com/).
 
-
-
 A [Bayesian Choir Performance](https://www.youtube.com/watch?v=MFTkoy9pfC0) of this song is on Youtube.
+
+[A recording of this from the 2020 North American Distributed Chorus](https://www.jefftk.com/solstice-2020/12-five-million-years--2020-12-20-030105.mp3) is available.
