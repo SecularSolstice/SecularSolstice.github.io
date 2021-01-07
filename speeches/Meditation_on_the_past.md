@@ -1,5 +1,5 @@
 # Meditation on the Past
-## By Julia Wise
+## By Raymond Arnold
 
 
 The solstice starts far in the past. We’re about to take a journey there.

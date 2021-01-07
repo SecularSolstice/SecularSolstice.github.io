@@ -1,5 +1,5 @@
 # Meditation on the Future
-## By Nate
+## By Raymond Arnold and Nate Soares
 
 The journey of humanity is not
 yet over.

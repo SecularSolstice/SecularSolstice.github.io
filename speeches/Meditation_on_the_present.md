@@ -1,8 +1,5 @@
 # Meditation on the Present: Remember to Breathe
-## By Tessa Alexanian
-
-
-
+## By Raymond Arnold
 
 It’s the 21st century.
 

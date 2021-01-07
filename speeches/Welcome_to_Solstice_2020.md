@@ -1,5 +1,5 @@
 # Welcome to Secular Solstice 2020
-## By Raymond Arnold, Alex Altair and Laura Vaughan (?)
+## By Raymond Arnold, Alex Altair and Laura Vaughan
 
 #### Speaker A (Ray)
 
