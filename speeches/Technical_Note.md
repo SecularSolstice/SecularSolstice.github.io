@@ -1,4 +1,4 @@
-# Technical Note
+# Technical Note 2020
 ## by Alex Altair
 
 *[Editor's Note: This was posted to the Facebook event 17 days before Solstice was observed]*
