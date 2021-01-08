@@ -1,5 +1,5 @@
 # The Virtues of Solstice
-## By Cody Wilde and Raymond Arnold
+## By Cody Wild and Raymond Arnold
 
 At the Winter Solstice ceremony, we take time to consider the virtue of darkness: the strength and honesty to face what is dark, and hard, and true. The virtue of darkness is the willingness to stare into challenges so immense they seem unsolvable, and not look away. 
 
