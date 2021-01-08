@@ -1271,7 +1271,7 @@ content = {
 
   'The_Virtues_of_Solstice': [
     "The Virtues of Solstice",
-    "By Cody Wilde and Raymond Arnold",
+    "By Cody Wild and Raymond Arnold",
     "[speech]",
   ],
 
