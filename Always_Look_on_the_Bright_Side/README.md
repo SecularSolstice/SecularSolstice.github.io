@@ -1,6 +1,6 @@
 #  Always Look on the Bright Side
 
-## By Monte Python
+## By Monty Python
 ## A silly song about making the best of terrible things
 
 We've generally opened with this one.  It has the advantage that
