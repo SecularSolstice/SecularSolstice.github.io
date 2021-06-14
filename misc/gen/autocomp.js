@@ -1,5 +1,11 @@
 content = {
 
+  'A_Thousand_Stars': [
+    "A Thousand Stars",
+    "By Siegfried Köhler, translated by Daniel Böttger",
+    "Beauty in Dark Places",
+  ],
+
   'Always_Look_on_the_Bright_Side': [
     "Always Look on the Bright Side",
     "By Monte Python",
@@ -10,12 +16,6 @@ content = {
     "And So It Goes",
     "By Billy Joel",
     "A lament of love, pain and acceptance",
-  ],
-
-  'A_Thousand_Stars': [
-    "A Thousand Stars",
-    "By Siegfried Köhler, translated by Daniel Böttger",
-    "Beauty in Dark Places",
   ],
 
   'Baby_Genie': [
@@ -161,6 +161,12 @@ content = {
     "A surreal song of love and death",
   ],
 
+  'Endless_Light': [
+    "Endless Lights",
+    "By Raymond Arnold",
+    "A song of hope, generations, stories and infinite possibilities",
+  ],
+
   'Endless_Light_Above': [
     "Endless Light Above Me",
     "By Raymond Arnold",
@@ -171,12 +177,6 @@ content = {
     "Endless Light Around Me",
     "By Raymond Arnold",
     "The second part of a song of hope, generations, stories and infinite possibilities",
-  ],
-
-  'Endless_Light': [
-    "Endless Lights",
-    "By Raymond Arnold",
-    "A song of hope, generations, stories and infinite possibilities",
   ],
 
   'Find_My_Tribe': [
@@ -255,10 +255,10 @@ content = {
     "An old song of sorrow, hope and compassion",
   ],
 
-  'Here_and_Now': [
-    "Here and Now",
-    "By Raymond Arnold",
-    "A celebration of now",
+  'Her_Mysteries': [
+    "Her Mysteries",
+    "By Allison Lonsdale",
+    "A hymn to the Goddess for math and physics majors.",
   ],
 
   'Here_Comes_the_Sun': [
@@ -267,10 +267,10 @@ content = {
     "A light-hearted celebration of the sun",
   ],
 
-  'Her_Mysteries': [
-    "Her Mysteries",
-    "By Allison Lonsdale",
-    "A hymn to the Goddess for math and physics majors.",
+  'Here_and_Now': [
+    "Here and Now",
+    "By Raymond Arnold",
+    "A celebration of now",
   ],
 
   'Heros_Song': [
@@ -297,16 +297,16 @@ content = {
     "All the awesome things on this planet",
   ],
 
-  'Imagine': [
-    "Imagine",
-    "By John Lennon",
-    "It could be a wonderful world if we just stopped messing it up",
-  ],
-
   'I_Want_to_Hold_Your_Hand': [
     "I Want To Hold Your Hand",
     "By The Beatles",
     "A silly love song",
+  ],
+
+  'Imagine': [
+    "Imagine",
+    "By John Lennon",
+    "It could be a wonderful world if we just stopped messing it up",
   ],
 
   'Jewel_In_The_Night': [
@@ -417,16 +417,16 @@ content = {
     "A boast of coming collective victory over time, fear, pain and hate",
   ],
 
-  'Scarborough_Fair_Dark_Reprise': [
-    "Scarborough Fair Dark Reprise",
-    "By Cy Carson",
-    "A lament for the fallen",
-  ],
-
   'Scarborough_Fair': [
     "Scarborough Fair",
     "Traditional",
     "A series of impossible challenges",
+  ],
+
+  'Scarborough_Fair_Dark_Reprise': [
+    "Scarborough Fair Dark Reprise",
+    "By Cy Carson",
+    "A lament for the fallen",
   ],
 
   'Scarborough_Fair_Triumphant_Reprise': [
@@ -724,26 +724,20 @@ content = {
     "[speech]",
   ],
 
-  'Call_and_Response_Defiance_Abridged': [
-    "Call and Response: Defiance",
-    "By Jai Dhyani (Abridged by Daniel Speyer)",
-    "[speech]",
-  ],
-
   'Call_and_Response_Defiance': [
     "Call and Response: Defiance",
     "By Jai Dhyani",
     "[speech]",
   ],
 
-  'Communal_Meal': [
-    "Communal Meal",
+  'Call_and_Response_Defiance_Abridged': [
+    "Call and Response: Defiance",
+    "By Jai Dhyani (Abridged by Daniel Speyer)",
     "[speech]",
   ],
 
-  'd6_activity': [
-    "d6 Activity",
-    "By Cy Carson",
+  'Communal_Meal': [
+    "Communal Meal",
     "[speech]",
   ],
 
@@ -863,21 +857,15 @@ content = {
     "[speech]",
   ],
 
-  'Howl': [
-    "Howl",
-    "By Allen Ginsberg",
-    "[speech]",
-  ],
-
-  'How_to_Be_Happy': [
-    "How to Be Happy",
-    "Based on an essay by Luke Muehlhauser",
-    "[speech]",
-  ],
-
   'How_We_Remember_and_What': [
     "How We Remember and What",
     "By Sideria and Taymon Beal",
+    "[speech]",
+  ],
+
+  'How_We_Will_Be_Measured': [
+    "How We Will Be Measured",
+    "By Nate Soares",
     "[speech]",
   ],
 
@@ -887,9 +875,20 @@ content = {
     "[speech]",
   ],
 
-  'How_We_Will_Be_Measured': [
-    "How We Will Be Measured",
-    "By Nate Soares",
+  'How_to_Be_Happy': [
+    "How to Be Happy",
+    "Based on an essay by Luke Muehlhauser",
+    "[speech]",
+  ],
+
+  'Howl': [
+    "Howl",
+    "By Allen Ginsberg",
+    "[speech]",
+  ],
+
+  'ISS_Time_Lapse': [
+    "International Space Station Time Lapse Video",
     "[speech]",
   ],
 
@@ -908,11 +907,6 @@ content = {
   'Invincible_Winter': [
     "Invincible Winter",
     "By Georgia Ray (sometimes credited to Brienne Yudkowsky (why?))",
-    "[speech]",
-  ],
-
-  'ISS_Time_Lapse': [
-    "International Space Station Time Lapse Video",
     "[speech]",
   ],
 
@@ -1032,15 +1026,15 @@ content = {
     "[speech]",
   ],
 
-  'Nothing_Is_Mere': [
-    "Nothing is Mere",
-    "By John Keats and Richard Feynman",
-    "[speech]",
-  ],
-
   'Not_Today': [
     "Not Today",
     "By G.R.R. Martin",
+    "[speech]",
+  ],
+
+  'Nothing_Is_Mere': [
+    "Nothing is Mere",
+    "By John Keats and Richard Feynman",
     "[speech]",
   ],
 
@@ -1233,6 +1227,12 @@ content = {
     "[speech]",
   ],
 
+  'The_Goddess_of_Everything_Else': [
+    "The Goddess of Everything Else",
+    "By Scott Alexander",
+    "[speech]",
+  ],
+
   'The_Goddess_of_Everything_Else_Abridged': [
     "The Goddess of Everything Else (Abridged)",
     "By Scott Alexander",
@@ -1241,12 +1241,6 @@ content = {
 
   'The_Goddess_of_Everything_Else_First_Person': [
     "The Goddess of Everything Else (First Person Version)",
-    "By Scott Alexander",
-    "[speech]",
-  ],
-
-  'The_Goddess_of_Everything_Else': [
-    "The Goddess of Everything Else",
     "By Scott Alexander",
     "[speech]",
   ],
@@ -1400,6 +1394,12 @@ content = {
   'Zettai_Tsuyoku_Narimasu': [
     "Zettai Tsuyoku Narimasu: You will definitely become stronger",
     "by Tilia Bell",
+    "[speech]",
+  ],
+
+  'd6_activity': [
+    "d6 Activity",
+    "By Cy Carson",
     "[speech]",
   ],
 };
