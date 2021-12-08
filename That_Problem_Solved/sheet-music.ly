@@ -2,9 +2,9 @@
 
 \header {
   title = "That Problem Solved"
-  subtitle = #(if (not (ly:get-option 'compact)) "A Song of Dusk" "")
-  composer = #(if (not (ly:get-option 'compact)) "Daniel Speyer" "")
-  copyright = #(if (not (ly:get-option 'compact)) "CC-SA-BY" "")
+  subtitle = "A Song of Dusk"
+  composer = "Daniel Speyer"
+  copyright = "CC-SA-BY"
 }
 
 chExceptionMusic = {
@@ -15,11 +15,10 @@ chExceptions = #( append
   ignatzekExceptions)
 
 
-vocal = \relative c {
-  \clef "bass"
+vocal = \relative c' {
   \numericTimeSignature \time 4/4
   r2. c4
-  \repeat volta 3{
+  \repeat volta 4{
   g c f2 c4 r2
   c4 d d e d g2 r4
   g \break g8 g g r4 g4 g8[ g g] r4
@@ -34,26 +33,26 @@ vocal = \relative c {
   c a c c c e e g2~ g4
   r2 c,4 a c c b c r r c
   }  
-  {r2. c4 r1 }
+  {r2. c4 r2. c4 g c f2 c2 r r1 }
   }
 }
 
-guitar = \relative c' {
+harmony = \relative c' {
   \set chordNameExceptions = #chExceptions
   \numericTimeSignature
   g4 e c r
-  \repeat volta 3{
+  \repeat volta 4{
   <g' b, d> r <f a c> r
   r c c r
   <d f a> r <e g b> r
-  <g b d> <g b d> <g b d> r
+  <g b d>2. r4
   <g b d>8 r2. <g b d>8 r2. <g b d>8 r
-  r2 <c, e g>4 <c e g>4 
-  g' e c r
+  r2 <c, e g>2
+  g'4 e c r
   <a c e>4 r2.
   <g' b d>4 r2.
   <d f a>4 r2.
-  <g b d>8[ <g b d><g b d><g b d><g b d>] r4. 
+  <g b d>8[ <g b d><g b e><g b d f><g b d g>] r4. 
   g4 a, c r
   
   }
@@ -63,12 +62,14 @@ guitar = \relative c' {
   <a c, e>4 r2.
   <a c e>4 r2.
   <a c, e>4 r2.
-  <e g b>4 r <g b d>8 <g b d>8 <g b d>8 <g b d>8 <g b d>8 <g b d>8 
+  <e g b>4 r <g b d>8 <g b d>8 <g b e>8 <g b d f>8 <g b d g>4 
   e4 c
   r4 r1 r4 c c r
   } {
   r a c r
-  r4 <g c fis c'>2.
+  r a c r
+  r1
+  r1 <g c fis c'>
   } }
 }
   
@@ -124,20 +125,11 @@ I...
 }
 \score {
   <<
-    \new ChordNames {
-      \guitar
-    }
-    #(if (not (ly:get-option 'compact)) #{
-      \new FretBoards {
-          \guitar
-      }
-    #})
-
-      \new Voice = "one" \with {
+    \new Voice = "one" \with {
       \consists "Volta_engraver"
     }{
       \tempo 4 = 120
-      \set Staff.instrumentName = #"VOICE"
+      \set Staff.instrumentName = #"MELODY"
       \vocal
     }
     \new Lyrics = "va"\lyricsto "one" {
@@ -162,14 +154,13 @@ I...
          }
        >>
       I...
+      I got a prob -- lem
     }
-    #(if (not (ly:get-option 'compact))  #{
-      \new Voice {
-          \set Staff.instrumentName=#"GUITAR"
-          \clef "treble_8"
-          \guitar
-      }
-    #} )
+    \new Voice {
+      \set Staff.instrumentName=#"PIANO"
+      \clef "bass"
+      \harmony
+    }
   >>
   \layout {
       \context {
@@ -191,10 +182,10 @@ I...
     }
     \unfoldRepeats
     \new Voice {
-      \set Staff.midiInstrument = #"acoustic guitar (nylon)"
+      \set Staff.midiInstrument = #"acoustic grand"
       \set Staff.midiMinimumVolume = #0.5
       \set Staff.midiMaximumVolume = #0.8
-      \guitar
+      \harmony
     }
   >>
   \midi {}
