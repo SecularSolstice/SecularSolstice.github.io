@@ -7,7 +7,6 @@
   copyright = "CC-SA-BY"
 }
 
-
 chExceptionMusic = {
   <c>1-\markup{ \super 1 }
   <c e>1-\markup{ \super 1.3 }
@@ -16,8 +15,21 @@ chExceptions = #( append
   ( sequential-music-to-chord-exceptions chExceptionMusic #t)
   ignatzekExceptions)
 
+% #(if (ly:get-option 'drop)
+%   #{
+%     mk = g,
+%   #}
+%   #{
+%     mk = c
+%   #}
+% )
 
-voic = \relative c' {
+mk = #(if (ly:get-option 'drop) #{ g, #} #{ c #} )
+mkdecor = #(if (ly:get-option 'guitarcello)
+            (if (ly:get-option 'drop) #{ g #} #{ c #} )
+            (if (ly:get-option 'drop) #{ g #} #{ c' #} ))
+
+voic = \transpose c \mk \relative c' {
   \numericTimeSignature
   \time 3/4
   \repeat volta 2 {
@@ -49,7 +61,7 @@ voic = \relative c' {
 
 }
 
-decor = \relative c {
+decor =  \transpose c \mkdecor \relative c {
   \numericTimeSignature
   \time 3/4
   \repeat volta 2 {
@@ -63,9 +75,9 @@ decor = \relative c {
     c'2.
     r
     c,4 r2
-    a'4 r2
-    c,4 r2
-    a'4 r2
+    f4 r2
+    a4 r2
+    f4 r2
     g8 c, g' c, r4
     g'8 c, g' c, r4
     d'2.
@@ -84,10 +96,10 @@ decor = \relative c {
     c2.
     <c e>4 r2
     c8 e r2
+    f8 c' r2
     f,8 c' r2
     f,8 c' r2
-    f,8 c' r2
-    a4 c a
+    a,4 c a
     c a c
     a c e
     g2 e4 f2 e4 g2. ~ g4
@@ -96,16 +108,16 @@ decor = \relative c {
     r4 c, e g2 a4 f2 e8 e g2 e4 c2.
   }
   g'4 e c
-  g4 e c
-  c4 e g b2 g4 a2 g4 b2. ~ b2.
-  c,4 e g b2 b4 g2 g4 e2. ~ e2.
+  g'4 e c
+  c4 e g b2 g4 a2 g4 b2. a4 g b
+  c,4 e g b2 b4 g2 g4 e2. g4 e2
   c4 e g a2 g4 b2 g8 g a2 g4 b2.
   r4 c, g' b2 c4 a2 g8 g b2 g4 e2.
-  b'2 g4 e2. b'2 g8 r c2. f2. g2. c2.
+  b'2 g4 e2. b'2 g8 r c,2. f2. g2. c2.
   
 }
 
-accomp =  \relative c{
+accomp =  \transpose c \mk \relative c{
   \chordmode {
     \repeat volta 2 {
       s2. 
@@ -114,10 +126,10 @@ accomp =  \relative c{
       d,:m a,,:m e,:m a,,:m7
       a,,:m a,,:m e,:m a,,:m7
       a,,:m
-      d,:m e,:m f, e,:m
-      e,:m f, g, f,
-      f, g, a,:m7 g,
-      g, a,:m a,,:1.3-.5.8 a,,:1.3-.5.8
+      d,,:m e,,:m f,, e,,:m
+      e,,:m f,, g,, f,,
+      f,, g,, a,,:m7 g,,
+      g,, a,,:m a,,:1.3-.5.8 a,,:1.3-.5.8
       c,:1.3 c,:1.3
       c,:1.3 c, g,, c,
       c, g, f, c,
@@ -126,11 +138,11 @@ accomp =  \relative c{
     }
     f, g,
     c,:1.3.5.8 g,:1.3.5.8 f, g,1.:1.3.5.8
-    c,2.:1.3.5.8 g,:1.3.5.8 g, a,:1.3-.5/e
+    c,2.:1.3.5.8 g,:1.3.5.8 g, a,1.:1.3-.5/e
     c,2.:1.3.5.8 f,:1.3.5.8 g,:1.3.5.8 f, g,:1.3.5.8
     c, g,:1.3.5.8  f,:1.3.5.8 g, a,:1.3-.5/e
-    g, e,:1.4.6- g,
-    c, f, g, c:1.3.5.8
+    g, a,:1.3-.5/e g,
+    c, f, g, c:1.3.5
   }
 }
 
@@ -179,25 +191,21 @@ verse_b = \lyricmode {
   And how...
 }
 
-#(if (ly:get-option 'chordsheet) 
-     (set-global-staff-size 10))
 
 \score {
   <<
-    \new ChordNames {
-      \set chordNameExceptions = #chExceptions
-      \accomp
-    }
-    #(if (ly:get-option 'allnotations) #{
-      \new FretBoards {
+    #(if (ly:get-option 'guitarcello) #{
+      \new ChordNames {
+        \set chordNameExceptions = #chExceptions
         \accomp
       }
-    #} )
+    #})
     \new Voice = "voice" {
       \set Staff.instrumentName = #"Voice"
       \set Staff.shortInstrumentName = #"V"
       \clef "treble"
       \tempo 4=150
+      \key \mk \major
       \voic 
     }
     \new Lyrics \lyricsto "voice" {
@@ -206,17 +214,27 @@ verse_b = \lyricmode {
         \new Lyrics \verse_b
       >>
     }
-    #(if (not (ly:get-option 'chordsheet)) #{
-      \new Staff {
+    \new Staff {
+      #(if (ly:get-option 'guitarcello) #{
         \set Staff.instrumentName = #"Cello"
         \set Staff.shortInstrumentName = #"C"
         \clef "bass"
-        \decor
-      }
-    #})
-    #(if (ly:get-option 'allnotations) #{
+        #}
+        #{
+        \set Staff.instrumentName = #"Piano"
+        \set Staff.shortInstrumentName = #"P"
+        \clef "treble"
+        #}
+      )
+      \key \mk \major
+      \decor
+    }
+    #(if (or (ly:get-option 'allnotations) (not (ly:get-option 'guitarcello))) #{
       \new Staff {
-        \clef "treble_8"
+      \set Staff.instrumentName = #"Piano"
+      \set Staff.shortInstrumentName = #"P"
+        \clef "bass"
+        \key \mk \major
         \accomp
       }
     #} )
@@ -224,8 +242,6 @@ verse_b = \lyricmode {
   \layout { 
     \context {
       \Score
-      \override ChordName #'font-size = #(if (ly:get-option 'chordsheet) 8 1)
-      \override LyricText #'font-size = #(if (ly:get-option 'chordsheet) 4 1)
     }
   }
 }
@@ -240,7 +256,9 @@ verse_b = \lyricmode {
     }
     \unfoldRepeats
     \new Voice {
-      \set Staff.midiInstrument=#"cello"
+      #(if (ly:get-option 'guitarcello) #{
+        \set Staff.midiInstrument=#"cello"
+      #})
       \set Staff.midiMaximumVolume=#0.5
       \decor
     }

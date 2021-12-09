@@ -16,3 +16,8 @@ Placing this song in the arc may be tricky.  It's a little dark for
 morning, but the light in it is clearly the light of morning and not
 the light of the day before.  The cello parts that keep trying to turn
 the melody into major chords seem to help keep it lighter, though.
+
+This song is available in the original a-minor/c-major or in
+e-minor/g-major for lower voices (see the -drop sheet music).  This
+required raising the cello an octave to avoid falling of the bottom of
+the instrument.
