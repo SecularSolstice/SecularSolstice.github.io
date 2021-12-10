@@ -227,6 +227,12 @@ content = {
     "How big the universe is and how lucky we are to be a part of it",
   ],
 
+  'Galaxy_Song_2014': [
+    "Galaxy Song 2014",
+    "by Monte Python",
+    "An updated version, with less astronomy and more biology",
+  ],
+
   'Garden_Song': [
     "Garden Song",
     "By John Denver",
