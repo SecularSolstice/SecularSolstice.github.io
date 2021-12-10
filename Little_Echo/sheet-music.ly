@@ -27,7 +27,7 @@ Ev -- en though it's not the same
 It's sort of nice to say your name 
 And hear you whis -- per mine. 
 
-"[V1] My" heart is skipp -- in’. 
+"[V2] My" heart is skipp -- in’. 
 I take a ner -- vous breath. 
 I fi -- nally see your face a -- gain. 
 It’s been so long since last you left. 
