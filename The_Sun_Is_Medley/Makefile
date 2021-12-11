@@ -1,6 +1,7 @@
 PREFIX=The_Sun_Is_Medley-
-FILES_TO_LIST=lyrics.txt chord-sheet.cho chord-sheet.pdf 
+FILES_TO_LIST=lyrics.txt chord-sheet.pdf 
 
-gen/${PREFIX}lyrics.txt: chord-sheet.ugc
-	../scripts/parse_ugc.py chord-sheet.ugc --lyrics > gen/${PREFIX}lyrics.txt
+gen/${PREFIX}lyrics.txt: chord-sheet.cho
+	../scripts/chordpro-to-lyrics.sh chord-sheet.cho > gen/${PREFIX}lyrics.txt
+
 include ../scripts/Makefile.common
