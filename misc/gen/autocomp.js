@@ -295,6 +295,12 @@ content = {
     "The glory of space exploration",
   ],
 
+  'Humans_Are_Dead': [
+    "The Humans Are Dead",
+    "By Flight of the Conchords",
+    "A humorous song about the extermination of humanity.",
+  ],
+
   'Hymn_to_the_Breaking_Strain': [
     "Hymn to the Breaking Strain",
     "By Rudyard Kipling",
@@ -733,6 +739,12 @@ content = {
     "[speech]",
   ],
 
+  'Beauty_After_Trauma': [
+    "Finding Beauty After Trauma",
+    "By Rivka Fleischman",
+    "[speech]",
+  ],
+
   'Beyond_the_Reach': [
     "Beyond the Reach of God",
     "By Eliezer Yudkowsky and Raymond Arnold",
@@ -769,8 +781,19 @@ content = {
     "[speech]",
   ],
 
+  'Card_Exchange': [
+    "Card Exchange",
+    "[speech]",
+  ],
+
   'Communal_Meal': [
     "Communal Meal",
+    "[speech]",
+  ],
+
+  'COVID_We_Lost': [
+    "COVID: We Lost",
+    "by Rivka Fleischman",
     "[speech]",
   ],
 
@@ -1179,6 +1202,12 @@ content = {
     "[speech]",
   ],
 
+  'Sacrifice': [
+    "Sacrifice",
+    "By Rivka Fleischman",
+    "[speech]",
+  ],
+
   'Samurai': [
     "Samurai",
     "[speech]",
@@ -1264,6 +1293,12 @@ content = {
   'The_Cube': [
     "The Cube",
     "By Annie Gottlieb",
+    "[speech]",
+  ],
+
+  'The_End_And_The_Beginning': [
+    "The End and The Beginning",
+    "by Wislawa Szymborska; translated by Joanna Trzeciak",
     "[speech]",
   ],
 
@@ -1421,6 +1456,12 @@ content = {
   'What_I_Learned_About_Risk_from_Parenting': [
     "What I Learned About Risk from Parenting",
     "By Julia Wise",
+    "[speech]",
+  ],
+
+  'Whats_Left_To_Save': [
+    "What's Left to Save",
+    "by Maia Werbos",
     "[speech]",
   ],
 
