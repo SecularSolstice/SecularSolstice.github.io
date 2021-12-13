@@ -812,6 +812,12 @@ content = {
     "[speech]",
   ],
 
+  'Fire_Has_No_Voice': [
+    "Fire Has No Voice",
+    "By J. Bryce Hidysmith",
+    "[speech]",
+  ],
+
   'First_Winter': [
     "The First Winter",
     "By Raymond Arnold",
