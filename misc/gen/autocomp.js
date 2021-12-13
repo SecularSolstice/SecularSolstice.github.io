@@ -6,6 +6,11 @@ content = {
     "A silly song about making the best of terrible things",
   ],
 
+  'Amy_AKA_Spent_Gladiator_1': [
+    "Amy AKA Spent Gladiator 1",
+    "By The Mountain Goats",
+  ],
+
   'And_So_It_Goes': [
     "And So It Goes",
     "By Billy Joel",
@@ -368,6 +373,11 @@ content = {
     "Love, life, death, and the desperate hope for life again",
   ],
 
+  'Long_December': [
+    "Long December",
+    "By the Counting Crows",
+  ],
+
   'Mad_World': [
     "Mad World",
     "By Gary Jules",
@@ -672,6 +682,12 @@ content = {
     "Six ways the world could end",
   ],
 
+  '500_Million_2020_Addendum': [
+    "500 Million: 2020 Addendum",
+    "By Maia Werbos",
+    "[speech]",
+  ],
+
   '500_Million_But_Not_A_Single_One_More': [
     "500 Million, But Not a Single One More",
     "By Jai Dhyani",
@@ -919,6 +935,12 @@ content = {
   'I_Dont_Know': [
     "I Don't Know",
     "By Raymond Arnold",
+    "[speech]",
+  ],
+
+  'Intro_DC_2020': [
+    "Intro to a small DC Solstice for 2020",
+    "By Maia Werbos",
     "[speech]",
   ],
 
@@ -1206,6 +1228,12 @@ content = {
   'Stories_Untold': [
     "Stories Untold",
     "By Jai Dhyani",
+    "[speech]",
+  ],
+
+  'Story_from_Bergamo': [
+    "Story from Bergamo",
+    "By Daniele Macchini, translated by Silvia Stringhini, adapted by Maia Werbos",
     "[speech]",
   ],
 
