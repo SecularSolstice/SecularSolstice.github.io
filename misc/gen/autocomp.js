@@ -1083,6 +1083,12 @@ content = {
     "[speech]",
   ],
 
+  'Monastery_and_Throne': [
+    "Monastery and Throne",
+    "By Jacob Falkovich, adapted as a speech by Daniel Speyer",
+    "[speech]",
+  ],
+
   'Ms_Poppins': [
     "Ms. Poppins",
     "[speech]",
@@ -1210,6 +1216,12 @@ content = {
 
   'Samurai': [
     "Samurai",
+    "[speech]",
+  ],
+
+  'Saving_The_Spark': [
+    "Saving the Spark",
+    "By Daniel Speyer",
     "[speech]",
   ],
 
@@ -1431,6 +1443,12 @@ content = {
 
   'We_Are_Here': [
     "We Are Here",
+    "By Daniel Speyer",
+    "[speech]",
+  ],
+
+  'Welcome_Are_We_All_Here': [
+    "Welcome -- Are We All Here?",
     "By Daniel Speyer",
     "[speech]",
   ],
