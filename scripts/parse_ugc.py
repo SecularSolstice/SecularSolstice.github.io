@@ -54,24 +54,24 @@ def mergechords(text, chords):
     return out
     
 savedchords = None
-for p in parse(file(sys.argv[1])):
+for p in parse(open(sys.argv[1])):
     if sys.argv[2] == '--lyrics':
         if p['klass']=='text':
-            print p['val']
+            print(p['val'])
         if p['klass']=='blank':
-            print
+            print()
     if sys.argv[2] == '--cp':
         if p['klass']=='chords':
             if savedchords:
-                print ' '.join([ '[%s]'%c[1] for c in savedchords ])
+                print(' '.join([ '[%s]'%c[1] for c in savedchords ]))
             savedchords = p['val']
         if p['klass']=='text':
             if savedchords:
-                print mergechords(p['val'], savedchords)
+                print(mergechords(p['val'], savedchords))
                 savedchords = None
             else:
-                print p['val']
+                print(p['val'])
         if p['klass']=='blank':
-            print
+            print()
         if p['klass']=='title':
-            print '{title: %s}' % p['val']
+            print('{title: %s}' % p['val'])
