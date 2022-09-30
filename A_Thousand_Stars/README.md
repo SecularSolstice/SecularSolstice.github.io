@@ -2,7 +2,7 @@
 ## By Siegfried Köhler, translated by Daniel Böttger
 ## Beauty in Dark Places
 
-In the German Democratic Republic, where I [Daniel Böttger] was born,
+In the German Democratic Republic, where I (Daniel Böttger) was born,
 one of the most popular Christmas songs was [Tausend Sterne sind ein
 Dom](https://en.wikipedia.org/wiki/Tausend_Sterne_sind_ein_Dom). It
 was written in the aftermath of World War 2, by the music student Siegfried
