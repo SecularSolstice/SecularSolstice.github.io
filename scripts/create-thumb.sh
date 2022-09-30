@@ -16,10 +16,11 @@ elif [ -e "gen/${PREFIX}chord-chart.html" ]; then
     cat gen/${PREFIX}chord-chart.html |
         sed 's/Chord Chart//' |
         sed "s@</head>@<style>${CSS}</style></head>@" > ${TMP}
-    wkhtmltoimage --height 315  --width 600 --disable-smart-width \
-                  ${TMP} gen/thumb.png
+    wkhtmltoimage --height 315 --width 600 --disable-smart-width \
+                  --enable-local-file-access ${TMP} gen/thumb.png
     rm ${TMP}
 else
+    mkdir -p gen
     convert \
         -crop 1200x630+0+120 \
         -geometry 600x400 \
