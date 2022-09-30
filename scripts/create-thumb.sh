@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -euxo pipefail
+
 export PREFIX="$1"
 
 if [ -e "gen/${PREFIX}sheet-music.pdf" ]; then 

@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -euxo pipefail
+
 cat $1 |
   sed 's/\[[^]]*\]//g' |
   sed 's/{[^}]*}//g' |

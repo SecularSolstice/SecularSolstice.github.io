@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -uxo pipefail
+
 TITLE="$(basename $(pwd) | tr '_' ' ')"
 
 cat <<EOF

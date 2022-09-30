@@ -1,4 +1,6 @@
-#!/usr/bin/env bash 
+#!/usr/bin/env bash
+
+set -eux
 
 TITLE="$(grep '^# ' README.md | head -n 1 | sed 's/# //g')"
 if [ -z "$TITLE" ]; then 
