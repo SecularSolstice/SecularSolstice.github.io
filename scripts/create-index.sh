@@ -37,7 +37,7 @@ echo "  </head>  <body> "
 cat ../misc/header.html
 
 echo '<div class=notes>'
-pandoc -f markdown README.md
+pandoc --wrap=none -f markdown README.md | sed "s/’/'/g;s/–/--/g;s/[“”]/\&quot\;/g;s/ / /g;s/…/.../g"
 echo "<p><a href=https://github.com/SecularSolstice/SecularSolstice.github.io/edit/master/$(basename $PWD)/README.md class=editbutton>edit description</a></p>"
 echo '</div>'
 

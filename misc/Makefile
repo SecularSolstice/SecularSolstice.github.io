@@ -6,7 +6,7 @@ gen/%.html: %.md head.html header.html
 	head -n 1 $< | tr -d '#' >> $@
 	echo '</title></head><body>' >> $@
 	cat header.html >> $@
-	pandoc -f markdown $< >> $@
+	pandoc --wrap=none -f markdown $< >> $@
 	echo '</body></html>' >> $@
 
 gen/Programs.html: ../scripts/create-program-list.sh $(wildcard ../lists/*.lst)
