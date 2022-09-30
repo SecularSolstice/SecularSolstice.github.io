@@ -11,10 +11,10 @@ gen/${PREFIX}ending-melody.pdf: ending-melody.ly
 	lilypond -o gen/${PREFIX}ending-melody ending-melody.ly
 
 gen/${PREFIX}both-snippets.pdf: gen/${PREFIX}ending-melody.pdf gen/${PREFIX}motif.pdf
-	pdf90 gen/${PREFIX}ending-melody.pdf
-	pdf90 gen/${PREFIX}motif.pdf
-	pdfnup ${PREFIX}ending-melody-rotated90.pdf ${PREFIX}motif-rotated90.pdf
-	pdf270 ${PREFIX}motif-rotated90-nup.pdf
+	pdfjam --angle 90 gen/${PREFIX}ending-melody.pdf --outfile ${PREFIX}ending-melody-rotated90.pdf
+	pdfjam --angle 90 gen/${PREFIX}motif.pdf --outfile ${PREFIX}motif-rotated90.pdf
+	pdfjam --nup 2x1 ${PREFIX}ending-melody-rotated90.pdf ${PREFIX}motif-rotated90.pdf --outfile ${PREFIX}motif-rotated90-nup.pdf
+	pdfjam --angle 270 ${PREFIX}motif-rotated90-nup.pdf --outfile ${PREFIX}motif-rotated90-nup-rotated270.pdf
 	mv ${PREFIX}motif-rotated90-nup-rotated270.pdf gen/${PREFIX}both-snippets.pdf
 	rm *rotated*.pdf
 
