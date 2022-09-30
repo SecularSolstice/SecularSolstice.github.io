@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 
-import sys,csv
+import sys,csv,os
 
 fn = sys.argv[1]
 
 inf = open(fn)
+os.makedirs('gen', exist_ok=True)
 outf = open('gen/'+fn.replace('.lst','.html'), 'w')
 
 title = fn.replace('.lst','').replace('_',' ')

@@ -1,12 +1,13 @@
 #!/usr/bin/env python
 
-import sys,csv
+import sys,csv,os
 
 inf = open(sys.argv[1])
 outfn = sys.argv[2]
 if outfn=='-':
     outf=sys.stdout
 else:
+    os.makedirs('gen', exist_ok=True)
     outf=open(outfn,'w')
 col = int(sys.argv[3])
 

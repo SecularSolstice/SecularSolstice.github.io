@@ -2,6 +2,7 @@ PREFIX=Endless_Light_Around-
 FILES_TO_LIST=lyrics.txt chord-chart.html motif.pdf ending-melody.pdf both-snippets.pdf
 
 gen/${PREFIX}lyrics.txt: chart.csv
+	mkdir -p gen
 	../scripts/csv-to-lyrics.py chart.csv - 6 | sed 's/  */ /g' > gen/${PREFIX}lyrics.txt
 
 gen/${PREFIX}motif.pdf: motif.ly

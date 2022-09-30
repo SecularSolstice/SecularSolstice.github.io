@@ -20,6 +20,7 @@ case $TYPE in
 FILES_TO_LIST=lyrics.txt
 
 gen/\${PREFIX}lyrics.txt: lyrics.txt
+	mkdir -p gen
 	cp lyrics.txt gen/\${PREFIX}lyrics.txt
 EOF
         touch $NAME/lyrics.txt
@@ -49,6 +50,7 @@ EOF
 FILES_TO_LIST=chord-sheet.pdf chord-sheet-2col.pdf lyrics.txt
 
 gen/\${PREFIX}lyrics.txt: chord-sheet.cho
+	mkdir -p gen
 	../scripts/chordpro-to-lyrics.sh chord-sheet.cho > gen/\${PREFIX}lyrics.txt
 EOF
         touch $NAME/chord-sheet.cho
@@ -60,6 +62,7 @@ EOF
 FILES_TO_LIST=lyrics.txt sheet-music.pdf voice-part.pdf cello-part.pdf sheet-music-compact.pdf from-midi.mp3
 
 gen/\${PREFIX}lyrics.txt: sheet-music.ly
+	mkdir -p gen
 	../scripts/ly-to-lyrics.py sheet-music.ly gen/\${PREFIX}lyrics.txt
 EOF
         touch $NAME/sheet-music.ly

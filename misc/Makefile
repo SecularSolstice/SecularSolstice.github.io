@@ -2,6 +2,7 @@ gen/autocomp.js: $(wildcard ../*) $(wildcard ../speeches/*) $(wildcard ../lists/
 	../scripts/gather_lists.sh > gen/autocomp.js
 
 gen/%.html: %.md head.html header.html
+	mkdir -p gen
 	cat head.html > $@
 	head -n 1 $< | tr -d '#' >> $@
 	echo '</title></head><body>' >> $@
