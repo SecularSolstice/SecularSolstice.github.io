@@ -1,11 +1,11 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 import sys,csv
 
 fn = sys.argv[1]
 
-inf = file(fn)
-outf = file('gen/'+fn.replace('.lst','.html'), 'w')
+inf = open(fn)
+outf = open('gen/'+fn.replace('.lst','.html'), 'w')
 
 title = fn.replace('.lst','').replace('_',' ')
 
@@ -21,7 +21,7 @@ outf.write("""
   <body>
     %s
     <h1>%s</h1>
-""" % (title,file('../misc/header.html').read(),title))
+""" % (title,open('../misc/header.html').read(),title))
 
 def process_instruction(line):
     if line[0]=='[' and line[-1]==']':
@@ -32,7 +32,7 @@ def process_instruction(line):
 
 def process_song(line):
     try:
-        readme = file('../%s/README.md' % line)
+        readme = open('../%s/README.md' % line)
     except IOError:
         return False
     for rl in readme:
@@ -52,7 +52,7 @@ def process_song(line):
 def process_speech(line):
     pieces = line.split(': ')
     try:
-        f = file('../speeches/%s.md' % pieces[0])
+        f = open('../speeches/%s.md' % pieces[0])
     except IOError:
         return False
     for fl in f:

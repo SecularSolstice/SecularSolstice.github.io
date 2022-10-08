@@ -1,13 +1,13 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 
 import sys,csv
 
-inf = file(sys.argv[1])
+inf = open(sys.argv[1])
 outfn = sys.argv[2]
 if outfn=='-':
     outf=sys.stdout
 else:
-    outf=file(outfn,'w')
+    outf=open(outfn,'w')
 
 title = outfn.split('/')[-1].replace('-',' ').replace('_',' ').replace('.html','').title()
 

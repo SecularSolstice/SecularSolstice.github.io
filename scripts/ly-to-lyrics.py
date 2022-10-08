@@ -1,10 +1,10 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 import sys
 
-inf = file(sys.argv[1])
+inf = open(sys.argv[1])
 outfn = sys.argv[2]
-outf = (outfn=='-') and sys.stdout or file(outfn,'w')
+outf = (outfn=='-') and sys.stdout or open(outfn,'w')
 if len(sys.argv) > 3:
     chorus_before = set(sys.argv[3].split(','))
 else:
