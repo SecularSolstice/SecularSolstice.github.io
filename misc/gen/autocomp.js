@@ -239,7 +239,7 @@ content = {
 
   'Galaxy_Song_2014': [
     "Galaxy Song 2014",
-    "by Monte Python",
+    "by Monty Python",
     "An updated version, with less astronomy and more biology",
   ],
 

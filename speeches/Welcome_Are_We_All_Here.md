@@ -27,7 +27,7 @@ And I ask you to sing along. At whatever volume you're comfortable with -- even 
 
 And I ask you not to applaud. Applause is a custom from performances, not rituals. Also, you're active participants, so you'd be applauding yourself. And that's just gauche. There'll be a chance to applaud individuals at the end when I thank people by name.
 
-Now, those of you who have been to a bunch of these before, which I suspect is most of you, may have noticed that there's one Monte Python reference I'm rather fond of which we left out.  I left it out because I'm not sure it's entirely true.  And this is a night for truth.
+Now, those of you who have been to a bunch of these before, which I suspect is most of you, may have noticed that there's one Monty Python reference I'm rather fond of which we left out.  I left it out because I'm not sure it's entirely true.  And this is a night for truth.
 
 This is our first really big gathering since 2020 and I have to ask: did we lose anyone?
 
