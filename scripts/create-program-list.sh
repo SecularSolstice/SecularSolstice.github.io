@@ -8,7 +8,7 @@ cat <<EOF
 <html>
   <head>
     <title>Secular Solstice Resources</title>
-    <link rel=stylesheet href=../../theme.css>
+    <link rel=stylesheet href="/theme.css">
     <script src='../../theme-switcher.js'></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1.0">

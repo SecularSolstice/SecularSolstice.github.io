@@ -1,5 +1,5 @@
 html {
-    background-image: url(dawn-bkg.jpg);
+    background-image: url("/dawn-bkg.jpg");
     background-color: #334477;
     background-size: cover;
     background-position: center 80%;
@@ -10,7 +10,7 @@ html {
 }
 
 html.light {
-    background-image: url(snow-bkg.jpg);
+    background-image: url("/snow-bkg.jpg");
     background-color: white;
     color: black;
 }
