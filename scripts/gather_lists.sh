@@ -6,14 +6,21 @@ cd $(dirname $0)/..
 
 echo 'content = {'
 
-for i in  */README.md; do
+for i in songs/*/README.md; do
+    echo
+    echo "  '$i': [" | sed 's@songs/@@;s@/README.md@@'
+    grep '#' $i | head -n 3 | sed 's/"/\\"/g' | sed 's/^#* */    "/' | sed 's/$/",/'
+    echo '  ],'
+done
+
+for i in */README.md; do
     echo
     echo "  '$i': [" | sed 's@/README.md@@'
     grep '#' $i | head -n 3 | sed 's/"/\\"/g' | sed 's/^#* */    "/' | sed 's/$/",/'
     echo '  ],'
 done
 
-for i in  speeches/*.md; do
+for i in speeches/*.md; do
     echo
     echo "  '$i': [" | sed 's@speeches/@@' | sed 's/.md//'
     grep '#' $i | head -n 2 | sed 's/^#* */    "/' | sed 's/$/",/'

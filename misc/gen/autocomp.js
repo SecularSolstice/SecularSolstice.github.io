@@ -1,15 +1,15 @@
 content = {
 
-  'A_Thousand_Stars': [
-    "A Thousand Stars",
-    "By Siegfried Köhler, translated by Daniel Böttger",
-    "Beauty in Dark Places",
-  ],
-
   'Always_Look_on_the_Bright_Side': [
     "Always Look on the Bright Side",
     "By Monty Python",
     "A silly song about making the best of terrible things",
+  ],
+
+  'Bring_the_Light': [
+    "Bring the Light",
+    "By Alex Federici and Raymond Arnold",
+    "We call out to the sun with imagery of different eras",
   ],
 
   'Amy_AKA_Spent_Gladiator_1': [
@@ -21,6 +21,12 @@ content = {
     "And So It Goes",
     "By Billy Joel",
     "A lament of love, pain and acceptance",
+  ],
+
+  'A_Thousand_Stars': [
+    "A Thousand Stars",
+    "By Siegfried Köhler, translated by Daniel Böttger",
+    "Beauty in Dark Places",
   ],
 
   'Baby_Genie': [
@@ -87,12 +93,6 @@ content = {
     "Brighter Than Today",
     "By Raymond Arnold",
     "Our central anthem of hope, starting from the invention of fire",
-  ],
-
-  'Bring_the_Light': [
-    "Bring the Light",
-    "By Alex Federici and Raymond Arnold",
-    "We call out to the sun with imagery of different eras",
   ],
 
   'Bring_the_Light_Reprise': [
