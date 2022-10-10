@@ -6,12 +6,6 @@ content = {
     "A silly song about making the best of terrible things",
   ],
 
-  'Bring_the_Light': [
-    "Bring the Light",
-    "By Alex Federici and Raymond Arnold",
-    "We call out to the sun with imagery of different eras",
-  ],
-
   'Amy_AKA_Spent_Gladiator_1': [
     "Amy AKA Spent Gladiator 1",
     "By The Mountain Goats",
@@ -93,6 +87,12 @@ content = {
     "Brighter Than Today",
     "By Raymond Arnold",
     "Our central anthem of hope, starting from the invention of fire",
+  ],
+
+  'Bring_the_Light': [
+    "Bring the Light",
+    "By Alex Federici and Raymond Arnold",
+    "We call out to the sun with imagery of different eras",
   ],
 
   'Bring_the_Light_Reprise': [
