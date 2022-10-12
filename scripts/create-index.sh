@@ -61,7 +61,6 @@ echo "</p>"
 echo "<h2>Files</h2><ul>"
 FILES=$( ls gen/*.pdf gen/*.midi gen/*.html gen/*.mp3 gen/*.txt gen/*.png gen/*.chordpro gen/*.cho 2>/dev/null |
                grep -v index |
-               grep -v lyrics.txt |
                sed 's@gen/@@' |
                sort)
 for f in $FILES; do
