@@ -93,3 +93,11 @@ MAKEFLAGS += --no-builtin-rules
 
 # Song-specific rules
 include Makefile.specific
+
+
+# Utils
+.PHONY: broken-links
+broken-links:
+	-wget --spider -r -nd -nv -l 10 -o run1.log  http://localhost:4000
+	-grep --color -B1 'broken link!' run1.log
+	rm run1.log

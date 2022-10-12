@@ -10,7 +10,7 @@ Line 2: G4 A  F# F# E  F# G  F# D  E
 Line 3: G3 A  B  C  B  A  B  A  G  A    
 Line 4: A  B  C  D  C  B  C  B  G  A
 
-[Editor's note: I tried to transcibe the melody above into [sheet music](Scarborough_Fair_Triumphant_Reprise-countermelody-sheet-music.pdf) but am not confident I did it correctly.  If I did, then the range will be an issue for many singers.]
+[Editor's note: I tried to transcibe the melody above into [sheet music](countermelody-sheet-music.pdf) but am not confident I did it correctly.  If I did, then the range will be an issue for many singers.]
 
 To Sing: 
 

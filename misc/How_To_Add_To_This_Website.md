@@ -112,7 +112,7 @@ list.
 
 For songs used at Solstice, but not written for it and easy to find
 elsewhere, I sometimes created stubs.  For example, [John Lennon's
-Imagine](/Imagine/gen).  This enables including the song in setlists,
+Imagine](/songs/Imagine/gen).  This enables including the song in setlists,
 but doesn't take much effort or get in anyone's way.  When I do this,
 I *don't* include them in the All Songs list, to avoid cluttering that
 with links to pointless pages.

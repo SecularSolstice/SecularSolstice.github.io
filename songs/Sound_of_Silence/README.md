@@ -8,4 +8,4 @@ The [1965 remix](https://www.youtube.com/watch?v=4fWyzwo1xg0) added electric gui
 
 In 2015, the band Disturbed [covered the song](https://www.youtube.com/watch?v=u9Dg-g7t2l4) with Paul Simon's blessing.  They transposed it into a minor key, slowed the tempo, simplified the instrumentation and turned the energy into that of pain.
 
-In 2020 Laura Vaughan and Oberon Oberon Dixon-Luinenburg (?) produced a [solstice version](Sound-of-Silence-2020.mp3) which used only piano for accompaniment, and combined an extra low accompaniment with an extra high vocal line for added creepiness.  [A recording of this from the 2020 North American Distributed Chorus](https://www.jefftk.com/solstice-2020/04-sounds-of-silence--2020-12-20-013833.mp3) is available.
+In 2020 Laura Vaughan and Oberon Oberon Dixon-Luinenburg (?) produced a [solstice version](../Sound-of-Silence-2020.mp3) which used only piano for accompaniment, and combined an extra low accompaniment with an extra high vocal line for added creepiness.  [A recording of this from the 2020 North American Distributed Chorus](https://www.jefftk.com/solstice-2020/04-sounds-of-silence--2020-12-20-013833.mp3) is available.

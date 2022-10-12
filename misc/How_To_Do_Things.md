@@ -54,7 +54,7 @@ The format of these files is very simple:
         .
 
 
-You may wish to use the [list building tool](list_building.html) which provides smart auto-complete.  Or not.  Whichever.  Note that the tool does not have a save button: you'll need to copy+paste the content in and out.  But it's still nice to not have to look up exact names of things.
+You may wish to use the [list building tool](../list_building.html) which provides smart auto-complete.  Or not.  Whichever.  Note that the tool does not have a save button: you'll need to copy+paste the content in and out.  But it's still nice to not have to look up exact names of things.
 
 Note that the grand list of programs puts programs A-L in th left column and M-Z in the right.  This may not look good after you've added programs.  If you feel up to it, meddle with the `create-program-list.sh` script.  Or bug Daniel.
 
@@ -88,9 +88,9 @@ Format can be one of the following (so far; growth mindset):
 
 * **stub**: No content, just notes.  Often a good choice for well-documented outside songs that we still want to discuss how to use in a Solstice context
 * **text**: Just lyrics as a text file, no attempt to record music
-* **ugc**: Ultimate Guitar Chord format.  With chord names above lyrics.  Always Look on the Bright Side provides an [example](/Always_Look_on_the_Bright_Side/chord-sheet.ugc).
-* **cho**: Chordpro Format, with chords in brackets amidst lyrics.  There's some bonus features for optimal viewing on an iphone while performing.  Somewhere to Begin provides an [example](/Somewhere_to_Begin/chord-sheet.cho)
-* **ly**: Lilypond Format, complete sheet music.  This format is [documented](https://lilypond.org/manuals.html).  Bring the Light offers a relatively straightforward [example](/Bring_the_Light/sheet-music.ly).  If you're using this format seriously, you'll probably want the [Frescobaldi editor](https://frescobaldi.org).
+* **ugc**: Ultimate Guitar Chord format.  With chord names above lyrics.  Always Look on the Bright Side provides an [example](/songs/Always_Look_on_the_Bright_Side/chord-sheet.ugc).
+* **cho**: Chordpro Format, with chords in brackets amidst lyrics.  There's some bonus features for optimal viewing on an iphone while performing.  Somewhere to Begin provides an [example](/songs/Somewhere_to_Begin/chord-sheet.cho)
+* **ly**: Lilypond Format, complete sheet music.  This format is [documented](https://lilypond.org/manuals.html).  Bring the Light offers a relatively straightforward [example](/songs/Bring_the_Light/sheet-music.ly).  If you're using this format seriously, you'll probably want the [Frescobaldi editor](https://frescobaldi.org).
 
 This script will create a directory for the song and the relevant files (though the files with the content will be empty).
 
@@ -154,7 +154,7 @@ list.
 
 For songs used at Solstice, but not written for it and easy to find
 elsewhere, I sometimes created stubs.  For example, [John Lennon's
-Imagine](/Imagine/gen).  This enables including the song in setlists,
+Imagine](/songs/Imagine/gen).  This enables including the song in setlists,
 but doesn't take much effort or get in anyone's way.  When I do this,
 I *don't* include them in the All Songs list, to avoid cluttering that
 with links to pointless pages.
