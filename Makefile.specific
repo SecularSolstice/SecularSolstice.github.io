@@ -1,0 +1,181 @@
+# Lyrics from charts
+.PRECIOUS: songs/Bitter_Wind_Blown/gen/lyrics.txt
+songs/Bitter_Wind_Blown/gen/lyrics.txt: songs/Bitter_Wind_Blown/chart.csv
+	mkdir -p $(@D)
+	./scripts/csv-to-lyrics.py $^ $@ 7
+
+.PRECIOUS: songs/Bitter_Wind_March/gen/lyrics.txt
+songs/Bitter_Wind_March/gen/lyrics.txt: songs/Bitter_Wind_March/chart.csv
+	mkdir -p $(@D)
+	./scripts/csv-to-lyrics.py $^ $@ 7
+
+.PRECIOUS: songs/Bring_the_Light/gen/lyrics.txt
+songs/Bring_the_Light/gen/lyrics.txt: songs/Bring_the_Light/chart.csv
+	mkdir -p $(@D)
+	./scripts/csv-to-lyrics.py $^ $@ 6
+
+.PRECIOUS: songs/Blowin_in_the_Wind/gen/lyrics.txt
+songs/Blowin_in_the_Wind/gen/lyrics.txt: songs/Blowin_in_the_Wind/chart.csv
+	mkdir -p $(@D)
+	./scripts/csv-to-lyrics.py $^ $@ 6
+
+.PRECIOUS: songs/Chasing_Patterns/gen/lyrics.txt
+songs/Chasing_Patterns/gen/lyrics.txt: songs/Chasing_Patterns/chart.csv
+	mkdir -p $(@D)
+	./scripts/csv-to-lyrics.py $^ $@ 6
+
+.PRECIOUS: songs/Do_You_Realize/gen/lyrics.txt
+songs/Do_You_Realize/gen/lyrics.txt: songs/Do_You_Realize/chart.csv
+	mkdir -p $(@D)
+	./scripts/csv-to-lyrics.py $^ $@ 10
+
+.PRECIOUS: songs/Endless_Light/gen/lyrics.txt
+songs/Endless_Light/gen/lyrics.txt: songs/Endless_Light/chart.csv
+	mkdir -p $(@D)
+	./scripts/csv-to-lyrics.py $^ $@ 6
+
+.PRECIOUS: songs/Endless_Light_Above/gen/lyrics.txt
+songs/Endless_Light_Above/gen/lyrics.txt: songs/Endless_Light_Above/chart.csv
+	mkdir -p $(@D)
+	./scripts/csv-to-lyrics.py $^ $@ 6
+
+.PRECIOUS: songs/Endless_Light_Around/gen/lyrics.txt
+songs/Endless_Light_Around/gen/lyrics.txt: songs/Endless_Light_Around/chart.csv
+	mkdir -p $(@D)
+	./scripts/csv-to-lyrics.py $^ $@ 6
+
+.PRECIOUS: songs/Five_Thousand_Years/gen/lyrics.txt
+songs/Five_Thousand_Years/gen/lyrics.txt: songs/Five_Thousand_Years/chart.csv
+	mkdir -p $(@D)
+	./scripts/csv-to-lyrics.py $^ $@ 6
+
+.PRECIOUS: songs/Forever_Young/gen/lyrics.txt
+songs/Forever_Young/gen/lyrics.txt: songs/Forever_Young/chart.csv
+	mkdir -p $(@D)
+	./scripts/csv-to-lyrics.py $^ $@ 5
+
+.PRECIOUS: songs/Gather_Round/gen/lyrics.txt
+songs/Gather_Round/gen/lyrics.txt: songs/Gather_Round/chart.csv
+	mkdir -p $(@D)
+	./scripts/csv-to-lyrics.py $^ $@ 6
+
+.PRECIOUS: songs/Give_My_Your_Tired/gen/lyrics.txt
+songs/Give_My_Your_Tired/gen/lyrics.txt: songs/Give_My_Your_Tired/chart.csv
+	mkdir -p $(@D)
+	./scripts/csv-to-lyrics.py $^ $@ 5
+
+.PRECIOUS: songs/Here_and_Now/gen/lyrics.txt
+songs/Here_and_Now/gen/lyrics.txt: songs/Here_and_Now/chart.csv
+	mkdir -p $(@D)
+	./scripts/csv-to-lyrics.py $^ $@ 5
+
+.PRECIOUS: songs/Here_Comes_the_Sun/gen/lyrics.txt
+songs/Here_Comes_the_Sun/gen/lyrics.txt: songs/Here_Comes_the_Sun/chart.csv
+	mkdir -p $(@D)
+	./scripts/csv-to-lyrics.py $^ $@ 5
+
+.PRECIOUS: songs/Hymn_to_the_Breaking_Strain/gen/lyrics.txt
+songs/Hymn_to_the_Breaking_Strain/gen/lyrics.txt: songs/Hymn_to_the_Breaking_Strain/chart.csv
+	mkdir -p $(@D)
+	./scripts/csv-to-lyrics.py $^ $@ 5
+
+.PRECIOUS: songs/Seasons_of_Love/gen/lyrics.txt
+songs/Seasons_of_Love/gen/lyrics.txt: songs/Seasons_of_Love/chart.csv
+	mkdir -p $(@D)
+	./scripts/csv-to-lyrics.py $^ $@ 6
+
+.PRECIOUS: songs/Something_Impossible/gen/lyrics.txt
+songs/Something_Impossible/gen/lyrics.txt: songs/Something_Impossible/chart.csv
+	mkdir -p $(@D)
+	./scripts/csv-to-lyrics.py $^ $@ 5 
+
+.PRECIOUS: songs/Time_Wrote_the_Rocks/gen/lyrics.txt
+songs/Time_Wrote_the_Rocks/gen/lyrics.txt: songs/Time_Wrote_the_Rocks/chart.csv
+	mkdir -p $(@D)
+	./scripts/csv-to-lyrics.py $^ $@ 7
+
+.PRECIOUS: songs/Uplift/gen/lyrics.txt
+songs/Uplift/gen/lyrics.txt: songs/Uplift/chart.csv
+	mkdir -p $(@D)
+	./scripts/csv-to-lyrics.py $^ $@ 6
+
+.PRECIOUS: songs/Walk_With_Me/gen/lyrics.txt
+songs/Walk_With_Me/gen/lyrics.txt: songs/Walk_With_Me/chart.csv
+	mkdir -p $(@D)
+	./scripts/csv-to-lyrics.py $^ $@ 5
+
+.PRECIOUS: songs/When_I_Die/gen/lyrics.txt
+songs/When_I_Die/gen/lyrics.txt: songs/When_I_Die/chart.csv
+	mkdir -p $(@D)
+	./scripts/csv-to-lyrics.py $^ $@ 5
+
+.PRECIOUS: songs/X_Days_of_X_Risk/gen/lyrics.txt
+songs/X_Days_of_X_Risk/gen/lyrics.txt: songs/X_Days_of_X_Risk/chart.csv
+	mkdir -p $(@D)
+	./scripts/csv-to-lyrics.py $^ $@ 5
+
+# Rules specific to Die Gedanken sind frei
+.PRECIOUS: songs/%/gen/sheet-music-english.pdf
+songs/%/gen/sheet-music-english.pdf: songs/%/sheet-music.ly
+	lilypond -denglish -o $(@D)/sheet-music-english $^
+
+# Rules specific to Endless Light
+.PRECIOUS: songs/%/gen/motif.pdf
+songs/%/gen/motif.pdf: songs/%/motif.ly
+	lilypond -o $(@D)/motif $^
+
+.PRECIOUS: songs/%/gen/ending-melody.pdf
+songs/%/gen/ending-melody.pdf: songs/%/ending-melody.ly
+	lilypond -o $(@D)/ending-melody $^
+
+.PRECIOUS: songs/%/gen/both-snippets.pdf
+songs/%/gen/both-snippets.pdf: songs/%/gen/ending-melody.pdf songs/%/gen/motif.pdf
+	pdfjam --angle 90 $(@D)/ending-melody.pdf --outfile $(@D)/ending-melody-rotated90.pdf
+	pdfjam --angle 90 $(@D)/motif.pdf --outfile $(@D)/motif-rotated90.pdf
+	pdfjam --nup 2x1 $(@D)/ending-melody-rotated90.pdf $(@D)/motif-rotated90.pdf --outfile $(@D)/motif-rotated90-nup.pdf
+	pdfjam --angle 270 $(@D)/motif-rotated90-nup.pdf --outfile $(@D)/motif-rotated90-nup-rotated270.pdf
+	mv $(@D)/motif-rotated90-nup-rotated270.pdf $(@D)/both-snippets.pdf
+	rm $(@D)/*rotated*.pdf
+
+# Rules specific to I Have Seen the Tops of Clouds
+.PRECIOUS: songs/%/gen/sheet-music-drop.pdf
+songs/%/gen/sheet-music-drop.pdf: songs/%/sheet-music.ly
+	lilypond -ddrop -o $(@D)/sheet-music-drop $^
+	rm $(@D)/sheet-music-drop.midi
+
+.PRECIOUS: songs/%/gen/sheet-music-high-gc.pdf
+songs/%/gen/sheet-music-high-gc.pdf: songs/%/sheet-music.ly
+	lilypond -dguitarcello -o $(@D)/sheet-music-allnotations-high-gc $^
+	rm $(@D)/sheet-music-allnotations-high-gc.midi
+
+# Rules specific to Let There Be Love
+.PRECIOUS: songs/%/gen/sheet-music-nopiano.pdf
+songs/%/gen/sheet-music-nopiano.pdf: songs/%/sheet-music.ly
+	lilypond -dnopiano -o $(@D)/sheet-music-nopiano $^
+	rm $(@D)/sheet-music-nopiano.midi
+
+# Rules specific to Scarborough Fair Triumphant Reprise
+.PRECIOUS: songs/%/gen/countermelody-sheet-music.pdf
+songs/%/gen/countermelody-sheet-music.pdf: songs/%/countermelody.ly
+	lilypond -o $(@D)/countermelody-sheet-music $^
+
+# Rules specific to Voicing of Fear
+.PRECIOUS: songs/%/gen/voice-part.pdf
+songs/%/gen/voice-part.pdf: songs/%/sheet-music.ly
+	lilypond -dhidepiano -dhidecello -o $(@D)/voice-part $^
+	rm $(@D)/voice-part.midi
+
+.PRECIOUS: songs/%/gen/cello-part.pdf
+songs/%/gen/cello-part.pdf: songs/%/sheet-music.ly
+	lilypond -dhidevoice -dhidepiano -o $(@D)/cello-part $^
+	rm $(@D)/cello-part.midi
+
+.PRECIOUS: songs/%/gen/sheet-music-compact.pdf
+songs/%/gen/sheet-music-compact.pdf: songs/%/sheet-music.ly
+	lilypond -dhidecello -o $(@D)/sheet-music-compact $^
+	rm $(@D)/sheet-music-compact.midi
+
+# Rules specific to Winter Is Icumen In
+songs/%/gen/sheet-music-modern.pdf: songs/%/sheet-music.ly
+	lilypond -dmodern -o $(@D)/sheet-music-modern $^
+	rm $(@D)/sheet-music-modern.midi

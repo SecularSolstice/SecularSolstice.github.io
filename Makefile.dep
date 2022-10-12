@@ -1,0 +1,89 @@
+songs/That_Problem_Solved/gen/index.html: songs/That_Problem_Solved/gen/lyrics.txt songs/That_Problem_Solved/gen/sheet-music.pdf songs/That_Problem_Solved/gen/from-midi.mp3
+songs/Forever_Young/gen/index.html: songs/Forever_Young/gen/lyrics.txt songs/Forever_Young/gen/chord-chart.html
+songs/Voicing_of_Fear/gen/index.html: songs/Voicing_of_Fear/gen/lyrics.txt songs/Voicing_of_Fear/gen/sheet-music.pdf songs/Voicing_of_Fear/gen/voice-part.pdf songs/Voicing_of_Fear/gen/cello-part.pdf songs/Voicing_of_Fear/gen/sheet-music-compact.pdf songs/Voicing_of_Fear/gen/from-midi.mp3
+songs/Malthusian_Trap_Song/gen/index.html: songs/Malthusian_Trap_Song/gen/lyrics.txt
+songs/Uplift/gen/index.html: songs/Uplift/gen/lyrics.txt songs/Uplift/gen/chord-chart.html
+songs/Give_My_Your_Tired/gen/index.html: songs/Give_My_Your_Tired/gen/lyrics.txt songs/Give_My_Your_Tired/gen/chord-chart.html
+songs/Five_Thousand_Years/gen/index.html: songs/Five_Thousand_Years/gen/lyrics.txt songs/Five_Thousand_Years/gen/chord-chart.html
+songs/The_Drummers_Little_Boy/gen/index.html: songs/The_Drummers_Little_Boy/gen/lyrics.txt
+songs/Find_My_Tribe/gen/index.html: songs/Find_My_Tribe/gen/lyrics.txt
+songs/Stopping_in_the_Woods/gen/index.html: songs/Stopping_in_the_Woods/gen/lyrics.txt songs/Stopping_in_the_Woods/gen/chord-chart.html
+songs/Endless_Light/gen/index.html: songs/Endless_Light/gen/lyrics.txt songs/Endless_Light/gen/chord-chart.html
+songs/Hymn_to_the_Breaking_Strain/gen/index.html: songs/Hymn_to_the_Breaking_Strain/gen/lyrics.txt songs/Hymn_to_the_Breaking_Strain/gen/chord-chart.html
+songs/The_Sun_Is_A_Miasma_Shortened/gen/index.html: songs/The_Sun_Is_A_Miasma_Shortened/gen/lyrics.txt
+songs/Ballad_of_Smallpox_Gone/gen/index.html: songs/Ballad_of_Smallpox_Gone/gen/lyrics.txt
+songs/Here_Comes_the_Sun/gen/index.html: songs/Here_Comes_the_Sun/gen/lyrics.txt songs/Here_Comes_the_Sun/gen/chord-chart.html
+songs/Always_Look_on_the_Bright_Side/gen/index.html: songs/Always_Look_on_the_Bright_Side/gen/lyrics.txt songs/Always_Look_on_the_Bright_Side/gen/chord-sheet.cho songs/Always_Look_on_the_Bright_Side/gen/chord-sheet.pdf
+songs/Endless_Light_Around/gen/index.html: songs/Endless_Light_Around/gen/lyrics.txt songs/Endless_Light_Around/gen/chord-chart.html songs/Endless_Light_Around/gen/motif.pdf songs/Endless_Light_Around/gen/ending-melody.pdf songs/Endless_Light_Around/gen/both-snippets.pdf
+songs/Bring_the_Light_Reprise/gen/index.html: songs/Bring_the_Light_Reprise/gen/sheet-music.pdf songs/Bring_the_Light_Reprise/gen/chord-chart.html songs/Bring_the_Light_Reprise/gen/lyrics.txt songs/Bring_the_Light_Reprise/gen/from-midi.mp3
+songs/Do_You_Hear_What_I_Hear/gen/index.html: songs/Do_You_Hear_What_I_Hear/gen/lyrics.txt
+songs/Brighter_Than_Today/gen/index.html: songs/Brighter_Than_Today/gen/lyrics.txt songs/Brighter_Than_Today/gen/chord-chart.html
+songs/Fix_You/gen/index.html: songs/Fix_You/gen/lyrics.txt
+songs/I_Love_the_World/gen/index.html: songs/I_Love_the_World/gen/lyrics.txt
+songs/Galaxy_Song/gen/index.html: songs/Galaxy_Song/gen/lyrics.txt
+songs/Fire_in_the_Sky/gen/index.html: songs/Fire_in_the_Sky/gen/lyrics.txt
+songs/Walk_With_Me/gen/index.html: songs/Walk_With_Me/gen/lyrics.txt songs/Walk_With_Me/gen/chord-chart.html songs/Walk_With_Me/gen/sheet-music.pdf songs/Walk_With_Me/gen/from-midi.mp3
+songs/Her_Mysteries/gen/index.html: songs/Her_Mysteries/gen/lyrics.txt
+songs/Seasons_of_Love/gen/index.html: songs/Seasons_of_Love/gen/lyrics.txt songs/Seasons_of_Love/gen/chord-chart.html
+songs/Galaxy_Song_2014/gen/index.html: songs/Galaxy_Song_2014/gen/chord-sheet.pdf songs/Galaxy_Song_2014/gen/lyrics.txt
+songs/Jewel_In_The_Night/gen/index.html: songs/Jewel_In_The_Night/gen/lyrics.txt
+songs/We_Know_The_Way/gen/index.html: songs/We_Know_The_Way/gen/lyrics.txt
+songs/X_Days_of_X_Risk/gen/index.html: songs/X_Days_of_X_Risk/gen/lyrics.txt songs/X_Days_of_X_Risk/gen/chord-chart.html
+songs/Spring_Mourning/gen/index.html: songs/Spring_Mourning/gen/lyrics.txt
+songs/Time_Wrote_the_Rocks/gen/index.html: songs/Time_Wrote_the_Rocks/gen/lyrics.txt songs/Time_Wrote_the_Rocks/gen/chord-chart.html
+songs/Starwind_Rising/gen/index.html: songs/Starwind_Rising/gen/lyrics.txt
+songs/Song_of_the_Artesian_Water/gen/index.html: songs/Song_of_the_Artesian_Water/gen/lyrics.txt songs/Song_of_the_Artesian_Water/gen/chord-sheet.cho songs/Song_of_the_Artesian_Water/gen/chord-sheet.pdf
+songs/Bold_Orion/gen/index.html: songs/Bold_Orion/gen/lyrics.txt songs/Bold_Orion/gen/chord-sheet.cho songs/Bold_Orion/gen/chord-sheet.pdf
+songs/Simulacrum/gen/index.html: songs/Simulacrum/gen/lyrics.txt
+songs/Necronomicon/gen/index.html: songs/Necronomicon/gen/lyrics.txt
+songs/Beautiful_Tomorrow/gen/index.html: songs/Beautiful_Tomorrow/gen/lyrics.txt
+songs/Demon_Sultan_Azathoth/gen/index.html: songs/Demon_Sultan_Azathoth/gen/lyrics.txt
+songs/Stars/gen/index.html: songs/Stars/gen/lyrics.txt
+songs/Mals_Song/gen/index.html: songs/Mals_Song/gen/lyrics.txt songs/Mals_Song/gen/chord-sheet.cho songs/Mals_Song/gen/chord-sheet.pdf
+songs/Sogno_di_Volare/gen/index.html: songs/Sogno_di_Volare/gen/lyrics.txt
+songs/Bitter_Wind_Blown/gen/index.html: songs/Bitter_Wind_Blown/gen/lyrics.txt songs/Bitter_Wind_Blown/gen/chord-chart.html
+songs/Sound_of_Silence/gen/index.html: songs/Sound_of_Silence/gen/lyrics.txt
+songs/Beneath_Midwinter_Midnight/gen/index.html: songs/Beneath_Midwinter_Midnight/gen/lyrics.txt
+songs/The_Sun_Is_A_Guy_Who_Travels_Through_The_Sky/gen/index.html: songs/The_Sun_Is_A_Guy_Who_Travels_Through_The_Sky/gen/lyrics.txt
+songs/Bitter_Wind_March/gen/index.html: songs/Bitter_Wind_March/gen/lyrics.txt songs/Bitter_Wind_March/gen/chord-chart.html
+songs/A_Thousand_Stars/gen/index.html: songs/A_Thousand_Stars/gen/lyrics.txt
+songs/Let_There_Be_Love/gen/index.html: songs/Let_There_Be_Love/gen/lyrics.txt songs/Let_There_Be_Love/gen/sheet-music.pdf songs/Let_There_Be_Love/gen/from-midi.mp3 songs/Let_There_Be_Love/gen/sheet-music-nopiano.pdf
+songs/I_Have_Seen/gen/index.html: songs/I_Have_Seen/gen/lyrics.txt songs/I_Have_Seen/gen/sheet-music.pdf songs/I_Have_Seen/gen/sheet-music-drop.pdf songs/I_Have_Seen/gen/sheet-music-high-gc.pdf songs/I_Have_Seen/gen/from-midi.mp3
+songs/Scarborough_Fair/gen/index.html: songs/Scarborough_Fair/gen/lyrics.txt songs/Scarborough_Fair/gen/chord-sheet.cho songs/Scarborough_Fair/gen/chord-sheet.pdf
+songs/Baby_Genie/gen/index.html: songs/Baby_Genie/gen/lyrics.txt
+songs/Singularity/gen/index.html: songs/Singularity/gen/lyrics.txt
+songs/Let_It_Snow/gen/index.html: songs/Let_It_Snow/gen/lyrics.txt
+songs/Gather_Round/gen/index.html: songs/Gather_Round/gen/lyrics.txt songs/Gather_Round/gen/chord-chart.html
+songs/Do_You_Realize/gen/index.html: songs/Do_You_Realize/gen/lyrics.txt songs/Do_You_Realize/gen/chord-chart.html
+songs/Moon_Song/gen/index.html: songs/Moon_Song/gen/lyrics.txt
+songs/Somewhere_to_Begin/gen/index.html: songs/Somewhere_to_Begin/gen/chord-sheet.pdf songs/Somewhere_to_Begin/gen/chord-sheet-2col.pdf songs/Somewhere_to_Begin/gen/lyrics.txt
+songs/Winter_Is_Icumen_In/gen/index.html: songs/Winter_Is_Icumen_In/gen/lyrics.txt songs/Winter_Is_Icumen_In/gen/sheet-music.pdf songs/Winter_Is_Icumen_In/gen/sheet-music-modern.pdf songs/Winter_Is_Icumen_In/gen/from-midi.mp3
+songs/Cosmos/gen/index.html: songs/Cosmos/gen/lyrics.txt
+songs/Mad_World/gen/index.html: songs/Mad_World/gen/lyrics.txt
+songs/Blowin_in_the_Wind/gen/index.html: songs/Blowin_in_the_Wind/gen/lyrics.txt songs/Blowin_in_the_Wind/gen/chord-chart.html
+songs/Contract_Drafting_Em/gen/index.html: songs/Contract_Drafting_Em/gen/lyrics.txt songs/Contract_Drafting_Em/gen/sheet-music.pdf songs/Contract_Drafting_Em/gen/from-midi.mp3
+songs/We_Will_All_Go_Together_When_We_Go/gen/index.html: songs/We_Will_All_Go_Together_When_We_Go/gen/lyrics.txt
+songs/The_Sun_Is_Medley/gen/index.html: songs/The_Sun_Is_Medley/gen/lyrics.txt songs/The_Sun_Is_Medley/gen/chord-sheet.pdf
+songs/Mindspace_Is_Deep_And_Wide/gen/index.html: songs/Mindspace_Is_Deep_And_Wide/gen/lyrics.txt songs/Mindspace_Is_Deep_And_Wide/gen/sheet-music.pdf
+songs/Die_Gedanken_sind_frei/gen/index.html: songs/Die_Gedanken_sind_frei/gen/lyrics.txt songs/Die_Gedanken_sind_frei/gen/sheet-music.pdf songs/Die_Gedanken_sind_frei/gen/sheet-music-english.pdf
+songs/We_Wish_You_A_Scary_Solstice/gen/index.html: songs/We_Wish_You_A_Scary_Solstice/gen/lyrics.txt
+songs/The_Sun_Is_A_Miasma/gen/index.html: songs/The_Sun_Is_A_Miasma/gen/lyrics.txt
+songs/Scarborough_Fair_Dark_Reprise/gen/index.html: songs/Scarborough_Fair_Dark_Reprise/gen/lyrics.txt
+songs/Hard_Times_Come_Again_No_More/gen/index.html: songs/Hard_Times_Come_Again_No_More/gen/lyrics.txt songs/Hard_Times_Come_Again_No_More/gen/chord-sheet.cho songs/Hard_Times_Come_Again_No_More/gen/chord-sheet.pdf
+songs/Scarborough_Fair_Triumphant_Reprise/gen/index.html: songs/Scarborough_Fair_Triumphant_Reprise/gen/lyrics.txt songs/Scarborough_Fair_Triumphant_Reprise/gen/countermelody-sheet-music.pdf
+songs/Something_Impossible/gen/index.html: songs/Something_Impossible/gen/lyrics.txt songs/Something_Impossible/gen/chord-chart.html
+songs/The_Pantheon/gen/index.html: songs/The_Pantheon/gen/lyrics.txt
+songs/We_Are_The_Light/gen/index.html: songs/We_Are_The_Light/gen/lyrics.txt
+songs/Legends/gen/index.html: songs/Legends/gen/lyrics.txt
+songs/When_I_Die/gen/index.html: songs/When_I_Die/gen/lyrics.txt songs/When_I_Die/gen/chord-chart.html
+songs/Little_Echo/gen/index.html: songs/Little_Echo/gen/lyrics.txt songs/Little_Echo/gen/sheet-music.pdf songs/Little_Echo/gen/from-midi.mp3
+songs/Move_the_World/gen/index.html: songs/Move_the_World/gen/lyrics.txt
+songs/Here_and_Now/gen/index.html: songs/Here_and_Now/gen/lyrics.txt songs/Here_and_Now/gen/chord-chart.html
+songs/Bring_the_Light/gen/index.html: songs/Bring_the_Light/gen/lyrics.txt songs/Bring_the_Light/gen/chord-chart.html songs/Bring_the_Light/gen/sheet-music.pdf
+songs/Momma_Look_Sharp/gen/index.html: songs/Momma_Look_Sharp/gen/lyrics.txt
+songs/Still_Alive/gen/index.html: songs/Still_Alive/gen/lyrics.txt
+songs/Chasing_Patterns/gen/index.html: songs/Chasing_Patterns/gen/lyrics.txt songs/Chasing_Patterns/gen/chord-chart.html
+songs/Endless_Light_Above/gen/index.html: songs/Endless_Light_Above/gen/lyrics.txt songs/Endless_Light_Above/gen/chord-chart.html
+songs/Somebody_Will/gen/index.html: songs/Somebody_Will/gen/lyrics.txt
+songs/Gonna_Be_A_Cyborg/gen/index.html: songs/Gonna_Be_A_Cyborg/gen/lyrics.txt
+songs/Heros_Song/gen/index.html: songs/Heros_Song/gen/lyrics.txt

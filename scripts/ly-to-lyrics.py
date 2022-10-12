@@ -4,8 +4,11 @@ import sys,os
 
 inf = open(sys.argv[1])
 outfn = sys.argv[2]
-os.makedirs('gen', exist_ok=True)
-outf = (outfn=='-') and sys.stdout or open(outfn,'w')
+if outfn == '-':
+    outf = sys.stdout
+else:
+    os.makedirs(os.path.dirname(outfn), exist_ok=True)
+    outf = open(outfn,'w')
 if len(sys.argv) > 3:
     chorus_before = set(sys.argv[3].split(','))
 else:

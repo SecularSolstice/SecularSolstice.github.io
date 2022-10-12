@@ -34,7 +34,7 @@ echo "    <meta property='og:description' content='${DESC}' />"
 
 
 echo "  </head>  <body> "
-cat ../misc/header.html
+cat ../../misc/header.html
 
 echo '<div class=notes>'
 pandoc --wrap=none -f markdown README.md
@@ -61,6 +61,7 @@ echo "</p>"
 echo "<h2>Files</h2><ul>"
 FILES=$( ls gen/*.pdf gen/*.midi gen/*.html gen/*.mp3 gen/*.txt gen/*.png gen/*.chordpro gen/*.cho 2>/dev/null |
                grep -v index |
+               grep -v lyrics.txt |
                sed 's@gen/@@' |
                sort)
 for f in $FILES; do

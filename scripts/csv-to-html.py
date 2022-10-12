@@ -7,10 +7,17 @@ outfn = sys.argv[2]
 if outfn=='-':
     outf=sys.stdout
 else:
-    os.makedirs('gen', exist_ok=True)
+    os.makedirs(os.path.dirname(outfn), exist_ok=True)
     outf=open(outfn,'w')
 
-title = outfn.split('/')[-1].replace('-',' ').replace('_',' ').replace('.html','').title()
+title = (
+    " ".join(outfn.split("/")[-3:])
+    .replace(" gen ", " ")
+    .replace("-", " ")
+    .replace("_", " ")
+    .replace(".html", "")
+    .title()
+)
 
 outf.write("""
 <html>

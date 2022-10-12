@@ -1,290 +1,294 @@
 html {
-    background-image: url("/dawn-bkg.jpg");
-    background-color: #334477;
-    background-size: cover;
-    background-position: center 80%;
-    background-attachment: fixed;
-    color: white;
-    padding-bottom: 200px;
-    margin: 0px;
+  background-image: url("/dawn-bkg.jpg");
+  background-color: #334477;
+  background-size: cover;
+  background-position: center 80%;
+  background-attachment: fixed;
+  color: white;
+  padding-bottom: 200px;
+  margin: 0px;
+  font-family: sans-serif;
 }
 
 html.light {
-    background-image: url("/snow-bkg.jpg");
-    background-color: white;
-    color: black;
+  background-image: url("/snow-bkg.jpg");
+  background-color: white;
+  color: black;
 }
 
 body {
-    width: 45em;
-    max-width: 90%;
-    margin: 0 auto;
-    padding: 0.001em 1em 10em;
+  width: 45em;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 0.001em 1em 10em;
 }
 
 h1 {
-    text-align: center;
-    color: yellow;
-    font-size: 40pt;
-    text-shadow: 0 5px 20px rgba(255,255,0,0.6),
-                 0 -5px 20px rgba(255,255,0,0.6);
-    margin-bottom: 30px;
-    margin-top: 0px;
+  text-align: center;
+  color: yellow;
+  font-size: 40pt;
+  text-shadow: 0 5px 20px rgba(255, 255, 0, 0.6),
+    0 -5px 20px rgba(255, 255, 0, 0.6);
+  margin-bottom: 30px;
+  margin-top: 0px;
 }
 
 .light h1 {
-    color: black;
-    text-shadow: 5px 5px 5px rgba(255,255,0,1),
-                 -5px -5px 5px rgba(255,255,0,1),
-                 5px -5px 5px rgba(255,255,0,1),
-                 -5px 5px 5px rgba(255,255,0,1);
-}    
+  color: black;
+  text-shadow: 5px 5px 5px rgba(255, 255, 0, 1),
+    -5px -5px 5px rgba(255, 255, 0, 1), 5px -5px 5px rgba(255, 255, 0, 1),
+    -5px 5px 5px rgba(255, 255, 0, 1);
+}
 
 h2 {
-    text-align:center;
-    text-shadow: 0 0 0.5em black, 0 0 2em #003;
-    font-size: 20pt;
+  text-align: center;
+  text-shadow: 0 0 0.5em black, 0 0 2em #003;
+  font-size: 20pt;
 }
 
 .light h2 {
-    text-shadow: 2px 2px 0.5em white,
-                 -2px -2px 0.5em white,
-                 0 0 2em #ffb;
-}    
+  text-shadow: 2px 2px 0.5em white, -2px -2px 0.5em white, 0 0 2em #ffb;
+}
 
 h3 {
-    text-align: center;
-    color: yellow;
-    font-size: 20pt;
-    text-shadow: 0 5px 20px rgba(255,255,0,0.6),
-                 0 -5px 20px rgba(255,255,0,0.6);
-    margin-bottom: 40px;
-    margin-top: -20px;
-    font-style: italic;
+  text-align: center;
+  color: yellow;
+  font-size: 20pt;
+  text-shadow: 0 5px 20px rgba(255, 255, 0, 0.6),
+    0 -5px 20px rgba(255, 255, 0, 0.6);
+  margin-bottom: 40px;
+  margin-top: -20px;
+  font-style: italic;
 }
 
 .light h3 {
-    color: yellow;
-    text-shadow: 1px 1px 1px black,
-                 -1px 1px 1px black,
-                 1px -1px 1px black,
-                 -1px -1px 1px black;
+  color: yellow;
+  text-shadow: 1px 1px 1px black, -1px 1px 1px black, 1px -1px 1px black,
+    -1px -1px 1px black;
 }
 
 .light a h3 {
-    color: inherit;
-    text-shadow: 2px 2px 0.5em white,
-                 -2px -2px 0.5em white,
-                 0 0 2em #ffb;
-}    
+  color: inherit;
+  text-shadow: 2px 2px 0.5em white, -2px -2px 0.5em white, 0 0 2em #ffb;
+}
 
 .light h4 {
-    text-shadow: 1px 1px 2px white,
-                 -1px -1px 2px white,
-                 1px -1px 2px white,
-                 -1px 1px 2px white;
+  text-shadow: 1px 1px 2px white, -1px -1px 2px white, 1px -1px 2px white,
+    -1px 1px 2px white;
 }
-    
 
-ul,p.lyrics {
-    margin: auto ;
-    padding: 0.5em;
-    padding-right: 5%;
-    background: linear-gradient(to right, 
-                               rgba(0,0,0,0.6),
-                               rgba(0,0,0,0.4) 60%,
-                               rgba(0,0,0,0.01));
+ul,
+p.lyrics {
+  margin: auto;
+  padding: 0.5em;
+  padding-right: 5%;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.4) 60%,
+    rgba(0, 0, 0, 0.01)
+  );
 }
 
 .light ul {
-    background: linear-gradient(to right, 
-                               rgba(255,255,255,0.7),
-                               rgba(255,255,255,0.5) 60%,
-                               rgba(255,255,255,0.01));
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.5) 60%,
+    rgba(255, 255, 255, 0.01)
+  );
 }
 .light p.lyrics {
-    background: linear-gradient(to right, 
-                               rgba(255,255,255,0.7),
-                               rgba(255,255,255,0.5) 60%,
-                               rgba(255,255,255,0.01));
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.5) 60%,
+    rgba(255, 255, 255, 0.01)
+  );
 }
-    
 
 ul {
-    padding-left: 1.5em;
+  padding-left: 1.5em;
 }
 
 li {
-    margin-bottom: 0.2em;
+  margin-bottom: 0.2em;
 }
 
 div.notes {
-    box-shadow: 0px 2px rgba(210, 173, 249, 0.2),
-                0px 1px rgba(210, 173, 249, 0.2);
+  box-shadow: 0px 2px rgba(210, 173, 249, 0.2), 0px 1px rgba(210, 173, 249, 0.2);
 }
-div.notes p{
-    box-shadow: 2px 0px rgba(210, 173, 249, 0.2),
-                1px 0px rgba(210, 173, 249, 0.2);
+div.notes p {
+  box-shadow: 2px 0px rgba(210, 173, 249, 0.2), 1px 0px rgba(210, 173, 249, 0.2);
 }
 
 a {
-    color: #ccf;
+  color: #ccf;
 }
 
 .light a {
-    color: #006;
+  color: #006;
 }
 
-p,table,pre {
-    margin: auto ;
-    background: rgba(0,0,0,0.6);
+p,
+table,
+pre {
+  margin: auto;
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .light p {
-    background: rgba(255,255,255,0.7);
+  background: rgba(255, 255, 255, 0.7);
 }
 .light table {
-    background: rgba(255,255,255,0.7);
+  background: rgba(255, 255, 255, 0.7);
 }
 .light pre {
-    background: rgba(255,255,255,0.7);
+  background: rgba(255, 255, 255, 0.7);
 }
 
-
 p {
-    padding: 0.5em;
+  padding: 0.5em;
 }
 
 blockquote {
-    margin: 0px;
+  margin: 0px;
 }
 blockquote p {
-    padding-left: 4em;
-    padding-right: 4em;
-    background: linear-gradient(to right,
-                                rgba(0,0,0,0.6) 0%,
-                                rgba(0,0,0,0.6) 2%,
-                                rgba(0,0,255,0.6) 3.5%,
-                                rgba(0,0,0,0.6) 5%,
-                                rgba(0,0,0,0.6) 100%);
+  padding-left: 4em;
+  padding-right: 4em;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0.6) 2%,
+    rgba(0, 0, 255, 0.6) 3.5%,
+    rgba(0, 0, 0, 0.6) 5%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
 }
 
 .light blockquote p {
-    background: linear-gradient(to right,
-                                rgba(255,255,255,0.7) 0%,
-                                rgba(255,255,255,0.7) 2%,
-                                rgba(255,255,0,1) 3.5%,
-                                rgba(255,255,255,0.7) 5%,
-                                rgba(255,255,255,0.7) 100%);
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.7) 0%,
+    rgba(255, 255, 255, 0.7) 2%,
+    rgba(255, 255, 0, 1) 3.5%,
+    rgba(255, 255, 255, 0.7) 5%,
+    rgba(255, 255, 255, 0.7) 100%
+  );
 }
 
-
 table {
-    border-collapse: collapse;
+  border-collapse: collapse;
 }
 
 td {
-    border: 1px solid #ddd;
-    white-space: nowrap;
-    padding: 1px 4px;
+  border: 1px solid #ddd;
+  white-space: nowrap;
+  padding: 1px 4px;
 }
 
 .small {
-    font-size: smaller;
+  font-size: smaller;
 }
 
 .header {
-    margin-bottom: 3em;
-    text-align: center;
+  margin-bottom: 3em;
+  text-align: center;
 }
 .header a {
-    min-width: 16%;
-    background: #313;
-    padding-top: 0.5em;
-    padding-bottom: 1em;
-    margin-right: 5.5%;
-    border-bottom-left-radius: 1em;
-    border-bottom-right-radius: 1em;
-    text-decoration: none;
-    text-align:center;
-    display: inline-block;
-    color: #aee;
-    font-weight: bold;
+  min-width: 16%;
+  background: #313;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+  margin-right: 5.5%;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  color: #aee;
+  font-weight: bold;
 }
-.header a:last-child { margin-right: 0; }
+.header a:last-child {
+  margin-right: 0;
+}
 
 .light .header a {
-    background: #eeb;
-    color: #511;
-    border: 1px #770 outset;
-    border-top: none;
+  background: #eeb;
+  color: #511;
+  border: 1px #770 outset;
+  border-top: none;
 }
 
 a.rawgit {
-    text-align: center;
-    display: block;
-    font-size: 1.25em;
-    margin: 1em 0;
-    font-family: monospace;
-    text-shadow: 0 0 2px black;
+  text-align: center;
+  display: block;
+  font-size: 1.25em;
+  margin: 1em 0;
+  font-family: monospace;
+  text-shadow: 0 0 2px black;
 }
 
 .light a.rawgit {
-    text-shadow: 0 0 2px #af7;
+  text-shadow: 0 0 2px #af7;
 }
 
 a.editbutton {
-    font-size: smaller;
-    background: #314;
-    padding: 3px;
-    text-decoration: none;
-    font-family: monospace;
-    margin: 2px;
-    border: 1px solid #60a;
-    border-radius: 3px;
+  font-size: smaller;
+  background: #314;
+  padding: 3px;
+  text-decoration: none;
+  font-family: monospace;
+  margin: 2px;
+  border: 1px solid #60a;
+  border-radius: 3px;
 }
 
 a.editbutton::before {
-    content: "\270D";
-    font-family: serif;
-    font-size: larger;
+  content: "\270D";
+  font-family: serif;
+  font-size: larger;
 }
 
 .light a.editbutton {
-    background: #ceb;
+  background: #ceb;
 }
 
 a.themeSwitcher {
-    position: fixed;
-    bottom: 10px;
-    left: 10px;
-    border-radius: 1em;
-    text-align: center;
-    font-size: 10pt;
-    background: #aaa;
-    border: 1px solid #770;
-    color: black;
-    padding: 3px;
-    cursor: pointer;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  border-radius: 1em;
+  text-align: center;
+  font-size: 10pt;
+  background: #aaa;
+  border: 1px solid #770;
+  color: black;
+  padding: 3px;
+  cursor: pointer;
 }
 
 .light a.themeSwitcher {
-    background: #555;
-    border: 1px solid #ff0;
-    color: white;
+  background: #555;
+  border: 1px solid #ff0;
+  color: white;
 }
 
 @media (max-width: 600px) {
-    body {
-        max-width: 95%;
-        padding: 0.001em 0.2em 10em;
-    }
+  body {
+    max-width: 95%;
+    padding: 0.001em 0.2em 10em;
+  }
 }
 
 @media print {
-    * {
-        background: white !important;
-        color: black !important;
-    }
+  html {
+    font-family: serif;
+  }
+
+  * {
+    background: white !important;
+    color: black !important;
+  }
 }
-                    
