@@ -10,7 +10,7 @@ for root, dirs, files in os.walk("songs"):
 
     makefile_name = os.path.join(root, "Makefile")
     files_to_list = []
-    with open(makefile_name, "r") as makefile:
+    with open(makefile_name, "r",encoding='utf-8') as makefile:
         for line in makefile:
             if line.startswith("FILES_TO_LIST="):
                 files_to_list = line.split("=")[1].split(" ")

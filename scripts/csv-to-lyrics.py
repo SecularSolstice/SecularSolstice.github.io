@@ -2,13 +2,13 @@
 
 import sys, csv, os
 
-inf = open(sys.argv[1])
+inf = open(sys.argv[1],encoding='utf-8')
 outfn = sys.argv[2]
 if outfn == "-":
     outf = sys.stdout
 else:
     os.makedirs(os.path.dirname(outfn), exist_ok=True)
-    outf = open(outfn, "w")
+    outf = open(outfn, "w",encoding='utf-8')
 col = int(sys.argv[3])
 
 beginning = True

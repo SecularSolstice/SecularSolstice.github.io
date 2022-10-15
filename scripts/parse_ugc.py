@@ -54,7 +54,7 @@ def mergechords(text, chords):
     return out
     
 savedchords = None
-for p in parse(open(sys.argv[1])):
+for p in parse(open(sys.argv[1],encoding='utf-8')):
     if sys.argv[2] == '--lyrics':
         if p['klass']=='text':
             print(p['val'])

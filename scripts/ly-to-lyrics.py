@@ -8,7 +8,7 @@ if outfn == '-':
     outf = sys.stdout
 else:
     os.makedirs(os.path.dirname(outfn), exist_ok=True)
-    outf = open(outfn,'w')
+    outf = open(outfn,'w',encoding='utf-8')
 if len(sys.argv) > 3:
     chorus_before = set(sys.argv[3].split(','))
 else:

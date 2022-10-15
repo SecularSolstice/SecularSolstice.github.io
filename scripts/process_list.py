@@ -4,9 +4,9 @@ import sys,csv,os
 
 fn = sys.argv[1]
 
-inf = open(fn)
+inf = open(fn, mode="r", encoding="utf-8")
 os.makedirs('gen', exist_ok=True)
-outf = open('gen/'+fn.replace('.lst','.html'), 'w')
+outf = open('gen/'+fn.replace('.lst','.html'), 'w',encoding='utf-8')
 
 title = fn.replace('.lst','').replace('_',' ')
 
@@ -22,7 +22,7 @@ outf.write("""
   <body>
     %s
     <h1>%s</h1>
-""" % (title,open('../misc/header.html').read(),title))
+""" % (title,open('../misc/header.html',encoding='utf-8').read(),title))
 
 def process_instruction(line):
     if line[0]=='[' and line[-1]==']':
@@ -33,10 +33,10 @@ def process_instruction(line):
 
 def process_song(line):
     try:
-        readme = open("../%s/README.md" % line)
+        readme = open("../%s/README.md" % line,encoding='utf-8')
     except IOError:
         try:
-            readme = open("../songs/%s/README.md" % line)
+            readme = open("../songs/%s/README.md" % line,encoding='utf-8')
             line = "songs/%s" % line
         except IOError:
             return False
@@ -57,7 +57,7 @@ def process_song(line):
 def process_speech(line):
     pieces = line.split(': ')
     try:
-        f = open('../speeches/%s.md' % pieces[0])
+        f = open('../speeches/%s.md' % pieces[0],encoding='utf-8')
     except IOError:
         return False
     for fl in f:
