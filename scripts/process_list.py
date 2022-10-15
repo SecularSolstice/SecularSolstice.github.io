@@ -34,7 +34,8 @@ def process_instruction(line):
 
 def process_song(line):
     try:
-        readme = open("../%s/README.md" % line,encoding='utf-8')
+        filename = "../%s/README.md" % line
+        readme = open(filename,encoding='utf-8')
     except IOError:
         try:
             readme = open("../songs/%s/README.md" % line,encoding='utf-8')
