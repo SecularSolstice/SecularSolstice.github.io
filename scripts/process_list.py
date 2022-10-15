@@ -9,6 +9,7 @@ os.makedirs('gen', exist_ok=True)
 outf = open('gen/'+fn.replace('.lst','.html'), 'w',encoding='utf-8')
 
 title = fn.replace('.lst','').replace('_',' ')
+header = open('../misc/header.html',encoding='utf-8').read()
 
 outf.write("""
 <html>
@@ -22,7 +23,7 @@ outf.write("""
   <body>
     %s
     <h1>%s</h1>
-""" % (title,open('../misc/header.html',encoding='utf-8').read(),title))
+""" % (title,header,title))
 
 def process_instruction(line):
     if line[0]=='[' and line[-1]==']':
