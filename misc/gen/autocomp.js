@@ -757,6 +757,12 @@ content = {
     "[speech]",
   ],
 
+  'Attempts_Were_Made': [
+    "Attempts Were Made",
+    "By Daniel Speyer",
+    "[speech]",
+  ],
+
   'Beauty_After_Trauma': [
     "Finding Beauty After Trauma",
     "By Rivka Fleischman",
@@ -866,6 +872,12 @@ content = {
   'Fire_Has_No_Voice': [
     "Fire Has No Voice",
     "By J. Bryce Hidysmith",
+    "[speech]",
+  ],
+
+  'First_Step': [
+    "First Step",
+    "By Sir Terry Pratchett",
     "[speech]",
   ],
 
@@ -1022,6 +1034,24 @@ content = {
   'Letting_Go_Without_Giving_Up': [
     "Letting Go Without Giving Up ",
     "by Jeffrey Ladish",
+    "[speech]",
+  ],
+
+  'Lever_Fritz_Haber': [
+    "Lever: Fritz Haber",
+    "By Daniel Speyer",
+    "[speech]",
+  ],
+
+  'Lever_John_Snow_and_the_Broad_St_Pump': [
+    "Lever: John Snow and the Broad Street Pump",
+    "By Kathleen Tuthill and Daniel Speyer",
+    "[speech]",
+  ],
+
+  'Lever_One_Song_Many_Tyrants': [
+    "Lever: One Song, Many Tyrants",
+    "By Daniel Speyer",
     "[speech]",
   ],
 
