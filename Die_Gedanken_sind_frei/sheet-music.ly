@@ -15,7 +15,15 @@ melody = \relative c'' {
   c | a a c8([ a]) | g2 g8 e' | e([ d]) c4 b | c2 \bar "|."
 }
 
-
+harmony = \relative c'' {
+  \chordmode {
+   g4 s1. d2.:1.3.5.7 g
+   g s d:1.3.5.7 g d
+   g d2.:1.3.5.7 g c
+   g d2.:1.3.5.7 g
+  }
+}
+  
 verse_a = \lyricmode {
   Die Ge -- | dan -- ken sind | frei, wer | kann sie er -- | ra -- then?
   Sie | flie -- gen vor -- | bei wie | nächt -- li -- che | Schat -- ten.
@@ -70,7 +78,7 @@ english_b = \lyricmode {
 
 english_c = \lyricmode {
   Ev -- en if I am cast in -- to deep -- est dung -- eon.
-  'Twill a -- vail them naught; no game have they won then.
+  It gives them no aid; no game have they won then.
   If ram -- part and tow -- er face think -- ing's own pow -- er,
   They'll soon cease to be.  Oh, my thoughts they are free!
 }
@@ -78,13 +86,16 @@ english_c = \lyricmode {
 english_d = \lyricmode {
   So I bid a fare -- well to sor -- row for -- ev -- er.
   So pet -- ty mise -- ry will trou -- ble me nev -- er.
-  La -- zy puns and deep truths, ro -- man -- ces and neat proofs.
+  Odd word -- play and deep truths, ro -- man -- ces and neat proofs.
   Stay al -- ways in me.  Oh, my thoughts they are free!
 }
   
   
 \score {
   <<
+    \new ChordNames = "harmony" {
+      \harmony
+    }
     \new Voice = "voice" {
       \melody
     }
