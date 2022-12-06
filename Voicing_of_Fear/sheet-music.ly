@@ -7,191 +7,193 @@
   copyright = "CC-SA-BY"
 }
 
-melody = {
+mk = #(if (ly:get-option 'drop) #{ g #} #{ a #} )
+
+melody =  {
   \numericTimeSignature
   \key a \minor
-  r1 r1 r1 r1 r1 r2 r4 r8
+  r1 r r r r r r r r r r1 r2 r4
 
-  a \time 6/8 c4 d8 e4 g8 f4 d8 a'4. ~a4
-  a,8 c4 d8 e4 g8 f4 d8 a'4. ~a4
-  a,8 d4 e8 g4 a8 e4 c8 f4
-  a,8 a4 b8 e4.~ ~e4 f16([ c)] g4 f8 \time 4/4 a1
+  a \time 3/4 c2 d4 e2 g4 f2 d4 a'2. ~a2
+  a,4 c2 d4 e2 g4 f2 d4 a'2. ~a2
+  a,4 d2 e4 g2 a4 e2 c4 f2
+  a,4 a2 b4 e2.~ ~e2 f8([ c)] g2 f4 \time 4/4 a1~a
   
-  r1 r r2 r4 r8
+  r1 r r r r1 r2 r4
   
-  a \time 6/8 a4 c8 c4 e8 d4 c8 e4. ~e4
-  a,8 a4 c8 c4 e8 d4 c8 e4
-  a,8 a4 d8 d4 g8 f4 d8 a'4. ~a4
-  a,8 a4 b8 e4.~ ~e4 f16([ c)] g4 f8 \time 4/4 a1
+  a \time 3/4 a2 c4 c2 e4 d2 c4 e2. ~e2
+  a,4 a2 c4 c2 e4 d2 c4 e2
+  a,4 a2 d4 d2 g4 f2 d4 a'2. ~a2
+  a,4 a2 b4 e2.~ ~e2 f8([ c)] g2 f4 \time 4/4 a1~a
 
-  r1 r r2 r4 r8
+  r1 r r r r1 r2 r4
   
-  a \time 6/8 a4 c8 c4 e8 d4 c8 e4. ~ e4
-  a,8 a4 c8 c4 e16 d16 c4 a8 e'4
-  g,8 a4 g8 a4 g8 b4 a8 a'4. ~a4
-  a,8 a4 b8 e4.~ ~e4 f16([ c)] g4 f8 \time 4/4 a1
+  a \time 3/4 a2 c4 c2 e4 d2 c4 e2. ~ e2
+  a,4 a2 c4 c2 e8 d8 c2 a4 e'2
+  g,4 a2 g4 a2 g4 b2 a4 a'2. ~a2
+  a,4 a2 b4 e2.~ ~e2 f8([ c)] g2 f4 \time 4/4 a1~a
 
-  r1 r r2 r4 r8
+  r1 r r r r1 r2 r4
 
-  a8 \time 6/8 d4 e8 g4 a8 e4 c8 f4
-  a,8 d4 e8 g4 a8 e4 c8 f4
-  a,8 a4 b8 e4.~ ~e4 f16([ c)] g4 f8 a4. ~a4
-  a8 a4 g'8 e4.~ ~e4 r8 r4 f16([ c16)] g4. f4 r8 \time 4/4 a1
+  a4 \time 3/4 d2 e4 g2 a4 e2 c4 f2
+  a,4 d2 e4 g2 a4 e2 c4 f2
+  a,4 a2 b4 e2.~ ~e2 f8([ c)] g2 f4 a2. ~a2
+  a4 a2 g'4 e2.~ ~e2 r4 r2 f8([ c8)] g2. f2 r4 \time 4/4 a1~a
 
-  r r r
+  r1 r r r r r
 }
 
-rp = \relative c'' {
+rp = \transpose a \mk \relative c'' {
   \numericTimeSignature
   \time 4/4
   \key a \minor
-  r2 e8 r a,, r
-  r2 a'8 r a, r
-  r2 e''8 e, a a,
-  c'8 c, g' g, c'8 c, g' g,
-  e'8 a, e a,  e'' a, e a,
-  e''8 a, e a,  e'' a, e a,
+  r1 e4 r a,, r
+  r1 a'4 r a, r
+  r1 e''4 e, a a,
+  c'4 c, g' g, c'4 c, g' g,
+  e'4 a, e a,  e'' a, e a,
+  e''4 a, e a,  e'' a, e a,
   
-  r2. r4. r8 a''[ e a, e] r8 r4.
-  r2. r8 a'[ a, e' e,] r8
+  r1. r2. r4 a''[ e a, e] r4 r2.
+  r1. r4 a'[ a, e' e,] r4
   r d'' r r g,, r r e'' r r f,, r
-  r4. r8 e''[ e, a e,] r r4.
+  r2. r4 e''[ e, a e,] r r2.
   
-  r4. a8 e'' a, e a,
+  r2. a4 e'' a, e a,
   g'' g, d' d, g' g, d' d,
   f' c f, c f' c f, c
   a'' a, e' e, e' a, e a,
   
-  r2. r4. r8 e''[ e, a a,] r
+  r1. r2. r4 e''[ e, a a,] r
   r a'' r r e r r a, r r e r
-  r8 a r r d, r r a r 
+  r4 a r r d, r r a r 
   r e''[ a, e a,] r
-  r4. r8 a'[ a, e' e,] r r4.
+  r2. r4 a'[ a, e' e,] r r2.
   
-  r2 e''8 a, e a,
+  r1 e''4 a, e a,
   g'' g, d' d, g' g, d' d,
   f' c f, c f' c f, c
   a'' a, e' e, e' a, e a,
 
-  r2. r4. r8 e''[ e, a a,] r
+  r1. r2. r4 e''[ e, a a,] r
   r a'' r r a, r r r r r e, r
-  r8 a'' r r a, r r a, r 
+  r4 a'' r r a, r r a, r 
   r e''[ a, e a,] r
-  r4. r8 a'[ a, e' e,] r r4.
+  r2. r4 a'[ a, e' e,] r r2.
   
-  r2 e''8 a, e a,
+  r1 e''4 a, e a,
   g'' g, d' d, g' g, d' d,
   f' c f, c f' c f, c
   a'' a, e' e, e' a, e a,
   
   r d' r r g,, r r e' r r f, r
   r d'' r r g,, r r e' r r f, r
-  r4. r8 a''[ a, e' e,] r r4.
-  r8 e'[ a, e a,] r
-  r4. e''8[ a, e a,] a''[ e a, e] r8
-  r2.
-  r2 a8 e a, e
+  r2. r4 a''[ a, e' e,] r r2.
+  r4 e'[ a, e a,] r
+  r2. e''4[ a, e a,] a''[ e a, e] r4
+  r1.
+  r1 a4 e a, e
   dis'' a dis, a d' a d, a
-  e''8 r e, r a'8 r a,, r r1
+  e''4 r e, r a'4 r a,, r r1 r
 }
 
-lp = \relative c {
+lp = \transpose a \mk \relative c {
   \numericTimeSignature
   \key a \minor
-  <a e a,>1
-  <d, a' c>1
-  <e a c>1
-  <d a' c>1
-  <e a c>1
-  e'8 a, e a, e''8 a, e a,
+  <a e a,>\breve
+  <d, a' c>\breve
+  <e a c>\breve
+  <d a' c>\breve
+  <e a c>\breve
+  e'4 a, e a, e''4 a, e a,
   
   \chordmode {
-    a,,,4.:m e,,4.:1.5 
-    f,,4.:1.5 a,,,4.:1.5.8 ~
-    a,,,4.:1.5.8
-    
-    a,,,4.:m
-    e,,4.:1.5 f,,4.:1.5 
-    a,,4.:1.5.8 ~ e,,4.:1.4.8
-    
-    d,,4.:m g,,4.: 
-    e,,4.:1.5 f,,4.:1.5 
-    a,,,4.:m e,,4.:1.5.8 ~
-    e,,4.:1.5 g,,4.:1.4.6 
-    a,,,1:m
-  }
-
-  <a c g'>1
-  <c f a>1
-  <e a c>2
-  e'8 a, e a,
-  
-  \chordmode {
-    a,,,4.:m c,,4.:
-    d,,4.:1.5 e,,4.:1.5.8 ~
-    e,,4.:1.5.8
-    
-    a,,,4.:m
-    c,,4.: d,,4.:1.5 
-    e,,4.:1.5.8
-
-    a,,,:m
-    d,,4.:m f,,4.: 
-    a,,2:1.5.8 ~ a,,4:1.5
-    
-    a,,,4.:m e,,4.:1.5 ~
-    e,,4.:1.5 g,,,4.:1.4.6 
-    a,,,1:m
-  }
-
-  <a c g'>
-  <c f a>1
-  <e a c>2
-  e'8 a, e a,
-
-  \chordmode {
-    a,,,4.:m c,,4.:1.5
-    d,,4.:1.5 e,,4.:1.5.8 ~
-    e,,4.:1.5.8
-    
-    a,,,4.:m
-    c,,4.: a,,,4.:m 
-    e,,4.:1.5
-
-    a,,,:1.5
-    a,,,4.:1.5 b,,,4.:1.4
-    a,,2:1.5.8 ~ a,,4:1.5
-    
-    a,,,4.:m e,,4.:1.5 ~
-    e,,4.:1.5 g,,,4.:1.4.6 
-    a,,,1:m
-  }
-
-  <a c g'>
-  <c f a>1
-  <e a c>2
-  e'8 a, e a,
-
-  \chordmode {
-    c,,4.: g,,4.:1.5
-    e,,4.:1.5 f,,4.:1.5.8
-
-    c,,4.:1.4
-    g,,4.:1.5
-    e,,4.:1.4 f,,4.:1.5.8 
-
-    a,,,4.:m
-    e,,:1.5 ~ e,,:1.5
-    g,,,:1.4.6
+    a,,,2.:m e,,2.:1.5 
+    f,,2.:1.5 a,,,2.:1.5.8 ~
     a,,,2.:1.5.8
     
-    a,,,4.:1.5 e,,4.:1.5 ~
+    a,,,2.:m
+    e,,2.:1.5 f,,2.:1.5 
+    a,,2.:1.5.8 ~ e,,2.:1.4.8
+    
+    d,,2.:m g,,2.: 
+    e,,2.:1.5 f,,2.:1.5 
+    a,,,2.:m e,,2.:1.5.8 ~
+    e,,2.:1.5 g,,2.:1.4.6 
+    a,,,\breve:m
+  }
+
+  <a c g'>\breve
+  <c f a>\breve
+  <e a c>1
+  e'4 a, e a,
+  
+  \chordmode {
+    a,,,2.:m c,,2.:
+    d,,2.:1.5 e,,2.:1.5.8 ~
+    e,,2.:1.5.8
+    
+    a,,,2.:m
+    c,,2.: d,,2.:1.5 
+    e,,2.:1.5.8
+
+    a,,,:m
+    d,,2.:m f,,2.: 
+    a,,1:1.5.8 ~ a,,2:1.5
+    
+    a,,,2.:m e,,2.:1.5 ~
     e,,2.:1.5 g,,,2.:1.4.6 
-    a,,,1:m
+    a,,,\breve:m
+  }
+
+  <a c g'>
+  <c f a>\breve
+  <e a c>1
+  e'4 a, e a,
+
+  \chordmode {
+    a,,,2.:m c,,2.:1.5
+    d,,2.:1.5 e,,2.:1.5.8 ~
+    e,,2.:1.5.8
+    
+    a,,,2.:m
+    c,,2.: a,,,2.:m 
+    e,,2.:1.5
+
+    a,,,:1.5
+    a,,,2.:1.5 b,,,2.:1.4
+    a,,1:1.5.8 ~ a,,2:1.5
+    
+    a,,,2.:m e,,2.:1.5 ~
+    e,,2.:1.5 g,,,2.:1.4.6 
+    a,,,\breve:m
+  }
+
+  <a c g'>
+  <c f a>\breve
+  <e a c>1
+  e'4 a, e a,
+
+  \chordmode {
+    d,,2.: g,,2.:1.5
+    e,,2.:1.5 f,,2.:1.5.8
+
+    c,,2.:1.4
+    g,,2.:1.5
+    e,,2.:1.4 f,,2.:1.5.8 
+
+    a,,,2.:m
+    e,,:1.5 ~ e,,:1.5
+    g,,,:1.4.6
+    a,,,1.:1.5.8
+    
+    a,,,2.:1.5 e,,2.:1.5 ~
+    e,,1.:1.5 g,,,1.:1.4.6 
+    a,,,\breve:m
   }
   
-  <dis a' c>2 ~ <a' c>2
-  <c e a>1
+  <dis a' c>1 ~ <a' c>1
+  <c e a>\breve
   <a c e>
 }
 
@@ -221,13 +223,13 @@ verseOne = \lyricmode {
   <<
     #(if (not (ly:get-option 'hidevoice)) #{
       \new Voice = "one" {
-         \tempo 8 = 84
+         \tempo 4 = 84
          \set Staff.midiInstrument = #"voice oohs"
          \set Staff.midiMinimumVolume = #0.8
          \set Staff.midiMaximumVolume = #1
          \set Staff.instrumentName = #(if (ly:get-option 'hidecello) "VOI&CEL" "VOICE")
          \set Staff.shortInstrumentName = #(if (ly:get-option 'hidecello) "VC" "V")
-         \relative c' { \melody }
+         \transpose a \mk \relative c' { \melody }
        }
       #} )
     #(if (not (ly:get-option 'hidevoice)) #{
@@ -243,7 +245,7 @@ verseOne = \lyricmode {
          \set Staff.midiMaximumVolume = #0.6
          \set Staff.instrumentName = #"CELLO"
          \set Staff.shortInstrumentName = #"C"
-         \relative c { \clef bass
+         \transpose a \mk \relative c { \clef bass
                         \melody }
        }
       #} )
