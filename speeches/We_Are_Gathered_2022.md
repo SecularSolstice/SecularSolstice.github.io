@@ -1,0 +1,36 @@
+# We Are Gathered 2022
+## by Daniel Speyer
+
+Welcome to the 2022 Secular Solstice.
+
+After two disrupted years, we are back.  Battered but unbroken.  Gathered again, and most importantly NOT DEAD YET.
+
+We are gathered here as a community to mark the longest night of the year with a ritual that upholds our values.
+
+Since it is the longest night of the year (well, close enough), there's going to be a lot of darkness. Sure, we start silly. But I'll warn you now, it isn't staying that way. 
+
+And while I can pretty much promise the days will start getting longer again soon, because we have astronomy now and that's awesome, I can't promise the same about the more metaphorical darknesses encircling our civilization.
+
+And tonight is not about blind hope.
+
+But it is, in its way, about hope.
+
+Which is why tonight's ceremonies will be scattered with little vignettes about high-leverage historical actions that are, in their respective ways, encouraging.  Or at least I find them so.
+
+Tonight is also, in a way, about community.
+
+Some of you are very linked in. Your partners, your friends, your roommates, your favorite writers -- all are here in this room or in rooms like this one in other cities. And some of you aren't. For some of you, maybe this is your first meatspace rationalist event. For some of you, this might be your first contact with some of the ideas we're touching on tonight. (If so, this isn't going to be a very good introduction, being optimized for emotion rather than clarity. But you'll have plenty of opportunity to research later, and I have confidence in you.)
+
+I only want to gently nudge you towards thinking of yourself as one of us. Such things shouldn't be rushed. Eventually you will know whether you are or not.
+
+But I do want you to feel welcome. Even if you're confused. We're all confused, one way or another.
+
+And I do want you to be a part of things tonight. Tonight isn't about those of us on stage doing things to you or for you. It's about everyone in this room doing things together.
+
+So I ask you to take the rest of the evening seriously. When it's silly, take the silliness seriously. If you disagree, disagree seriously.
+
+And I ask you to sing along. At whatever volume you're comfortable with -- even if that's a whisper.
+
+And I ask you not to applaud. Applause is a custom from performances, not rituals. Also, you're active participants, so you'd be applauding yourself. And that's just gauche. There'll be a chance to applaud individuals at the end when I thank people by name.
+
+That's enough introduction for now. On with the ritual. Stepping up the seriousness one small notch.

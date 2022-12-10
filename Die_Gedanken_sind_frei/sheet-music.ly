@@ -65,7 +65,7 @@ english_a = \lyricmode {
   Oh my think -- ing is free.  No one can it har -- ness. 
   My log -- ic soars high, like ow -- ls in dark -- ness.
   No spy can dis -- play it; no hunt -- er can slay it;
-  With Glock nor U -- zi.  Oh, my thoughts they are free!
+  With Glock nor U -- zi.  For my thinking are free!
   
 }
 
@@ -73,21 +73,21 @@ english_b = \lyricmode {
   Yes I think as I choose and by my de -- si -- re.
   The world may grow still; my int' -- rest seeks high -- er.
   My val -- ues im -- pli -- cit: no one can in -- hi -- bit.
-  As 'twill al -- ways be.  Oh, my thoughts they are free!
+  As 'twill al -- ways be.  For my thinking are free!
 }
 
 english_c = \lyricmode {
   Ev -- en if I am cast in -- to deep -- est dung -- eon.
   It gives them no aid; no game have they won then.
   If ram -- part and tow -- er face think -- ing's own pow -- er,
-  They'll soon cease to be.  Oh, my thoughts they are free!
+  They'll soon cease to be.  For my thinking are free!
 }
 
 english_d = \lyricmode {
   So I bid a fare -- well to sor -- row for -- ev -- er.
   So pet -- ty mise -- ry will trou -- ble me nev -- er.
   Odd word -- play and deep truths, ro -- man -- ces and neat proofs.
-  Stay al -- ways in me.  Oh, my thoughts they are free!
+  Stay al -- ways in me.  For my thinking are free!
 }
   
   
