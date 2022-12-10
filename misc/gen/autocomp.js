@@ -899,6 +899,12 @@ content = {
     "[speech]",
   ],
 
+  'Fritz_Haber': [
+    "Fritz Haber",
+    "By Daniel Speyer",
+    "[speech]",
+  ],
+
   'Future_Worth_It': [
     "A Future That's Worth It",
     "By Jefferey Ladish",
@@ -1008,6 +1014,12 @@ content = {
     "[speech]",
   ],
 
+  'John_Snow_and_the_Broad_St_Pump': [
+    "John Snow and the Broad Street Pump",
+    "By Kathleen Tuthill and Daniel Speyer",
+    "[speech]",
+  ],
+
   'Joseph_Rotblat_on_the_Development_of_Nuclear_Weapons': [
     "Joseph Rotblat on the Development of Nuclear Weapons",
     "[speech]",
@@ -1037,24 +1049,6 @@ content = {
     "[speech]",
   ],
 
-  'Lever_Fritz_Haber': [
-    "Lever: Fritz Haber",
-    "By Daniel Speyer",
-    "[speech]",
-  ],
-
-  'Lever_John_Snow_and_the_Broad_St_Pump': [
-    "Lever: John Snow and the Broad Street Pump",
-    "By Kathleen Tuthill and Daniel Speyer",
-    "[speech]",
-  ],
-
-  'Lever_One_Song_Many_Tyrants': [
-    "Lever: One Song, Many Tyrants",
-    "By Daniel Speyer",
-    "[speech]",
-  ],
-
   'Life_Death_and_Love': [
     "Life Death and Love",
     "By Raymond Arnold",
@@ -1070,6 +1064,12 @@ content = {
   'Litany_of_Tarski': [
     "Litany of Tarski",
     "By Alfred Tarski (?)",
+    "[speech]",
+  ],
+
+  'Literally_Moving_the_World': [
+    "Literally Moving the World",
+    "By Daniel Speyer",
     "[speech]",
   ],
 
@@ -1163,6 +1163,12 @@ content = {
   'Nothing_Is_Mere': [
     "Nothing is Mere",
     "By John Keats and Richard Feynman",
+    "[speech]",
+  ],
+
+  'One_Song_Many_Tyrants': [
+    "One Song, Many Tyrants",
+    "By Daniel Speyer",
     "[speech]",
   ],
 
@@ -1449,6 +1455,12 @@ content = {
     "[speech]",
   ],
 
+  'Unexpected_Victory': [
+    "An Unexpected Victory",
+    "By Zvi Mowshowitz",
+    "[speech]",
+  ],
+
   'Unsong_Prologue_German': [
     "Unsong Prologue (German Translation)",
     "By Scott Alexander, Translated by Adrien Pfeuffer",
@@ -1485,6 +1497,12 @@ content = {
 
   'We_Are_Gathered': [
     "We Are Gathered",
+    "by Daniel Speyer",
+    "[speech]",
+  ],
+
+  'We_Are_Gathered_2022': [
+    "We Are Gathered 2022",
     "by Daniel Speyer",
     "[speech]",
   ],
