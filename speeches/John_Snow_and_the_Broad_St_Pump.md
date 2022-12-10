@@ -1,4 +1,4 @@
-# Lever: John Snow and the Broad Street Pump
+# John Snow and the Broad Street Pump
 ## By Kathleen Tuthill and Daniel Speyer
 
 In August of 1854 Soho, a suburb of London, was hit hard by a terrible outbreak of cholera. Dr. John Snow lived near Soho, and immediately went to work to prove his theory that contaminated water was the cause of the outbreak.

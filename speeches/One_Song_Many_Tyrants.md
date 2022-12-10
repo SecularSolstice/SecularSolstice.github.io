@@ -1,4 +1,4 @@
-# Lever: One Song, Many Tyrants
+# One Song, Many Tyrants
 ## By Daniel Speyer
 
 The song we just sang is older than you might think.  There are hints
