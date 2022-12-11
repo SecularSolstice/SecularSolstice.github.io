@@ -12,7 +12,8 @@ melody = \relative c'' {
   g8 g | c4 c e8([ c]) | g2 g4 | f d g | e c
   g' | c c e8([ c]) | g2 g4 | f d g | e c
   c' | b d d | c e e | b d d | c e
-  c | a a c8([ a]) | g2 g8 e' | e([ d]) c4 b | c2 \bar "|."
+  c | a a c8([ a]) | g2 g8 e' | e([ d]) c4 b | c2 \bar "|." \break
+  c4 | a a c8([ a]) | g2 g8 e' | e([ d]) c4 b | c2 
 }
 
 harmony = \relative c'' {
@@ -65,7 +66,7 @@ english_a = \lyricmode {
   Oh my think -- ing is free.  No one can it har -- ness. 
   My log -- ic soars high, like ow -- ls in dark -- ness.
   No spy can dis -- play it; no hunt -- er can slay it;
-  With Glock nor U -- zi.  For my thinking is free!
+  With Glock nor U -- zi.  For my think -- ing is free!
   
 }
 
@@ -73,21 +74,22 @@ english_b = \lyricmode {
   Yes I think as I choose and by my de -- si -- re.
   The world may grow still; my int' -- rest seeks high -- er.
   My val -- ues im -- pli -- cit: no one can in -- hi -- bit.
-  As al -- ways it'll be.  For my thinking is free!
+  As al -- ways it'll be.  For my think -- ing is free!
 }
 
 english_c = \lyricmode {
   Ev -- en if I am cast in -- to deep -- est dung -- eon.
   It gives them no aid; no game have they won then.
   If ram -- part and tow -- er face think -- ing's own pow -- er,
-  They'll soon cease to be.  For my thinking is free!
+  They'll soon cease to be.  Still my think -- ing is free!
 }
 
 english_d = \lyricmode {
   So I bid a fare -- well to sor -- row for -- ev -- er.
   So pet -- ty mise -- ry will trou -- ble me nev -- er.
   Odd word -- play and deep truths, ro -- man -- ces and neat proofs.
-  Stay al -- ways in me.  For my thinking is free!
+  Stay al -- ways in me.  For my think -- ing is free!
+  Stay al -- ways in me.  For my think -- ing is free!
 }
   
   

@@ -21,7 +21,7 @@ Nor were idealists the only ones making the attempts.  The maginet line was an a
 
 And the crippling sanctions were probably someone else's attempt to prevent a war.
 
-So many attempts.  So many mistakes.  So many failures.
+So many attempts.  So many mistakes.  So many failures.  Or one failure, from many angles.
 
 And so, so many people who trusted and were disappointed.
 
@@ -29,8 +29,4 @@ Speaking of mistakes and untrustworthiness, I've maintained the tradition of hav
 
 Because the warning signs of coming dangers are gathering again.  The danger of yet another world war not least among them.
 
-And there's still no sign of adults in the room.
-
-At all.
-
-At least, not yet.
+And there's still no sign of anyone we can count on.
