@@ -10,10 +10,12 @@ In 1978, he wrote the fourth book: Alice in the Past, in which his hero traveled
 
 In 1984, Soviet Central Television converted this novel into a five-episode miniseries entitled [Guest from the Future](https://tvtropes.org/pmwiki/pmwiki.php/Series/GuestFromTheFuture).  This was the theme song.
 
-In 2018, Anna Tchetchetkine and the Bayesian Choir translated the song into English.
+In 2018, Anna Tchetchetkine and the Bayesian Choir translated the song into English and arranged it for the choir.
 
 The original can be found [here](https://www.youtube.com/watch?v=GJB_kRkwUOk)
 
-The 2020 Bayesian Choir performance is [also on youtube](https://www.youtube.com/watch?v=S19KpxLSbwc)
+The 2020 Bayesian Choir performance is [also on youtube](https://www.youtube.com/watch?v=S19KpxLSbwc). The music for this arrangement is available in [pdf](../Beautiful_Tomorrow_SATB_v1.4.pdf) and [MuseScore](../Beautiful_Tomorrow_SATB_v1.4.mscz) format.
+
+There is also an arrangement for a guitar and two vocalists (soprano and alto) available in [pdf](../Beautiful_Tomorrow_duet.pdf) and [MuseScore](../Beautiful_Tomorrow_duet.mscz) format.
 
 [A recording of this from the 2020 North American Distributed Chorus](https://www.jefftk.com/solstice-2020/10-beautiful-tomorrow--2020-12-20-024637.mp3) is available.
