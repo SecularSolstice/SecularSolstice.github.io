@@ -432,6 +432,10 @@ content = {
     "What \"Winter Wonderland\" is to the teachings of Jesus, this song is to incomprehensible horrors that shape our world.",
   ],
 
+  'Next_Right_Thing': [
+    "The Next Right Thing",
+  ],
+
   'No_One_Is_Alone': [
     "No One Is Alone",
     "By Stephen Sondheim (from Into the Woods)",
