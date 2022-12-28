@@ -59,7 +59,7 @@ for p in parse(open(sys.argv[1])):
         if p['klass']=='text':
             print(p['val'])
         if p['klass']=='blank':
-            print()
+            print('')
     if sys.argv[2] == '--cp':
         if p['klass']=='chords':
             if savedchords:
@@ -72,6 +72,6 @@ for p in parse(open(sys.argv[1])):
             else:
                 print(p['val'])
         if p['klass']=='blank':
-            print()
+            print('')
         if p['klass']=='title':
             print('{title: %s}' % p['val'])
