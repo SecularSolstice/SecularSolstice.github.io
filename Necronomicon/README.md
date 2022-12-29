@@ -4,4 +4,4 @@
 
 To the tune of Winter Wonderland.  May help to know a thing or two about Lovecraft.  May still feel too Christmassy to some listeners.
 
-A [Bayesian Choir Performance](https://www.youtube.com/watch?v=lRLoFe_-YyY) of this song is on Youtube.
+A [recording](../Necronomicon_DC_2022.mp3) from the DC Solstice 2022 band is available.
