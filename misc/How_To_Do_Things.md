@@ -91,6 +91,7 @@ Format can be one of the following (so far; growth mindset):
 * **ugc**: Ultimate Guitar Chord format.  With chord names above lyrics.  Always Look on the Bright Side provides an [example](/Always_Look_on_the_Bright_Side/chord-sheet.ugc).
 * **cho**: Chordpro Format, with chords in brackets amidst lyrics.  There's some bonus features for optimal viewing on an iphone while performing.  Somewhere to Begin provides an [example](/Somewhere_to_Begin/chord-sheet.cho)
 * **ly**: Lilypond Format, complete sheet music.  This format is [documented](https://lilypond.org/manuals.html).  Bring the Light offers a relatively straightforward [example](/Bring_the_Light/sheet-music.ly).  If you're using this format seriously, you'll probably want the [Frescobaldi editor](https://frescobaldi.org).
+* **mscx**: Music XML formal, also complete sheet music.  A [W3C Standard](https://www.musicxml.com/) supported natively by the open source [Musescore](https://musescore.org/en) and as an import/export format by many other programs.
 
 This script will create a directory for the song and the relevant files (though the files with the content will be empty).
 

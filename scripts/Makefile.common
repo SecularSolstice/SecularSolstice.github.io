@@ -4,11 +4,17 @@ clean:
 gen/${PREFIX}sheet-music.pdf: sheet-music.ly
 	lilypond -o gen/${PREFIX}sheet-music sheet-music.ly
 
+gen/${PREFIX}sheet_music.pdf: sheet-music.mscx
+	musescore -o gen/${PREFIX}sheet_music.pdf sheet-music.mscx
+
 gen/${PREFIX}from-midi.wav: gen/${PREFIX}sheet-music.midi
 	timidity gen/${PREFIX}sheet-music.midi -Ow -o gen/${PREFIX}from-midi.wav
 
 gen/${PREFIX}from-midi.mp3: gen/${PREFIX}from-midi.wav
 	lame  gen/${PREFIX}from-midi.wav gen/${PREFIX}from-midi.mp3
+
+gen/${PREFIX}from_midi.mp3: sheet-music.mscx
+	musescore -o gen/${PREFIX}from_midi.mp3 sheet-music.mscx
 
 gen/${PREFIX}chord-chart.html: chart.csv
 	../scripts/csv-to-html.py chart.csv gen/${PREFIX}chord-chart.html
