@@ -1032,7 +1032,7 @@ content = {
 
   'Invincible_Winter': [
     "Invincible Winter",
-    "By Georgia Ray (sometimes credited to Brienne Yudkowsky (why?))",
+    "By Georgia Ray",
     "[speech]",
   ],
 
