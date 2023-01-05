@@ -2,9 +2,9 @@
 
 export PREFIX="$1"
 
-if [ -e "gen/${PREFIX}sheet-music.pdf" ]; then 
+if [ -e gen/${PREFIX}sheet*music.pdf ]; then 
     convert -density 70 -negate -crop 600x315 \
-            gen/${PREFIX}sheet-music.pdf gen/thumb.png 
+            gen/${PREFIX}sheet*music.pdf gen/thumb.png 
     mv gen/thumb-0.png gen/thumb.png
     rm gen/thumb-*.png
     composite gen/thumb.png ../dawn-small-dark.jpg gen/thumb.png
