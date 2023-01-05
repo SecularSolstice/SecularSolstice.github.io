@@ -1,5 +1,5 @@
 # Invincible Winter
-## By Georgia Ray (sometimes credited to Brienne Yudkowsky (why?))
+## By Georgia Ray
 
 Early September brought Seattle what were to be some of the hottest days of the summer. For weeks, people had been turning on fans, escaping to cooler places to spend the day, buying out air conditioners, which most of the city didn’t own. I cowered in my room with an AC unit on loan from a friend lodged in the window, only going out walking when the sun had set.
 
