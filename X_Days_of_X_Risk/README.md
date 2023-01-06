@@ -1,6 +1,6 @@
 #  X Days of X Risk
 ## By Raymond Arnold
-## Six ways the world could end
+## Six (or more) ways the world could end
 
 To the tune of 12 days of Christmas.
 
@@ -12,3 +12,15 @@ This song is available for sale via bandcamp in the [2015](https://humanistcultu
 
 
 A [Bayesian Choir Performance](https://www.youtube.com/watch?v=vlxrcB6JPdI) of this song is on Youtube.
+
+
+A longer variant uses:
+
+> Eight nanites making 16 nanites...
+> Seven icecaps melting
+> Six labs a-leaking
+> Five rogue AIs
+> Four volcanoes
+> Three asteroids
+> Two atom bombs
+> And the end of humanity

@@ -72,7 +72,7 @@ gen/${PREFIX}lyrics.txt: sheet-music.mscx
 	../scripts/mscx-to-lyrics.py sheet-music.mscx > gen/${PREFIX}lyrics.txt
 EOF
         touch $NAME/sheet-music.mscx
-    
+        ;;
     *)
         echo "Unrecognized format '$TYPE', can be text, stub, ugc, cho, ly or mscx"
         ;;

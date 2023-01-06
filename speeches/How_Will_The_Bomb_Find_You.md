@@ -1,0 +1,11 @@
+# How Will The Bomb Find You?
+## By C.S. Lewis
+
+In one way we think a great deal too much of the atomic bomb. ‘How are we to live in an atomic age?’ I am tempted to reply: ‘Why, as you would have lived in the sixteenth century when the plague visited London almost every year [...]; or indeed, as you are already living in an age of cancer, an age of syphilis, an age of paralysis, an age of air raids, an age of railway accidents, an age of motor accidents.
+
+In other words, do not let us begin by exaggerating the novelty of our situation. Believe me, dear sir or madam, you and all whom you love were already sentenced to death before the atomic bomb was invented… It is perfectly ridiculous to go about whimpering and drawing long faces because the scientists have added one more chance of painful and premature death to a world which already bristled with such chances and in which death itself was not a chance at all, but a certainty.
+
+[...] If we are all going to be destroyed by a bomb, let that bomb when it comes find us doing sensible and human things—working, teaching, reading, listening to music, bathing the children, playing tennis, chatting to our friends over a pint and a game of darts—not huddled together like frightened sheep panicking about bombs.
+
+When the bomb comes, let it find us doing well.
+

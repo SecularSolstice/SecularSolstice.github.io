@@ -1,0 +1,23 @@
+# Dying Outside, Part 1
+## By Hal Finney and Scott Alexander
+
+In a second, choir will be singing the Hymn To Breaking Strain. It makes me think of an episode from our community’s history, so I want to talk about that now.
+
+Before there was Less Wrong, there was Overcoming Bias. And before there was Overcoming Bias, there was the Extropians mailing list. This was like 2000, 2005. This was a place for old-school transhumanists, cypherpunks, those kinds of people. The founders of our community, people like Eliezer Yudkowsky and Robin Hanson, were there. Another person there was a hotshot programmer named Hal Finney. He was one of the people behind PGP, the cryptography protocol used for email security.
+
+When Robin started Overcoming Bias, Hal went with him. He wrote some great posts, including some of the first good stuff online about prediction markets. When Eliezer started Less Wrong, Hal went there too. He wrote a few hundred comments on the new site, but only one top-level post, in 2009. It became the highest-upvoted post ever and remained that way for many years. It was called Dying Outside, and I am going to read it to you now, slightly edited for flow.
+
+> Recently I received some bad medical news. Unfortunately I have been diagnosed with a fatal disease, Amyotrophic Lateral Sclerosis or ALS, sometimes called Lou Gehrig's disease. ALS causes nerve damage, progressive muscle weakness and paralysis, and ultimately death. Patients lose the ability to talk, walk, move, eventually even to breathe, which is usually the end of life. This process generally takes about 2 to 5 years.
+>
+> There are however two bright spots in this picture. The first is that ALS normally does not affect higher brain functions. I will retain my abilities to think and reason as usual. Even as my body is dying outside, I will remain alive inside.
+>
+> The second relates to survival. Although ALS is generally described as a fatal disease, this is not quite true. It is only mostly fatal. When breathing begins to fail, ALS patients must make a choice. They have the option to either go onto invasive mechanical respiration, which involves a tracheotomy and breathing machine, or they can die in comfort. I was very surprised to learn that over 90% of ALS patients choose to die. And even among those who choose life, for the great majority this is an emergency decision made in the hospital during a medical respiratory crisis. Probably fewer than 1% of ALS patients arrange to go onto ventilation when they are still in relatively good health, even though this provides the best odds for a successful transition.
+>
+> It seems, then, that calling ALS a fatal disease is an oversimplification. ALS takes away your body, but it does not take away your mind, and if you are determined and fortunate, it does not have to take away your life.
+>
+> There are a number of practical and financial obstacles to successfully surviving on a ventilator, foremost among them the great load on caregivers. No doubt this contributes to the high rates of choosing death. But it seems that much of the objection is philosophical. People are not happy about being kept alive by machines. And they assume that their quality of life would be poor, without the ability to move and participate in their usual activities. This is despite the fact that most people on respirators describe their quality of life as acceptable to good. As we have seen in other contexts, people are surprisingly poor predictors of how they will react to changed circumstances. This seems to be such a case, contributing to the high death rates for ALS patients.
+>
+> I hope that when the time comes, I will choose life. ALS kills only motor neurons, which carry signals to the muscles. The senses are intact. And most patients retain at least some vestige of control over a few muscles, which with modern technology can offer a surprisingly effective mode of communication. Stephen Hawking, the world's longest surviving ALS patient at over 40 years since diagnosis, is said to be able to type at ten words per minute by twitching a cheek muscle. I hope to be able to read, browse the net, and even participate in conversations by email and messaging. I may even still be able to write code, and my dream is to contribute to open source software projects even from within an immobile body. That will be a life very much worth living.
+------
+
+I’ll continue this story a little later. For now, the choir will sing The Hymn To Breaking Strain. When they sing the last words – “In spite of being broken, or because of being broken, rise up and build anew” – remember Hal.
