@@ -19,7 +19,7 @@ gen/${PREFIX}from-midi.mp3: gen/${PREFIX}from-midi.wav
 gen/${PREFIX}from_midi.mp3: sheet-music.mscx
 	musescore -o gen/${PREFIX}from_midi.mp3 sheet-music.mscx
 
-gen/${PREFIX}chord-chart.html: chart.csv ../scripts/csv-to-html
+gen/${PREFIX}chord-chart.html: chart.csv ../scripts/csv-to-html.py
 	../scripts/csv-to-html.py chart.csv gen/${PREFIX}chord-chart.html
 
 gen/${PREFIX}chord-sheet.pdf: $(wildcard chord-sheet.cho) $(wildcard gen/${PREFIX}chord-sheet.cho)
