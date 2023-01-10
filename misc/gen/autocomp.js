@@ -385,6 +385,12 @@ content = {
     "A future worth fighting for",
   ],
 
+  'Level_Up': [
+    "Level Up",
+    "By Vienna Tang",
+    "An insistant yet triumphant invitation to grow",
+  ],
+
   'Little_Echo': [
     "A Little Echo",
     "By Raymond Arnold (with a few bits by Daniel Speyer)",
