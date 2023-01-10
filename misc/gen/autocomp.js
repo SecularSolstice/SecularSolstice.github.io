@@ -537,6 +537,12 @@ content = {
     "A song about human ingenuity in the face of challenges.",
   ],
 
+  'Son_of_Man': [
+    "Son of Man",
+    "By Phil Collins",
+    "Growing up",
+  ],
+
   'Sound_of_Silence': [
     "Sound Of Silence",
     "By Paul Simon, Originally",
@@ -553,6 +559,12 @@ content = {
     "Spring Mourning",
     "By Margaret Weis and Tracy Hickman",
     "The passing of seasons, and of lives",
+  ],
+
+  'Stardust': [
+    "Stardust",
+    "By Raymond Arnold",
+    "All of us are made of stardust",
   ],
 
   'Stars': [
@@ -585,6 +597,12 @@ content = {
     "I can solve my problems with my parents' teachings... until I can't",
   ],
 
+  'The_Circle': [
+    "The Circle",
+    "By Taylor Smith",
+    "Expanding the moral circle",
+  ],
+
   'The_Drummers_Little_Boy': [
     "The Drummers Little Boy",
     "By Raymond Arnold",
@@ -601,6 +619,12 @@ content = {
     "The Pantheon aka Ain't Gonna Catch You",
     "By Darren Korb",
     "There is no one to protect you from yourself",
+  ],
+
+  'There_Will_Come_Soft_Rain': [
+    "There Will Come Soft Rain",
+    "By Sara Teasdale (Lyrics) and Jonathon Adams (music)",
+    "The world without us",
   ],
 
   'The_Sun_Is_A_Guy_Who_Travels_Through_The_Sky': [
@@ -769,9 +793,15 @@ content = {
     "[speech]",
   ],
 
+  'A_Bottomless_Pit_Bay_Edition': [
+    "A Bottomless Pit of Suffering (Bay Edition)",
+    "By Raymond Arnold",
+    "[speech]",
+  ],
+
   'A_Bottomless_Pit': [
     "A Bottomless Pit of Suffering",
-    "By Nelson Lugo",
+    "By Raymond Arnold",
     "[speech]",
   ],
 
