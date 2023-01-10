@@ -307,6 +307,12 @@ content = {
     "The glory of space exploration",
   ],
 
+  'Hope_Eyrie': [
+    "Hope Eyrie",
+    "By Julia Ecklar",
+    "The moon landing, from an all-of-history perspective",
+  ],
+
   'Humans_Are_Dead': [
     "The Humans Are Dead",
     "By Flight of the Conchords",
