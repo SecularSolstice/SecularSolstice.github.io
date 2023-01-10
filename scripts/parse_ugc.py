@@ -17,6 +17,8 @@ def parseAsChords(line):
 def parseLine(line, nextline):
     if re.match('^[- ]*$', line):
         return { 'klass': 'blank' }
+    if re.match('^\\[[A-Za-z0-9 -]*\\] *', line):
+        return { 'klass': 'heading', 'val':line.strip()[1:-1]}
     chords = parseAsChords(line)
     if chords:
         return chords
@@ -60,6 +62,8 @@ for p in parse(open(sys.argv[1])):
             print(p['val'])
         if p['klass']=='blank':
             print('')
+        if p['klass']=='heading':
+            print('3 '+p['val'])
     if sys.argv[2] == '--cp':
         if p['klass']=='chords':
             if savedchords:
@@ -75,3 +79,5 @@ for p in parse(open(sys.argv[1])):
             print('')
         if p['klass']=='title':
             print('{title: %s}' % p['val'])
+        if p['klass']=='heading':
+            print('{comment: '+p['val']+'}')

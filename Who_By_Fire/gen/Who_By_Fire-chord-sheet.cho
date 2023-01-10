@@ -1,8 +1,8 @@
-[Intro]
+{comment: Intro}
 Am/E   Fmaj7   E
 .
 
-[Verse 1]
+{comment: Verse 1}
 And [Am]who [G]by [Am]fire
 [Am]Who [G]by [Am]water
 [C]Who [G]in the [C]sunshine
@@ -13,7 +13,7 @@ And [Am]who [G]by [Am]fire
 [C]Who by [G]very s[C]low decay
 And [Am]who shall I [F]say is [E]calling?
 
-[Verse 2]
+{comment: Verse 2}
 And [Am]who [G]in her [Am]lonely slip
 [Am]Who [G]by bar[Am]biturate
 [C]Who [G]in these [C]realms of love
@@ -24,7 +24,7 @@ And [Am]who [G]in her [Am]lonely slip
 [C]Who [G]for his [C]hunger
 And [Am]who shall I [F]say is [E]calling?
 
-[Verse 3]
+{comment: Verse 3}
 And [Am]who [G]by [Am]brave assent
 [Am]Who [G]by [Am]accident
 [C]Who [G]in [C]solitude

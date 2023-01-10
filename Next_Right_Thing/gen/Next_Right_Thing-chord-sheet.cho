@@ -1,15 +1,15 @@
 
 {title: The Next Right Thing}
 
-[Verse 1]
+{comment: Verse 1}
 Cm                         Abadd9
 I've seen dark before, but not like this
         Bb            Ebmaj7      Ebmaj7/Ab
 This is cold. This is empty. This is numb.
-The [Cm]life I knew�[Ab]�is over. [Bb]The lights are out.
+The [Cm]life I knew is [Ab]over. The [Bb]lights are out.
 Hello [Cm]darkness, I'm ready to suc[Ab]cumb.    [Bb]
 
-[Verse 2]
+{comment: Verse 2}
   Cm                  Abadd9
 I follow you around I always have.
            Bb           Ebmaj7    Ebmaj7/Ab
@@ -20,7 +20,7 @@ You are [Cm]lost, hope is [Bb]gone
 But you [Eb]must go [Ab]on
 And [Eb]do the next right t[Bb]hing
 
-[Verse 3]
+{comment: Verse 3}
 [Cm]Can there be a day be[Ab]yond this night?
          Bb           Ebmaj7 Ebmaj7/Ab
 I don't know anymore what is true
@@ -33,14 +33,14 @@ Take a s[Ab]tep, step a[Bb]gain
 It is [Eb]all [Dm]that I[Cm] can [Bb]to [Ab]do
 The n[Bb]ext right th[B]ing
 
-[Bridge]
+{comment: Bridge}
 I[B] won't look too far ahead            [A#m]
 It's too much for me to t[G#m]ake       [F#5]
 But break it down to this n[F5]ext breath
 [E5]This next step
 This next choice is one that I c[G#]an make
 
-[Verse 4]
+{comment: Verse 4}
 So I'll [C#m]walk through this n[B]ight
 St[E]umbling blindly to[A]ward the light
 And [E]do the next right th[B]ing

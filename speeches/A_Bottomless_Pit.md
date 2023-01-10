@@ -1,5 +1,5 @@
 # A Bottomless Pit of Suffering
-## By Nelson Lugo
+## By Raymond Arnold
 
 2016 was a very challenging year. For a lot of complex reasons, that I still don't have a very good handle on. But right now I want to talk about something very concrete.
 
