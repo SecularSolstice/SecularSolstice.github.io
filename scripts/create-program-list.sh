@@ -44,8 +44,8 @@ echo "<center><div class=col>"
 ISCOL2=""
 for i in lists/gen/*.html; do
     if [ "$i" != "index.html" ] &&
-           ! echo "$i" | egrep 'tentative|All_' > /dev/null; then
-        if echo "$i" | grep '^lists/gen/[M-Zm-z]' > /dev/null && [ -z "$ISCOL2" ]; then
+           ! echo "$i" | egrep 'tentative|options|All_' > /dev/null; then
+        if echo "$i" | grep '^lists/gen/[N-Zn-z]' > /dev/null && [ -z "$ISCOL2" ]; then
             echo "</div><div class=col>"
             ISCOL2="True"
         fi
