@@ -14,6 +14,7 @@ chorus=''
 finale=''
 is_chorus=False
 is_finale=False
+is_also_finale=False
 
 last_black=False
 
@@ -24,6 +25,7 @@ for line in inf:
         inlyrics=True
         is_chorus = (' chorus ' in line)
         is_finale = (' finale ' in line)
+        is_also_finale = ('_also_finale ' in line)
         if ((not chorus_before or line.split(' ')[0] in chorus_before) and
             not is_finale):
             outf.write('\n'+chorus+'\n')
@@ -43,6 +45,8 @@ for line in inf:
         elif is_finale and txt.strip():
             finale += txt
         else:
+            if is_also_finale:
+                finale += txt
             if not txt.strip():
                 if last_blank:
                     continue

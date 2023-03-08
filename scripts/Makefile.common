@@ -7,6 +7,9 @@ clean:
 gen/${PREFIX}sheet-music.pdf: sheet-music.ly
 	lilypond -o gen/${PREFIX}sheet-music sheet-music.ly
 
+gen/${PREFIX}sheet-music.midi: gen/${PREFIX}sheet-music.pdf
+	test -e gen/${PREFIX}sheet-music.midi
+
 gen/${PREFIX}sheet_music.pdf: sheet-music.mscx
 	musescore -o gen/${PREFIX}sheet_music.pdf sheet-music.mscx
 
