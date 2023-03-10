@@ -2,7 +2,7 @@
 
 set -ex
 
-TITLE="$(basename $(pwd) | tr '_' ' ')"
+cd $(dirname $0)/..
 
 cat <<EOF
 <html>
@@ -54,7 +54,7 @@ for i in $(ls lists/gen/*.html | sort); do
         echo "<a href=../../$i><h2>"
         echo "$i" | sed 's@.*/gen/@@' | sed 's/.html//' | tr '_' ' '
         echo '</h2>'
-        grep '<h3>' $i 
+        grep '<h3>' $i || true
         echo "</a>"
     fi
 done
