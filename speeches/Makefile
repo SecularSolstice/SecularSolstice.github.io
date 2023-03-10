@@ -6,5 +6,5 @@ all: ${ALLH}
 	echo done
 
 clean:
-	rm gen/*
+	rm -f gen/*
 

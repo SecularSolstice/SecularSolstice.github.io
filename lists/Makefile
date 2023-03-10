@@ -6,4 +6,4 @@ gen/%.html: %.lst ../scripts/process_list.py $(wildcard ../*/*.md)
 all: ${LISTS}
 
 clean:
-	rm gen/*
+	rm -f gen/*
