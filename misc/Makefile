@@ -15,3 +15,5 @@ gen/Programs.html: ../scripts/create-program-list.sh $(wildcard ../lists/*.lst)
 ALLH=$(patsubst %.md, gen/%.html, $(wildcard *.md))
 all: ${ALLH} gen/autocomp.js gen/Programs.html
 
+clean:
+	rm -f gen/*
