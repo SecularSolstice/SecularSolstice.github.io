@@ -5,3 +5,6 @@ ALLH=$(patsubst %.md, gen/%.html, $(wildcard *.md))
 all: ${ALLH}
 	echo done
 
+clean:
+	rm gen/*
+
