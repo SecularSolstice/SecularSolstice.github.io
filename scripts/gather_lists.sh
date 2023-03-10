@@ -1,12 +1,14 @@
 #!/usr/bin/env bash
 
+set -ex
+
 cd $(dirname $0)/..
 
 echo 'content = {'
 
-for i in  */README.md; do
+for i in  songs/*/README.md; do
     echo
-    echo "  '$i': [" | sed 's@/README.md@@'
+    echo "  '$i': [" | sed 's@/README.md@@' | sed 's@songs/@@'
     grep '#' $i | head -n 3 | sed 's/"/\\"/g' | sed 's/^#* */    "/' | sed 's/$/",/'
     echo '  ],'
 done

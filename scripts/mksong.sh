@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+set -ex
+
+cd $(dirname $0)/../songs
+
 NAME="$1"
 TYPE="$2"
 
@@ -79,7 +83,7 @@ EOF
 
 esac
 
-echo 'include ../scripts/Makefile.common' >>$NAME/Makefile
+echo 'include ../Makefile.common' >>$NAME/Makefile
 
 cd $NAME
 shopt -s extglob

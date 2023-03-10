@@ -7,4 +7,4 @@ gen/${PREFIX}lyrics.txt: lyrics.txt
 gen/${PREFIX}countermelody-sheet-music.pdf: countermelody.ly
 	lilypond -o gen/${PREFIX}countermelody-sheet-music countermelody.ly
 
-include ../scripts/Makefile.common
+include ../Makefile.common

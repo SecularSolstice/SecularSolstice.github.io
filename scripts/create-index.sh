@@ -1,4 +1,5 @@
 #!/usr/bin/env bash 
+set -ex
 
 TITLE="$(grep '^# ' README.md | head -n 1 | sed 's/# //g')"
 if [ -z "$TITLE" ]; then 
@@ -11,12 +12,12 @@ cat <<EOF
     <title>$TITLE</title>
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width initial-scale=1.0">
-    <link rel=stylesheet href=../../theme.css>
-    <script src='../../theme-switcher.js'></script>
+    <link rel=stylesheet href=../../../theme.css>
+    <script src='../../../theme-switcher.js'></script>
 EOF
 
 if [ -e gen/thumb.png ]; then
-    THUMB="https://secularsolstice.github.io/$(basename $(pwd))/gen/thumb.png"
+    THUMB="https://secularsolstice.github.io/songs/$(basename $(pwd))/gen/thumb.png"
     echo "    <meta property='og:image' content='${THUMB}' />"
     echo "    <meta name='twitter:image' content='${THUMB}' />"
 fi
@@ -32,11 +33,11 @@ echo "    <meta property='og:description' content='${DESC}' />"
 
 
 echo "  </head>  <body> "
-cat ../misc/header.html
+cat $(dirname $0)/../misc/header.html
 
 echo '<div class=notes>'
 pandoc -f markdown README.md
-echo "<p><a href=https://github.com/SecularSolstice/SecularSolstice.github.io/edit/master/$(basename $PWD)/README.md class=editbutton>edit description</a></p>"
+echo "<p><a href=https://github.com/SecularSolstice/SecularSolstice.github.io/edit/master/songs/$(basename $PWD)/README.md class=editbutton>edit description</a></p>"
 echo '</div>'
 
 echo "<h2>Lyrics</h2><p class=lyrics>"
@@ -71,13 +72,13 @@ for f in *; do
            [[ "$f" =~ ^[^~]*$ ]]; then
         echo "<li><a href=../$f>$f</a>"
         if file $f | grep text > /dev/null; then
-            echo "<a href=https://github.com/SecularSolstice/SecularSolstice.github.io/edit/master/$(basename $PWD)/$f class=editbutton>edit</a>"
+            echo "<a href=https://github.com/SecularSolstice/SecularSolstice.github.io/edit/master/songs/$(basename $PWD)/$f class=editbutton>edit</a>"
         fi
     fi
 done
 
 echo "</ul>"
 
-echo "<a class=rawgit href=https://github.com/SecularSolstice/SecularSolstice.github.io/tree/master/$(basename $(pwd))>Raw Git Folder</a>"
+echo "<a class=rawgit href=https://github.com/SecularSolstice/SecularSolstice.github.io/tree/master/songs/$(basename $(pwd))>Raw Git Folder</a>"
 
 echo "</body></html>"

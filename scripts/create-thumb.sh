@@ -16,7 +16,7 @@ if ls gen/${PREFIX}*.pdf >/dev/null; then
             gen/thumb-0.png gen/thumb.png
     fi
     rm gen/thumb-*.png
-    composite gen/thumb.png ../dawn-small-dark.jpg gen/thumb.png
+    composite gen/thumb.png $(dirname $0)/../dawn-small-dark.jpg gen/thumb.png
 elif [ -e "gen/${PREFIX}chord-chart.html" ]; then 
     export CSS="td{ white-space: normal; font-weight: bold; }"
     export TMP="gen/tmp${RANDOM}.html"
@@ -32,5 +32,5 @@ else
         -geometry 600x400 \
         -annotate +0-50 "$(grep '^# ' README.md | sed 's/# //')" \
         -gravity center -pointsize 32 -fill yellow  \
-        ../dawn-bkg.jpg  gen/thumb.png
+        $(dirname $0)/../dawn-bkg.jpg  gen/thumb.png
 fi

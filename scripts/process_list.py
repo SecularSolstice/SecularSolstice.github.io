@@ -45,7 +45,7 @@ def process_song(line):
             else:
                 outf.write(' &#x25e6; '+rl[2:])
         elif rl[:1]=='#':
-            outf.write('<li><b><a href=../../%s/gen/>%s</a></b> ' % (line, rl[1:]))
+            outf.write('<li><b><a href=../../songs/%s/gen/>%s</a></b> ' % (line, rl[1:]))
     outf.write('\n')
     return True
 

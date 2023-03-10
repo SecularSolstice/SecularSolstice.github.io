@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
 
+set -ex
+
 cd $(dirname $0)/..
 
 echo "Songs:"
 # Omit stub songs
-SONGS=$(ls */gen/*-lyrics.txt | sed 's@/gen/.*-lyrics.txt@@')
+SONGS=$(ls songs/*/gen/*-lyrics.txt | sed 's@/gen/.*-lyrics.txt@@' | sed 's@songs/@@')
 for i in $SONGS; do
     grep $i lists/All_Songs.lst >/dev/null || echo $i
 done

@@ -26,7 +26,7 @@ for line in inf:
     for format in ['sheet-music-drop', 'sheet-music-english', 'sheet-music-compact', 'sheet-music', 'chord-sheet-2col', 'chord-sheet', 'chord-chart-tools-drones', 'chord-chart', 'lyrics']:
         if 'chord-chart' in format and ('Bitter' in content or 'Brighter' in content or 'Endless' in content or 'Here' in content):
             continue
-        g=glob(f'../{content}/gen/*-{format}.*')
+        g=glob(f'../songs/{content}/gen/*-{format}.*')
         if g:
             if g[0].endswith('.pdf'):
                 run(['cp', g[0], f'{outd}/{i}.pdf'], check=True)

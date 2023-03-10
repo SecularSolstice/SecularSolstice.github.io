@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -ex
+
 TITLE="$(basename $(pwd) | tr '_' ' ')"
 
 cat <<EOF
