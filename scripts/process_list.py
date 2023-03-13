@@ -32,7 +32,7 @@ def process_instruction(line):
 
 def process_song(line):
     try:
-        readme = open('../%s/README.md' % line)
+        readme = open('../songs/%s/README.md' % line)
     except IOError:
         return False
     for rl in readme:
