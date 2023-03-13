@@ -34,10 +34,10 @@ gen/${PREFIX}chord-sheet-2col.pdf: $(wildcard chord-sheet.cho) $(wildcard gen/${
 gen/${PREFIX}chord-sheet.cho: chord-sheet.ugc ../../scripts/parse_ugc.py
 	../../scripts/parse_ugc.py chord-sheet.ugc --cp > gen/${PREFIX}chord-sheet.cho
 
-gen/thumb.png: $(wildcard gen/${PREFIX}*.pdf) $(wildcard gen/${PREFIX}*.html) ../../scripts/create-thumb.sh
-	../../scripts/create-thumb.sh "${PREFIX}"
-
 FILES=$(foreach f, ${FILES_TO_LIST}, gen/${PREFIX}${f})
+
+gen/thumb.png: $(wildcard gen/${PREFIX}*.pdf) $(wildcard gen/${PREFIX}*.html) ../../scripts/create-thumb.sh ${FILES}
+	../../scripts/create-thumb.sh "${PREFIX}"
 
 gen/index.html: README.md ${FILES} gen/thumb.png ../../scripts/create-index.sh
 	../../scripts/create-index.sh > gen/index.html
