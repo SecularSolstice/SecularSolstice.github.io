@@ -21,5 +21,5 @@ That element was there addition.  The rest of the song is older.
 This song doesn't have a lot of direct rationalist or solstice
 significance, but it sets up its
 [dark](../../Scarborough_Fair_Dark_Reprise/gen/) and
-[dark](../../Scarborough_Fair_Triumphant_Reprise/gen/) triumphant
-reprises.  It might also set up [Something Impossible](../../Something_Impossible/get/).
+[triumphant](../../Scarborough_Fair_Triumphant_Reprise/gen/)
+reprises.  It might also set up [Something Impossible](../../Something_Impossible/gen/).
