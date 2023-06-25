@@ -567,6 +567,12 @@ content = {
     "A song about human ingenuity in the face of challenges.",
   ],
 
+  'Sons_of_Martha': [
+    "Sons Of Martha",
+    "By Rudyard Kipling (lyrics) and Daniel Speyer (music)",
+    "An ode to those who make civilization possible",
+  ],
+
   'Sound_of_Silence': [
     "Sound Of Silence",
     "By Paul Simon, Originally",
