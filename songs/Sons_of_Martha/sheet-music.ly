@@ -36,15 +36,6 @@ words = \lyricmode {
   That the Sons of Ma -- ry may ov -- er -- come it,
   plea -- sant -- ly sleep -- ing and un -- a -- ware.
 
-  To these from birth is Be -- lief for -- bid -- den;
-  from these till death is Re -- lief a -- far.
-  They are con -- cerned with mat -- ters hid -- den; 
-  un -- der the earth -- line their al -- tars are
-  The sec -- ret foun -- tains to fol -- low up, 
-  wa -- ters with -- drawn to re -- store to the mouth,
-  And ga -- ther the floods as in a cup,
-  and pour them a -- gain at a ci -- ty’s drouth.
-
   They do not preach that their God will rouse them
   a lit -- tle be -- fore the nuts work loose.
   They do not teach that His Pi -- ty al -- lows them 
@@ -53,6 +44,15 @@ words = \lyricmode {
   so in the dark and the des -- ert they stand,
   Wa -- ry and watch -- ful all their days 
   that their breth -- ren’s days may be long in the land.
+
+  To these from birth is Be -- lief for -- bid -- den;
+  from these till death is Re -- lief a -- far.
+  They are con -- cerned with mat -- ters hid -- den; 
+  un -- der the earth -- line their al -- tars are
+  The sec -- ret foun -- tains to fol -- low up, 
+  wa -- ters with -- drawn to re -- store to the mouth,
+  And ga -- ther the floods as in a cup,
+  and pour them a -- gain at a ci -- ty’s drouth.
 
   And the Sons of Ma -- ry smile and are blessed;
   they know the ang -- els are on their side.
@@ -79,7 +79,9 @@ melody = \relative c' {
   c8 c e4 d8 d g4. e16 e b'4. a8 f4
   r8 c e4. c8 g' e d4  a'8 e4. c2
   c4 c8 c c4. c8 c4. c8 c2
-  s2 s s s 
+  
+  s2 s s \tempo 4=110 s s s s
+  
   
   r4. g'8 f4 e d4. a'8 g4 e d8 d4.
   r4. g8 e4 d c8 c r a' f8 e8 d4 c4
@@ -101,19 +103,9 @@ melody = \relative c' {
   d8 d e4. g8 a4 g a a8 g e4 d
   a' g8 e g4 e8 d g4 f c2
   
-    s2 s
-
-  r4. c8 e4 f d b8 b c4. b8 c c
-  r8 c e4 g g f8 e c4. b8 c4
-  r8 c e4 a g f4 c4. b8 c8 c8 r4
-  c4 c8 e8 d4 f8 g8 a4 g4 a4 r4 
-  s2 s4.
-  c,8 e4 f g4 f8 g8 f4. e8 f2
-  f4 e8 d c4 e8 d c4 b8 b c4 r8
-  d8 d e4 g8 a4 g a e4 d r8
-  a' g8 e g4 e4 d8 d g4. f8 c2
-  
   s2 s
+  \tempo 4=120
+  s2 s s
   r4. g'8 f4 e d4 a'8 a f4 e d8 d4.
   r4. g8 e4 d8 c8 c4 r8 a' f4 e8( d)  c4
   r8 g'8 f4 e d a'8 a g8 g8 e4 d8 d4.
@@ -124,6 +116,19 @@ melody = \relative c' {
   g a4 g8 a8 g4 f8 d8 c2
   s s
 
+  
+  r4. c8 e4 f d b8 b c4. b8 c c
+  r8 c e4 g g f8 e c4. b8 c4
+  r8 c e4 a g f4 c4. b8 c8 c8 r4
+  c4 c8 e8 d4 f8 g8 a4 g4 a4 r4 
+  s2 s s4.
+  c,8 e4 f g4 f8 g8 f4. e8 f2
+  f4 e8 d c4 e8 d c4 b8 b c4 r8
+  d8 d e4 g8 a4 g a e4 d r8
+  a' g8 e g4 e4 d8 d g4. f8 c2
+  
+  \tempo 4=100
+  s2 s
   r4 d8 d e4. d8 g4 a b4 a8 g e4
   r8 d d4. e8 g g4 g8 a4 g a
   r8 d, e4 d g a8 g b4. a8 g4
@@ -156,7 +161,7 @@ decoration = \relative c' {
   s2 s s s s s s s s s s s s s s s s s
   s f4 d8 d d4 s
   s2 s s s s s s s s s s s s s s s 
-  g8 e d4 d'8 b a4 c,8 b g4 f'8 e c4
+  g8 e d4 r g8 d d'8 b a4 r d8 a c,8 a8 g4 r4 c8 g f'8 d c4
   s2 s s s s s s s s s s s s s s s s s s
   r4 f8 c
   s2 s s s s s s s s s s s s s s s s
@@ -164,16 +169,17 @@ decoration = \relative c' {
   s2 s s s s s s s s s s s s s s s s
   c8 b c4 c,8 b c4
   s2 s s s s s s s s s s s s s s s 
-  r8 f g f r8 b c b
-  s2 s s s s s s s s s s s s s s s  s 
-  g8 g f4 g8 g8 r s
-  s2 s s s s s s s s s s s s s s s 
-  c8 b g4 f8 e c4
+  r8 f g f r8 b c b r4 f'8 r c8 b8 g4 f8 e8 c4
   s2 s s s s s s s s s s s s s s s s s s
   d'4 c,4
   s2 s s s s s s s s s s s s s s s s
-  f8 e c4 d8 c d4
-  s2 s s s s s s s s s s s s s s s s s s s s s s s s s s s s
+  f8 e f4 d8 c d4 s2 s
+  s2 s s s s s s s s s s s s s s
+  r4 e8 e f4. e8 f8 f8 r4 s2
+  s2 s s s s s s s s s s s s s s 
+  r4 r8 d8  g  b a e 
+  s2 s 
+  s2 s s s s s s s s s s s s s s s s s s s s s s s s s s 
   g8 g4 a8 b2 g8 g4 a8 b2 c
   s s s s s s 
   <<c4 e g >> r
@@ -197,7 +203,7 @@ harmony = {
     e,:m g, f, c, c, c,/g a,,:m c,
     a,,4:m a,,8:m a,,:m d,2:m g,,4. g,,8:1.3.5.8 c,2
     
-    d,:m a,,:m g,, c,
+    g,,:1.5 g,, d,:1.5 d,:m c,,:1.5 c,, c,
     g,, f,, d,:m e,,:m d,:m
     g,, d,:m c,4. r8 d,,2:m c,4.
     r8 f,,2 d,:m e,,:m d,:m
@@ -209,28 +215,17 @@ harmony = {
     a,,:1.5 a,,:1.3- f,, c,
 
     d,,:m b,,:1.3-.5-
-    c, e,,:m b,,:1.3-.5- c,
-    c, e,,:m b,,:1.3-.5- c,
-    c, a,,:m g,, c,/e
-    c, e,:m g, a,:m/c a,:m 
+    c, e,,:m b,,:1.3-.5- c,,
+    c, e,,:m b,,:1.3-.5- c,,
+    c, a,,:m g,, e,,:1.4.6-
+    c, e,:m g, c,:1.3.6 a,:m 
     b,:1.3-.5- c,
-    c, g,, g,, f,,
-    f,, c, c,/e c,4 r
+    c,4 a,,:1.4.6-.8 g,,4. f,,8:1.3.5.8 g,,2 f,,
+    f,, c, e,,:1.4.6- c,4 r
     e,2:1.3- a,:1.3- a,,:1.5 d,:1.5
     a,:1.3- e,:1.3- g,,4 f,, c,2/e
 
-    f,, b,,:1.3-.5-
-    c, e,:m b,,:1.3-.5- c,
-    c, e,:m g,,:1.3.6 c,
-    c, a,,:m g,, c,/e
-    c, e,:m/b g, a,:m/c a,:m 
-    f, g,,
-    c, g,, g,, f,,
-    f,, c, c,/e c,4 r
-    e,2:m a,:m/c a,,:m d,:m
-    a,,:m e,:m g,,4. f,,8 c,2/e
-    
-g,, c,
+    g,, c, g,, g,, c,
     g,, f,, d,:m b,,:1.4.6- d,:m
     g,, d,:m c,4. r8 d,2:m c,4.
     r8 f,,2 d,:m e,,:m d,:m
@@ -241,13 +236,25 @@ g,, c,
     c,/g  e,:m g,, b,,:1.3-.6-
     a,,:1.5 a,,:1.3- f,,4 r c,2
     
-    c,/g d,:m
+    f,, b,,:1.3-.5-
+    c, e,:m b,,:1.3-.5- c,,
+    c, e,:m g,,:1.3.6 c,,
+    c, a,,:m g,, e,,:1.4.6-
+    c, e,:m/b g, c,:1.3.6 a,:m 
+    e,:m f,, f,4. r8
+    c,4 a,,:1.3-.6-.8 g,,4:1.3.5.8 g,,:7 g,,2 f,,
+    f,, c, e,,:1.3-.6- c,4 r
+    e,2:m c,,:1.3.6 a,,:m d,:m
+    a,,:m e,:m g,,4. f,,8 c,2/e
+    
+    
+    c,/g e,:m
   }
   <<d a>> <<e g>> <<a e>> <<b d>> <<e b>>
   <<d a>> <<g b,>> <<a e>>
   <<d a>> <<e g>> <<a e>> <<a e>> <<d g>> <<e g,>> <<g b>> <<a e>>
   <<a, e>> <<e g>> <<d a>> <<e g>> <<d a>> <<e g>> <<g, d>> <<g b>>
-  <<d a>> <<e g>> <<g, d>> <<g b>> <<f a>>
+  <<d a>> <<e g>> <<g, d>> <<g b>> <<f c'>>
   <<g g,>> <<f a,>> <<g g,>> <<f a,>> 
   \chordmode {
     a,:m/e g, f, f, f, g,,4 r c, r c,,  r
@@ -295,10 +302,18 @@ g,, c,
       \set Staff.shortInstrumentName = #"P"
       \harmony
     }
+%    \new DrumStaff {
+%      \set DrumStaff.midiMinimumVolume = #0.3
+%      \set DrumStaff.midiMaximumVolume = #0.3
+%      \drummode {
+%        \repeat unfold 245 {
+%          hh8 hh hh hhc
+%        } cymc4
+%      }
+%    }
   >>
 
-\layout {
-}
+  \layout {}
   
   \midi {}
 }
