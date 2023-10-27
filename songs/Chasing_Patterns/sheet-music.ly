@@ -2,8 +2,8 @@
 
 \header {
   title = "Chasing Patterns"
-  subtitle = #(if (not (ly:get-option 'compact)) "A Song of Twilight" "")
-  composer = #(if (not (ly:get-option 'compact)) "Raymond Arnold" "")
+  subtitle = "A Song of Twilight"
+  composer = "Raymond Arnold"
 }
 
 voicOne = \relative {
