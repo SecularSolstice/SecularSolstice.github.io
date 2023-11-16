@@ -376,7 +376,7 @@ content = {
   'Landsailor': [
     "Landsailor",
     "By Vienna Teng",
-    "A salute to many powerful, but vague entities",
+    "A salute to industrialization and its fruits",
   ],
 
   'Lean_on_Me': [
