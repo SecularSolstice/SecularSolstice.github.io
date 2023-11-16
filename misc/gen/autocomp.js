@@ -693,6 +693,12 @@ content = {
     "Three odes to the sun in one",
   ],
 
+  'The_Sun_Will_Come_Up_Tomorrow': [
+    "The Sun Will Come Up Tomorrow",
+    "By Charles Strouse and Martin Charnin (mostly)",
+    "A naive orphan's simple optimism, slightly tweaked",
+  ],
+
   'The_Wild_West_Is_Where_I_Want_To_Be': [
     "The Wild West Is Where I Want To Be",
     "by Tom Lehrer",
