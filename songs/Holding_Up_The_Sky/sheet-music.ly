@@ -7,6 +7,17 @@
   copyright = "CC-SA-BY"
 }
 
+chExceptionMusic = {
+  <c>1-\markup{ \super 1 }
+  <c e>1-\markup{ \super 1.3 }
+  <c g>1-\markup{ \super 5 }
+}
+chExceptions = #( append
+  ( sequential-music-to-chord-exceptions chExceptionMusic #t)
+  ignatzekExceptions)
+
+
+
 mk = #(if (ly:get-option 'drop) #{ g #} #{ c #} )
 
 melody =  \transpose c \mk \relative c' {
@@ -43,23 +54,23 @@ melody =  \transpose c \mk \relative c' {
     \alternative {
       {
         r4 c,4 e f g e f g a
-        a g f e f g f c
-        c e g a d, f a b
-        b a g b a g f c2
+        r8 a g4 f e f g f c
+        r8 c e4 g a d, f a b
+        r8 b a4 g b a g f c2
         r4 c c f f d d g g
-        g f e d f e d c
-        c c e e f g b b
-        b a g f a g e c2
-        r4 f g4 a b2
+        r8 g f4 e d f e d c
+        r8 c c4 e e f g b b
+        r8 b a4 g f a g e c4. r8
+        f2 g2 a2 b2
       }
       {
         \time 3/4
         \key f \major
-        r2 c,4 d c bes
+        r2. r2 c,4 d c bes
         a' bes a g2
-        c,8 c d2 d4 e d e a2.
-        r4 c,4 bes c d e bes' a f g2.
-        r2 c,4 e f a bes2 r4  e,2. a2. c2. ~ c2.
+        c,8 c d2 d4 e4. d8 e4 a2.
+        r4 c,4 bes c4. d8 e4 bes' a f g2.
+        r2 c,4 e f a bes2 r4  e,2. a2. ~ a2 r4 c2. ~ c2.
       }
     }
   
@@ -67,6 +78,7 @@ melody =  \transpose c \mk \relative c' {
 
 harmony = \transpose c \mk  {
   \chordmode {
+    \key f \major
     c2.  g:m c f c e:1.3-.5- 
     c2. f e:1.3-.5- f 
     c f g:m a:m
@@ -75,19 +87,19 @@ harmony = \transpose c \mk  {
     c f g:m f
     c a:m/e g:m a:m
     c d:m bes f
-    d:m7 f e:dim c
+    d:m7 f e:1.3-.5-.7 c
     c d:m e:dim bes
     c c:7 d:m7 a:m7
     c c a:m f
     c d:m f c
 
     \key c \major
-    a:m f a:m b1.:dim
+    a:m d:m f g1.
     
     \repeat volta 3 {
       c1 g2
       c1 a2:m g
-      d1:m e2:m/b a:m
+      d1:m b2:dim a2:m
       e1:m c2 b:dim
       g1 f2 d:m
       c1 a2:m g
@@ -95,23 +107,23 @@ harmony = \transpose c \mk  {
     
     \alternative {
       {
-        c f g f a:m
-        g f g c
-        e:m f a:m b:dim
-        a:m g f c
-        c f e:m g g:7
-        f e:m f c
-        c f g b:dim
+        c e:1.5 g f:1.5 a:m
+        g e:^3 g c
+        e:m d:m a:m b:dim
+        a:m b:dim g c
+        c f d:m g g:7
+        f d:m e:m c
+        c e:1.5 g b:dim
         a:m f g c
-        f a:m b:dim
+        d:m e:m f g
       }
       {
         \time 3/4
         \key f \major
-        e2.:dim  bes f g:m
+        f2. e2.:dim  bes f g:m
         d:m e:dim a:m
         c e:dim bes g:m
-        c f bes e:dim a:m c1.:1.3.5.8
+        c f:7+ bes e:dim a1.:m c1.:1.3.5.8
       }
     }
   }
@@ -163,7 +175,7 @@ verseb = \lyricmode {
   To leave the fu -- ture war -- nings that
   You'd hard -- ly dare to speak a -- loud.
   To keen -- ly spot and stout -- ly face
-  The hor -- rors lurk -- ing in the deep.
+  The worms that lurk be -- neath the deep.
   To know and choose when to let fall
   A flake of snow you can -- not keep.
 
@@ -183,6 +195,7 @@ outro = \lyricmode {
     \new ChordNames {
       \set ChordNames.midiInstrument=#"acoustic guitar (nylon)"
       \set ChordNames.midiMaximumVolume=#0.5
+      \set chordNameExceptions = #chExceptions
       \harmony
     }
     \new  Voice = "melody" {
@@ -198,7 +211,24 @@ outro = \lyricmode {
       >>
       \outro
     }
+%    \new Voice {      \harmony     }
   >>
   \layout { }
+}
+\score {
+  <<
+        \unfoldRepeats
+    \new ChordNames {
+      \set ChordNames.midiInstrument=#"acoustic guitar (nylon)"
+      \set ChordNames.midiMaximumVolume=#0.5
+      \set chordNameExceptions = #chExceptions
+      \harmony
+    }
+        \unfoldRepeats
+    \new  Voice = "melody" {
+      \set Staff.midiInstrument = #"voice oohs"
+      \melody
+    }
+  >>
   \midi {}
 }
