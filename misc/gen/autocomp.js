@@ -313,6 +313,12 @@ content = {
     "The glory of space exploration",
   ],
 
+  'Holding_Up_The_Sky': [
+    "Holding Up The Sky",
+    "by Daniel Speyer",
+    "The responsibility of key infrastructurists",
+  ],
+
   'Hope_Eyrie': [
     "Hope Eyrie",
     "By Julia Ecklar",
