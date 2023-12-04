@@ -957,6 +957,12 @@ content = {
     "[speech]",
   ],
 
+  'Cycles_Of_Scurvy': [
+    "Cycles of Scurvy",
+    "by Philo, Anton Howes, Idlewords and SMTM, edited together by Daniel Speyer",
+    "[speech]",
+  ],
+
   'DC_Solstice_in_2022': [
     "Solstice in 2022 (DC)",
     "by Maia Werbos",
@@ -1182,6 +1188,12 @@ content = {
   'I_Dont_Know': [
     "I Don't Know",
     "By Raymond Arnold",
+    "[speech]",
+  ],
+
+  'I_Pencil': [
+    "I, Pencil",
+    "By Leonard E. Read",
     "[speech]",
   ],
 
