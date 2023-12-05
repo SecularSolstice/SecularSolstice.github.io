@@ -18,9 +18,21 @@ chExceptions = #( append
 
 
 
-mk = #(if (ly:get-option 'drop) #{ g #} #{ c #} )
+mk = #(case (ly:get-option 'key)
+       ((a) #{a,#})
+       ((b) #{b,#})
+       ((c) #{c#})
+       ((d) #{d,#})
+       ((e) #{e,#})
+       ((f) #{f,#})
+       ((g) #{g,#})
+       (else #{c#}))
+% #(print mk)
+myclef = #(if (ly:pitch<? mk #{a,#}) #{ "treble_8" #} #{ treble #} )
+
 
 melody =  \transpose c \mk \relative c' {
+  \clef \myclef
   \tempo 4 = 130
   \numericTimeSignature
   \key f \major
@@ -171,9 +183,9 @@ versea = \lyricmode {
 
 verseb = \lyricmode {
   To hold like kin those too who bear
-  A ray of sun or fel -- low cloud.
-  To leave the fu -- ture war -- nings that
-  You'd hard -- ly dare to speak a -- loud.
+  A fel -- low cloud or so -- lar ray.
+  To leave the fu -- ture war -- nings clear
+  Of all you wish you'd known to -- day..
   To keen -- ly spot and stout -- ly face
   The worms that lurk be -- neath the deep.
   To know and choose when to let fall

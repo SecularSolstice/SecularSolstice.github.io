@@ -8,6 +8,16 @@
   copyright = "CC-SA-BY"
 }
 
+mk = #(case (ly:get-option 'key)
+       ((a) #{a,#})
+       ((b) #{b,#})
+       ((c) #{c#})
+       ((d) #{d,#})
+       ((e) #{e,#})
+       ((f) #{f,#})
+       ((g) #{g,#})
+       (else #{c#}))
+
 words = \lyricmode {
   The Sons of Ma -- ry sel -- dom bo -- ther, 
   for they have in -- her -- it -- ed that good part;
@@ -64,10 +74,11 @@ words = \lyricmode {
   and the Lord He lays it on Marth -- a’s Sons!
 }
 
-melody = \relative c' {
+melody =  \transpose c \mk \relative c'{
   \numericTimeSignature
   \time 2/4
   \tempo 4=100
+  \key c \major
   s2 s s s s s
   s4.
 
@@ -148,9 +159,10 @@ melody = \relative c' {
   
 }
 
-decoration = \relative c' {
+decoration =  \transpose c \mk \relative c' {
   \numericTimeSignature
   \time 2/4
+  \key c \major
   r4 e8 f
   r4 f8 e
   r4 e16 d e8
@@ -185,10 +197,11 @@ decoration = \relative c' {
   <<c4 e g >> r
 }
 
-harmony = {
+harmony = \transpose c \mk {
   \numericTimeSignature
   \time 2/4
   \clef bass
+  \key c \major
   \chordmode {
     c,2 g,,  c,  f,,  g,,  c,
     d,:m
