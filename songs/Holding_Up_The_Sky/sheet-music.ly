@@ -61,7 +61,7 @@ melody =  \transpose c \mk \relative c' {
     r4 d4 d4 c d b' a2
     r4 e4 e4 d e c' b2
     r4 b4 a4 g f e d2
-    r4 c8 c c4 b c a' g2
+    r4 c8 c c4 b c a' g2 r
   }
     \alternative {
       {
@@ -114,7 +114,7 @@ harmony = \transpose c \mk  {
       d1:m b2:dim a2:m
       e1:m c2 b:dim
       g1 f2 d:m
-      c1 a2:m g
+      c1 a2:m g g
     }
     
     \alternative {

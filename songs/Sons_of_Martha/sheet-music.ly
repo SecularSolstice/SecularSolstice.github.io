@@ -282,18 +282,23 @@ harmony = \transpose c \mk {
       midiMinimumVolume = #0.8
       midiMaximumVolume = #1
       \override VerticalAxisGroup.staff-staff-spacing =
-      #'((basic-distance . 0)
-         (minimum-distance . 0)
-         (padding . -200))
+      #(if (not (or (ly:get-option 'threestaff) (ly:get-option 'justvoice)))
+        '((basic-distance . 0)
+          (minimum-distance . 0)
+          (padding . -200))
+        '())
+      instrumentName = #(if (or (ly:get-option 'threestaff) (ly:get-option 'justvoice)) "Voice")
     }
     \new Voice = "melody" \melody
 
+    #(if (not (ly:get-option 'justvoice)) #{
     \new Staff
     \with {
       midiInstrument = #"acoustic grand"
       midiMinimumVolume = #0.4
       midiMaximumVolume = #0.5
-      instrumentName = #"Voice & Piano"
+      instrumentName = #(if (ly:get-option 'threestaff)
+                         "Piano" "Voice & Piano")
       shortInstrumentName = #"V&P"
       \override VerticalAxisGroup.staff-staff-spacing =
       #'((basic-distance . 0)
@@ -304,9 +309,13 @@ harmony = \transpose c \mk {
         \melody
         \decoration
       >>
+    #} )
+    
     \new Lyrics \lyricsto "melody" {
       \words
     }
+    
+    #(if (not (ly:get-option 'justvoice)) #{
     \new Voice {
       \set Staff.midiInstrument = #"acoustic grand"
       \set Staff.midiMinimumVolume = #0.3
@@ -315,6 +324,7 @@ harmony = \transpose c \mk {
       \set Staff.shortInstrumentName = #"P"
       \harmony
     }
+    #} )
 %    \new DrumStaff {
 %      \set DrumStaff.midiMinimumVolume = #0.3
 %      \set DrumStaff.midiMaximumVolume = #0.3
