@@ -90,7 +90,7 @@ melody =  \transpose c \mk \relative c'{
   r e8 e c4 c c f8 f c8 c4. c4. s8
   s2 s4 d8 d f4. d8 g4 e4 bes'8 f r4 d4 
   c8 c e4 d8 d g4. e16 e b'4. a8 f4
-  r8 c e4. c8 g' e d4  a'8 e4. c2
+  r8 c e4. c8 g' e d4  a'8 e4. c4. r8
   c4 c8 c c4. c8 c4. c8 c2
   
   s2 s s \tempo 4=110 s s s s
@@ -102,7 +102,7 @@ melody =  \transpose c \mk \relative c'{
   r4. g8 e4 d c a'8 a8 f4. d8 c2 s
   r4. c8 e4. g8 a4 g8 f8 f4 a d,8 d
   r8 c8 e4. g8 a4 f8 e8 e8 g g4 c,4 r
-  c4. c8 e8 e8 f8 f g4. f8 g4 f8
+  c4. c8 e8 e8 f8 f g4 r8 f8 g4 f8
   g a4. g8 a4 g8 f f4. d8 c2
   s s
   
@@ -112,9 +112,9 @@ melody =  \transpose c \mk \relative c'{
   c8 c e4 d f g a8 a g4 a2 
   s s 
   c,4 e8 f g4. f8 g4 f8 f e f4.
-  f4 e8 d c4 e8 d c4. b8 c4
-  d8 d e4. g8 a4 g a a8 g e4 d
-  a' g8 e g4 e8 d g4 f c2
+  f4 e8 d c4 e8 d c4. b8 c8 r
+  d8 d e4. g8 a4 g a a8 g e4 d8 r
+  a'4 g8 e g4 e8 d g4 f c2
   
   s2 s
   \tempo 4=120
@@ -125,7 +125,7 @@ melody =  \transpose c \mk \relative c'{
   r4. g8 e4 d c a'8 a8 f4. d8 c2 s
   s4 r8 c8 e4. g8 a4 g8 f8 f4 a d,4
   r8 c8 e4. g8 a4 f8 f8 e8 g g4 c,4 r
-  c4 c8 c e4 e f f g4 f8 g8 f4
+  c4 c8 c e4 e f f g8 r f8 g8 f4
   g a4 g8 a8 g4 f8 d8 c2
   s s
 
@@ -135,7 +135,7 @@ melody =  \transpose c \mk \relative c'{
   r8 c e4 a g f4 c4. b8 c8 c8 r4
   c4 c8 e8 d4 f8 g8 a4 g4 a4 r4 
   s2 s s4.
-  c,8 e4 f g4 f8 g8 f4. e8 f2
+  c,8 e4 f g4 f8 g8 f4. e8 f4. r8
   f4 e8 d c4 e8 d c4 b8 b c4 r8
   d8 d e4 g8 a4 g a e4 d r8
   a' g8 e g4 e4 d8 d g4. f8 c2
@@ -144,11 +144,11 @@ melody =  \transpose c \mk \relative c'{
   s2 s
   r4 d8 d e4. d8 g4 a b4 a8 g e4
   r8 d d4. e8 g g4 g8 a4 g a
-  r8 d, e4 d g a8 g b4. a8 g4
+  r8 d, e4 d g a8 g b4. a8 g8 r
   d8 d e4 d8 d g4. d8 a'4 g e
   r8 a g4 e8 e d4
   r8 a' g4 e d4
-  r8 a'8 g4. e8 g4 g8 a g4 e d4
+  r8 a'8 g4. e8 g4 g8 a g4 e d8 r
   d8 d e4. d8 g4 d8 g g4. a8 b2
   s s s s s
   r4 g8 a b2
