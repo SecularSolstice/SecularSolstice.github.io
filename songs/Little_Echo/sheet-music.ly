@@ -1,5 +1,7 @@
 \version "2.18.2"
 
+#(set-global-staff-size 19)
+
 \header {
   title = "A Little Echo"
   subtitle = "A Song of Night"

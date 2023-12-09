@@ -1,5 +1,7 @@
 \version "2.18.1"
 
+#(set-global-staff-size 19)
+
 \header {
   title = "Sons of Martha"
   subtitle = "A Song of Dusk"
@@ -323,6 +325,7 @@ harmony = \transpose c \mk {
       \set Staff.instrumentName = #"Piano"
       \set Staff.shortInstrumentName = #"P"
       \harmony
+      
     }
     #} )
 %    \new DrumStaff {

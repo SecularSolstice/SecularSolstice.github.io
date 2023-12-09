@@ -1,3 +1,5 @@
+@import url("make-program-magic-that-is-probably-not-there.css");
+
 html {
     background-image: url(dawn-bkg.jpg);
     background-color: #334477;
@@ -285,6 +287,13 @@ a.themeSwitcher {
     * {
         background: white !important;
         color: black !important;
+	text-shadow: none !important;
+    }
+    body {
+	width: 100%;
+	max-width: 100%;
+	margin: 0px;
+	padding: 0px;
     }
 }
                     

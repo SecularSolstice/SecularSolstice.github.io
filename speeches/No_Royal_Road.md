@@ -1,4 +1,4 @@
-#No Royal Road to Knowledge; No Mercy for Ignorance
+# No Royal Road to Knowledge; No Mercy for Ignorance
 ## By Daniel Speyer
 
 Life is hard.

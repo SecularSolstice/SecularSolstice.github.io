@@ -1,0 +1,11 @@
+{
+    "pdf": {
+	"papersize":"legal",
+	"marginleft": 10,
+	"marginright": 10,
+	"columnspace": 10
+    },
+    "diagrams": {
+	"show": "none"
+    }
+}

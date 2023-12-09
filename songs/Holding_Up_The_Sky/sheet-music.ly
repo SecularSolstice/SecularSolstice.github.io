@@ -1,5 +1,7 @@
 \version "2.18.2"
 
+#(set-global-staff-size 19)
+
 \header {
   title = "Holding up the Sky"
   subtitle = "A Song of Morning"
@@ -92,15 +94,15 @@ harmony = \transpose c \mk  {
   \chordmode {
     \key f \major
     c2.  g:m c f c e:1.3-.5- 
-    c2. f e:1.3-.5- f 
+    c2. f c:7 f 
     c f g:m a:m
     c a:m g:m f
     c f g:m a:m
     c f g:m f
     c a:m/e g:m a:m
     c d:m bes f
-    d:m7 f e:1.3-.5-.7 c
-    c d:m e:dim bes
+    d:m7 f bes:7+ c
+    c d:m c:7 bes
     c c:7 d:m7 a:m7
     c c a:m f
     c d:m f c
@@ -223,7 +225,7 @@ outro = \lyricmode {
       >>
       \outro
     }
-%    \new Voice {      \harmony     }
+    \new Voice {      \harmony     }
   >>
   \layout { }
 }

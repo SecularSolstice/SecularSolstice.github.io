@@ -1,5 +1,5 @@
 PREFIX=Sons_of_Martha-
-FILES_TO_LIST=lyrics.txt from-midi.mp3 sheet-music.pdf  sheet-music-ina.pdf sheet-music-inf.pdf sheet-music-threestaff.pdf  sheet-music-ina-threestaff.pdf sheet-music-inf-threestaff.pdf sheet-music-justvoice.pdf  sheet-music-ina-justvoice.pdf sheet-music-inf-justvoice.pdf
+FILES_TO_LIST=lyrics.txt from-midi.mp3 sheet-music.pdf sheet-music-legal.pdf
 
 gen/${PREFIX}lyrics.txt: sheet-music.ly
 	../../scripts/ly-to-lyrics.py sheet-music.ly gen/${PREFIX}lyrics.txt
