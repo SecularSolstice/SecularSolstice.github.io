@@ -2,7 +2,7 @@
 ## By Vienna Teng
 ## A salute to industrialization and its fruits
 
-An outside song.  [Music video](https://www.youtube.com/watch?v=q1dLIq0okvA).  [Lyrics](https://www.azlyrics.com/lyrics/viennateng/landsailor.html)
+An outside song.  [Music video](https://www.youtube.com/watch?v=0RCIdOp5GHg).  [Lyrics](https://www.azlyrics.com/lyrics/viennateng/landsailor.html)
 
 The imagery is vague and confusing enough that some people won't get it without prompting.  Maybe that's ok.
 
