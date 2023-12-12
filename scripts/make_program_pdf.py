@@ -32,7 +32,7 @@ for line in inf:
     if g:
         run(['cp', g[0], f'{outd}/{i}.pdf'], check=True)            
         continue
-    for format in ['sheet-music-compact-legal', 'sheet-music-legal', 'sheet-music-drop', 'sheet-music-english', 'sheet-music-compact', 'sheet-music', 'chord-sheet-2col-legal', 'chord-sheet-2col', 'chord-sheet-legal', 'chord-sheet', 'chord-chart-tools-drones', 'chord-chart', 'lyrics']:
+    for format in ['sheet-music-compact-legal', 'sheet-music-legal', 'sheet-music-drop', 'sheet-music-english', 'sheet-music-compact', 'sheet-music-modern', 'sheet-music', 'chord-sheet-2col-legal', 'chord-sheet-2col', 'chord-sheet-legal', 'chord-sheet', 'chord-chart-tools-drones', 'chord-chart', 'lyrics']:
         if content=='Here_and_Now' and format=='chord-chart':
             continue
         g=glob(f'../songs/{content}/gen/*-{format}.*')
