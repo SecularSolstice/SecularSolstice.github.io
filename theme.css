@@ -48,6 +48,35 @@ h2 {
     font-size: 20pt;
 }
 
+div.autolyric {
+    text-align:center;
+    text-shadow: 0 0 0.5em black, 0 0 2em #003;
+    width: 100%;
+    position: absolute;
+    top: 95vh;
+    font-size: 1pt;
+    color: white;
+}
+
+div.autolyric.hl {
+    color: yellow;
+}
+
+.light div.autolyric {
+    text-align:center;
+    text-shadow: 0 0 0.5em white, 0 0 2em white;
+    color: black;
+    width: 100%;
+    position: absolute;
+    top: 95vh;
+    font-size: 1pt;
+}
+
+.light div.autolyric.hl {
+    color: #700;
+}
+
+
 .light h2 {
     text-shadow: 2px 2px 0.5em white,
                  -2px -2px 0.5em white,
