@@ -29,9 +29,9 @@ In this, the Navy was deceived. Tests on animals would later show that fresh lim
 
 By the 1870s, therefore, most British ships were sailing without protection against scurvy. Only speed and improved nutrition on land were preventing sailors from getting sick.
 
-So everything was all right until 1875, when a British arctic expedition set out on an attempt to reach the North Pole. They had plenty of lime juice and thought they were prepared — but they all got scurvy. 
+So everything was all right until 1875, when a British arctic expedition set out on an attempt to reach the North Pole. They had plenty of lime juice and thought they were prepared — but they all got scurvy.
 
-The same thing happened a few more times on other polar voyages, and this was enough to convince everyone that citrus juice doesn’t cure scurvy. The bacterial theory of disease was the hot new thing at the time, so from the 1870s on, people played around with a theory that a bacteria-produced substance called “ptomaine” in preserved meat was the cause of scurvy instead. 
+The same thing happened a few more times on other polar voyages, and this was enough to convince everyone that citrus juice doesn’t cure scurvy. The bacterial theory of disease was the hot new thing at the time, so from the 1870s on, people played around with a theory that a bacteria-produced substance called “ptomaine” in preserved meat was the cause of scurvy instead.
 
 This theory was wrong, so it didn’t work very well. Everyone kept getting scurvy on polar expeditions. This lasted decades, and could have lasted longer, except that two Norwegians happened to stumble on the answer entirely by accident.
 
@@ -51,9 +51,9 @@ There’s this magical ingredient, totally essential to human life, but other an
 
 Sounds ridiculous.  So much special pleading.  So many epicycles.  And yet.
 
-It is true that the ancients had, through trial and error, found some ways of preventing and treating scurvy, but knowledge they acquired was in practice a bit more limited in utility than one might imagine. 
+It is true that the ancients had, through trial and error, found some ways of preventing and treating scurvy, but knowledge they acquired was in practice a bit more limited in utility than one might imagine.
 
-For example, we might think, “the Norwegians knew centuries ago that cloudberry preserves prevented scurvy”, but that statement is far too broad to describe what was actually known at the time. 
+For example, we might think, “the Norwegians knew centuries ago that cloudberry preserves prevented scurvy”, but that statement is far too broad to describe what was actually known at the time.
 
 It might be more accurate to say “the Norwegians knew that Norwegian cloudberries, preserved and stored and the Norwegian way, when consumed in Norway during the Norwegian winter, prevented scurvy.” They had no way of knowing if their methods would work at all outside of Norway, or if they would work with any substitutions in the preparation process, or even if conditions might change somehow in Norway in the future to make their methods useless.
 
