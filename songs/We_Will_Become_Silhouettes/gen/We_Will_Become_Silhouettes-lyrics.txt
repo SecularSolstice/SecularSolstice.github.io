@@ -1,8 +1,8 @@
-3 Intro
+# Intro
 .
 .
 
-3 Verse
+# Verse
 I've got a cupboard with cans of food, filtered water,
 And pictures of you and i'm not coming out
 Until this is all over
@@ -14,7 +14,7 @@ Someone i used to know
 And we become silhouettes when our bodies finally go
 Ba ba ba...
 
-3 Chorus
+# Chorus
 I wanted to walk through the empty streets
 And feel something constant under my feet,
 But all the news reports recommended that
@@ -25,7 +25,7 @@ Simply cannot hold all our insides in,
 And that's when we'll explode
 (and it won't be a pretty sight)
 
-3 Bridge
+# Bridge
 And we'll become silhouettes when our bodies finally go
 Ba ba ba...
 And we'll become silhouettes when our bodies finally go
@@ -35,9 +35,9 @@ Ba ba ba...
 And we'll become silhouettes when our bodies finally go
 Ba ba ba...
 
-3 Solo
+# Solo
 .
 
-3 Outro
+# Outro
 And we'll become
 And we'll become

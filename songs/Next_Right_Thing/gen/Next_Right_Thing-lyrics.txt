@@ -1,17 +1,13 @@
 
 
-3 Verse 1
-Cm                         Abadd9
+# Verse 1
 I've seen dark before, but not like this
-        Bb            Ebmaj7      Ebmaj7/Ab
 This is cold. This is empty. This is numb.
 The life I knew is over. The lights are out.
 Hello darkness, I'm ready to succumb.
 
-3 Verse 2
-  Cm                  Abadd9
+# Verse 2
 I follow you around I always have.
-           Bb           Ebmaj7    Ebmaj7/Ab
 But you've gone to a place I cannot find
 This grief has a gravity, it pulls me down
 But a tiny voice whispers in my mind:
@@ -19,9 +15,8 @@ You are lost, hope is gone
 But you must go on
 And do the next right thing
 
-3 Verse 3
+# Verse 3
 Can there be a day beyond this night?
-         Bb           Ebmaj7 Ebmaj7/Ab
 I don't know anymore what is true
 I can't find my direction, I'm all alone
 The only star that guided me was you.
@@ -32,14 +27,14 @@ Take a step, step again
 It is all that I can to do
 The next right thing
 
-3 Bridge
+# Bridge
 I won't look too far ahead
 It's too much for me to take
 But break it down to this next breath
 This next step
 This next choice is one that I can make
 
-3 Verse 4
+# Verse 4
 So I'll walk through this night
 Stumbling blindly toward the light
 And do the next right thing

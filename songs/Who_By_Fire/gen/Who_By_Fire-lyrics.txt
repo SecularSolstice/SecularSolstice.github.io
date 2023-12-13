@@ -1,8 +1,7 @@
-3 Intro
-Am/E   Fmaj7   E
+# Intro
 .
 
-3 Verse 1
+# Verse 1
 And who by fire
 Who by water
 Who in the sunshine
@@ -13,18 +12,18 @@ Who in your merry merry month of May
 Who by very slow decay
 And who shall I say is calling?
 
-3 Verse 2
+# Verse 2
 And who in her lonely slip
 Who by barbiturate
 Who in these realms of love
 Who by something blunt
-Who   by avalanche
-Who   by powder
+Who by avalanche
+Who by powder
 Who for his greed
 Who for his hunger
 And who shall I say is calling?
 
-3 Verse 3
+# Verse 3
 And who by brave assent
 Who by accident
 Who in solitude
