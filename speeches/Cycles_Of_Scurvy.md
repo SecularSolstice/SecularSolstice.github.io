@@ -35,7 +35,7 @@ The same thing happened a few more times on other polar voyages, and this was en
 
 This theory was wrong, so it didn’t work very well. Everyone kept getting scurvy on polar expeditions. This lasted decades, and could have lasted longer, except that two Norwegians happened to stumble on the answer entirely by accident.
 
-They had been studying beriberi (another deficiency disease) in pigeons, and when they decided to switch to a mammal model, they serendipitously chose guinea pigs, the one animal besides human beings and monkeys that requires vitamin C in its diet. Fed a diet of pure grain, the animals showed no signs of beriberi, but quickly sickened and died of something that closely resembled human scurvy.
+They had been studying beriberi (another deficiency disease) in pigeons, and when they decided to switch to a mammal model, they serendipitously chose guinea pigs, one of the very few animals besides human beings and monkeys that requires vitamin C in its diet. Fed a diet of pure grain, the animals showed no signs of beriberi, but quickly sickened and died of something that closely resembled human scurvy.
 
 No one had seen scurvy in animals before. With a simple animal model for the disease in hand, it became a matter of running the correct experiments, and it was quickly established that scurvy was a deficiency disease after all. Very quickly the compound that prevents the disease was identified as a small molecule present in cabbage, lemon juice, and many other foods, and in 1932 ascorbic acid was isolated.
 
