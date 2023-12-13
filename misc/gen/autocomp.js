@@ -1746,6 +1746,12 @@ content = {
     "[speech]",
   ],
 
+  'We_Are_Gathered_2019': [
+    "We Are Gathered 2019",
+    "by Daniel Speyer",
+    "[speech]",
+  ],
+
   'We_Are_Gathered_2022': [
     "We Are Gathered 2022",
     "by Daniel Speyer",
