@@ -178,6 +178,12 @@ content = {
     "Celebration in the midst of winter",
   ],
 
+  'Empty_Chairs_At_Empty_Tables': [
+    "Empty Chairs At Empty Tables",
+    "By L. David Lewis, Kim Williams, and Ed Hill",
+    "A lone survivor contemplates a failed revolution",
+  ],
+
   'Endless_Light': [
     "Endless Lights",
     "By Raymond Arnold",
@@ -517,6 +523,12 @@ content = {
   'Simulacrum': [
     "Simulacrum",
     "Trying to blend in",
+  ],
+
+  'Singing_Up_The_Sun': [
+    "Singing Up The Sun",
+    "By Ben Newman",
+    "The point of a solstice celebration",
   ],
 
   'Singularity': [
