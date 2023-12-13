@@ -70,7 +70,7 @@ function startSlide(x) {
         positionLyrics();
         lyric=0;
         if (s.youtube) {
-            content.push($(`<iframe src="https://www.youtube.com/embed/${s.youtube}&autoplay=1"
+            content.push($(`<iframe src="https://www.youtube.com/embed/${s.youtube}?autoplay=1"
                        frameborder="0" 
                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
                </iframe>`).
