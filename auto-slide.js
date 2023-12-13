@@ -74,7 +74,7 @@ function startSlide(x) {
                        frameborder="0" 
                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
                </iframe>`).
-                         css({position:'absolute',bottom:0,left:'20vw',width:'60vw',height:'45vw',zIndex:-1,opacity:0.4}).
+                         css({position:'absolute',bottom:0,left:'30vw',width:'40vw',height:'30vw',zIndex:-1,opacity:0.6}).
                          appendTo($('body')));
         } else if (s.mp3) {
             content.push($(`<audio src=${s.mp3} autoplay controls>`).css({position:'absolute',
