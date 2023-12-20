@@ -28,7 +28,7 @@ This might make you feel a little hopeless.
 
 It might seem like there’s this bottomless pit of unfairness, filled with desperate people and broken systems and no matter how long you work, how hard you try, that pit will always be there.
 
-Well, If that is true, it is already so. 
+Well, If that is true, it is already so.
 
 We already know the world is dark. We already know there is no moral arc of the universe bending towards justice. There are just people. Doing the best they can. And sometimes their best just isn’t good enough.
 
