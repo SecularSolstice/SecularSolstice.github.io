@@ -1,4 +1,6 @@
-#  The Next Right Thing
+# The Next Right Thing
+## By Kristen Anderson-Lopez and Robert Lopez (from Frozen II)
+## When your problems are too big to face in their entirety
 
 Originally from [Frozen 2](https://www.youtube.com/watch?v=w6g1yQV0dIY). A simplified chord chart is presented here.
 
