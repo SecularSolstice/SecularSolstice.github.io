@@ -6,7 +6,7 @@
 In many incarnations the solstice was *named* after this song.  Meddle
 with it at your peril.
 
-Nevertheless, there are a lot of old variants out there. The Boston Solstices have maintained a fork that is highly distinct from the Bay/NYC variants for some time. The DC variation is a slightly simplified version of the main Bay/NYC variant; an example recording can be found [here](../Brighter_than_Today_DC_2022.mp3) and chord sheet for it is available [here](./Brighter_Than_Today-chord-sheet.pdf).
+Nevertheless, there are a lot of old variants out there. The Boston Solstices have maintained [a fork](https://www.jefftk.com/p/brighter-than-today-versions) that is highly distinct from the Bay/NYC variants for some time. The DC variation is a slightly simplified version of the main Bay/NYC variant; an example recording can be found [here](../Brighter_than_Today_DC_2022.mp3) and chord sheet for it is available [here](./Brighter_Than_Today-chord-sheet.pdf).
 
 
 This song is available for sale via bandcamp in [all three albums](https://humanistculture.bandcamp.com/).
