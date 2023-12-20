@@ -3,7 +3,7 @@ gen/%.html: %.md head.html
 
 ALLH=$(patsubst %.md, gen/%.html, $(wildcard *.md))
 all: ${ALLH}
-	echo done
+	echo done making speeches
 
 clean:
 	rm -f gen/*

@@ -476,6 +476,8 @@ content = {
 
   'Next_Right_Thing': [
     "The Next Right Thing",
+    "By Kristen Anderson-Lopez and Robert Lopez (from Frozen II)",
+    "When your problems are too big to face in their entirety",
   ],
 
   'No_One_Is_Alone': [
