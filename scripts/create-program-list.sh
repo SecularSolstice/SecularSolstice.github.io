@@ -46,7 +46,7 @@ echo "<center><div class=col>"
 ISCOL2=""
 for i in $(ls lists/gen/*.html | sort); do
     if [ "$i" != "index.html" ] &&
-           ! echo "$i" | egrep 'tentative|options|All_' > /dev/null; then
+           ! echo "$i" | egrep 'tentative|options|slides|All_' > /dev/null; then
         if echo "$i" | grep '^lists/gen/[N-Zn-z]' > /dev/null && [ -z "$ISCOL2" ]; then
             echo "</div><div class=col>"
             ISCOL2="True"
