@@ -832,6 +832,12 @@ content = {
     "My community protects me from my weaknesses",
   ],
 
+  'Write_This_Number_Down': [
+    "Write This Number Down",
+    "By Dar Williams",
+    "A measured celebration of justice and rule of law",
+  ],
+
   'X_Days_of_X_Risk': [
     "X Days of X Risk",
     "By Raymond Arnold",
