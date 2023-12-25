@@ -25,8 +25,8 @@ $(()=>{
 					     width:'10vw',
 					     fontSize:'4vw',
 					     height:'3em',
-					     opacity:0.3}).on('click', ()=>{
-        if ( ! advanceLyrics() ){
+					     opacity:0.3}).on('click', async ()=>{
+        if ( ! advanceLyrics() && ! await advanceSpeech() ){
             startSlide(slide+1);
         }}).
         appendTo($('body'));
@@ -105,7 +105,9 @@ function startSlide(x) {
     }
     if (s.type=='text') {
 	let theme = $('html').attr('class');
-	content.push($(`<iframe src=../../speeches/gen/${s.link}.html?trans${theme} allowtransparency=true></iframe>`).css({
+	content.push($(`<iframe src=../../speeches/gen/${s.link}.html?trans${theme} 
+                                class=speech 
+                                allowtransparency=true></iframe>`).css({
 	    position: 'absolute',
 	    left: '12vw',
 	    width: '86vw',
@@ -129,7 +131,20 @@ function advanceLyrics() {
     positionLyrics();
     return true;
 }
-        
+
+async function advanceSpeech() {
+    let ifr = $('iframe.speech');
+    if (ifr.length == 0) {
+	return false;
+    }
+    let y = ifr[0].contentWindow.pageYOffset
+    let delta = Math.floor(window.innerHeight * 0.7);
+    ifr[0].contentWindow.scrollTo({top:y+delta, behavior:'smooth'});
+    await new Promise( res => window.setTimeout(res, 32) );
+    let y2 = ifr[0].contentWindow.pageYOffset
+    return y != y2;
+}
+    
 function positionLyrics() {
     for (let i=0; i<h2s.length; i++) {
         h2s[i].animate({top: i*15+5+'vh',
