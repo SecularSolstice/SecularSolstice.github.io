@@ -18,7 +18,14 @@ $(()=>{
     quicklinks = slides.map( (slide,i) => 
         $('<li>').text(slide.title).on('click',()=>{startSlide(i);}).appendTo(ul)
                            );
-    $('<input type=button value=next>').css({position:'absolute',bottom:0,zIndex:11,width:'10%',height:'3em'}).on('click', ()=>{
+    $('<input type=button value=next>').css({position:'absolute',
+					     bottom:0,
+					     left:0,
+					     zIndex:11,
+					     width:'10vw',
+					     fontSize:'4vw',
+					     height:'3em',
+					     opacity:0.3}).on('click', ()=>{
         if ( ! advanceLyrics() ){
             startSlide(slide+1);
         }}).
@@ -36,30 +43,39 @@ function startSlide(x) {
     for (let i of h2s) i.remove();
     content = [];
     h2s = [];
+
+    for (let i=slide; i>=0; i--) {
+	let s = slides[i];
+	if (s.type == 'section') {
+	    if (s.title in {Evening:1, Light:1, Morning:1}) {
+		$('html').attr('class','light');
+            } else {
+		$('html').attr('class','dark');
+            }
+            if (s.title in {Evening:1, Light:1, Bright:1}) {
+		$('html').css({backgroundImage: 'url(../../snow-bkg.jpg)'});
+            } else if (s.title in {Twilight:1, Eve:1}) {
+		$('html').css({backgroundImage: 'url(../../twilight.jpg)'});
+            } else if (s.title in {Night:1, Darkness:1, Dark:1}) {
+		$('html').css({backgroundImage: 'url(../../stars.jpg)'});
+            } else if (s.title in {Morning:1}) {
+		$('html').css({backgroundImage: 'url(../../cityscape.jpg)'});
+            } else if (s.title in {"Days to Come":1, Tomorrow:1, Coda:1, Afterwards:1}) {
+		$('html').css({backgroundImage: 'url(../../high-altitude.jpg)'});
+            } else { // if (s.title in {Dusk:1, Dawn:1}) {
+		$('html').css({backgroundImage: 'url(../../dawn-bkg.jpg)'});
+            }
+	    break;
+	}
+    }
+    
     let s = slides[slide];
     if (s.type=='section') {
         h2s.push( $('<h1>').text(s.title).css({position:'absolute',
                                                top:'45vh',
-                                               width:'100%',
+                                               width:'90vw',
+					       left:'10vw',
                                                textAlign:'center'}).appendTo($('body')) );
-        if (s.title in {Evening:1, Light:1, Morning:1}) {
-            $('html').attr('class','light');
-        } else {
-            $('html').attr('class','dark');
-        }
-        if (s.title in {Evening:1, Light:1, Bright:1}) {
-            $('html').css({backgroundImage: 'url(../../snow-bkg.jpg)'});
-        } else if (s.title in {Twilight:1, Eve:1}) {
-            $('html').css({backgroundImage: 'url(../../twilight.jpg)'});
-        } else if (s.title in {Night:1, Darkness:1, Dark:1}) {
-            $('html').css({backgroundImage: 'url(../../stars.jpg)'});
-        } else if (s.title in {Morning:1}) {
-            $('html').css({backgroundImage: 'url(../../cityscape.jpg)'});
-        } else if (s.title in {"Days to Come":1, Tomorrow:1, Coda:1, Afterwards:1}) {
-            $('html').css({backgroundImage: 'url(../../high-altitude.jpg)'});
-        } else { // if (s.title in {Dusk:1, Dawn:1}) {
-            $('html').css({backgroundImage: 'url(../../dawn-bkg.jpg)'});
-        }
     }
     if (s.type=='song') {
         h2s.push( $('<div class=autolyric>').text(s.attribution).appendTo($('body')) );
@@ -86,6 +102,16 @@ function startSlide(x) {
                                                                          }).appendTo($('body')));
         }
         
+    }
+    if (s.type=='text') {
+	let theme = $('html').attr('class');
+	content.push($(`<iframe src=../../speeches/gen/${s.link}.html?trans${theme} allowtransparency=true></iframe>`).css({
+	    position: 'absolute',
+	    left: '12vw',
+	    width: '86vw',
+	    top: '2vw',
+	    height:'calc(100vh - 4vw)',
+	    border:'1px dotted grey'}).appendTo($('body')));
     }
 }
 

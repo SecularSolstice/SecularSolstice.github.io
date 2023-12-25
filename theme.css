@@ -17,6 +17,11 @@ html.light {
     color: black;
 }
 
+html.transparent {
+    background-image: none !important;
+    background-color: transparent !important;
+}
+
 body {
     width: 45em;
     max-width: 90%;
@@ -51,7 +56,8 @@ h2 {
 div.autolyric {
     text-align:center;
     text-shadow: 0 0 0.5em black, 0 0 2em #003;
-    width: 100%;
+    width: 90vw;
+    left: 10vw;
     position: absolute;
     top: 95vh;
     font-size: 1pt;
@@ -73,7 +79,8 @@ div.autolyric.hl {
 }
 
 .light div.autolyric.hl {
-    color: #700;
+    color: #c00;
+    text-shadow: 0 0 0.5em cyan, 0 0 2em cyan;
 }
 
 
@@ -222,6 +229,10 @@ td {
 
 .small {
     font-size: smaller;
+}
+
+.transparent .header {
+    display: none;
 }
 
 .header {

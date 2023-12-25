@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.8
+#!/usr/bin/env python3
 
 import sys,csv,json,os,re,io
 from glob import glob
@@ -106,7 +106,6 @@ def process_speech(line):
     pieces = line.split(': ')
     try:
         f = open('../speeches/%s.md' % pieces[0])
-        f = list(f)
     except IOError:
         return False
     for fl in f:
@@ -115,14 +114,7 @@ def process_speech(line):
             outf.write(' <i class=small>%s</i>' % fl[2:].replace('By ','by '))
         elif fl[:1]=='#' and fl[1]!='#':
             outf.write('<li><b><a href=../../speeches/gen/%s.html>%s</a></b> ' % (pieces[0], fl[1:]))
-            slidef.write("{type:'text', title:'%s'" % fl[1:].replace("'",""))
-            if len(f) < 30:
-                slidef.write(',content:[')
-        elif len(f) < 30 and fl.strip():
-            slidef.write('"%s",\n'%fl)
-    if len(f) < 30:
-        slidef.write(']')
-    slidef.write('},\n')
+            slidef.write("{type:'text', title:'%s', link:'%s'},\n" % (fl[1:].replace("'",""), pieces[0]))
     if len(pieces)==2:
         outf.write(' -- %s...' % pieces[1])
     return True
