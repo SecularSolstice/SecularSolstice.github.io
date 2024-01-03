@@ -426,6 +426,12 @@ content = {
     "By the Counting Crows",
   ],
 
+  'Lucifer': [
+    "Lucifer",
+    "By Leslie Fish and Don Simpson",
+    "Ambition and striving for more",
+  ],
+
   'Mad_World': [
     "Mad World",
     "By Gary Jules",
@@ -1125,6 +1131,12 @@ content = {
     "[speech]",
   ],
 
+  'Have_a_Plan_Write_it_Down': [
+    "Have an Plan, Write it Down",
+    "By Patrick MacKenzie    ",
+    "[speech]",
+  ],
+
   'Henry_Williamson_on_Christmas_Aftermath': [
     "Henry Williamson on Christmas Aftermath",
     "[speech]",
@@ -1211,6 +1223,12 @@ content = {
     "[speech]",
   ],
 
+  'I_Hear_America_Singing': [
+    "I Hear America Singing",
+    "By Walt Whitman",
+    "[speech]",
+  ],
+
   'I_Pencil': [
     "I, Pencil",
     "By Leonard E. Read",
@@ -1219,6 +1237,12 @@ content = {
 
   'Improvised_Skit': [
     "Improvised Skit",
+    "[speech]",
+  ],
+
+  'Intelligent_Machinery_A_Heretical_Theory': [
+    "Intelligent Machinery: A Heretical Theory",
+    "By Alan Turing (Abridged by Skyler Crossman)",
     "[speech]",
   ],
 
@@ -1309,6 +1333,12 @@ content = {
     "[speech]",
   ],
 
+  'Loss_and_Gain': [
+    "Loss and Gain",
+    "Henry Longfellow",
+    "[speech]",
+  ],
+
   'Lost_Knowledge': [
     "Lost Knowledge",
     "probably by Chelsea Voss or Jim Babcock",
@@ -1350,6 +1380,12 @@ content = {
     "[speech]",
   ],
 
+  'Meselson_and_Bioweapons': [
+    "Meselson and Bioweapons",
+    "By Kelsey Piper",
+    "[speech]",
+  ],
+
   'Metta_Meditation': [
     "Metta Meditation",
     "By Cassandra McClure",
@@ -1364,6 +1400,12 @@ content = {
   'Mistakes_were_Made': [
     "Mistakes were Made",
     "By Raymond Arnold",
+    "[speech]",
+  ],
+
+  'Moment_of_Resolution': [
+    "Moment of Resolution",
+    "By Skyler Crossman",
     "[speech]",
   ],
 
@@ -1591,6 +1633,12 @@ content = {
     "[speech]",
   ],
 
+  'The_Aim_Was_Song': [
+    "The Aim Was Song",
+    "By Robert Frost",
+    "[speech]",
+  ],
+
   'The_Children_of_4_3_Billion_Years_of_Evolution': [
     "The Children of 4.3 Billion Years of Evolution",
     "By Georgia Ray",
@@ -1680,6 +1728,12 @@ content = {
     "[speech]",
   ],
 
+  'The_Starfish_and_the_Net': [
+    "The Starfish and the Net",
+    "First two paragraphs by Scott Alexander, remainder by Skyler Crossman",
+    "[speech]",
+  ],
+
   'The_Virtue_of_Ash': [
     "The Virtue of Ash",
     "by Cody Wild",
@@ -1703,8 +1757,20 @@ content = {
     "[speech]",
   ],
 
+  'Tortoise_Skills': [
+    "Tortoise Skills",
+    "By AgentyDuck, adapted by Skyler Crossman",
+    "[speech]",
+  ],
+
   'Travelers': [
     "Travelers",
+    "[speech]",
+  ],
+
+  'Tsuyoku_Naritai': [
+    "Tsuyoku Naritai",
+    "By Eliezer Yudkowsky (Abridged by Skyler Crossman)",
     "[speech]",
   ],
 
@@ -1778,6 +1844,12 @@ content = {
     "[speech]",
   ],
 
+  'Welcome_To_New_Years': [
+    "Welcome To New Years",
+    "By Skyler Crossman",
+    "[speech]",
+  ],
+
   'Welcome_to_Solstice_2020': [
     "Welcome to Secular Solstice 2020",
     "By Raymond Arnold, Alex Altair and Laura Vaughan",
@@ -1799,6 +1871,12 @@ content = {
   'What_I_Learned_About_Risk_from_Parenting': [
     "What I Learned About Risk from Parenting",
     "By Julia Wise",
+    "[speech]",
+  ],
+
+  'What_Resembles_The_Grave_But_Isnt': [
+    "What Resembles The Grave But Isn't",
+    "By Anne Boyer",
     "[speech]",
   ],
 
