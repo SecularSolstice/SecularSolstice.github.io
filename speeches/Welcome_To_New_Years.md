@@ -21,10 +21,10 @@ We’re going to have some songs. You’re encouraged to sing along, especially 
 
 We’re also going to have some speeches. Some of those speeches will have some call and response parts, where the speaker up in front will say something and you’re encouraged to give the next lines. In particular, there’s a call and response bit that I’d like to practice now.
 
-Speaker: If the box contains a diamond,
-Audience: I desire to believe that the box contains a diamond;
-Speaker: If the box does not contain a diamond,
-Audience: I desire to believe that the box does not contain a diamond;
+Speaker: If the box contains a diamond,    
+Audience: I desire to believe that the box contains a diamond;    
+Speaker: If the box does not contain a diamond,    
+Audience: I desire to believe that the box does not contain a diamond;    
 Together: Let me not become attached to beliefs I may not want.
 
 Thank you! 

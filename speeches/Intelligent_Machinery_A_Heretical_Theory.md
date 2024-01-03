@@ -16,9 +16,9 @@ I suggest that there should be two keys which can be manipulated by the schoolma
 they could never be overlooked, so that the schoolmaster would find that it became unnecessary to 'apply the cane' any more.
 
 Let us now assume, for the sake of argument, that these machines are a genuine possibility, and look at the consequences of constructing them. To do so would of course meet with great opposition. There would be great opposition from the intellectuals who were afraid of being put out of a job. It is probable though that the intellectuals would be mistaken about this. There would be plenty to do in trying, say, to keep one's intelligence up to the standard set by the machines, for it seems probable that once the machine thinking method had started, it would not take long to outstrip our feeble powers. There would be no question of the machines dying, and they would be able to converse with each other to sharpen their wits. At some stage therefore we should have to expect the machines to take control.
-
-Speaker: If the world is going to end,
-Audience: I desire to believe that the world is going to end;
-Speaker: If the world is not going to end,
-Audience: I desire to believe that the world is not going to end;
+    
+Speaker: If the world is going to end,    
+Audience: I desire to believe that the world is going to end;    
+Speaker: If the world is not going to end,    
+Audience: I desire to believe that the world is not going to end;    
 Together: Let me not become attached to beliefs I may not want.

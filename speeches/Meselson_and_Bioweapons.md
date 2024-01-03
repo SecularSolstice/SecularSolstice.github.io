@@ -10,11 +10,11 @@ So he set off on a six-year crusade to make the US, and then the world, swear of
 "I decided, this had better not happen, we had better not do it anymore," he told me, and a few weeks later he was contacting every science writer in America to convince them to run a story on it. He'd show up in policymaker's offices. He started petitions.
 
 It seems like there's some kind of personality trait where instead of going 'someone should do something about that', you go 'I'm going to do something about that.' I don't know how to teach it but I sincerely think the world is only still around because some people have it.
-
-Speaker: If someone should do something about that,
-Audience: I desire to believe that someone should do something about that;
-Speaker: If nobody should do something about that
-Audience: I desire to believe that nobody should do something about that;
-Together: Let me not become attached to beliefs I may not want.
-
+    
+Speaker: If someone should do something about that,    
+Audience: I desire to believe that someone should do something about that;    
+Speaker: If nobody should do something about that    
+Audience: I desire to believe that nobody should do something about that;    
+Together: Let me not become attached to beliefs I may not want.    
+    
 -https://twitter.com/KelseyTuoc/status/1115683367536607232
