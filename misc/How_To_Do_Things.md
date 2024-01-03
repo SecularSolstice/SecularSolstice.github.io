@@ -66,6 +66,8 @@ Install the tools you'll need.  This will always include `pandoc`, `python`, `gi
 
 Then just `git clone https://github.com/SecularSolstice/SecularSolstice.github.io.git`.
 
+You may wish to use `scripts/fixdates.sh` to set all Last Modified Times to the commits they were made on, rather than the time git cloned the files.  This will help ensure `make all` builds what it should and not what it shouldn't.
+
 ## How to Add a Song
 
 This requires a local environment (for now; growth mindset).
