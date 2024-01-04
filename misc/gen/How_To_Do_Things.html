@@ -23,23 +23,23 @@
 <li><a href="#how-to-decide-whether-something-belongs-here">How to Decide whether Something Belongs Here</a></li>
 </ul>
 <h2 id="how-to-edit-a-song">How to Edit a Song</h2>
-<p>On the song's page, there should be an &quot;edit description&quot; button and an &quot;edit&quot; button on one of the files at the bottom. Click this button and follow github's instructions (including creating an account if you don't already have one -- they won't make you regret it). If you don't have push priviliges, create a pull request. If it isn't accepted soon, bug Daniel Speyer.</p>
-<p>Or, if you prefer to work with a local copy, edit either the README.md or other substantive file in the song's directory, and then push or create a pull request as normal. It should almost never be necessary to touch the Makefile. If you want to generate the display copy to make sure it's good, you can do this with <code>make all</code>, but you don't have to.</p>
-<p>In either case, each song has a single canonical format from which others are derived. This ensures they never fall out of sync with each other. Most of the formats should be pretty intuitive to edit. Even lilypond, which can get quite complicated, is mostly safe to edit the parts you understand and ignore the ones you don't.</p>
+<p>On the song’s page, there should be an “edit description” button and an “edit” button on one of the files at the bottom. Click this button and follow github’s instructions (including creating an account if you don’t already have one – they won’t make you regret it). If you don’t have push priviliges, create a pull request. If it isn’t accepted soon, bug Daniel Speyer.</p>
+<p>Or, if you prefer to work with a local copy, edit either the README.md or other substantive file in the song’s directory, and then push or create a pull request as normal. It should almost never be necessary to touch the Makefile. If you want to generate the display copy to make sure it’s good, you can do this with <code>make all</code>, but you don’t have to.</p>
+<p>In either case, each song has a single canonical format from which others are derived. This ensures they never fall out of sync with each other. Most of the formats should be pretty intuitive to edit. Even lilypond, which can get quite complicated, is mostly safe to edit the parts you understand and ignore the ones you don’t.</p>
 <p>The description (README.md file) contains information <em>about</em> the song in markdown format. It should begin:</p>
 <pre><code>    # Title
     ## By Composer
     ## One-line Synopsis</code></pre>
 <h2 id="how-to-add-or-edit-a-speech">How to Add or Edit a Speech</h2>
-<p>For editing, the speech page will contain an &quot;edit&quot; button similar to the ones on the song pages. This will bring you to the same github editor. Or, if you prefer to work with a local copy, you can find the files in the <code>speeches</code> directory.</p>
-<p>For a new speech, go the the <a href="https://github.com/SecularSolstice/SecularSolstice.github.io/tree/master/speeches">git directory for speeches</a> and click the &quot;Create new file&quot; button. All speech filenames <em>must</em> have the <code>.md</code> extension.</p>
+<p>For editing, the speech page will contain an “edit” button similar to the ones on the song pages. This will bring you to the same github editor. Or, if you prefer to work with a local copy, you can find the files in the <code>speeches</code> directory.</p>
+<p>For a new speech, go the the <a href="https://github.com/SecularSolstice/SecularSolstice.github.io/tree/master/speeches">git directory for speeches</a> and click the “Create new file” button. All speech filenames <em>must</em> have the <code>.md</code> extension.</p>
 <p>The file should begin:</p>
 <pre><code>    # Title
     ## By Author</code></pre>
-<p>As with the songs, if you're using a local copy you can create a formatted version with <code>make all</code> but if you don't github will do it for you.</p>
-<p>If you can categorize the speech, add it to <code>lists/All_Speeches.lst</code>, but don't worry too much if it doesn't fit.</p>
+<p>As with the songs, if you’re using a local copy you can create a formatted version with <code>make all</code> but if you don’t github will do it for you.</p>
+<p>If you can categorize the speech, add it to <code>lists/All_Speeches.lst</code>, but don’t worry too much if it doesn’t fit.</p>
 <h2 id="how-to-create-or-edit-a-program">How to Create or Edit a Program</h2>
-<p>Programs live in the <a href="https://github.com/SecularSolstice/SecularSolstice.github.io/tree/master/lists">lists directory</a>. For a new list click &quot;Create new file&quot;, or to edit an existing one select the file and click the pencil icon.</p>
+<p>Programs live in the <a href="https://github.com/SecularSolstice/SecularSolstice.github.io/tree/master/lists">lists directory</a>. For a new list click “Create new file”, or to edit an existing one select the file and click the pencil icon.</p>
 <p>The format of these files is very simple:</p>
 <pre><code>    {Subtitle, if any}
     # Section Heading
@@ -49,19 +49,20 @@
     .
     .
     .</code></pre>
-<p>You may wish to use the <a href="list_building.html">list building tool</a> which provides smart auto-complete. Or not. Whichever. Note that the tool does not have a save button: you'll need to copy+paste the content in and out. But it's still nice to not have to look up exact names of things.</p>
-<p>Note that the grand list of programs puts programs A-L in th left column and M-Z in the right. This may not look good after you've added programs. If you feel up to it, meddle with the <code>create-program-list.sh</code> script. Or bug Daniel.</p>
+<p>You may wish to use the <a href="list_building.html">list building tool</a> which provides smart auto-complete. Or not. Whichever. Note that the tool does not have a save button: you’ll need to copy+paste the content in and out. But it’s still nice to not have to look up exact names of things.</p>
+<p>Note that the grand list of programs puts programs A-L in th left column and M-Z in the right. This may not look good after you’ve added programs. If you feel up to it, meddle with the <code>create-program-list.sh</code> script. Or bug Daniel.</p>
 <h2 id="how-to-set-up-a-local-environment">How to Set Up a Local Environment</h2>
-<p>First gain basic proficiency with git. There are lots of tutorials online, but I don't have a specific one to recommend. Or, if you work any sort of technical job, you probably already have this. If you skip this step, you'll be able to take the next bunch, but may get stuck <em>after</em> having done substantive work.</p>
-<p>Install the tools you'll need. This will always include <code>pandoc</code>, <code>python</code>, <code>git</code>, <code>make</code> and <code>imagemagick</code>. If you're using lilypond format, you'll also want <code>lilypond</code>, <code>timidity</code>, <code>lame</code> and <code>frescobaldi</code>. If you're using chordpro or ugc format, you'll also want <code>chordpro</code>, which annoyingly can only be installed from <code>cpanminus</code>. For true thoroughness, get a recent version of <code>wkhtmltox</code> (one with the qt patch) and <code>pdfjam</code> (in the <code>texlive-extra-utils</code> package in most distros). For exact commands on how to do this, see the <a href="https://github.com/SecularSolstice/SecularSolstice.github.io/blob/master/.github/workflows/Dockerfile">Dockerfile</a>. Ignore the bit about getting the latest git -- only github actions need that. (Technically you <em>could</em> work from inside a docker container, but I wouldn't recommend it.)</p>
+<p>First gain basic proficiency with git. There are lots of tutorials online, but I don’t have a specific one to recommend. Or, if you work any sort of technical job, you probably already have this. If you skip this step, you’ll be able to take the next bunch, but may get stuck <em>after</em> having done substantive work.</p>
+<p>Install the tools you’ll need. This will always include <code>pandoc</code>, <code>python</code>, <code>git</code>, <code>make</code> and <code>imagemagick</code>. If you’re using lilypond format, you’ll also want <code>lilypond</code>, <code>timidity</code>, <code>lame</code> and <code>frescobaldi</code>. If you’re using chordpro or ugc format, you’ll also want <code>chordpro</code>, which annoyingly can only be installed from <code>cpanminus</code>. For true thoroughness, get a recent version of <code>wkhtmltox</code> (one with the qt patch) and <code>pdfjam</code> (in the <code>texlive-extra-utils</code> package in most distros). For exact commands on how to do this, see the <a href="https://github.com/SecularSolstice/SecularSolstice.github.io/blob/master/.github/workflows/Dockerfile">Dockerfile</a>. Ignore the bit about getting the latest git – only github actions need that. (Technically you <em>could</em> work from inside a docker container, but I wouldn’t recommend it.)</p>
 <p>Then just <code>git clone https://github.com/SecularSolstice/SecularSolstice.github.io.git</code>.</p>
+<p>You may wish to use <code>scripts/fixdates.sh</code> to set all Last Modified Times to the commits they were made on, rather than the time git cloned the files. This will help ensure <code>make all</code> builds what it should and not what it shouldn’t.</p>
 <h2 id="how-to-add-a-song">How to Add a Song</h2>
 <p>This requires a local environment (for now; growth mindset).</p>
-<p>Assuming you've already set that up and are in the root git directory, the steps are:</p>
+<p>Assuming you’ve already set that up and are in the root git directory, the steps are:</p>
 <p><strong><code>git pull</code></strong></p>
 <p>Nobody likes a merge conflict</p>
 <p><strong>[optional] <code>M-x server-mode</code></strong></p>
-<p>If you're using emacs, invoke server-mode so that you get the edits automatically. If you use a lesser editor, skip this step.</p>
+<p>If you’re using emacs, invoke server-mode so that you get the edits automatically. If you use a lesser editor, skip this step.</p>
 <p><strong><code>./scripts/mksong.sh &lt;Name_Of_Song&gt; &lt;format&gt;</code></strong></p>
 <p>Name_Of_Song will be used as the directory name. It should not contain spaces or special characters. You can set the name that will be displayed later.</p>
 <p>Format can be one of the following (so far; growth mindset):</p>
@@ -69,15 +70,15 @@
 <li><strong>stub</strong>: No content, just notes. Often a good choice for well-documented outside songs that we still want to discuss how to use in a Solstice context</li>
 <li><strong>text</strong>: Just lyrics as a text file, no attempt to record music</li>
 <li><strong>ugc</strong>: Ultimate Guitar Chord format. With chord names above lyrics. Always Look on the Bright Side provides an <a href="/Always_Look_on_the_Bright_Side/chord-sheet.ugc">example</a>.</li>
-<li><strong>cho</strong>: Chordpro Format, with chords in brackets amidst lyrics. There's some bonus features for optimal viewing on an iphone while performing. Somewhere to Begin provides an <a href="/Somewhere_to_Begin/chord-sheet.cho">example</a></li>
-<li><strong>ly</strong>: Lilypond Format, complete sheet music. This format is <a href="https://lilypond.org/manuals.html">documented</a>. Bring the Light offers a relatively straightforward <a href="/Bring_the_Light/sheet-music.ly">example</a>. If you're using this format seriously, you'll probably want the <a href="https://frescobaldi.org">Frescobaldi editor</a>.</li>
+<li><strong>cho</strong>: Chordpro Format, with chords in brackets amidst lyrics. There’s some bonus features for optimal viewing on an iphone while performing. Somewhere to Begin provides an <a href="/Somewhere_to_Begin/chord-sheet.cho">example</a></li>
+<li><strong>ly</strong>: Lilypond Format, complete sheet music. This format is <a href="https://lilypond.org/manuals.html">documented</a>. Bring the Light offers a relatively straightforward <a href="/Bring_the_Light/sheet-music.ly">example</a>. If you’re using this format seriously, you’ll probably want the <a href="https://frescobaldi.org">Frescobaldi editor</a>.</li>
 <li><strong>mscx</strong>: Music XML formal, also complete sheet music. A <a href="https://www.musicxml.com/">W3C Standard</a> supported natively by the open source <a href="https://musescore.org/en">Musescore</a> and as an import/export format by many other programs.</li>
 </ul>
 <p>This script will create a directory for the song and the relevant files (though the files with the content will be empty).</p>
 <p><strong>Edit the Files</strong></p>
-<p>If you're using emacsserver, these will show up automatically in your editor. If not, open the created files manually.</p>
+<p>If you’re using emacsserver, these will show up automatically in your editor. If not, open the created files manually.</p>
 <p><strong>[optional] Add Any Extra Files</strong></p>
-<p>If there are any other files you want included in this record (e.g. an mp3 of a past performance), copy those into the song's directory.</p>
+<p>If there are any other files you want included in this record (e.g. an mp3 of a past performance), copy those into the song’s directory.</p>
 <p><strong>[technically optional] <code>Autogen and Proofread</code></strong></p>
 <p>Use <code>make all</code> to fill the <code>gen</code> directory with the files that will go on the actual website. Then open <code>gen/index.html</code> in your favorite web browser and make sure that everything looks right.</p>
 <p><strong>Add to <code>All_Songs</code></strong></p>
@@ -85,8 +86,8 @@
 <p><strong><code>git commit and push or pull-request</code></strong></p>
 <p>The same as any git project.</p>
 <h2 id="how-to-create-multiple-pdfs-from-lilypond">How to Create Multiple PDFs from Lilypond</h2>
-<p>One of the handy features of lilypond is the ability to produce multiple variants or parts from a score. If you want to do this, take a look at a song that already does to get a sense of what's going on. Let There Be Love and Winter Is Icumen In are good examples. Then...</p>
-<p>In the makefile, include the added files both in the <code>FILES_TO_LIST</code> variable (no, it can't be auto-detected, or at least I couldn't make that work) and to the rules. When invoking lilypond for a variant, use -dFlagName to <em>define</em> <code>FlagName</code> when examining the score.</p>
+<p>One of the handy features of lilypond is the ability to produce multiple variants or parts from a score. If you want to do this, take a look at a song that already does to get a sense of what’s going on. Let There Be Love and Winter Is Icumen In are good examples. Then…</p>
+<p>In the makefile, include the added files both in the <code>FILES_TO_LIST</code> variable (no, it can’t be auto-detected, or at least I couldn’t make that work) and to the rules. When invoking lilypond for a variant, use -dFlagName to <em>define</em> <code>FlagName</code> when examining the score.</p>
 <p>Then in the <code>.ly</code> file, use</p>
 <pre><code>    #(if (ly:get-option &#39;FlagName) #{
         \lilypond commands to use with the flag
@@ -96,9 +97,9 @@
       )</code></pre>
 <p>The # characters shift between lilypond format and the underlying lisp. Yes, lisp. Why not?</p>
 <h2 id="how-to-avoid-difficult-technical-problems">How to Avoid Difficult Technical Problems</h2>
-<p>If this still sounds too difficult (or you want to do something not covered here and don't want to try figuring it out for yourself) send your content to either Ruthan Freese (rcfreese [at] gmail [dot] com) who has volunteered to be &quot;official Github intermediary&quot; or to Daniel Speyer (dspeyer [at] gmail [dot] com) who set this whole thing up.</p>
+<p>If this still sounds too difficult (or you want to do something not covered here and don’t want to try figuring it out for yourself) send your content to either Ruthan Freese (rcfreese [at] gmail [dot] com) who has volunteered to be “official Github intermediary” or to Daniel Speyer (dspeyer [at] gmail [dot] com) who set this whole thing up.</p>
 <h2 id="how-to-decide-whether-something-belongs-here">How to Decide whether Something Belongs Here</h2>
-<p>If it's been used at a Solstice or was written for Solstice, it belongs here. If it was neither, but seems really good, that belongs here too. Songs that seem only kind of relevant probably don't belong here, unless there's some specific reason to include them, or you really want to.</p>
-<p>Putting things here imposes very few costs. Unless you're thinking of adding so much that a list becomes unreadable, go ahead. And if you are, then consider putting these things into a separate list.</p>
-<p>For songs used at Solstice, but not written for it and easy to find elsewhere, I sometimes created stubs. For example, <a href="/Imagine/gen">John Lennon's Imagine</a>. This enables including the song in setlists, but doesn't take much effort or get in anyone's way. When I do this, I <em>don't</em> include them in the All Songs list, to avoid cluttering that with links to pointless pages.</p>
+<p>If it’s been used at a Solstice or was written for Solstice, it belongs here. If it was neither, but seems really good, that belongs here too. Songs that seem only kind of relevant probably don’t belong here, unless there’s some specific reason to include them, or you really want to.</p>
+<p>Putting things here imposes very few costs. Unless you’re thinking of adding so much that a list becomes unreadable, go ahead. And if you are, then consider putting these things into a separate list.</p>
+<p>For songs used at Solstice, but not written for it and easy to find elsewhere, I sometimes created stubs. For example, <a href="/Imagine/gen">John Lennon’s Imagine</a>. This enables including the song in setlists, but doesn’t take much effort or get in anyone’s way. When I do this, I <em>don’t</em> include them in the All Songs list, to avoid cluttering that with links to pointless pages.</p>
 </body></html>
