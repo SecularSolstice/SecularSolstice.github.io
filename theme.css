@@ -316,6 +316,11 @@ a.themeSwitcher {
     color: white;
 }
 
+div.figure > img {
+    max-width: 100%;
+    opacity: 0.8;
+}
+
 @media (max-width: 600px) {
     body {
         max-width: 95%;

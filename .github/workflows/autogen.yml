@@ -1,5 +1,3 @@
-# This is a basic workflow to help you get started with Actions
-
 name: autogen
 
 # Controls when the action will run. Triggers the workflow on push or pull request
@@ -24,9 +22,14 @@ jobs:
     - name: Remove security error for git checkout as root
       run: git config --global --add safe.directory '*'
 
-    - uses: actions/checkout@v2
+    - name: checkout
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 10
 
-    # Runs a single command using the runners shell
+    - name: Set dates based on commit, so make will work
+      run: ./scripts/fixdates.sh 
+
     - name: Do the build
       run: make all
         

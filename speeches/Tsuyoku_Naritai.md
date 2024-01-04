@@ -20,9 +20,9 @@ The litany bears a remarkable resemblance to the notion that the way of rational
 Fine. Now tell me how you plan to become less biased, less irrational, more informed, less overconfident, better calibrated.
 
 Never confess to me that you are just as flawed as I am unless you can tell me what you plan to do about it. Afterward you will still have plenty of flaws left, but that’s not the point; the important thing is to do better, to keep moving ahead, to take one more step forward. Tsuyoku naritai!
-
-Speaker: If I want to become stronger,
-Audience: I desire to believe that I want to become stronger;
-Speaker: If I do not want to become stronger,
-Audience: I desire to believe that I do not want to become stronger;
+    
+Speaker: If I want to become stronger,    
+Audience: I desire to believe that I want to become stronger;    
+Speaker: If I do not want to become stronger,    
+Audience: I desire to believe that I do not want to become stronger;    
 Together: Let me not become attached to beliefs I may not want.

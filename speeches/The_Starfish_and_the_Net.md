@@ -1,7 +1,8 @@
 # The Starfish and the Net
 ## First two paragraphs by Scott Alexander, remainder by Skyler Crossman
 
-There’s a story about an old man walking down a beach. He sees a child picking up starfish and throwing them into the water. The man asks the child what he’s doing, and the child says that these starfish are stuck on land at low tide. They can’t survive out of water, so he’s throwing them back in the ocean to save them. 
+There’s a story about an old man walking down a beach. He sees a child picking up starfish and throwing them into the water. The man asks the child what he’s doing, and the child says that these starfish are stuck on land at low tide. They can’t survive out of water, so he’s throwing them back in the ocean to save them.
+
 The old man says, “But surely you know that there are millions of starfish just on this one beach. And there are thousands of beaches all around the world. And this same thing happens at high tide day after day, forever. You’ll never be able to make a difference.” 
 And the child just picks up another starfish, throws it into the ocean, and said “Made a difference to that one!”
 

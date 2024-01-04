@@ -11,11 +11,6 @@ gen/${PREFIX}ending-melody.pdf: ending-melody.ly
 	lilypond -o gen/${PREFIX}ending-melody ending-melody.ly
 
 gen/${PREFIX}both-snippets.pdf: gen/${PREFIX}ending-melody.pdf gen/${PREFIX}motif.pdf
-	pdf90 gen/${PREFIX}ending-melody.pdf
-	pdf90 gen/${PREFIX}motif.pdf
-	pdfnup ${PREFIX}ending-melody-rotated90.pdf ${PREFIX}motif-rotated90.pdf
-	pdf270 ${PREFIX}motif-rotated90-nup.pdf
-	mv ${PREFIX}motif-rotated90-nup-rotated270.pdf gen/${PREFIX}both-snippets.pdf
-	rm *rotated*.pdf
+	pdfjam --outfile gen/${PREFIX}both-snippets.pdf --nup 1x2 gen/${PREFIX}motif.pdf gen/${PREFIX}ending-melody.pdf
 
 include ../Makefile.common
