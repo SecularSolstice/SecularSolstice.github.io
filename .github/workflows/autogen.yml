@@ -22,7 +22,10 @@ jobs:
     - name: Remove security error for git checkout as root
       run: git config --global --add safe.directory '*'
 
-    - uses: actions/checkout@v2
+    - name: checkout
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 10
 
     - name: Set dates based on commit, so make will work
       run: ./scripts/fixdates.sh 
