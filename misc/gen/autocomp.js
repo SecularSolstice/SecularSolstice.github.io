@@ -749,6 +749,12 @@ content = {
     "A newly awakened AI contemplates the end of humanity.",
   ],
 
+  'Try_Everything': [
+    "Try Everything",
+    "By Shakira",
+    "Don't stop trying things.",
+  ],
+
   'Unison_in_Harmony': [
     "Unison in Harmony",
     "by Coope, Boyes, and Simpson",
