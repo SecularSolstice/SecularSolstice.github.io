@@ -1,0 +1,9 @@
+Now, some of my friends, when I showed them this song, were like, “but Anna, I fold underwear all the time and I endorse this life choice!” And to that I can only say, your utility function is not my utility function but your utility function is okay.
+
+Personally, since I learned this song, the act of putting away my underwear unfolded has taken on a little bit of the nature of a minor quasi-religious observance.
+
+Speaking of quasi-religious observances - this next song started as a sort of, intra-religious rebuttal against overly literalist interpretations of the Bible, but in our community it has grown to fill a different role, of a celebration of truthseeking, and a sort of meditation on the fact that the map is not the territory, and so our map needs to be ongoingly refined to match the territory better.
+
+And so this song, itself, has been ongoingly refined as well. For example, there’s a line in the second verse about how Galileo recanted his heliocentric model of the Solar System under pressure even though he was right. The original lyrics said that, quote, “torture broke the remnant of his will” - but someone pointed out years ago that Galileo was never _actually_ tortured, he was merely _threatened_ with torture and put on house arrest, so the line was changed to, quote, “isolation broke his weary will”, referencing his house arrest.
+
+Then, last year, Drake Thomas - who I think is somewhere in the audience here - pointed out that actually Galileo recanted at his trial, which was _before_ his house arrest, so it could not have been his “isolation” that broke his will. Tonight we have a brand-new version of this line for you. Feel free to debate this change amongst yourselves after the show in keeping with time-honored rationalist tradition.
