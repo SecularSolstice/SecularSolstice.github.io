@@ -670,6 +670,11 @@ content = {
     "Refusing to give up",
   ],
 
+  'The_Fallen_Star': [
+    "The Fallen Star",
+    "by Aleksandr Dolsky; translated by Anna Tchetchetkine and friends",
+  ],
+
   'The_Mary_Ellen_Carter': [
     "The Mary Ellen Carter",
     "By Stan Rogers",
@@ -1461,6 +1466,12 @@ content = {
     "[speech]",
   ],
 
+  'On_Wanting_Things': [
+    "On Wanting Things",
+    "By Anna Tchetchetkine",
+    "[speech]",
+  ],
+
   'One_Song_Many_Tyrants': [
     "One Song, Many Tyrants",
     "By Daniel Speyer",
@@ -1605,6 +1616,10 @@ content = {
   'Something_Possible': [
     "Something Possible",
     "By Raymond Arnold",
+    "[speech]",
+  ],
+
+  'Song_Nitpicking': [
     "[speech]",
   ],
 
@@ -1788,6 +1803,18 @@ content = {
   'Tsuyoku_Naritai': [
     "Tsuyoku Naritai",
     "By Eliezer Yudkowsky (Abridged by Skyler Crossman)",
+    "[speech]",
+  ],
+
+  'Underrated_Reasons_To_Be_Thankful_1': [
+    "Underrated Reasons To Be Thankful (Part 1)",
+    "by Dynomight",
+    "[speech]",
+  ],
+
+  'Underrated_Reasons_To_Be_Thankful_2': [
+    "Underrated Reasons To Be Thankful (Part 2)",
+    "by Dynomight",
     "[speech]",
   ],
 
