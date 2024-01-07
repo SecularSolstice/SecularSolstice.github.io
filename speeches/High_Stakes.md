@@ -1,4 +1,5 @@
 # High Stakes
+## By Anna Tchetchetkine
 
 Bitter Wind Lullaby was about a past where humans were even more like helpless little animals than we are today; when winter was much more often a death sentence.
 
