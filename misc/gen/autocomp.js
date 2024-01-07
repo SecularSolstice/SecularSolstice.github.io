@@ -417,7 +417,7 @@ content = {
 
   'Life_Is_Too_Short_To_Fold_Underwear': [
     "Life Is Too Short To Fold Underwear",
-    "by Zoe Mulford",
+    "By Zoe Mulford",
   ],
 
   'Little_Echo': [
@@ -495,6 +495,11 @@ content = {
     "No One Is Alone",
     "By Stephen Sondheim (from Into the Woods)",
     "An anthem of communal support",
+  ],
+
+  'No_One_Survives': [
+    "No One Survives",
+    "By Daniel Kahn",
   ],
 
   'O_Tannenbaum': [
@@ -598,6 +603,11 @@ content = {
     "A song about human ingenuity in the face of challenges.",
   ],
 
+  'Songs_Stay_Sung': [
+    "Songs Stay Sung",
+    "By Zoe Mulford & Windborne, with edits by the Solstice team",
+  ],
+
   'Sons_of_Martha': [
     "Sons Of Martha",
     "By Rudyard Kipling (lyrics) and Daniel Speyer (music)",
@@ -672,7 +682,12 @@ content = {
 
   'The_Fallen_Star': [
     "The Fallen Star",
-    "by Aleksandr Dolsky; translated by Anna Tchetchetkine and friends",
+    "By Aleksandr Dolsky; translated by Anna Tchetchetkine and friends",
+  ],
+
+  'The_GTF': [
+    "The Great Transhumanist Future",
+    "lyrics by Hannah “Alicorn” Blume, to the tune of “Big Rock Candy Mountain” by Harry McClintock",
   ],
 
   'The_Mary_Ellen_Carter': [
@@ -1095,6 +1110,12 @@ content = {
     "[speech]",
   ],
 
+  'For_Every_Ailment': [
+    "For every ailment under the sun",
+    "By Gretta Duleba",
+    "[speech]",
+  ],
+
   'Frankfurt_2018_Introduction_Speech': [
     "Introduction Speech in Frankfurt Main 2018",
     "by Martin Sawitzki",
@@ -1142,6 +1163,12 @@ content = {
     "[speech]",
   ],
 
+  'Half_Monkey_Half_God': [
+    "Half Monkey, Half God",
+    "By Nate Soares (abridged)",
+    "[speech]",
+  ],
+
   'Happiness_Letters': [
     "Happiness Letters",
     "[speech]",
@@ -1166,6 +1193,11 @@ content = {
   'High_Flight': [
     "High Flight ",
     "By John Gillespie Magee, Jr.",
+    "[speech]",
+  ],
+
+  'High_Stakes': [
+    "High Stakes",
     "[speech]",
   ],
 
@@ -1259,6 +1291,36 @@ content = {
   'Intelligent_Machinery_A_Heretical_Theory': [
     "Intelligent Machinery: A Heretical Theory",
     "By Alan Turing (Abridged by Skyler Crossman)",
+    "[speech]",
+  ],
+
+  'Interlude_Building_The_Future': [
+    "Interlude: Building The Future",
+    "[speech]",
+  ],
+
+  'Interlude_Night': [
+    "Interlude: Night",
+    "[speech]",
+  ],
+
+  'Interlude_No_One_Survives': [
+    "Interlude: No One Survives",
+    "[speech]",
+  ],
+
+  'Interlude_Part_Of_The_Project': [
+    "Interlude: Part Of The Project",
+    "[speech]",
+  ],
+
+  'Interlude_We_Have_Already_Won': [
+    "Interlude: We Have Already Won",
+    "[speech]",
+  ],
+
+  'Interlude_What_Future_Do_You_Want': [
+    "Interlude: What Future Do You Want?",
     "[speech]",
   ],
 
@@ -1754,6 +1816,12 @@ content = {
     "[speech]",
   ],
 
+  'The_Orange': [
+    "The Orange ",
+    "By Wendy Cope",
+    "[speech]",
+  ],
+
   'The_Scientific_Frontier': [
     "The Scientific Frontier / Truth and Beauty",
     "By Chelsea Voss",
@@ -1814,6 +1882,18 @@ content = {
 
   'Underrated_Reasons_To_Be_Thankful_2': [
     "Underrated Reasons To Be Thankful (Part 2)",
+    "by Dynomight",
+    "[speech]",
+  ],
+
+  'Underrated_Reasons_To_Be_Thankful_3': [
+    "Underrated Reasons To Be Thankful (Part 3)",
+    "by Dynomight",
+    "[speech]",
+  ],
+
+  'Underrated_Reasons_To_Be_Thankful_4': [
+    "Underrated Reasons To Be Thankful (Part 4)",
     "by Dynomight",
     "[speech]",
   ],
@@ -1879,6 +1959,12 @@ content = {
   'We_Are_Here': [
     "We Are Here",
     "By Daniel Speyer",
+    "[speech]",
+  ],
+
+  'We_will_not_die_of_this': [
+    "We will not die of this!",
+    "By Miranda Dixon-Luinenburg",
     "[speech]",
   ],
 
@@ -2012,6 +2098,7 @@ sections = [
   "Preparation",
   "Spring",
   "Tomorrow",
+  "Tomorrows",
   "Twilight",
   "Winter",
 ];
