@@ -687,7 +687,7 @@ content = {
 
   'The_GTF': [
     "The Great Transhumanist Future",
-    "lyrics by Hannah “Alicorn” Blume, to the tune of “Big Rock Candy Mountain” by Harry McClintock",
+    "Lyrics by Hannah “Alicorn” Blume, to the tune of “Big Rock Candy Mountain” by Harry McClintock",
   ],
 
   'The_Mary_Ellen_Carter': [
@@ -1198,6 +1198,7 @@ content = {
 
   'High_Stakes': [
     "High Stakes",
+    "By Anna Tchetchetkine",
     "[speech]",
   ],
 
