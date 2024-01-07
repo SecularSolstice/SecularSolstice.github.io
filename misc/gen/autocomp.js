@@ -415,6 +415,11 @@ content = {
     "An insistant yet triumphant invitation to grow",
   ],
 
+  'Life_Is_Too_Short_To_Fold_Underwear': [
+    "Life Is Too Short To Fold Underwear",
+    "by Zoe Mulford",
+  ],
+
   'Little_Echo': [
     "A Little Echo",
     "By Raymond Arnold (with a few bits by Daniel Speyer)",
@@ -1271,6 +1276,12 @@ content = {
 
   'Introduction_Bay_2022': [
     "Introduction (Bay 2022)",
+    "[speech]",
+  ],
+
+  'Introduction_Bay_2023': [
+    "Introduction (Bay 2023)",
+    "By Anna Tchetchetkine",
     "[speech]",
   ],
 
