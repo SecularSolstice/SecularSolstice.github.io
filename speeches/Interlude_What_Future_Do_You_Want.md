@@ -1,5 +1,5 @@
 # Interlude: What Future Do You Want?
-## By Anna Tchetchetkine
+## By Anna Tchetchetkine, with edits by Raymond Arnold
 
 Alright, uh, three hundred unicorns, coming right up! 
 
