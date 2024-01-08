@@ -1333,7 +1333,7 @@ content = {
 
   'Interlude_What_Future_Do_You_Want': [
     "Interlude: What Future Do You Want?",
-    "By Anna Tchetchetkine",
+    "By Anna Tchetchetkine, with edits by Raymond Arnold",
     "[speech]",
   ],
 
