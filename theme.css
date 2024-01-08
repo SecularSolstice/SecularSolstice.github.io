@@ -148,7 +148,7 @@ ul,p.lyrics {
 }
     
 
-ul {
+ul,ol {
     padding-left: 1.5em;
 }
 
@@ -173,12 +173,15 @@ a {
     color: #006;
 }
 
-p,table,pre {
+p,table,pre,ol {
     margin: auto ;
     background: rgba(0,0,0,0.6);
 }
 
 .light p {
+    background: rgba(255,255,255,0.7);
+}
+.light ol {
     background: rgba(255,255,255,0.7);
 }
 .light table {
