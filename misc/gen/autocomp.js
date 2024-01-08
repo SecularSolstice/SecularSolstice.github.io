@@ -411,7 +411,7 @@ content = {
 
   'Level_Up': [
     "Level Up",
-    "By Vienna Tang",
+    "By Vienna Teng",
     "An insistant yet triumphant invitation to grow",
   ],
 
@@ -1315,6 +1315,10 @@ content = {
     "[speech]",
   ],
 
+  'Interlude_Song_Nitpicking': [
+    "[speech]",
+  ],
+
   'Interlude_We_Have_Already_Won': [
     "Interlude: We Have Already Won",
     "[speech]",
@@ -1679,10 +1683,6 @@ content = {
   'Something_Possible': [
     "Something Possible",
     "By Raymond Arnold",
-    "[speech]",
-  ],
-
-  'Song_Nitpicking': [
     "[speech]",
   ],
 
