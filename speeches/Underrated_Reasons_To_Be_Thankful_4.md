@@ -1,0 +1,7 @@
+# Underrated Reasons To Be Thankful (Part 4)
+## by Dynomight
+
+17. That the light on earth could conceivably come from a sun that is small and close or one that is big and far, and in fact it is very big and very far, which doesn’t matter much short-term, but long-term it might be handy to have a totally automated fusion reaction 1.3 million times the size of our planet, if we want to do something ambitious someday.
+18. That Brussels sprouts used to be terrible, but in the 1990s we noticed that was because of glucosinolate, and then seed companies found old low-glucosinolate varieties and cross-bred them with modern high-output varieties, and now Brussels sprouts are great.
+19. That even though we evolved as ruthless replication machines, we’ve somehow risen out of the muck and we currently find ourselves running cultural software that’s way out of sync with what game theory would dictate, and perhaps we can seize the moment and build a civilization that can tame the brutal dynamics that created us.
+20. That other animals have more cone cells than humans, for example birds have four and shrimp have up to 16, and so some of them can perhaps see colors we can’t even conceive of which, yeah, that limitation of our minds is frustrating, but it also hints that there are huge unseen dark continents of qualia lurking out there which someday we might find a way to visit.
