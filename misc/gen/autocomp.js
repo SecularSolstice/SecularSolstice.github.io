@@ -1297,35 +1297,43 @@ content = {
 
   'Interlude_Building_The_Future': [
     "Interlude: Building The Future",
+    "By Anna Tchetchetkine",
     "[speech]",
   ],
 
   'Interlude_Night': [
     "Interlude: Night",
+    "By Anna Tchetchetkine",
     "[speech]",
   ],
 
   'Interlude_No_One_Survives': [
     "Interlude: No One Survives",
+    "By Anna Tchetchetkine",
     "[speech]",
   ],
 
   'Interlude_Part_Of_The_Project': [
     "Interlude: Part Of The Project",
+    "By Anna Tchetchetkine",
     "[speech]",
   ],
 
   'Interlude_Song_Nitpicking': [
+    "Interlude: Song Nitpicking",
+    "By Anna Tchetchetkine",
     "[speech]",
   ],
 
   'Interlude_We_Have_Already_Won': [
     "Interlude: We Have Already Won",
+    "By Anna Tchetchetkine",
     "[speech]",
   ],
 
   'Interlude_What_Future_Do_You_Want': [
     "Interlude: What Future Do You Want?",
+    "By Anna Tchetchetkine",
     "[speech]",
   ],
 
