@@ -1,4 +1,4 @@
-PREFIX=The_Sun_Is_A_Guy-
+PREFIX=The_Sun_Is_A_Guy_Who_Travels_Through_The_Sky-
 FILES_TO_LIST=lyrics.txt
 
 gen/${PREFIX}lyrics.txt: lyrics.txt

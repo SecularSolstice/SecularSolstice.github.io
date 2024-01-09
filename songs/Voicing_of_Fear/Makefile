@@ -1,4 +1,4 @@
-PREFIX=Voicing-of-Fear-
+PREFIX=Voicing_of_Fear-
 FILES_TO_LIST=lyrics.txt sheet-music.pdf sheet-music-compact.pdf  sheet-music-compact-legal.pdf from-midi.mp3
 
 gen/${PREFIX}lyrics.txt: sheet-music.ly

@@ -1,4 +1,4 @@
-PREFIX=Little-Echo-
+PREFIX=Little_Echo-
 FILES_TO_LIST=lyrics.txt sheet-music.pdf sheet-music-legal.pdf from-midi.mp3
 
 gen/${PREFIX}lyrics.txt: sheet-music.ly

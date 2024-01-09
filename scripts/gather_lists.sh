@@ -25,7 +25,22 @@ echo '};'
 echo
 echo
 
-LISTS=$(ls lists/*.lst | grep -v All_)
+LISTS=$(ls lists/*.list | grep -v All_)
 echo 'sections = ['
 grep -h '^#' $LISTS | sed 's/^# */  "/' | sed $'s/[ \t]*$/",/' | sort | uniq
 echo '];'
+
+echo
+
+echo 'programs = ['
+echo $LISTS | sed 's@\.list@",@g' | sed 's@lists/@ "@g'
+echo '];'
+
+echo
+
+echo 'taglines = {'
+for LIST in $LISTS; do
+    BN=$(basename $LIST)
+    TL=$(grep '{' $LIST)  && echo "  ${BN/.list/}: '$TL',"
+done
+echo '}'

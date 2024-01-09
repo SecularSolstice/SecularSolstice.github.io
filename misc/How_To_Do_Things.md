@@ -36,7 +36,7 @@ The file should begin:
 
 As with the songs, if you're using a local copy you can create a formatted version with `make all` but if you don't github will do it for you.
 
-If you can categorize the speech, add it to `lists/All_Speeches.lst`, but don't worry too much if it doesn't fit.
+If you can categorize the speech, add it to `lists/All_Speeches.list`, but don't worry too much if it doesn't fit.
 
 ## How to Create or Edit a Program
 
@@ -111,7 +111,7 @@ Use `make all` to fill the `gen` directory with the files that will go on the ac
 
 **Add to `All_Songs`**
 
-Add the song your created to the `gen/All_Songs.lst` list.  Note that the list is alphabetical within each category, and the entries are the directory names.
+Add the song your created to the `gen/All_Songs.list` list.  Note that the list is alphabetical within each category, and the entries are the directory names.
 
 **`git commit and push or pull-request`**
 

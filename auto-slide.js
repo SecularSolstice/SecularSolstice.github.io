@@ -5,7 +5,7 @@ let content = [];
 let h2s = [];
 
 $(()=>{
-    $('body').empty();
+    $('body *').css('display','none');
     let ul = $('<ul>').css({
         position: 'absolute',
         left: 0,
@@ -32,6 +32,18 @@ $(()=>{
         appendTo($('body'));
     startSlide(0);
 });
+
+function cancelSlides() {
+    quicklinks[0].parent().remove();
+    for (let i of content) i.remove();
+    for (let i of h2s) i.remove();
+    $('body *').css('display','unset');
+    slide = 0;
+    lyric = 0;
+    quicklinks = [];
+    content = [];
+    h2s = [];
+}	
 
 function startSlide(x) {
     slide = x;

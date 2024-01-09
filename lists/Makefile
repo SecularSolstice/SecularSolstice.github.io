@@ -1,6 +1,6 @@
-LISTS=$(patsubst %.lst, gen/%.html, $(wildcard *.lst))
+LISTS=$(patsubst %.list, gen/%.html, $(wildcard *.list))
 
-gen/%.html: %.lst ../scripts/process_list.py $(wildcard ../*/*.md) $(wildcard ../songs/*/*lyrics.txt)
+gen/%.html: %.list ../scripts/process_list.py $(wildcard ../*/*.md) $(wildcard ../songs/*/*lyrics.txt)
 	../scripts/process_list.py $<
 
 all: ${LISTS}

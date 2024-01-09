@@ -1,4 +1,4 @@
-PREFIX=Mindspace_Deep_Wide-
+PREFIX=Mindspace_Is_Deep_And_Wide-
 FILES_TO_LIST=lyrics.txt sheet-music.pdf
 
 gen/${PREFIX}lyrics.txt: sheet-music.ly

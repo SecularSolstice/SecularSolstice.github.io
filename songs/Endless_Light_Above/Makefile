@@ -1,4 +1,4 @@
-PREFIX=Endless_Light-Above-
+PREFIX=Endless_Light_Above-
 FILES_TO_LIST=lyrics.txt chord-chart.html
 
 gen/${PREFIX}lyrics.txt: chart.csv
