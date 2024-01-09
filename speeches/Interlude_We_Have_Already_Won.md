@@ -1,4 +1,5 @@
 # Interlude: We Have Already Won
+## By Anna Tchetchetkine
 
 Before we fully leave the darkness behind for the rest of the program, we have one more reflection on finding equanimity and even triumph in the face of risk and fear.
 

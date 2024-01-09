@@ -1,4 +1,5 @@
 # Interlude: Part Of The Project
+## By Anna Tchetchetkine
 
 We here tonight are also part of the story of humanity building its own flourishing.
 

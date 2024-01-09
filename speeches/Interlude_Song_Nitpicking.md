@@ -1,3 +1,6 @@
+# Interlude: Song Nitpicking
+## By Anna Tchetchetkine
+
 Now, some of my friends, when I showed them this song, were like, “but Anna, I fold underwear all the time and I endorse this life choice!” And to that I can only say, your utility function is not my utility function but your utility function is okay.
 
 Personally, since I learned this song, the act of putting away my underwear unfolded has taken on a little bit of the nature of a minor quasi-religious observance.

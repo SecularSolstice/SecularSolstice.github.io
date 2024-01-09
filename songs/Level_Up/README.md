@@ -1,5 +1,5 @@
 #  Level Up
-## By Vienna Tang
+## By Vienna Teng
 ## An insistant yet triumphant invitation to grow
 
 [Original music video here](https://www.youtube.com/watch?v=U4n_8R5lKnw)
