@@ -2153,6 +2153,7 @@ recordings = {
   'I_Have_Seen_the_Tops_of_Clouds': 'gen/I_Have_Seen_the_Tops_of_Clouds-from-midi.mp3',
   'Landsailor': 'gen/Landsailor-from_midi.mp3',
   'Let_There_Be_Love': 'let_there_be_love_nyc2019.mp3',
+  'Little_Echo': 'gen/Little_Echo-from-midi.mp3',
   'Lucifer': 'boston-2023-lucifer.mp3',
   'Necronomicon': 'Necronomicon_DC_2022.mp3',
   'Next_Right_Thing': 'boston-2023-the-next-right-thing.mp3',
