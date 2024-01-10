@@ -41,7 +41,7 @@ EOF
 FILES_TO_LIST=lyrics.txt chord-sheet.cho chord-sheet.pdf 
 
 gen/\${PREFIX}lyrics.txt: chord-sheet.ugc
-	../scripts/parse_ugc.py chord-sheet.ugc --lyrics > gen/\${PREFIX}lyrics.txt
+	../../scripts/parse_ugc.py chord-sheet.ugc --lyrics > gen/\${PREFIX}lyrics.txt
 EOF
         touch $NAME/chord-sheet.ugc
         ;;
@@ -51,7 +51,7 @@ EOF
 FILES_TO_LIST=chord-sheet.pdf chord-sheet-2col.pdf lyrics.txt
 
 gen/\${PREFIX}lyrics.txt: chord-sheet.cho
-	../scripts/chordpro-to-lyrics.sh chord-sheet.cho > gen/\${PREFIX}lyrics.txt
+	../../scripts/chordpro-to-lyrics.sh chord-sheet.cho > gen/\${PREFIX}lyrics.txt
 EOF
         touch $NAME/chord-sheet.cho
         ;;
@@ -62,7 +62,7 @@ EOF
 FILES_TO_LIST=lyrics.txt sheet-music.pdf voice-part.pdf cello-part.pdf sheet-music-compact.pdf from-midi.mp3
 
 gen/\${PREFIX}lyrics.txt: sheet-music.ly
-	../scripts/ly-to-lyrics.py sheet-music.ly gen/\${PREFIX}lyrics.txt
+	../../scripts/ly-to-lyrics.py sheet-music.ly gen/\${PREFIX}lyrics.txt
 EOF
         touch $NAME/sheet-music.ly
         ;;
@@ -73,7 +73,7 @@ EOF
 FILES_TO_LIST=lyrics.txt sheet_music.pdf from_midi.mp3
 
 gen/${PREFIX}lyrics.txt: sheet-music.mscx
-	../scripts/mscx-to-lyrics.py sheet-music.mscx > gen/${PREFIX}lyrics.txt
+	../../scripts/mscx-to-lyrics.py sheet-music.mscx > gen/${PREFIX}lyrics.txt
 EOF
         touch $NAME/sheet-music.mscx
         ;;

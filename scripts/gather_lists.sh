@@ -22,6 +22,11 @@ for i in  speeches/*.md; do
 done
 echo '};'
 
+echo "for (let k in content) {"
+echo "  let v = content[k];"
+echo "  if (v.length==2) v.push(v[1])"
+echo "}"
+
 echo
 echo
 

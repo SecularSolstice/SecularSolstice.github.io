@@ -156,7 +156,7 @@ $(() => {
 			if (youtube) youtube = youtube[1];
 			else mp3 = more;
 		    } else {
-			youtube = readme.match(/\[(?!Bayesian Choir Performance)[^]]*\]\(https:\/\/www.youtube.com\/watch\?.*v=([a-zA-Z0-9_-]*)\)/);
+			youtube = readme.match(/\[(?!Bayesian Choir Performance)[^\]]*\]\(https:\/\/www.youtube.com\/watch\?.*v=([a-zA-Z0-9_-]*)\)/);
 			console.log({item,readme,youtube});
 			if (youtube) {
 			    youtube = youtube[1];

@@ -1,5 +1,7 @@
 # We Are The Light
-## By Matt Elder (?)
+## By Logan Strohl and Wolfgang Amadeus Mozart
 ## This dark, cold, terrifying world is ours to conquer
 
-A [Bayesian Choir Performance](https://www.youtube.com/watch?v=lntEPbMCWAs) of this song is on Youtube.
+Mozart wrote the melody for the traditional Eucharistic hymn Ave Verum Corpus.
+
+A [Bayesian Choir Performance](https://www.youtube.com/watch?v=lntEPbMCWAs) of this song was on Youtube.
