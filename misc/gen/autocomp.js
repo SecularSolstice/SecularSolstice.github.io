@@ -2107,12 +2107,13 @@ sections = [
   "Preparation",
   "Spring",
   "Tomorrow",
+  "Tomorrows",
   "Twilight",
   "Winter",
 ];
 
 programs = [
- "Austin_2022",  "Bay_2014",  "Bay_2018",  "Bay_2019",  "Bay_2022",  "Bay_Outdoor_2016",  "Boston_2013",  "Boston_2015",  "Boston_2016",  "Boston_2017",  "Boston_2018",  "Boston_2019",  "Boston_2022",  "Childrens_Version",  "Frankfurt_2017",  "Frankfurt_2018",  "Frankfurt_2019",  "Miami_2022",  "Miami_2022_options",  "North_America_2020",  "NYC_2011",  "NYC_2015",  "NYC_2016",  "NYC_2017",  "NYC_2018",  "NYC_2019",  "NYC_2021",  "NYC_2022",  "NYC_2023",  "Portland_2022",  "Seattle_2017",  "Small_DC_2020",  "Washington_DC_2015",  "Washington_DC_2019",  "Washington_DC_2021",  "Washington_DC_2022",
+ "Austin_2022",  "Bay_2014",  "Bay_2018",  "Bay_2019",  "Bay_2022",  "Bay_2023",  "Bay_Outdoor_2016",  "Boston_2013",  "Boston_2015",  "Boston_2016",  "Boston_2017",  "Boston_2018",  "Boston_2019",  "Boston_2022",  "Boston_2023",  "Childrens_Version",  "Frankfurt_2017",  "Frankfurt_2018",  "Frankfurt_2019",  "Miami_2022",  "Miami_2022_options",  "North_America_2020",  "NYC_2011",  "NYC_2015",  "NYC_2016",  "NYC_2017",  "NYC_2018",  "NYC_2019",  "NYC_2021",  "NYC_2022",  "NYC_2023",  "Portland_2022",  "Seattle_2017",  "Small_DC_2020",  "Washington_DC_2015",  "Washington_DC_2019",  "Washington_DC_2021",  "Washington_DC_2022",
 ];
 
 taglines = {
@@ -2133,3 +2134,38 @@ taglines = {
   NYC_2022: '{Points of Leverage}',
   NYC_2023: '{The Complexity of Civilization}',
 }
+
+recordings = {
+  'Beneath_Midwinter_Midnight': 'gen/Beneath_Midwinter_Midnight-from-midi.mp3',
+  'Bitter_Wind_March': 'Bitter_Wind_March-soundcloud.mp3',
+  'Bold_Orion': 'Bold_Orion_DC_2022.mp3',
+  'Brighter_Than_Today': 'Brighter_Than_Today-soundcloud.mp3',
+  'Bring_the_Light_Reprise': 'gen/Bring_the_Light_Reprise-from-midi.mp3',
+  'Chasing_Patterns': 'gen/Chasing_Patterns-from-midi.mp3',
+  'Contract_Drafting_Em': 'gen/Contract_Drafting_Em-from-midi.mp3',
+  'Endless_Light': 'Endless_Light-soundcloud.mp3',
+  'Find_My_Tribe': 'Find_My_Tribe-soundcloud.mp3',
+  'Gather_Round': 'Gather_Round-soundcloud.mp3',
+  'Gonna_Be_A_Cyborg': 'Gonna_Be_A_Cyborg.mp3',
+  'Here_and_Now': 'Here_and_Now-soundcloud.mp3',
+  'Holding_Up_The_Sky': 'Holding-Up-The-Sky-crude-live-recording.m4a',
+  'Hymn_to_the_Breaking_Strain': 'Hymn-Breaking-Strain-2020.mp3',
+  'I_Have_Seen_the_Tops_of_Clouds': 'Tops_Of_Clouds_Alternate_recording.m4a',
+  'Landsailor': 'gen/Landsailor-from_midi.mp3',
+  'Let_There_Be_Love': 'let_there_be_love_nyc2019.mp3',
+  'Little_Echo': 'gen/Little_Echo-from-midi.mp3',
+  'Lucifer': 'boston-2023-lucifer.mp3',
+  'Necronomicon': 'Necronomicon_DC_2022.mp3',
+  'Next_Right_Thing': 'boston-2023-the-next-right-thing.mp3',
+  'O_Tannenbaum': 'gen/O_Tannenbaum-from-midi.mp3',
+  'Song_of_the_Artesian_Water': 'Song_of_the_Artesian_Water_v2.m4a',
+  'Sons_of_Martha': 'gen/Sons_of_Martha-from-midi.mp3',
+  'Sound_of_Silence': 'Sound-of-Silence-2020.mp3',
+  'That_Problem_Solved': 'That_Problem_Solved-first-two-verses.mp3',
+  'The_Fallen_Star': 'The_Fallen_Star.m4a',
+  'Time_Wrote_the_Rocks': 'Time_Wrote_the_Rocks-soundcloud.mp3',
+  'Uplift': 'Uplift-2020.mp3',
+  'Voicing_of_Fear': 'voicing_of_fear_nyc2019.mp3',
+  'Walk_With_Me': 'gen/Walk_With_Me-from-midi.mp3',
+  'Winter_Is_Icumen_In': 'gen/Winter_Is_Icumen_In-from-midi.mp3',
+};

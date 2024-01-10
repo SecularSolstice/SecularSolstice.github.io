@@ -44,3 +44,18 @@ for LIST in $LISTS; do
     TL=$(grep '{' $LIST)  && echo "  ${BN/.list/}: '$TL',"
 done
 echo '}'
+
+echo
+
+echo "recordings = {"
+pushd songs >/dev/null
+for i in *; do
+    pushd $i >/dev/null || continue
+    RECORDING=$(ls gen/*.mp3 *.mp3 *.m4a 2>/dev/null | tail -n 1)
+    if [[ "$RECORDING" != "" ]]; then
+	echo "  '$i': '$RECORDING',"
+    fi
+    popd >/dev/null
+done
+popd >/dev/null
+echo "};"

@@ -68,6 +68,12 @@ Then just `git clone https://github.com/SecularSolstice/SecularSolstice.github.i
 
 You may wish to use `scripts/fixdates.sh` to set all Last Modified Times to the commits they were made on, rather than the time git cloned the files.  This will help ensure `make all` builds what it should and not what it shouldn't.
 
+### The Autoslide Javascript
+
+*Most* of the html on this page is very straightforward.  The exception is the autoslide logic, which is deeply js and jquery based.  As such, it runs into strange Same Origin issues, since different `file://` urls are *not* considered to have the same origin.  This can be solved by invoking `python3 -m http.server 8000` in your base git directory.
+
+You may also need to ensure that `.list` files are published as mime-type `text/plain` and not `application/octet-stream`, as the latter cannot be iframed.  This can be fixed by creating `/usr/local/etc/mime.types` with contents `text/plain   list`.
+
 ## How to Add a Song
 
 This requires a local environment (for now; growth mindset).
