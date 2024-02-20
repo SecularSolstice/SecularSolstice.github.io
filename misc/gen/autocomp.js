@@ -780,6 +780,12 @@ content = {
     "A newly awakened AI contemplates the end of humanity.",
   ],
 
+  'Toast_to_the_Fallen': [
+    "Toast To The Fallen",
+    "by Daniel Speyer",
+    "Some peoples don't make it",
+  ],
+
   'Try_Everything': [
     "Try Everything",
     "By Shakira",
@@ -2205,6 +2211,7 @@ recordings = {
   'That_Problem_Solved': 'gen/That_Problem_Solved-from-midi.mp3',
   'The_Fallen_Star': 'The_Fallen_Star.m4a',
   'Time_Wrote_the_Rocks': 'time_wrote_the_rocks_nyc2019.mp3',
+  'Toast_to_the_Fallen': 'gen/Toast_to_the_Fallen-from-midi.mp3',
   'Uplift': 'Uplift-2020.mp3',
   'Voicing_of_Fear': 'voicing_of_fear_nyc2019.mp3',
   'Walk_With_Me': 'gen/Walk_With_Me-from-midi.mp3',
