@@ -514,6 +514,12 @@ content = {
     "A boast of coming collective victory over time, fear, pain and hate",
   ],
 
+  'One_Shot': [
+    "One Shot",
+    "By Daniel Speyer",
+    "One shots make the prisoners' dilemma much harder",
+  ],
+
   'Scarborough_Fair': [
     "Scarborough Fair",
     "Traditional",
@@ -778,6 +784,12 @@ content = {
     "Time Is Up",
     "By Poppy",
     "A newly awakened AI contemplates the end of humanity.",
+  ],
+
+  'Tit_for_Tat': [
+    "Tit For Tat",
+    "By Ben Newman",
+    "Simple selfish interest still may serve the greater good",
   ],
 
   'Toast_to_the_Fallen': [
@@ -2205,6 +2217,7 @@ recordings = {
   'Necronomicon': 'Necronomicon_DC_2022.mp3',
   'Next_Right_Thing': 'boston-2023-the-next-right-thing.mp3',
   'O_Tannenbaum': 'gen/O_Tannenbaum-from-midi.mp3',
+  'One_Shot': 'gen/One_Shot-from-midi.mp3',
   'Song_of_the_Artesian_Water': 'Song_of_the_Artesian_Water_v2.m4a',
   'Sons_of_Martha': 'gen/Sons_of_Martha-from-midi.mp3',
   'Sound_of_Silence': 'Sound-of-Silence-2020.mp3',
