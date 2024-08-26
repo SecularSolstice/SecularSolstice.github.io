@@ -367,6 +367,12 @@ content = {
     "It could be a wonderful world if we just stopped messing it up",
   ],
 
+  'Invisible_Republic': [
+    "Invisible Republic",
+    "by Daniel Speyer",
+    "A national anthem for SSC's Invisible republc",
+  ],
+
   'Jewel_In_The_Night': [
     "Jewel in the Night",
     "By Chris Hadfield",
@@ -2210,6 +2216,7 @@ recordings = {
   'Holding_Up_The_Sky': 'gen/Holding_Up_The_Sky-from-midi.mp3',
   'Hymn_to_the_Breaking_Strain': 'Hymn-Breaking-Strain-2020.mp3',
   'I_Have_Seen_the_Tops_of_Clouds': 'gen/I_Have_Seen_the_Tops_of_Clouds-from-midi.mp3',
+  'Invisible_Republic': 'gen/Invisible_Republic-from-midi.mp3',
   'Landsailor': 'gen/Landsailor-from_midi.mp3',
   'Let_There_Be_Love': 'let_there_be_love_nyc2019.mp3',
   'Little_Echo': 'gen/Little_Echo-from-midi.mp3',
