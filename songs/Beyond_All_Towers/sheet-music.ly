@@ -58,8 +58,8 @@ cello = \relative c {
   \key g \minor
   \clef "bass"
   f,1 g ~ g ~
-  g2 ~g4. d'8 g4 a bes4. a16( g) f4. g8 d4.
-  d8 g4 a bes c g1 d ~ d ~ d ~ d ~ d a
+  g2 ~g4. d8 g4 a bes4. a16( g) f4. g8 d4.
+  d8 g4 a bes c g1 d' ~ d ~ d ~ d ~ d a
   <d d'> <g g'> <d d'> <a a'>2 <g g'>1
   <d d'> <bes' bes'>2 <ees, ees'> <c c'> <d d'> <bes' bes'> <a a'> <g g'>1
   <bes bes'>2 <c, c'> <c c'> <a' a'> <bes bes'> <c c'> <g g'>1
