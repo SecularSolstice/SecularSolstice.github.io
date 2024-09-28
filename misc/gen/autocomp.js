@@ -53,6 +53,12 @@ content = {
     "A lament of winter, contrasting with repeated \"we are not alone\"s",
   ],
 
+  'Beyond_All_Towers': [
+    "Beyond All Towers",
+    "By JRR Tolkien, Clamavi de Profundis, and Daniel Speyer",
+    "Sam Gamgee alone in the Tower of Cirith Ungol",
+  ],
+
   'Bitter_Wind_Blown': [
     "Bitter Wind Blown",
     "By Raymond Arnold",
@@ -2202,6 +2208,7 @@ taglines = {
 recordings = {
   'Battle_Hymn_Of_The_Rationalist_Community': 'Battle_Hymn_DC_Solstice_2023.mp3',
   'Beneath_Midwinter_Midnight': 'gen/Beneath_Midwinter_Midnight-from-midi.mp3',
+  'Beyond_All_Towers': 'gen/Beyond_All_Towers-from-midi.mp3',
   'Bitter_Wind_March': 'Bitter_Wind_March-soundcloud.mp3',
   'Bold_Orion': 'Bold_Orion_DC_2022.mp3',
   'Brighter_Than_Today': 'Brighter_than_Today_DC_2022.mp3',
