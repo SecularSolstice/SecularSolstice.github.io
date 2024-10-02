@@ -338,8 +338,8 @@ content = {
   ],
 
   'Howl_Abridged': [
-    "Howl Abbridged",
-    "by Allen Ginsberg (abbridged by Daniel Speyer",
+    "Howl Abridged",
+    "by Allen Ginsberg (abridged by Daniel Speyer",
     "What sphinx of cement and aluminum bashed open their skulls and ate up their brains and imagination?",
   ],
 
