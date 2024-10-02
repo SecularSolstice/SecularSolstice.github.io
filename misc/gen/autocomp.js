@@ -337,6 +337,12 @@ content = {
     "The moon landing, from an all-of-history perspective",
   ],
 
+  'Howl_Abridged': [
+    "Howl Abbridged",
+    "by Allen Ginsberg (abbridged by Daniel Speyer",
+    "What sphinx of cement and aluminum bashed open their skulls and ate up their brains and imagination?",
+  ],
+
   'Humans_Are_Dead': [
     "The Humans Are Dead",
     "By Flight of the Conchords",
@@ -2221,6 +2227,7 @@ recordings = {
   'Gonna_Be_A_Cyborg': 'Gonna_Be_A_Cyborg.mp3',
   'Here_and_Now': 'here_and_now_nyc2019.mp3',
   'Holding_Up_The_Sky': 'gen/Holding_Up_The_Sky-from-midi.mp3',
+  'Howl_Abridged': 'gen/Howl_Abbridged-from-midi.mp3',
   'Hymn_to_the_Breaking_Strain': 'Hymn-Breaking-Strain-2020.mp3',
   'I_Have_Seen_the_Tops_of_Clouds': 'gen/I_Have_Seen_the_Tops_of_Clouds-from-midi.mp3',
   'Invisible_Republic': 'gen/Invisible_Republic-from-midi.mp3',
