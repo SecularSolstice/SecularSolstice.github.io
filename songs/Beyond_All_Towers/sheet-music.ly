@@ -29,9 +29,24 @@ samwords = \lyricmode {
   nor bid the Stars fare -- well.
 }
 
+% lyricnote: Frodo's Part (overlapping)
+frodowords = \lyricmode {
+  Here at jour -- ney's end I lie
+  in dark -- ness bur -- ied deep, Ah
+}
+
+frodo = \relative c' {
+  \clef "treble_8"
+  \numericTimeSignature
+  \repeat unfold 33 {s1} s2
+  a4. b8 c4. b8 c4 a g2 r1
+  r8 e d' c b4 c g2 r 
+  r1 r4 d'4( c2) \break
+}
+
 sam = \relative c {
   \numericTimeSignature
-  \clef "alto"
+  \clef "treble_8"
   \key g \minor
   r1 r r r r r r r r
   r2 r4. d8 g4 a bes4. a16( g) f4. g8 d4.
@@ -60,15 +75,15 @@ cello = \relative c {
   f,1 g ~ g ~
   g2 ~g4. d8 g4 a bes4. a16( g) f4. g8 d4.
   d8 g4 a bes c g1 d' ~ d ~ d ~ d ~ d a
-  <d d'> <g g'> <d d'> <a a'>2 <g g'>1
-  <d d'> <bes' bes'>2 <ees, ees'> <c c'> <d d'> <bes' bes'> <a a'> <g g'>1
-  <bes bes'>2 <c, c'> <c c'> <a' a'> <bes bes'> <c c'> <g g'>1
+  <d a'> <g d'> <d a'> <f c'>2 <g, g'>1
+  d <g g'>2 <ees bes'> <c c'> <d' d'> <bes f'> <a d> <g g'>1
+  <bes f'>2 <c, c'> <c c'> <a' f'> <bes f'> <c g'> <g g'>1
   \key a \minor
   g4 a2. b8 a g2. a2 b8 a g4 <a a'>1 
-  e'1 <c, c'> <g' g'> <c c'>2 <b b'>2 ~ <b b'>
-  <e, e'> <c c'>1 <e e'> <g g'> <a a'>
-  <c, c'>1 ~ <c c'> <e e'> ~ <e e'> ~ <e e'>
-  <c' c'> <a a'> <e' e'>2 <b b'>2 ~ <b b'>2. r8 <g g'>8 <a a'>1 ~ <a a'>
+  e'1 <c, c'> <g' g'> <c, c'>2 <b' e,>2 ~ <b e,>
+  <a e'> <c, c'>1 <d' d'> <g, g'> <a e'>
+  <c, c'>1 ~ <c c'> <g' g'> ~ <g g'>  <c, c'> ~
+  <c c'> <a' e'> <e' b'>2 <e, b'>2 ~ <e b'>2. r8 <g g'>8 <a c>4 ~ <a e'>2  <c, >4 ~ <c >2 a'2
   
 }
 
@@ -107,12 +122,24 @@ guitar = \relative c'' {
          \set Staff.midiInstrument = #"voice oohs"
          \set Staff.midiMinimumVolume = #0.8
          \set Staff.midiMaximumVolume = #1
-         \set Staff.instrumentName = #"Voice"
-         \set Staff.shortInstrumentName = #"V"
+         \set Staff.instrumentName = #"Sam"
+         \set Staff.shortInstrumentName = #"S"
          \sam
        }
       \new Lyrics \lyricsto "one" {
          \samwords
+       }
+      \new Voice = "frodo" {
+         \tempo 4 = 84
+         \set Staff.midiInstrument = #"clarinet"
+         \set Staff.midiMinimumVolume = #0.8
+         \set Staff.midiMaximumVolume = #1
+         \set Staff.instrumentName = #"Frodo"
+         \set Staff.shortInstrumentName = #"F"
+         \frodo
+       }
+      \new Lyrics \lyricsto "frodo" {
+         \frodowords
        }
       \new Voice {
          \tempo 4 = 84
@@ -133,6 +160,11 @@ guitar = \relative c'' {
          \cello
        }
   >>	
-  \layout {}
+  \layout {
+    \context {
+      \Staff
+      \RemoveEmptyStaves
+    }
+  }
   \midi {}
 }

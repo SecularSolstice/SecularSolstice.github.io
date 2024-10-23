@@ -13,5 +13,4 @@ harmony.
 
 So this version takes that melody and attempts to reconstruct the
 harmony around it, re-arranging for cello and guitar, and simplifying
-as needed.  This also drops the second (Frodo) voice, which may not fit so
-well with a large sing-along.
+as needed.
