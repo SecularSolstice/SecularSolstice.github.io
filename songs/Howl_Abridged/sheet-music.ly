@@ -2,7 +2,7 @@
 
 \header {
   title = "Howl"
-  subtitle = "(Abbridged)"
+  subtitle = "(Abridged)"
   poet = "Allen Ginsberg"
   copyright = "CC-SA-BY"
 }
