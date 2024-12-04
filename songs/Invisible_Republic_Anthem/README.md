@@ -1,4 +1,4 @@
-#  Invisible Republic
+#  Invisible Republic Anthem
 ## by Daniel Speyer
 ## A national anthem for SSC's Invisible republc
 
