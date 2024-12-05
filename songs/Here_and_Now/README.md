@@ -20,6 +20,12 @@ and Elon keeps doing things that make him less fun to sing about.  One
 might sing "liquid" instead of "robust", which has more substance but
 is kind of hard to sing.
 
+Update 2024: "Gotta run and catch my flight" -> "Our AIDS prevention
+works all right".  Not because flying has gotten much worse but
+because [blocking AIDS transmission 100% with a single
+implant](https://www.nejm.org/doi/full/10.1056/NEJMoa2407001) is worth
+celebrating with rhetorical understatement.
+
 This song is available for sale via bandcamp in the [2015](https://humanistculture.bandcamp.com/album/solstice-2015) album.
 
 A live NYC2019 recording is in the Files section.
