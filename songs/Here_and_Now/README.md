@@ -24,7 +24,9 @@ Update 2024: "Gotta run and catch my flight" -> "Our AIDS prevention
 works all right".  Not because flying has gotten much worse but
 because [blocking AIDS transmission 100% with a single
 implant](https://www.nejm.org/doi/full/10.1056/NEJMoa2407001) is worth
-celebrating with rhetorical understatement.
+celebrating with rhetorical understatement.  Then swapped the order of
+this and the cookies so the humorously minor accomplishment can go
+last.
 
 This song is available for sale via bandcamp in the [2015](https://humanistculture.bandcamp.com/album/solstice-2015) album.
 
