@@ -79,11 +79,11 @@ cello = \relative c {
   d <g g'>2 <ees bes'> <c c'> <d' d'> <bes f'> <a d> <g g'>1
   <bes f'>2 <c, c'> <c c'> <a' f'> <bes f'> <c g'> <g g'>1
   \key a \minor
-  g4 a2. b8 a g2. a2 b8 a g4 <a a'>1 
-  e'1 <c, c'> <g' g'> <c, c'>2 <b' e,>2 ~ <b e,>
+  g4 a2. b8 a g2. a2 b8 a g4 <c a'>1 
+  e1 <c, c'> <g' g'> <c, c'>2 <b' e,>2 ~ <b e,>
   <a e'> <c, c'>1 <d' d'> <g, g'> <a e'>
   <c, c'>1 ~ <c c'> <g' g'> ~ <g g'>  <c, c'> ~
-  <c c'> <a' e'> <e' b'>2 <e, b'>2 ~ <e b'>2. r8 <g g'>8 <a c>4 ~ <a e'>2  <c, >4 ~ <c >2 a'2
+  <c c'> <a' e'> <e' b'>2 <e, b'>2 ~ <e b'>2. r8 <g g'>8 <a c>4  <a e'>2  <c, >4 ~ <c >2 a'2
   
 }
 
