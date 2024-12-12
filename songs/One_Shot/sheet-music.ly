@@ -7,7 +7,8 @@
   copyright = "CC-SA-BY"
 }
 
-melody = \relative c' {
+melody = \relative c {
+  \clef "treble_8"
   \time 2/4
   r2 r2 r2 r r r r r4 c e4. c8 f4 c g' f 
   r4 f g4. f8 e4 d e2 \break
@@ -40,7 +41,7 @@ melody = \relative c' {
   r4 f f f f f f f b2 f r b f
   r4 f f f f f f f b2 f r b2 f2
   c ~ c 
-  }
+  } r
   a ~ a
 }
 
@@ -68,7 +69,7 @@ accomp =  \relative c {
     
     c1
     }
-    a:m
+    s2 a1:m
     
     
   }
