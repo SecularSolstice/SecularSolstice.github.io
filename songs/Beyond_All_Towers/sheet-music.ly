@@ -35,8 +35,11 @@ frodowords = \lyricmode {
   in dark -- ness bur -- ied deep, Ah
 }
 
-frodo = \relative c' {
-  \clef "treble_8"
+mk = #(if (ly:get-option 'raise) #{ f #} #{ c #} )
+mkg = #(if (ly:get-option 'raise) #{ f, #} #{ c #} )
+
+frodo =  \transpose c \mk \relative c' {
+  \clef #(if (ly:get-option 'raise) "treble" "treble_8")
   \numericTimeSignature
   \repeat unfold 33 {s1} s2
   a4. b8 c4. b8 c4 a g2 r1
@@ -44,9 +47,9 @@ frodo = \relative c' {
   r1 r4 d'4( c2) \break
 }
 
-sam = \relative c {
+sam =  \transpose c \mk \relative c {
   \numericTimeSignature
-  \clef "treble_8"
+  \clef #(if (ly:get-option 'raise) "treble" "treble_8")
   \key g \minor
   r1 r r r r r r r r
   r2 r4. d8 g4 a bes4. a16( g) f4. g8 d4.
@@ -68,7 +71,7 @@ sam = \relative c {
   r8 a e'4. d8 b2 r r4 r8 g8 ( a8) a ~ a2. r1
 }
 
-cello = \relative c {
+cello =  \transpose c \mk \relative c {
   \numericTimeSignature
   \key g \minor
   \clef "bass"
@@ -87,7 +90,7 @@ cello = \relative c {
   
 }
 
-guitar = \relative c'' {
+guitar =  \transpose c \mkg \relative c'' {
   \numericTimeSignature
   \key g \minor
   \clef "treble"
