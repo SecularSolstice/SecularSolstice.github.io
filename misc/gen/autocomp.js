@@ -118,6 +118,12 @@ content = {
     "A lament of senseless war",
   ],
 
+  'Build_This_World_Together': [
+    "Build This World Together",
+    "By Debbie Friedman",
+    "Strength in togetherness",
+  ],
+
   'Cantina_Band': [
     "Cantina Band",
     "By John Williams",
@@ -1080,6 +1086,12 @@ content = {
     "[speech]",
   ],
 
+  'Dath_Ilan': [
+    "Dath Ilan",
+    "By Eliezer Yudkowsky (mostly)",
+    "[speech]",
+  ],
+
   'Demiurges_Older_Brother': [
     "The Demiurge's Older Brother",
     "By Scott Alexander",
@@ -1425,6 +1437,12 @@ content = {
     "[speech]",
   ],
 
+  'Invisible_Republic': [
+    "Invisible Republic",
+    "By Scott Alexander",
+    "[speech]",
+  ],
+
   'John_Snow_and_the_Broad_St_Pump': [
     "John Snow and the Broad Street Pump",
     "By Kathleen Tuthill and Daniel Speyer",
@@ -1533,6 +1551,12 @@ content = {
   'Meditations_on_Moloch': [
     "Meditations on Moloch",
     "By Scott Alexander",
+    "[speech]",
+  ],
+
+  'Meditations_on_Moloch_Abridged': [
+    "Meditations on Moloch (Abridged)",
+    "By Scott Alexander (abridged by Daniel Speyer)",
     "[speech]",
   ],
 
@@ -1937,6 +1961,12 @@ content = {
     "[speech]",
   ],
 
+  'Transumanism_and_Hubris': [
+    "Trans-Humanism and Hubris",
+    "By Scott Alexander (mostly)",
+    "[speech]",
+  ],
+
   'Travelers': [
     "Travelers",
     "[speech]",
@@ -2222,7 +2252,7 @@ recordings = {
   'Chasing_Patterns': 'gen/Chasing_Patterns-from-midi.mp3',
   'Contract_Drafting_Em': 'gen/Contract_Drafting_Em-from-midi.mp3',
   'Endless_Light': 'endless_lights_nyc2019.mp3',
-  'Find_My_Tribe': 'Find_My_Tribe-soundcloud.mp3',
+  'Find_My_Tribe': 'gen/Find_My_Tribe-transcript-from_midi.mp3',
   'Gather_Round': 'Gather_Round-soundcloud.mp3',
   'Gonna_Be_A_Cyborg': 'Gonna_Be_A_Cyborg.mp3',
   'Here_and_Now': 'here_and_now_nyc2019.mp3',
