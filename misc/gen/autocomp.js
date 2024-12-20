@@ -2019,6 +2019,12 @@ content = {
     "[speech]",
   ],
 
+  'Verlieren_German': [
+    "Verlieren",
+    "By Eva Simon",
+    "[speech]",
+  ],
+
   'Villanelle': [
     "Villanelle",
     "By Danielle Blau",
