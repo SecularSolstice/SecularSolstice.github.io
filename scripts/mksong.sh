@@ -7,6 +7,11 @@ cd $(dirname $0)/../songs
 NAME="$1"
 TYPE="$2"
 
+if [[ -z "$NAME" ]]; then
+    echo "Usage: mksong.sh NAME TYPE"
+    echo "Where TYPE in text, stub, ugc, cho, ly, mscx"
+fi
+
 mkdir $NAME
 mkdir $NAME/gen
 test -e $NAME/README.md ||

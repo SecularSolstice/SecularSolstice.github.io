@@ -53,6 +53,12 @@ content = {
     "A lament of winter, contrasting with repeated \"we are not alone\"s",
   ],
 
+  'Beyond_All_Towers': [
+    "Beyond All Towers",
+    "By JRR Tolkien, Clamavi de Profundis, and Daniel Speyer",
+    "Sam Gamgee alone in the Tower of Cirith Ungol",
+  ],
+
   'Bitter_Wind_Blown': [
     "Bitter Wind Blown",
     "By Raymond Arnold",
@@ -110,6 +116,12 @@ content = {
     "Brothers In Arms",
     "By Dire Straits",
     "A lament of senseless war",
+  ],
+
+  'Build_This_World_Together': [
+    "Build This World Together",
+    "By Debbie Friedman",
+    "Strength in togetherness",
   ],
 
   'Cantina_Band': [
@@ -331,6 +343,12 @@ content = {
     "The moon landing, from an all-of-history perspective",
   ],
 
+  'Howl_Abridged': [
+    "Howl Abridged",
+    "by Allen Ginsberg (abridged by Daniel Speyer",
+    "What sphinx of cement and aluminum bashed open their skulls and ate up their brains and imagination?",
+  ],
+
   'Humans_Are_Dead': [
     "The Humans Are Dead",
     "By Flight of the Conchords",
@@ -365,6 +383,12 @@ content = {
     "Imagine",
     "By John Lennon",
     "It could be a wonderful world if we just stopped messing it up",
+  ],
+
+  'Invisible_Republic_Anthem': [
+    "Invisible Republic Anthem",
+    "by Daniel Speyer",
+    "A national anthem for SSC's Invisible republc",
   ],
 
   'Jewel_In_The_Night': [
@@ -1062,6 +1086,12 @@ content = {
     "[speech]",
   ],
 
+  'Dath_Ilan': [
+    "Dath Ilan",
+    "By Eliezer Yudkowsky (mostly)",
+    "[speech]",
+  ],
+
   'Demiurges_Older_Brother': [
     "The Demiurge's Older Brother",
     "By Scott Alexander",
@@ -1407,6 +1437,12 @@ content = {
     "[speech]",
   ],
 
+  'Invisible_Republic': [
+    "Invisible Republic",
+    "By Scott Alexander",
+    "[speech]",
+  ],
+
   'John_Snow_and_the_Broad_St_Pump': [
     "John Snow and the Broad Street Pump",
     "By Kathleen Tuthill and Daniel Speyer",
@@ -1515,6 +1551,12 @@ content = {
   'Meditations_on_Moloch': [
     "Meditations on Moloch",
     "By Scott Alexander",
+    "[speech]",
+  ],
+
+  'Meditations_on_Moloch_Abridged': [
+    "Meditations on Moloch (Abridged)",
+    "By Scott Alexander (abridged by Daniel Speyer)",
     "[speech]",
   ],
 
@@ -1919,6 +1961,12 @@ content = {
     "[speech]",
   ],
 
+  'Transumanism_and_Hubris': [
+    "Trans-Humanism and Hubris",
+    "By Scott Alexander (mostly)",
+    "[speech]",
+  ],
+
   'Travelers': [
     "Travelers",
     "[speech]",
@@ -1968,6 +2016,12 @@ content = {
 
   'Vadim_Orlov_on_How_Close_We_Came_to_Nuclear_War': [
     "Vadim Orlov on How Close We Came to Nuclear War",
+    "[speech]",
+  ],
+
+  'Verlieren_German': [
+    "Verlieren",
+    "By Eva Simon",
     "[speech]",
   ],
 
@@ -2170,7 +2224,7 @@ sections = [
 ];
 
 programs = [
- "Austin_2022",  "Austin_2023",  "Bay_2014",  "Bay_2018",  "Bay_2019",  "Bay_2022",  "Bay_2023",  "Bay_Outdoor_2016",  "Boston_2013",  "Boston_2015",  "Boston_2016",  "Boston_2017",  "Boston_2018",  "Boston_2019",  "Boston_2022",  "Boston_2023",  "Childrens_Version",  "Frankfurt_2017",  "Frankfurt_2018",  "Frankfurt_2019",  "Miami_2022",  "Miami_2022_options",  "NYC_2011",  "NYC_2015",  "NYC_2016",  "NYC_2017",  "NYC_2018",  "NYC_2019",  "NYC_2021",  "NYC_2022",  "NYC_2023",  "North_America_2020",  "Portland_2022",  "Seattle_2017",  "Small_DC_2020",  "Washington_DC_2015",  "Washington_DC_2019",  "Washington_DC_2021",  "Washington_DC_2022",  "Washington_DC_2023",
+ "Austin_2022",  "Austin_2023",  "Bay_2014",  "Bay_2018",  "Bay_2019",  "Bay_2022",  "Bay_2023",  "Bay_Outdoor_2016",  "Boston_2013",  "Boston_2015",  "Boston_2016",  "Boston_2017",  "Boston_2018",  "Boston_2019",  "Boston_2022",  "Boston_2023",  "Childrens_Version",  "Frankfurt_2017",  "Frankfurt_2018",  "Frankfurt_2019",  "Miami_2022",  "Miami_2022_options",  "NYC_2011",  "NYC_2015",  "NYC_2016",  "NYC_2017",  "NYC_2018",  "NYC_2019",  "NYC_2021",  "NYC_2022",  "NYC_2023",  "NYC_2024",  "North_America_2020",  "Portland_2022",  "Seattle_2017",  "Small_DC_2020",  "Washington_DC_2015",  "Washington_DC_2019",  "Washington_DC_2021",  "Washington_DC_2022",  "Washington_DC_2023",
 ];
 
 taglines = {
@@ -2190,12 +2244,14 @@ taglines = {
   NYC_2021: '{A Community of Truth}',
   NYC_2022: '{Points of Leverage}',
   NYC_2023: '{The Complexity of Civilization}',
+  NYC_2024: '{Coordination and Miscoordination}',
   Washington_DC_2023: '{Failed Experiments}',
 }
 
 recordings = {
   'Battle_Hymn_Of_The_Rationalist_Community': 'Battle_Hymn_DC_Solstice_2023.mp3',
   'Beneath_Midwinter_Midnight': 'gen/Beneath_Midwinter_Midnight-from-midi.mp3',
+  'Beyond_All_Towers': 'gen/Beyond_All_Towers-from-midi.mp3',
   'Bitter_Wind_March': 'Bitter_Wind_March-soundcloud.mp3',
   'Bold_Orion': 'Bold_Orion_DC_2022.mp3',
   'Brighter_Than_Today': 'Brighter_than_Today_DC_2022.mp3',
@@ -2203,13 +2259,15 @@ recordings = {
   'Chasing_Patterns': 'gen/Chasing_Patterns-from-midi.mp3',
   'Contract_Drafting_Em': 'gen/Contract_Drafting_Em-from-midi.mp3',
   'Endless_Light': 'endless_lights_nyc2019.mp3',
-  'Find_My_Tribe': 'Find_My_Tribe-soundcloud.mp3',
+  'Find_My_Tribe': 'gen/Find_My_Tribe-transcript-from_midi.mp3',
   'Gather_Round': 'Gather_Round-soundcloud.mp3',
   'Gonna_Be_A_Cyborg': 'Gonna_Be_A_Cyborg.mp3',
   'Here_and_Now': 'here_and_now_nyc2019.mp3',
   'Holding_Up_The_Sky': 'gen/Holding_Up_The_Sky-from-midi.mp3',
+  'Howl_Abridged': 'gen/Howl_Abbridged-from-midi.mp3',
   'Hymn_to_the_Breaking_Strain': 'Hymn-Breaking-Strain-2020.mp3',
   'I_Have_Seen_the_Tops_of_Clouds': 'gen/I_Have_Seen_the_Tops_of_Clouds-from-midi.mp3',
+  'Invisible_Republic_Anthem': 'gen/Invisible_Republic-from-midi.mp3',
   'Landsailor': 'gen/Landsailor-from_midi.mp3',
   'Let_There_Be_Love': 'let_there_be_love_nyc2019.mp3',
   'Little_Echo': 'gen/Little_Echo-from-midi.mp3',
