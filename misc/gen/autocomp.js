@@ -568,6 +568,11 @@ content = {
     "Five hundred twenty five thousand six hundred minutes...",
   ],
 
+  'Seikilos_Epitaph': [
+    "Seikilos Epitaph",
+    "The oldest piece of music in the world.",
+  ],
+
   'Simulacrum': [
     "Simulacrum",
     "Trying to blend in",
@@ -702,6 +707,11 @@ content = {
     "That Problem Solved",
     "By Daniel Speyer",
     "I can solve my problems with my parents' teachings... until I can't",
+  ],
+
+  'Thats_Coordination': [
+    "That's Coordination",
+    "A riff on That's Cooperation from Sesame Street.",
   ],
 
   'The_Circle': [
@@ -1403,6 +1413,12 @@ content = {
     "[speech]",
   ],
 
+  'Internal_Coordination': [
+    "Internal Coordination",
+    "by Rivka Fleischman",
+    "[speech]",
+  ],
+
   'Intro_DC_2020': [
     "Intro to a small DC Solstice for 2020",
     "By Maia Werbos",
@@ -1636,6 +1652,12 @@ content = {
     "[speech]",
   ],
 
+  'One_Thousand_Years_Adapted': [
+    "One Thousand Years",
+    "by Jacob Kopczynski, adapted by Max Koren",
+    "[speech]",
+  ],
+
   'Only_Human': [
     "Only Human",
     "By Jai Dhyani",
@@ -1760,6 +1782,12 @@ content = {
     "[speech]",
   ],
 
+  'Schelling_Game': [
+    "Schelling Game",
+    "By Rivka Fleischman & Maia Werbos",
+    "[speech]",
+  ],
+
   'Serenity': [
     "Serenity Meditation",
     "[speech]",
@@ -1774,6 +1802,12 @@ content = {
   'Shield_of_Achilles': [
     "The Shield of Achilles",
     "By Wystan Hugh Auden",
+    "[speech]",
+  ],
+
+  'Solstice_Then_And_Now': [
+    "Solstice, Then And Now",
+    "by Maia Werbos",
     "[speech]",
   ],
 
@@ -2276,10 +2310,12 @@ recordings = {
   'Next_Right_Thing': 'boston-2023-the-next-right-thing.mp3',
   'O_Tannenbaum': 'gen/O_Tannenbaum-from-midi.mp3',
   'One_Shot': 'gen/One_Shot-from-midi.mp3',
+  'Seikilos_Epitaph': 'Seikilos_Epitaph_DC_2024.mp3',
   'Song_of_the_Artesian_Water': 'Song_of_the_Artesian_Water_v2.m4a',
   'Sons_of_Martha': 'gen/Sons_of_Martha-from-midi.mp3',
   'Sound_of_Silence': 'Sound-of-Silence-2020.mp3',
   'That_Problem_Solved': 'gen/That_Problem_Solved-from-midi.mp3',
+  'Thats_Coordination': 'Thats_Coordination_DC_2024.mp3',
   'The_Fallen_Star': 'The_Fallen_Star.m4a',
   'Time_Wrote_the_Rocks': 'time_wrote_the_rocks_nyc2019.mp3',
   'Toast_to_the_Fallen': 'gen/Toast_to_the_Fallen-from-midi.mp3',
