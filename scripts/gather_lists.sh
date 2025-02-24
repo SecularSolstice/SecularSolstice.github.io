@@ -9,14 +9,14 @@ echo 'content = {'
 for i in  songs/*/README.md; do
     echo
     echo "  '$i': [" | sed 's@/README.md@@' | sed 's@songs/@@'
-    grep '#' $i | head -n 3 | sed 's/"/\\"/g' | sed 's/^#* */    "/' | sed 's/$/",/'
+    grep '#' $i | head -n 3 | sed -e 's/"/\\"/g' -e 's/^#* */    "/' -e 's/$/",/' -e 's/\r//'
     echo '  ],'
 done
 
 for i in  speeches/*.md; do
     echo
     echo "  '$i': [" | sed 's@speeches/@@' | sed 's/.md//'
-    grep '#' $i | head -n 2 | sed 's/^#* */    "/' | sed 's/$/",/'
+    grep '#' $i | head -n 2 | sed -e 's/^#* */    "/' -e 's/$/",/' -e 's/\r//'
     echo '    "[speech]",'
     echo '  ],'
 done

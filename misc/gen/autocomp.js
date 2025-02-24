@@ -2054,8 +2054,8 @@ content = {
   ],
 
   'Verlieren_German': [
-    "Verlieren",
-    "By Eva Simon",
+    "Verlieren",
+    "By Eva Simon",
     "[speech]",
   ],
 
