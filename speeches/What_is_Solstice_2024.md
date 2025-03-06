@@ -1,4 +1,4 @@
-# Secular Solstice Round Up 2024
+# What is Solstice? (2024)
 ## by Daniel Speyer
 
 Secular Solstice is a holiday designed by and for rationalists. It started as an attempt to match the sort of gatherings traditionally religious people tend to have in wintertime, but without compromising on truth.

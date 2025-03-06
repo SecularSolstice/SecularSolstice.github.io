@@ -1794,12 +1794,6 @@ content = {
     "[speech]",
   ],
 
-  'Secular_Solstice_Round_Up_2024': [
-    "Secular Solstice Round Up 2024",
-    "by Daniel Speyer",
-    "[speech]",
-  ],
-
   'Serenity': [
     "Serenity Meditation",
     "[speech]",
@@ -2157,6 +2151,12 @@ content = {
   'What_I_Learned_About_Risk_from_Parenting': [
     "What I Learned About Risk from Parenting",
     "By Julia Wise",
+    "[speech]",
+  ],
+
+  'What_is_Solstice_2024': [
+    "What is Solstice? (2024)",
+    "by Daniel Speyer",
     "[speech]",
   ],
 
