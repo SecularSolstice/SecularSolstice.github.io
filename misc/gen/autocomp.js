@@ -285,6 +285,12 @@ content = {
     "An invitation to join our campfire",
   ],
 
+  'Give_My_Children_Wings': [
+    "Give My Children Wings",
+    "By Kathy Mar",
+    "What do we pass on to our children?",
+  ],
+
   'Give_My_Your_Tired': [
     "Give My Your Tired",
   ],
@@ -909,6 +915,12 @@ content = {
     "A light-hearted song about death",
   ],
 
+  'When_Im_Gone': [
+    "The Mary Ellen Spider",
+    "Tune by Stan Rogers, Lyrics by Bob Blue",
+    "A metaphor of persistance",
+  ],
+
   'Who_By_Fire': [
     "Who By Fire",
     "By Leonard Cohen",
@@ -937,6 +949,12 @@ content = {
     "X Days of X Risk",
     "By Raymond Arnold",
     "Six (or more) ways the world could end",
+  ],
+
+  'Youve_Got_A_Friend_In_Me': [
+    "You've Got A Friend In Me",
+    "By Randy Newman",
+    "It's nice to have friends",
   ],
 
   '500_Million_2020_Addendum': [
@@ -1126,6 +1144,12 @@ content = {
     "[speech]",
   ],
 
+  'Does_Somebody_Have_To': [
+    "Does Somebody Have To, and Will Somebody Else",
+    "By Skyler Crossman",
+    "[speech]",
+  ],
+
   'Do_Not_Go_Gentle': [
     "Do Not Go Gentle Into That Good Night",
     "By Dylan Thomas",
@@ -1207,6 +1231,12 @@ content = {
   'Fritz_Haber': [
     "Fritz Haber",
     "By Daniel Speyer",
+    "[speech]",
+  ],
+
+  'Funeral_Ritual': [
+    "Funeral Ritual",
+    "By Raymond Arnold, adapted by Skyler Crossman",
     "[speech]",
   ],
 
@@ -1298,6 +1328,12 @@ content = {
 
   'Hot_Seat': [
     "Hot Seat",
+    "[speech]",
+  ],
+
+  'How_Can_I_Help': [
+    "How Can I Help?",
+    "By Skyler Crossman",
     "[speech]",
   ],
 
@@ -1628,6 +1664,12 @@ content = {
     "[speech]",
   ],
 
+  'Nerds_Can_Be_Bees_Too': [
+    "Nerds Can Be Bees Too",
+    "By Scott Alexander, Adapted by Skyler Crossman",
+    "[speech]",
+  ],
+
   'Nihil_Supernum': [
     "Nihil Supernum",
     "by Eliezer Yudkowsky",
@@ -1737,6 +1779,12 @@ content = {
     "[speech]",
   ],
 
+  'Project_Hufflepuff': [
+    "Project Hufflepuff",
+    "By Raymond Arnold, adapted by Skyler Crossman",
+    "[speech]",
+  ],
+
   'Radical_Acceptance_Practice': [
     "Radical Acceptance Practice",
     "By Ozymandias (Adapted by others)",
@@ -1751,6 +1799,12 @@ content = {
   'Replication_Crisis': [
     "The Replication Crisis",
     "By Rivka Fleischman",
+    "[speech]",
+  ],
+
+  'RMS_Carpathia': [
+    "RMS Carpathia",
+    "By My Lord She's A Cactus",
     "[speech]",
   ],
 
@@ -1963,6 +2017,12 @@ content = {
   'The_Orange': [
     "The Orange ",
     "By Wendy Cope",
+    "[speech]",
+  ],
+
+  'There_Will_Always_Be_Darkness': [
+    "There Will Always Be Darkness",
+    "My Little Poney: Friendship Is Magic",
     "[speech]",
   ],
 
@@ -2271,6 +2331,8 @@ taglines = {
   Boston_2017: '{The Wisdom of Lovecraft}',
   Boston_2018: '{101 Years Since Spanish Flu}',
   Boston_2019: '{101 Years Since WWI}',
+  Boston_2023: '{Iterative Improvement}',
+  Boston_2024: '{Persistance and Camaraderie}',
   Childrens_Version: '{ No Speeches, Just Music }',
   Frankfurt_2018: '{Happiness}',
   Frankfurt_2019: '{The Potential of Outer Space}',
