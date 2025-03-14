@@ -1501,6 +1501,12 @@ content = {
     "[speech]",
   ],
 
+  'It_Is_A_Common_Misperception': [
+    "It Is A Common Misperception",
+    "by Eliezer Yudkosky",
+    "[speech]",
+  ],
+
   'John_Snow_and_the_Broad_St_Pump': [
     "John Snow and the Broad Street Pump",
     "By Kathleen Tuthill and Daniel Speyer",
@@ -2326,7 +2332,7 @@ taglines = {
   Boston_2018: '{101 Years Since Spanish Flu}',
   Boston_2019: '{101 Years Since WWI}',
   Boston_2023: '{Iterative Improvement}',
-  Boston_2024: '{Hufflepuff Solstice}',
+  Boston_2024: '{Persistance and Camaraderie}',
   Childrens_Version: '{ No Speeches, Just Music }',
   Frankfurt_2018: '{Happiness}',
   Frankfurt_2019: '{The Potential of Outer Space}',
@@ -2372,11 +2378,12 @@ recordings = {
   'Next_Right_Thing': 'boston-2023-the-next-right-thing.mp3',
   'One_Shot': 'gen/One_Shot-from-midi.mp3',
   'O_Tannenbaum': 'gen/O_Tannenbaum-from-midi.mp3',
-  'One_Shot': 'gen/One_Shot-from-midi.mp3',
+  'Seikilos_Epitaph': 'Seikilos_Epitaph_DC_2024.mp3',
   'Song_of_the_Artesian_Water': 'Song_of_the_Artesian_Water_v2.m4a',
   'Sons_of_Martha': 'gen/Sons_of_Martha-from-midi.mp3',
   'Sound_of_Silence': 'Sound-of-Silence-2020.mp3',
-  'That_Problem_Solved': 'gen/That_Problem_Solved-from-midi.mp3',
+  'That_Problem_Solved': 'That_Problem_Solved-first-two-verses.mp3',
+  'Thats_Coordination': 'Thats_Coordination_DC_2024.mp3',
   'The_Fallen_Star': 'The_Fallen_Star.m4a',
   'Time_Wrote_the_Rocks': 'Time_Wrote_the_Rocks-soundcloud.mp3',
   'Toast_to_the_Fallen': 'gen/Toast_to_the_Fallen-from-midi.mp3',
