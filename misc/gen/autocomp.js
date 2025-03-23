@@ -748,6 +748,12 @@ content = {
     "A folk song of determination and recovery",
   ],
 
+  'The_Mary_Ellen_Spider': [
+    "The Mary Ellen Spider",
+    "by Stan Rogers (tune) and Bob Blue (lyrics)",
+    "A metaphor of persistance",
+  ],
+
   'The_Pantheon': [
     "The Pantheon aka Ain't Gonna Catch You",
     "By Darren Korb",
@@ -916,9 +922,9 @@ content = {
   ],
 
   'When_Im_Gone': [
-    "The Mary Ellen Spider",
-    "Tune by Stan Rogers, Lyrics by Bob Blue",
-    "A metaphor of persistance",
+    "When I'm Gone",
+    "by Phil Ochs",
+    "All the things that can only be done while here",
   ],
 
   'Who_By_Fire': [
