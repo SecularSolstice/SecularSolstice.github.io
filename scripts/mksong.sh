@@ -64,7 +64,7 @@ EOF
 
     ly)
         cat >>$NAME/Makefile <<EOF
-FILES_TO_LIST=lyrics.txt sheet-music.pdf voice-part.pdf cello-part.pdf sheet-music-compact.pdf from-midi.mp3
+FILES_TO_LIST=lyrics.txt sheet-music.pdf from-midi.mp3
 
 gen/\${PREFIX}lyrics.txt: sheet-music.ly
 	../../scripts/ly-to-lyrics.py sheet-music.ly gen/\${PREFIX}lyrics.txt
@@ -77,13 +77,25 @@ EOF
 
 FILES_TO_LIST=lyrics.txt sheet_music.pdf from_midi.mp3
 
-gen/${PREFIX}lyrics.txt: sheet-music.mscx
+gen/\${PREFIX}lyrics.txt: sheet-music.mscx
 	../../scripts/mscx-to-lyrics.py sheet-music.mscx > gen/${PREFIX}lyrics.txt
 EOF
         touch $NAME/sheet-music.mscx
         ;;
+
+    jkc)
+        cat >>$NAME/Makefile <<EOF
+
+FILES_TO_LIST=lyrics.txt
+
+gen/\${PREFIX}lyrics.txt: chords.jkc
+	grep -v '^ ' chords.jkc > gen/${PREFIX}lyrics.txt
+EOF
+        touch $NAME/chords.jkc
+        ;;
+    
     *)
-        echo "Unrecognized format '$TYPE', can be text, stub, ugc, cho, ly or mscx"
+        echo "Unrecognized format '$TYPE', can be text, stub, ugc, cho, ly or mscx, jkc"
         ;;
 
 esac
