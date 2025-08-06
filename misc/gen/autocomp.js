@@ -285,6 +285,12 @@ content = {
     "An invitation to join our campfire",
   ],
 
+  'Give_My_Children_Wings': [
+    "Give My Children Wings",
+    "By Kathy Mar",
+    "What do we pass on to our children?",
+  ],
+
   'Give_My_Your_Tired': [
     "Give My Your Tired",
   ],
@@ -742,6 +748,12 @@ content = {
     "A folk song of determination and recovery",
   ],
 
+  'The_Mary_Ellen_Spider': [
+    "The Mary Ellen Spider",
+    "by Stan Rogers (tune) and Bob Blue (lyrics)",
+    "A metaphor of persistance",
+  ],
+
   'The_Pantheon': [
     "The Pantheon aka Ain't Gonna Catch You",
     "By Darren Korb",
@@ -909,6 +921,12 @@ content = {
     "A light-hearted song about death",
   ],
 
+  'When_Im_Gone': [
+    "When I'm Gone",
+    "by Phil Ochs",
+    "All the things that can only be done while here",
+  ],
+
   'Who_By_Fire': [
     "Who By Fire",
     "By Leonard Cohen",
@@ -937,6 +955,12 @@ content = {
     "X Days of X Risk",
     "By Raymond Arnold",
     "Six (or more) ways the world could end",
+  ],
+
+  'Youve_Got_A_Friend_In_Me': [
+    "You've Got A Friend In Me",
+    "By Randy Newman",
+    "It's nice to have friends",
   ],
 
   '500_Million_2020_Addendum': [
@@ -1132,6 +1156,12 @@ content = {
     "[speech]",
   ],
 
+  'Does_Somebody_Have_To': [
+    "Does Somebody Have To, and Will Somebody Else",
+    "By Skyler Crossman",
+    "[speech]",
+  ],
+
   'Dont_Shoot_The_Messenger': [
     "Don't Shoot the Messenger",
     "By Sarah Constantin, adapted for speech by Daniel Speyer",
@@ -1207,6 +1237,12 @@ content = {
   'Fritz_Haber': [
     "Fritz Haber",
     "By Daniel Speyer",
+    "[speech]",
+  ],
+
+  'Funeral_Ritual': [
+    "Funeral Ritual",
+    "By Raymond Arnold, adapted by Skyler Crossman",
     "[speech]",
   ],
 
@@ -1304,6 +1340,12 @@ content = {
   'Howl': [
     "Howl",
     "By Allen Ginsberg",
+    "[speech]",
+  ],
+
+  'How_Can_I_Help': [
+    "How Can I Help?",
+    "By Skyler Crossman",
     "[speech]",
   ],
 
@@ -1465,6 +1507,12 @@ content = {
     "[speech]",
   ],
 
+  'It_Is_A_Common_Misperception': [
+    "It Is A Common Misperception",
+    "by Eliezer Yudkosky",
+    "[speech]",
+  ],
+
   'John_Snow_and_the_Broad_St_Pump': [
     "John Snow and the Broad Street Pump",
     "By Kathleen Tuthill and Daniel Speyer",
@@ -1622,6 +1670,12 @@ content = {
     "[speech]",
   ],
 
+  'Nerds_Can_Be_Bees_Too': [
+    "Nerds Can Be Bees Too",
+    "By Scott Alexander, Adapted by Skyler Crossman",
+    "[speech]",
+  ],
+
   'Nihil_Supernum': [
     "Nihil Supernum",
     "by Eliezer Yudkowsky",
@@ -1728,6 +1782,18 @@ content = {
   'Probability': [
     "Probability",
     "By Taymon Beal",
+    "[speech]",
+  ],
+
+  'Project_Hufflepuff': [
+    "Project Hufflepuff",
+    "By Raymond Arnold, adapted by Skyler Crossman",
+    "[speech]",
+  ],
+
+  'RMS_Carpathia': [
+    "RMS Carpathia",
+    "By My Lord She's A Cactus",
     "[speech]",
   ],
 
@@ -1981,6 +2047,12 @@ content = {
   'The_Virtues_of_Solstice': [
     "The Virtues of Solstice",
     "By Cody Wild and Raymond Arnold",
+    "[speech]",
+  ],
+
+  'There_Will_Always_Be_Darkness': [
+    "There Will Always Be Darkness",
+    "My Little Poney: Friendship Is Magic",
     "[speech]",
   ],
 
@@ -2265,13 +2337,15 @@ sections = [
 ];
 
 programs = [
- "Austin_2022",  "Austin_2023",  "Bay_2014",  "Bay_2018",  "Bay_2019",  "Bay_2022",  "Bay_2023",  "Bay_Outdoor_2016",  "Boston_2013",  "Boston_2015",  "Boston_2016",  "Boston_2017",  "Boston_2018",  "Boston_2019",  "Boston_2022",  "Boston_2023",  "Childrens_Version",  "Frankfurt_2017",  "Frankfurt_2018",  "Frankfurt_2019",  "Miami_2022",  "Miami_2022_options",  "Montreal_2024",  "North_America_2020",  "NYC_2011",  "NYC_2015",  "NYC_2016",  "NYC_2017",  "NYC_2018",  "NYC_2019",  "NYC_2021",  "NYC_2022",  "NYC_2023",  "NYC_2024",  "Portland_2022",  "Seattle_2017",  "Small_DC_2020",  "Washington_DC_2015",  "Washington_DC_2019",  "Washington_DC_2021",  "Washington_DC_2022",  "Washington_DC_2023",
+ "Austin_2022",  "Austin_2023",  "Bay_2014",  "Bay_2018",  "Bay_2019",  "Bay_2022",  "Bay_2023",  "Bay_Outdoor_2016",  "Boston_2013",  "Boston_2015",  "Boston_2016",  "Boston_2017",  "Boston_2018",  "Boston_2019",  "Boston_2022",  "Boston_2023",  "Boston_2024",  "Childrens_Version",  "Frankfurt_2017",  "Frankfurt_2018",  "Frankfurt_2019",  "Miami_2022",  "Miami_2022_options",  "Montreal_2024",  "NYC_2011",  "NYC_2015",  "NYC_2016",  "NYC_2017",  "NYC_2018",  "NYC_2019",  "NYC_2021",  "NYC_2022",  "NYC_2023",  "NYC_2024",  "North_America_2020",  "Portland_2022",  "Seattle_2017",  "Small_DC_2020",  "Washington_DC_2015",  "Washington_DC_2019",  "Washington_DC_2021",  "Washington_DC_2022",  "Washington_DC_2023",
 ];
 
 taglines = {
   Boston_2017: '{The Wisdom of Lovecraft}',
   Boston_2018: '{101 Years Since Spanish Flu}',
   Boston_2019: '{101 Years Since WWI}',
+  Boston_2023: '{Iterative Improvement}',
+  Boston_2024: '{Persistance and Camaraderie}',
   Childrens_Version: '{ No Speeches, Just Music }',
   Frankfurt_2018: '{Happiness}',
   Frankfurt_2019: '{The Potential of Outer Space}',
