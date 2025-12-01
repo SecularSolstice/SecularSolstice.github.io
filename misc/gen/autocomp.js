@@ -766,6 +766,12 @@ content = {
     "The world without us",
   ],
 
+  'The_Singularity_Song': [
+    "The Singularity Song",
+    "By Heather Anne Campbell and David Barton Harris",
+    "A silly vision of a positive singularity",
+  ],
+
   'The_Sun_Is_A_Guy_Who_Travels_Through_The_Sky': [
     "The Sun Is A Guy Who Travels Through The Sky",
     "By Raymond Arnold and They Might Be Giants",
@@ -794,6 +800,12 @@ content = {
     "The Sun Is An Ember",
     "By Scott Alexander and They Might be Giants",
     "A futuristic ode to the sun",
+  ],
+
+  'The_Sun_Is_Burning': [
+    "The Sun Is Burning",
+    "By Ian Campbell",
+    "A beautiful but fragile world",
   ],
 
   'The_Sun_Is_Medley': [
@@ -1086,15 +1098,12 @@ content = {
     "[speech]",
   ],
 
-<<<<<<< HEAD
   'Can_The_Chain_Still_Hold_You': [
     "Can The Chain Still Hold You?",
     "By Luke Muehlhauser",
     "[speech]",
   ],
 
-=======
->>>>>>> 12d41038c1324c9a8f09a9fa24d11fbfa56eef4b
   'Card_Exchange': [
     "Card Exchange",
     "[speech]",
@@ -1352,27 +1361,18 @@ content = {
     "[speech]",
   ],
 
-  'Howl': [
-    "Howl",
-    "By Allen Ginsberg",
-    "[speech]",
-  ],
-
   'How_Can_I_Help': [
     "How Can I Help?",
     "By Skyler Crossman",
     "[speech]",
   ],
 
-<<<<<<< HEAD
   'Howl': [
     "Howl",
     "By Allen Ginsberg",
     "[speech]",
   ],
 
-=======
->>>>>>> 12d41038c1324c9a8f09a9fa24d11fbfa56eef4b
   'How_to_Be_Happy': [
     "How to Be Happy",
     "Based on an essay by Luke Muehlhauser",
@@ -1415,15 +1415,12 @@ content = {
     "[speech]",
   ],
 
-<<<<<<< HEAD
   'I_Have_Seen_the_Tops_of_Clouds_Speech': [
     "I Have Seen the Tops of Clouds",
     "By Jacob Kopczynski",
     "[speech]",
   ],
 
-=======
->>>>>>> 12d41038c1324c9a8f09a9fa24d11fbfa56eef4b
   'I_Hear_America_Singing': [
     "I Hear America Singing",
     "By Walt Whitman",
@@ -1497,15 +1494,6 @@ content = {
 
   'Introduction_Bay_2022': [
     "Introduction (Bay 2022)",
-<<<<<<< HEAD
-    "[speech]",
-  ],
-
-  'Introduction_Bay_2023': [
-    "Introduction (Bay 2023)",
-    "By Anna Tchetchetkine",
-=======
->>>>>>> 12d41038c1324c9a8f09a9fa24d11fbfa56eef4b
     "[speech]",
   ],
 
@@ -1515,16 +1503,6 @@ content = {
     "[speech]",
   ],
 
-<<<<<<< HEAD
-  'Intro_To_Night_Section': [
-    "Intro: Night Section",
-    "[speech]",
-  ],
-
-  'Invincible_Summer': [
-    "Invincible Summer",
-    "by Logan Strohl",
-=======
   'Intro_to_Demon_Sultan_Azathoth': [
     "Intro to Demon Sultan Azathoth ",
     "By Jim Babcock ",
@@ -1533,7 +1511,12 @@ content = {
 
   'Intro_To_Night_Section': [
     "Intro: Night Section",
->>>>>>> 12d41038c1324c9a8f09a9fa24d11fbfa56eef4b
+    "[speech]",
+  ],
+
+  'Invincible_Summer': [
+    "Invincible Summer",
+    "by Logan Strohl",
     "[speech]",
   ],
 
@@ -2103,6 +2086,12 @@ content = {
     "[speech]",
   ],
 
+  'The_Simple_Truth': [
+    "The Simple Truth",
+    "By Eliezer Yudkowsky. Adapted by Massimo Gauthier",
+    "[speech]",
+  ],
+
   'The_Starfish_and_the_Net': [
     "The Starfish and the Net",
     "First two paragraphs by Scott Alexander, remainder by Skyler Crossman",
@@ -2267,15 +2256,12 @@ content = {
     "[speech]",
   ],
 
-<<<<<<< HEAD
   'We_Still_Suffer': [
     "We Still Suffer",
     "By Matt Elder",
     "[speech]",
   ],
 
-=======
->>>>>>> 12d41038c1324c9a8f09a9fa24d11fbfa56eef4b
   'We_will_not_die_of_this': [
     "We will not die of this!",
     "By Miranda Dixon-Luinenburg",
@@ -2423,11 +2409,7 @@ sections = [
 ];
 
 programs = [
-<<<<<<< HEAD
- "Austin_2022",  "Austin_2023",  "Bay_2014",  "Bay_2015",  "Bay_2016",  "Bay_2018",  "Bay_2019",  "Bay_2022",  "Bay_2023",  "Bay_Outdoor_2016",  "Boston_2013",  "Boston_2015",  "Boston_2016",  "Boston_2017",  "Boston_2018",  "Boston_2019",  "Boston_2022",  "Boston_2023",  "Boston_2024",  "Childrens_Version",  "Frankfurt_2017",  "Frankfurt_2018",  "Frankfurt_2019",  "Miami_2022",  "Miami_2022_options",  "North_America_2020",  "NYC_2011",  "NYC_2015",  "NYC_2016",  "NYC_2017",  "NYC_2018",  "NYC_2019",  "NYC_2021",  "NYC_2022",  "NYC_2023",  "NYC_2024",  "Portland_2022",  "Seattle_2017",  "Small_DC_2020",  "Washington_DC_2015",  "Washington_DC_2019",  "Washington_DC_2021",  "Washington_DC_2022",  "Washington_DC_2023",
-=======
- "Austin_2022",  "Austin_2023",  "Bay_2014",  "Bay_2018",  "Bay_2019",  "Bay_2022",  "Bay_2023",  "Bay_Outdoor_2016",  "Boston_2013",  "Boston_2015",  "Boston_2016",  "Boston_2017",  "Boston_2018",  "Boston_2019",  "Boston_2022",  "Boston_2023",  "Boston_2024",  "Childrens_Version",  "Frankfurt_2017",  "Frankfurt_2018",  "Frankfurt_2019",  "Miami_2022",  "Miami_2022_options",  "Montreal_2024",  "NYC_2011",  "NYC_2015",  "NYC_2016",  "NYC_2017",  "NYC_2018",  "NYC_2019",  "NYC_2021",  "NYC_2022",  "NYC_2023",  "NYC_2024",  "North_America_2020",  "Portland_2022",  "Seattle_2017",  "Small_DC_2020",  "Washington_DC_2015",  "Washington_DC_2019",  "Washington_DC_2021",  "Washington_DC_2022",  "Washington_DC_2023",
->>>>>>> 12d41038c1324c9a8f09a9fa24d11fbfa56eef4b
+ "Austin_2022",  "Austin_2023",  "Bay_2014",  "Bay_2015",  "Bay_2016",  "Bay_2018",  "Bay_2019",  "Bay_2022",  "Bay_2023",  "Bay_Outdoor_2016",  "Boston_2013",  "Boston_2015",  "Boston_2016",  "Boston_2017",  "Boston_2018",  "Boston_2019",  "Boston_2022",  "Boston_2023",  "Boston_2024",  "Childrens_Version",  "Frankfurt_2017",  "Frankfurt_2018",  "Frankfurt_2019",  "Miami_2022",  "Miami_2022_options",  "Montreal_2024",  "North_America_2020",  "NYC_2011",  "NYC_2015",  "NYC_2016",  "NYC_2017",  "NYC_2018",  "NYC_2019",  "NYC_2021",  "NYC_2022",  "NYC_2023",  "NYC_2024",  "Portland_2022",  "Seattle_2017",  "Small_DC_2020",  "Washington_DC_2015",  "Washington_DC_2019",  "Washington_DC_2021",  "Washington_DC_2022",  "Washington_DC_2023",
 ];
 
 taglines = {
