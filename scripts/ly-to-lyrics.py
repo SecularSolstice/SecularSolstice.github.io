@@ -21,7 +21,7 @@ last_black=False
 inlyrics=False
 for line in inf:
     # sys.stderr.write(repr([line,inlyrics,is_chorus])+'\n')
-    if '\\lyricmode' in line:
+    if '\\lyricmode' in line and 'do_not_extract' not in line:
         inlyrics=True
         is_chorus = (' chorus ' in line)
         is_finale = (' finale ' in line)
