@@ -2461,6 +2461,7 @@ recordings = {
   'Hymn_to_the_Breaking_Strain': 'Hymn-Breaking-Strain-2020.mp3',
   'I_Have_Seen_the_Tops_of_Clouds': 'gen/I_Have_Seen_the_Tops_of_Clouds-from-midi.mp3',
   'Invisible_Republic_Anthem': 'gen/Invisible_Republic-from-midi.mp3',
+  'La_Vie_Boheme': 'gen/La_Vie_Boheme-from-midi.mp3',
   'Landsailor': 'gen/Landsailor-from_midi.mp3',
   'Let_There_Be_Love': 'let_there_be_love_nyc2019.mp3',
   'Little_Echo': 'gen/Little_Echo-from-midi.mp3',
