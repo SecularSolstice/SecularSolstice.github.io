@@ -8,4 +8,4 @@ In the original, there are dialogue segments interspersed with the music.  The l
 
 The sheet music here is also transposed down into a register that's more convenient for NYC, and has fewer sharps and flats than the original.  It's also annotated with singers: G is male, E is female and D is not to be trusted with complex music.  The original, of course, has more singers, so this was an attempt to collapse it to three.
 
-[A recording of the original is on youtube](https://www.youtube.com/watch?v=i5tuzq-uIVc], as are most likely many others.
+[A recording of the original is on youtube](https://www.youtube.com/watch?v=i5tuzq-uIVc), as are most likely many others.
