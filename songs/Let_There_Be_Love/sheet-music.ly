@@ -72,8 +72,8 @@ themea = \relative c' {
 
 harma = {
   \chordmode {
-    a,,4:1.3-.6- f,,2 e,,:m c,,:1.4.6 f,, g,,:1.4.7 c, s2.
-    a,,4:1.3-.6- f,,2 e,,:m c,,:1.4.6
+    a,,4:1.3-.6- f,,2 e,,:m f,,/c f,, g,,:1.4.7 c, s2.
+    a,,4:1.3-.6- f,,2 e,,:m f,,/c
     f,, g,, f,, e,,:m g,, g,,:1.4.7 g,,:1.3.6 c,1 ~ c,2
   }
 }
@@ -92,8 +92,8 @@ themeav = \relative c' {
 
 harmav = {
   \chordmode {
-    f,,2:7+ f,,2 e,,:m c,,:1.4.6 g,,:1.4.7 c, s2 s2
-    f,,2:7+ f,,2 e,,:m c,,:1.4.6
+    f,,2:7+ f,,2 e,,:m f,,/c g,,:1.4.7 c, s2 s2
+    f,,2:7+ f,,2 e,,:m f,,/c
     f,, g,, f,, e,,:m  g,,:1.4.7 c,2 s1
   }
 }
@@ -110,8 +110,8 @@ themeb = \relative c' {
 
 harmb = {
   \chordmode {
-    c,4:1.4.6  f,,1 b,,,2.:1.4.6-
-    c,4:1.4.6  f,,1 b,,,2.:1.4.6-
+    f,/c f,,1 e,,2.:m/b
+    f,4/c  f,,1 e,,2.:m/b
   }
 }
 
@@ -127,8 +127,8 @@ themebv = \relative c' {
 
 harmbv = {
   \chordmode {
-    c,4:1.4.6  g,,1 c,,2.:1.4.6
-    c,4:1.4.6  g,,1 c,,2.:1.3.5.8
+    f,4:/c g,,1 f,,2./c
+    f,4:/c g,,1 c,,2.:1.3.5.8
   }
 }
 
@@ -142,9 +142,9 @@ themec = \relative c' {
 
 harmc = {
   \chordmode {
-    a,,2:m c,, e,,:m g,, b,,:1.4.6- c,, s s
+    a,,2:m c,, e,,:m g,, e,:m/b c,, s s
     a,,2:m d,,:m f,, a,,:m a,,:1.5.8 c,, s s
-    a,,2:m f,, d,,:1.4.6 e,,:m d,,:m d,,:1.4.6 d,,:m c,, e,,:m c,,1 e,,:m c,, ~ c,,2
+    a,,2:m f,, g,,/d e,,:m d,,:m g,,/d d,,:m c,, e,,:m c,,1 e,,:m c,, ~ c,,2
     
   }
 }
@@ -164,8 +164,8 @@ themee = \relative c'' {
 
 harmde = {
   \chordmode {
-    g,2 e,,:m f, f,,:1.4+.6 g, b,,:1.3-.5- f,  b,,1:1.4.6- ~ b,,1:1.4.6-
-    g,,2 f,, b,,,:1.4.6- c,,:1.3.5.8 ~ c,,1:1.3.5.8 
+    g,2 e,,:m f, f,,:1.4+.6 g, b,,:1.3-.5- f, e,1:m/b ~ e,1:m/b
+    g,,2 f,, e,,:m/b c,,:1.3.5.8 ~ c,,1:1.3.5.8 
   }
 }
 
@@ -176,7 +176,7 @@ harmde = {
       instrumentName = #"Guitar"
       shortInstrumentName = #"G"
     } {
-      \chordmode { c,1 c,2.:1.4.6 }
+      \chordmode { c,1 f,2./c }
       \harma 
       \chordmode {  c,2 ~ c,2. }
       \harmb 
@@ -248,7 +248,7 @@ harmde = {
           \set Staff.midiMinimumVolume = #0.6
           \set Staff.midiMaximumVolume = #0.8
           \clef bass
-          \chordmode { c,1 c,2.:1.4.6 }
+          \chordmode { c,1 f,2./c }
           << \harma \deca >>
           \chordmode {  c,2 ~ c,2. }
           \harmb 
