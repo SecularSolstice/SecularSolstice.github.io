@@ -64,9 +64,9 @@ words = \lyricmode {
   E -- mo -- tion, de -- vo -- tion, to cau -- sing a com -- mo -- tion
   Cre -- a -- tion, va -- ca -- tion
 
-  Much -- o mas -- tur -- ba -- tion
+  "[G] Much" -- o mas -- tur -- ba -- tion
 
-  Com -- pass -- ion, to fash -- ion, to pass -- ion
+  "[E] Com" -- pass -- ion, to fash -- ion, to pass -- ion
   When it's new
 
   To Son -- tag
