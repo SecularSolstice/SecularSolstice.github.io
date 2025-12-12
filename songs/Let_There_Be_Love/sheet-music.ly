@@ -175,6 +175,7 @@ harmde = {
       \consists "Instrument_name_engraver"
       instrumentName = #"Guitar"
       shortInstrumentName = #"G"
+      midiMaximumVolume = #0
     } {
       \chordmode { c,1 f,2./c }
       \harma 
@@ -224,7 +225,7 @@ harmde = {
           \set Staff.midiInstrument = #"acoustic grand"
           \set PianoStaff.instrumentName = #"Piano"
           \set PianoStaff.shortInstrumentName = #"P"
-          \set Staff.midiMinimumVolume = #0.6
+          \set Staff.midiMinimumVolume = #0.4
           \set Staff.midiMaximumVolume = #0.8
           r2 g'8 f' b4  g''8 f'' b'4 r
           \themea
@@ -245,7 +246,7 @@ harmde = {
         }
         \new Voice {
           \set Staff.midiInstrument = #"acoustic grand"
-          \set Staff.midiMinimumVolume = #0.6
+          \set Staff.midiMinimumVolume = #0.4
           \set Staff.midiMaximumVolume = #0.8
           \clef bass
           \chordmode { c,1 f,2./c }
