@@ -225,8 +225,8 @@ harmde = {
           \set Staff.midiInstrument = #"acoustic grand"
           \set PianoStaff.instrumentName = #"Piano"
           \set PianoStaff.shortInstrumentName = #"P"
-          \set Staff.midiMinimumVolume = #0.4
-          \set Staff.midiMaximumVolume = #0.8
+          \set Staff.midiMinimumVolume = #0.3
+          \set Staff.midiMaximumVolume = #0.6
           r2 g'8 f' b4  g''8 f'' b'4 r
           \themea
           g'4. f'8 g'8 f'8 b4 r
@@ -246,8 +246,8 @@ harmde = {
         }
         \new Voice {
           \set Staff.midiInstrument = #"acoustic grand"
-          \set Staff.midiMinimumVolume = #0.4
-          \set Staff.midiMaximumVolume = #0.8
+          \set Staff.midiMinimumVolume = #0.3
+          \set Staff.midiMaximumVolume = #0.6
           \clef bass
           \chordmode { c,1 f,2./c }
           << \harma \deca >>
