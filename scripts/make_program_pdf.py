@@ -26,7 +26,7 @@ for line in inf:
     content = line.split(': ')[0]
     print(f'Trying "{content}" ({i})')
     if exists(f'../speeches/{content}.md'):
-        run(['pandoc', ('../speeches/%s.md' % content), '-V', 'geometry:papersize={ 6in, 10.3in }', '-V', 'geometry:margin=0.5in', '-o', f'{outd}/{i}.pdf'], check=True)
+        run(['pandoc', ('../speeches/%s.md' % content), '-V', 'geometry:papersize={ 8.5in, 14in }', '-V', 'geometry:margin=0.5in', '-V', 'fontsize=17pt','-V', 'documentclass=extarticle', '-o', f'{outd}/{i}.pdf'], check=True)
         continue
     g=glob(f'../songs/{content}/*-chord-chart.pdf')
     if g:
@@ -45,7 +45,15 @@ for line in inf:
                 if fn.endswith('.pdf'):
                     run(['cp', fn, f'{outd}/{i}.pdf'], check=True)
                     found=True
-                elif  fn.endswith('.html') or fn.endswith('.txt') :
+                elif  fn.endswith('.txt') :
+                    thtmlfn = f'{outd}/{i}.html'
+                    with open(thtmlfn,'w') as thtmlf:
+                        thtmlf.write('<html><head><style> @page { size:legal } body { font-size: 14pt; } </style></head><body><pre>')
+                        thtmlf.write(open(fn).read())
+                        thtmlf.write('</pre></body></html>')
+                    run(['google-chrome', '--headless', '--disable-gpu', f'--print-to-pdf={outd}/{i}.pdf', thtmlfn], check=True)
+                    found=True
+                elif  fn.endswith('.html'):
                     run(['google-chrome', '--headless', '--disable-gpu', f'--print-to-pdf={outd}/{i}.pdf', fn], check=True)
                     found=True
                 else:
@@ -55,7 +63,7 @@ for line in inf:
                 break
     else:
         print(f'WARNING: skipping {content}')
-
+        
 run(['gs', '-dNOPAUSE', '-sDEVICE=pdfwrite', f'-sOUTPUTFILE={sys.argv[1]}.pdf', '-dBATCH'] + [ f'{outd}/{j}.pdf' for j in range(1,i+1) ], check=True)
 print(outd)
 remove(cssfn)
