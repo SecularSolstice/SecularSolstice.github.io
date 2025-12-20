@@ -1,4 +1,4 @@
-PREFIX=When_Im_Gone_
+PREFIX=When_Im_Gone-
 FILES_TO_LIST=lyrics.txt
 
 gen/${PREFIX}lyrics.txt: lyrics.txt
