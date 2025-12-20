@@ -41,6 +41,7 @@ for line in open(f'{basedir}/lists/{name}.list'):
         else:
             cont.name = cont.ref
         if cont.ref == 'When_I_Die': # Special Case:
+            cont.instructions = 'hold on this title card as if it were a speech'
             continue
         lyricfiles = glob(f'{basedir}/songs/{line}/gen/*-lyrics.txt')
         if lyricfiles:
@@ -67,6 +68,8 @@ for line in open(f'{basedir}/lists/{name}.list'):
                     cont.lyrics.append('\n'.join(p[3:]))
                 else:
                     cont.lyrics.append('\n'.join(p))
+        else:
+            cont.instructions='speech: just hold on the title card'
         # Special Case:
         if cont.ref=='Brighter_Than_Today':
             cont.lyrics.pop()
@@ -84,6 +87,7 @@ for line in open(f'{basedir}/lists/{name}.list'):
             cont.byline=''
             cont.instructions = 'Hold on this blank slide until "If amyone is still sitting, please rise"'
         if cont.ref=='Call_and_Response_Defiance_Abridged':
+            cont.instructions = 'This is the one speech with slides, advance past this once movement stops'
             crs = [('The universe is vast, and dark, and cold.','But we are not.'),
                    ('The laws of physics are indifferent to hope, or desperation, or love.',
                     'But we are not.'),

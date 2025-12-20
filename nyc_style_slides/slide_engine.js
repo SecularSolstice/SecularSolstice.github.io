@@ -112,15 +112,27 @@ function slideVis() {
     jump.css({fontWeight:'bold'});
 }
 
+function prevCssAdj(slid, isubslide) {
+    if (isubslide<2) return prevCss;
+    lyrics = slide.lyrics[isubslide-2];
+    let n = lyrics.split('\n').length;
+    console.log({lyrics,n});
+    if (n>=4) {
+	return prevCss;
+    } else {
+	return {paddingTop:(4-n)*0.75+'em', ...prevCss}
+    }
+}
+
 function advance() {
     $('#darkbar').show();
     if (slide && slide.lyrics && isubslide<slide.lyrics.length) {
 	isubslide -= -1;
 	if (prev) prev.remove();
 	prev = curr;
-	if (prev) prev.animate(prevCss, 500, ()=>{prev.css({justifyContent:prevCss.justifyContent})})
+	if (prev) prev.animate(prevCssAdj(slide,isubslide), 500);
 	curr = next;
-	if (curr) curr.animate(currCss, 500, ()=>{curr.css({justifyContent:currCss.justifyContent})})
+	if (curr) curr.css({justifyContent:currCss.justifyContent}).animate(currCss, 500);
 	if (isubslide < slide.lyrics.length) {
 	    next = $('<div>').text(slide.lyrics[isubslide]).css(nextCss).css({opacity:0}).animate({opacity:.8},500).appendTo($('body'));
 	} else {
