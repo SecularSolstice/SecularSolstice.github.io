@@ -180,7 +180,7 @@ $(()=>{
 	for (let isli in sec.content) {
 	    sli = sec.content[isli];
             sli.jumps = []
-	    sli.jumps.push( $('<li>').text(sli.name.replace(/<[^>]*>/g,'').substr(0,20)).on('click',()=>go(isec-0,isli-0,0)).appendTo(ul2) )
+	    sli.jumps.push( $('<li>').text(sli.name.replace(/<[^>]*>/g,'').replace('\n',' ').replace(/ +/g,' ').substr(0,20)).on('click',()=>go(isec-0,isli-0,0)).appendTo(ul2) )
 	    if (sli.lyrics) {
 		let ul3 = $('<ul>').appendTo(ul2);
 		for (let isub in sli.lyrics) {
