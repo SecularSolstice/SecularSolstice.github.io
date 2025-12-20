@@ -1038,6 +1038,12 @@ content = {
     "[speech]",
   ],
 
+  'Arrogance_of_the_Humbled': [
+    "Arrogance of the Humbled",
+    "By Duncan Sabien (mostly)",
+    "[speech]",
+  ],
+
   'As_Slow_As_Possible': [
     "As Slow As Possible",
     "	A specially built organ was constructed for the performance, with the pipes of the organ located in the right transept of the church and the bellows in the left. Sandbags weigh down the pedals to sustain the notes. After the organ was constructed, the performance began on September 5th, 2001, with a rest. On February 5th, 2003, the first chord sounded. The most recent chord change occurred on February 5th of this year when a G# was released. A crowd gathers in the church to hear the organ every time the chord is changed.",
@@ -1790,6 +1796,12 @@ content = {
     "[speech]",
   ],
 
+  'Pascal_Cuts_Both_Ways': [
+    "Pascal Cuts Both Ways",
+    "By Daniel Speyer",
+    "[speech]",
+  ],
+
   'Prediction_Artificial_Intelligence': [
     "Prediction: Artificial Intelligence",
     "[speech]",
@@ -2307,6 +2319,12 @@ content = {
   'When_Humanity_Was_Young': [
     "When Humanity Was Young",
     "By Matt Elder",
+    "[speech]",
+  ],
+
+  'Why_Assume_That': [
+    "Why Assume That?",
+    "By Daniel Speyer",
     "[speech]",
   ],
 
