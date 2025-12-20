@@ -8,7 +8,7 @@ content = {
 
   'Always_Look_on_the_Bright_Side': [
     "Always Look on the Bright Side",
-    "By Monty Python",
+    "By Eric Idle",
     "A silly song about making the best of terrible things",
   ],
 
