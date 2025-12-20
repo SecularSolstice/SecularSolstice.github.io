@@ -6,6 +6,19 @@ The constellation of Orion dominates the winter sky, and is one of the few that 
 
 [A recording of this from the 2020 North American Distributed Chorus](https://www.jefftk.com/solstice-2020/06-bold-orion--2020-12-20-010858.mp3) is available.
 
+Originally there was a verse between what we have as the second and third, which goeth thusly:
+
+> Orion had a lover. She's the goddess of the hunt,
+> And of the forest and the golden moon.
+> Artemis they called her, the fair sister of the sun,
+> But their time together ended all too soon.
+> Apollo took his vengeance on the man his sister loved.
+> An arrow sped him to a painful death;
+> But once a month she visits him, a moon among the stars,
+> Looking down with whispered love upon her breath.
+
+Solstices generally omit this as it ties *too* closely to the original mythology.
+
 There's also a recording [from the DC Solstice 2022 band](../Bold_Orion_DC_2022.mp3).
 
 Some accuracy notes on Bold Orion from DC Solstice 2024:
