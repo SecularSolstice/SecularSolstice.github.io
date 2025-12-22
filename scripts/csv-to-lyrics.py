@@ -12,6 +12,7 @@ col = int(sys.argv[3])
 
 for line in csv.reader(inf):
     if len(line)<=col:
+        outf.write('\n')
         continue
     chop=line[col:]
     s=' '.join(chop)

@@ -1,5 +1,4 @@
 #  Brighter Than Today
-
 ## By Raymond Arnold
 ## Our central anthem of hope, starting from the invention of fire
 

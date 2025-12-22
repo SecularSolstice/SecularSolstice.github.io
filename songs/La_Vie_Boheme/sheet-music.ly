@@ -103,6 +103,8 @@ words = \lyricmode {
   "[All] To" S and M
 
   La vie Bo -- hème
+  La vie Bo -- hème
+  La vie Bo -- hème
 }
 
 LVBs_do_not_extract = \lyricmode {
@@ -181,7 +183,9 @@ melody = \relative c' {
   e'8 e e e r e e e e4 e e e r8 fis4 fis fis8 ~ fis fis fis fis fis fis e d e2 r2 
   r8 e8 fis fis e e r e
   f4 e8 d r d d e r f4 e8 d2
-  r4 r8 e e e4 e8~ e4 r4 r8 b d b d1 
+  r4 r8 e e e4 e8~ e4 r4 r8 b d b d1
+  r4 b d b d1 
+  r4 b d b d1 
 }
 
 decoration = \relative c {

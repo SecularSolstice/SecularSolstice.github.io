@@ -37,10 +37,11 @@ for line in open(f'{basedir}/lists/{name}.list'):
             if sl[0].startswith('# '):
                 cont.name = sl[0][1:].strip()
             if sl[1].startswith('## '):
-                cont.byline = sl[1][2:].strip()
+                cont.byline = re.sub('\\([^\\)]+\\)','',sl[1][2:]).strip()
         else:
             cont.name = cont.ref
         if cont.ref == 'When_I_Die': # Special Case:
+            cont.instructions = 'hold on this title card as if it were a speech'
             continue
         lyricfiles = glob(f'{basedir}/songs/{line}/gen/*-lyrics.txt')
         if lyricfiles:
@@ -51,6 +52,9 @@ for line in open(f'{basedir}/lists/{name}.list'):
             lyrics=re.sub('\\[[^\\]]+\\]','',lyrics)
             lyrics=re.sub('#[^\n]*\n','\n',lyrics)
             lyrics=lyrics.replace('(skip)','')
+            lyrics=lyrics.replace('(transition directly into 5000 years)','')
+            if cont.ref in {'Hymn_to_the_Breaking_Strain', 'Here_and_Now'}: # Special Case
+                lyrics = lyrics.replace('interlude','').replace('cut non-drum instruments','').replace(' - ','').replace('-','')
             paragraphs=re.split('\n\n+', lyrics)
             for pa in paragraphs:
                 if not pa.strip():
@@ -64,6 +68,8 @@ for line in open(f'{basedir}/lists/{name}.list'):
                     cont.lyrics.append('\n'.join(p[3:]))
                 else:
                     cont.lyrics.append('\n'.join(p))
+        else:
+            cont.instructions='speech: just hold on the title card'
         # Special Case:
         if cont.ref=='Brighter_Than_Today':
             cont.lyrics.pop()
@@ -71,16 +77,17 @@ for line in open(f'{basedir}/lists/{name}.list'):
             cont.video = {'src':'videos/BrighterThanToday_final_chorus.mp4',
                           'start': len(cont.lyrics),
                           'fadePrev': 5000,
-                          'css': {'left':'0vw', 'top':'0vh', 'width':'100vw', 'position':'absolute'} }
+                          'css': {'left':'1vw', 'top':'1vh', 'width':'98vw', 'position':'absolute'} }
         if cont.ref=='Five_Thousand_Years':
             cont.video = {'src':'videos/known_universe.mp4',
                           'start': 1,
-                          'css': {'left':'0vw', 'top':'0vh', 'width':'100vw', 'position':'absolute', 'zIndex': '-2'} }
+                          'css': {'left':'1vw', 'top':'1vh', 'width':'98vw', 'position':'absolute', 'zIndex': '-2'} }
         if cont.ref=='We_Are_Here':
             cont.name=''
             cont.byline=''
             cont.instructions = 'Hold on this blank slide until "If amyone is still sitting, please rise"'
         if cont.ref=='Call_and_Response_Defiance_Abridged':
+            cont.instructions = 'This is the one speech with slides, advance past this once movement stops'
             crs = [('The universe is vast, and dark, and cold.','But we are not.'),
                    ('The laws of physics are indifferent to hope, or desperation, or love.',
                     'But we are not.'),
@@ -105,12 +112,17 @@ for s in sections:
     secbkgs = len(glob(f'{basedir}/nyc_style_slides/backgrounds/{s.name.lower().replace(" ","_")}/*.jpg'))
     secdone = 0
     for ci,c in enumerate(s.content):
-        conbkgs = len(glob(f'{basedir}/nyc_style_slides/backgrounds/{c.ref}/*.jpg'))
+        cbn = c.ref
+        # Special Case
+        if c.ref == 'Five_Thousand_Years':
+            cbn = 'black'
+        if c.ref == 'Let_There_Be_Love':
+            cbn = 'rocket'
+        conbkgs = len(glob(f'{basedir}/nyc_style_slides/backgrounds/{cbn}/*.jpg'))
         if not (secbkgs or conbkgs):
             print(f'{basedir}/nyc_style_slides/backgrounds/{s.name.lower().replace(" ","_")}/*.jpg')
-            print(f'{basedir}/nyc_style_slides/backgrounds/{c.ref}/*.jpg')
+            print(f'{basedir}/nyc_style_slides/backgrounds/{cbn}/*.jpg')
             raise Error()
-
         clen = 1
         if hasattr(c,'lyrics'):
             clen += len(c.lyrics)
@@ -118,7 +130,7 @@ for s in sections:
         for i in range(clen):
             if conbkgs:
                 si = int(conbkgs*i/clen)
-                c.bkgs.append(f'backgrounds/{c.ref}/{si}.jpg')
+                c.bkgs.append(f'backgrounds/{cbn}/{si}.jpg')
             else:
                 si = int(secbkgs*secdone/seclen)
                 if s.name=='Night': # Special Case
