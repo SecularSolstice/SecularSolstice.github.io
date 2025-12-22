@@ -1,11 +1,5 @@
 content = {
 
-  'A_Thousand_Stars': [
-    "A Thousand Stars",
-    "By Siegfried Köhler, translated by Daniel Böttger",
-    "Beauty in Dark Places",
-  ],
-
   'Always_Look_on_the_Bright_Side': [
     "Always Look on the Bright Side",
     "By Monty Python",
@@ -21,6 +15,12 @@ content = {
     "And So It Goes",
     "By Billy Joel",
     "A lament of love, pain and acceptance",
+  ],
+
+  'A_Thousand_Stars': [
+    "A Thousand Stars",
+    "By Siegfried Köhler, translated by Daniel Böttger",
+    "Beauty in Dark Places",
   ],
 
   'Baby_Genie': [
@@ -196,12 +196,6 @@ content = {
     "A lone survivor contemplates a failed revolution",
   ],
 
-  'Endless_Light': [
-    "Endless Lights",
-    "By Raymond Arnold",
-    "A song of hope, generations, stories and infinite possibilities",
-  ],
-
   'Endless_Light_Above': [
     "Endless Light Above Me",
     "By Raymond Arnold",
@@ -212,6 +206,12 @@ content = {
     "Endless Light Around Me",
     "By Raymond Arnold",
     "The second part of a song of hope, generations, stories and infinite possibilities",
+  ],
+
+  'Endless_Light': [
+    "Endless Lights",
+    "By Raymond Arnold",
+    "A song of hope, generations, stories and infinite possibilities",
   ],
 
   'Find_My_Tribe': [
@@ -261,16 +261,16 @@ content = {
     "It takes so little to be happy",
   ],
 
-  'Galaxy_Song': [
-    "Galaxy Song",
-    "By Monty Python",
-    "How big the universe is and how lucky we are to be a part of it",
-  ],
-
   'Galaxy_Song_2014': [
     "Galaxy Song 2014",
     "by Monty Python",
     "An updated version, with less astronomy and more biology",
+  ],
+
+  'Galaxy_Song': [
+    "Galaxy Song",
+    "By Monty Python",
+    "How big the universe is and how lucky we are to be a part of it",
   ],
 
   'Garden_Song': [
@@ -307,10 +307,10 @@ content = {
     "An old song of sorrow, hope and compassion",
   ],
 
-  'Her_Mysteries': [
-    "Her Mysteries",
-    "By Allison Lonsdale",
-    "A hymn to the Goddess for math and physics majors.",
+  'Here_and_Now': [
+    "Here and Now",
+    "By Raymond Arnold",
+    "A celebration of now",
   ],
 
   'Here_Comes_the_Sun': [
@@ -325,10 +325,10 @@ content = {
     "Celebrate the fall of the deadly dragon we've feared",
   ],
 
-  'Here_and_Now': [
-    "Here and Now",
-    "By Raymond Arnold",
-    "A celebration of now",
+  'Her_Mysteries': [
+    "Her Mysteries",
+    "By Allison Lonsdale",
+    "A hymn to the Goddess for math and physics majors.",
   ],
 
   'Heros_Song': [
@@ -379,12 +379,6 @@ content = {
     "All the awesome things on this planet",
   ],
 
-  'I_Want_to_Hold_Your_Hand': [
-    "I Want To Hold Your Hand",
-    "By The Beatles",
-    "A silly love song",
-  ],
-
   'Imagine': [
     "Imagine",
     "By John Lennon",
@@ -395,6 +389,12 @@ content = {
     "Invisible Republic Anthem",
     "by Daniel Speyer",
     "A national anthem for SSC's Invisible republc",
+  ],
+
+  'I_Want_to_Hold_Your_Hand': [
+    "I Want To Hold Your Hand",
+    "By The Beatles",
+    "A silly love song",
   ],
 
   'Jewel_In_The_Night': [
@@ -409,16 +409,16 @@ content = {
     "A very generic celebratory song, silly and possibly for kids",
   ],
 
-  'La_Vie_Boheme': [
-    "La Vie Bohème",
-    "By Jonathan Larson (from RENT)",
-    "A celebration of reckless fun",
-  ],
-
   'Landsailor': [
     "Landsailor",
     "By Vienna Teng",
     "A salute to industrialization and its fruits",
+  ],
+
+  'La_Vie_Boheme': [
+    "La Vie Bohème",
+    "By Jonathan Larson (from RENT)",
+    "A celebration of reckless fun",
   ],
 
   'Lean_on_Me': [
@@ -538,12 +538,6 @@ content = {
     "By Daniel Kahn",
   ],
 
-  'O_Tannenbaum': [
-    "O Tannenbaum",
-    "Traditional, with added verses by Silas Barta",
-    "A progressively less traditional ode to trees",
-  ],
-
   'Old_Devil_Time': [
     "Old Devil Time",
     "By Pete Seeger",
@@ -556,16 +550,22 @@ content = {
     "One shots make the prisoners' dilemma much harder",
   ],
 
-  'Scarborough_Fair': [
-    "Scarborough Fair",
-    "Traditional",
-    "A series of impossible challenges",
+  'O_Tannenbaum': [
+    "O Tannenbaum",
+    "Traditional, with added verses by Silas Barta",
+    "A progressively less traditional ode to trees",
   ],
 
   'Scarborough_Fair_Dark_Reprise': [
     "Scarborough Fair Dark Reprise",
     "By Cy Carson",
     "A lament for the fallen",
+  ],
+
+  'Scarborough_Fair': [
+    "Scarborough Fair",
+    "Traditional",
+    "A series of impossible challenges",
   ],
 
   'Scarborough_Fair_Triumphant_Reprise': [
@@ -638,12 +638,6 @@ content = {
     "Music and Dreams aren't solutions, but they are starting points",
   ],
 
-  'Son_of_Man': [
-    "Son of Man",
-    "By Phil Collins",
-    "Growing up",
-  ],
-
   'Song_of_the_Artesian_Water': [
     "Song Of The Artesian Water",
     "By Banjo Paterson and Anna Tchetchekine",
@@ -653,6 +647,12 @@ content = {
   'Songs_Stay_Sung': [
     "Songs Stay Sung",
     "By Zoe Mulford & Windborne, with edits by the Solstice team",
+  ],
+
+  'Son_of_Man': [
+    "Son of Man",
+    "By Phil Collins",
+    "Growing up",
   ],
 
   'Sons_of_Martha': [
@@ -766,6 +766,12 @@ content = {
     "There is no one to protect you from yourself",
   ],
 
+  'There_Will_Come_Soft_Rain': [
+    "There Will Come Soft Rain",
+    "By Sara Teasdale (Lyrics) and Jonathon Adams (music)",
+    "The world without us",
+  ],
+
   'The_Singularity_Song': [
     "The Singularity Song",
     "By Heather Anne Campbell and David Barton Harris",
@@ -826,28 +832,22 @@ content = {
     "A lighthearted take on the development of nuclear weapons",
   ],
 
-  'There_Will_Come_Soft_Rain': [
-    "There Will Come Soft Rain",
-    "By Sara Teasdale (Lyrics) and Jonathon Adams (music)",
-    "The world without us",
-  ],
-
   'This_Too_Shall_Pass': [
     "This Too Shall Pass",
     "By Danny Schmidt",
     "Good or bad: it all goes fast",
   ],
 
-  'Time_Wrote_the_Rocks': [
-    "Time Wrote the Rocks",
-    "By Cat Faber",
-    "Truth is found in the world",
-  ],
-
   'Time_is_Up': [
     "Time Is Up",
     "By Poppy",
     "A newly awakened AI contemplates the end of humanity.",
+  ],
+
+  'Time_Wrote_the_Rocks': [
+    "Time Wrote the Rocks",
+    "By Cat Faber",
+    "Truth is found in the world",
   ],
 
   'Tit_for_Tat': [
@@ -998,14 +998,14 @@ content = {
     "[speech]",
   ],
 
-  'A_Bottomless_Pit': [
-    "A Bottomless Pit of Suffering",
+  'A_Bottomless_Pit_Bay_Edition': [
+    "A Bottomless Pit of Suffering (Bay Edition)",
     "By Raymond Arnold",
     "[speech]",
   ],
 
-  'A_Bottomless_Pit_Bay_Edition': [
-    "A Bottomless Pit of Suffering (Bay Edition)",
+  'A_Bottomless_Pit': [
+    "A Bottomless Pit of Suffering",
     "By Raymond Arnold",
     "[speech]",
   ],
@@ -1035,6 +1035,12 @@ content = {
 
   'An_Alien_God': [
     "An Alien God (Abridged)",
+    "[speech]",
+  ],
+
+  'Arrogance_of_the_Humbled': [
+    "Arrogance of the Humbled",
+    "By Duncan Sabien (mostly)",
     "[speech]",
   ],
 
@@ -1092,21 +1098,15 @@ content = {
     "[speech]",
   ],
 
-  'COVID_We_Lost': [
-    "COVID: We Lost",
-    "by Rivka Fleischman",
+  'Call_and_Response_Defiance_Abridged': [
+    "Call and Response: Defiance",
+    "By Jai Dhyani (Abridged by Daniel Speyer)",
     "[speech]",
   ],
 
   'Call_and_Response_Defiance': [
     "Call and Response: Defiance",
     "By Jai Dhyani",
-    "[speech]",
-  ],
-
-  'Call_and_Response_Defiance_Abridged': [
-    "Call and Response: Defiance",
-    "By Jai Dhyani (Abridged by Daniel Speyer)",
     "[speech]",
   ],
 
@@ -1132,15 +1132,21 @@ content = {
     "[speech]",
   ],
 
+  'COVID_We_Lost': [
+    "COVID: We Lost",
+    "by Rivka Fleischman",
+    "[speech]",
+  ],
+
   'Cycles_Of_Scurvy': [
     "Cycles of Scurvy",
     "by Philo, Anton Howes, Idlewords and SMTM, edited together by Daniel Speyer",
     "[speech]",
   ],
 
-  'DC_Solstice_in_2022': [
-    "Solstice in 2022 (DC)",
-    "by Maia Werbos",
+  'd6_activity': [
+    "d6 Activity",
+    "By Cy Carson",
     "[speech]",
   ],
 
@@ -1153,6 +1159,12 @@ content = {
   'Dath_Ilan': [
     "Dath Ilan",
     "By Eliezer Yudkowsky (mostly)",
+    "[speech]",
+  ],
+
+  'DC_Solstice_in_2022': [
+    "Solstice in 2022 (DC)",
+    "by Maia Werbos",
     "[speech]",
   ],
 
@@ -1174,15 +1186,15 @@ content = {
     "[speech]",
   ],
 
-  'Do_Not_Go_Gentle': [
-    "Do Not Go Gentle Into That Good Night",
-    "By Dylan Thomas",
-    "[speech]",
-  ],
-
   'Does_Somebody_Have_To': [
     "Does Somebody Have To, and Will Somebody Else",
     "By Skyler Crossman",
+    "[speech]",
+  ],
+
+  'Do_Not_Go_Gentle': [
+    "Do Not Go Gentle Into That Good Night",
+    "By Dylan Thomas",
     "[speech]",
   ],
 
@@ -1338,14 +1350,14 @@ content = {
     "[speech]",
   ],
 
-  'Holding_On_And_Letting_Go': [
-    "Holding On and Letting Go",
+  'Holding_On_And_Letting_Go_2': [
+    "Meditation: Holding On and Letting Go",
     "by Rivka Fleischman",
     "[speech]",
   ],
 
-  'Holding_On_And_Letting_Go_2': [
-    "Meditation: Holding On and Letting Go",
+  'Holding_On_And_Letting_Go': [
+    "Holding On and Letting Go",
     "by Rivka Fleischman",
     "[speech]",
   ],
@@ -1367,20 +1379,32 @@ content = {
     "[speech]",
   ],
 
+  'Howl': [
+    "Howl",
+    "By Allen Ginsberg",
+    "[speech]",
+  ],
+
+  'How_to_Be_Happy': [
+    "How to Be Happy",
+    "Based on an essay by Luke Muehlhauser",
+    "[speech]",
+  ],
+
   'How_We_Remember_and_What': [
     "How We Remember and What",
     "By Sideria and Taymon Beal",
     "[speech]",
   ],
 
-  'How_We_Will_Be_Measured': [
-    "How We Will Be Measured",
+  'How_We_Will_Be_Measured_Abridged': [
+    "How We Will Be Measured (abridged)",
     "By Nate Soares",
     "[speech]",
   ],
 
-  'How_We_Will_Be_Measured_Abridged': [
-    "How We Will Be Measured (abridged)",
+  'How_We_Will_Be_Measured': [
+    "How We Will Be Measured",
     "By Nate Soares",
     "[speech]",
   ],
@@ -1391,20 +1415,9 @@ content = {
     "[speech]",
   ],
 
-  'How_to_Be_Happy': [
-    "How to Be Happy",
-    "Based on an essay by Luke Muehlhauser",
-    "[speech]",
-  ],
-
-  'Howl': [
-    "Howl",
-    "By Allen Ginsberg",
-    "[speech]",
-  ],
-
-  'ISS_Time_Lapse': [
-    "International Space Station Time Lapse Video",
+  'Icebreaker_Replication_Crisis': [
+    "Icebreaker: Replication Crisis",
+    "Instructions:",
     "[speech]",
   ],
 
@@ -1423,18 +1436,6 @@ content = {
   'I_Hear_America_Singing': [
     "I Hear America Singing",
     "By Walt Whitman",
-    "[speech]",
-  ],
-
-  'I_Pencil': [
-    "I, Pencil",
-    "By Leonard E. Read",
-    "[speech]",
-  ],
-
-  'Icebreaker_Replication_Crisis': [
-    "Icebreaker: Replication Crisis",
-    "Instructions:",
     "[speech]",
   ],
 
@@ -1503,8 +1504,14 @@ content = {
     "[speech]",
   ],
 
-  'Intro_To_Night_Section': [
-    "Intro: Night Section",
+  'Introduction_Bay_2022': [
+    "Introduction (Bay 2022)",
+    "[speech]",
+  ],
+
+  'Introduction_Bay_2023': [
+    "Introduction (Bay 2023)",
+    "By Anna Tchetchetkine",
     "[speech]",
   ],
 
@@ -1514,14 +1521,8 @@ content = {
     "[speech]",
   ],
 
-  'Introduction_Bay_2022': [
-    "Introduction (Bay 2022)",
-    "[speech]",
-  ],
-
-  'Introduction_Bay_2023': [
-    "Introduction (Bay 2023)",
-    "By Anna Tchetchetkine",
+  'Intro_To_Night_Section': [
+    "Intro: Night Section",
     "[speech]",
   ],
 
@@ -1540,6 +1541,17 @@ content = {
   'Invisible_Republic': [
     "Invisible Republic",
     "By Scott Alexander",
+    "[speech]",
+  ],
+
+  'I_Pencil': [
+    "I, Pencil",
+    "By Leonard E. Read",
+    "[speech]",
+  ],
+
+  'ISS_Time_Lapse': [
+    "International Space Station Time Lapse Video",
     "[speech]",
   ],
 
@@ -1654,15 +1666,15 @@ content = {
     "[speech]",
   ],
 
-  'Meditations_on_Moloch': [
-    "Meditations on Moloch",
-    "By Scott Alexander",
-    "[speech]",
-  ],
-
   'Meditations_on_Moloch_Abridged': [
     "Meditations on Moloch (Abridged)",
     "By Scott Alexander (abridged by Daniel Speyer)",
+    "[speech]",
+  ],
+
+  'Meditations_on_Moloch': [
+    "Meditations on Moloch",
+    "By Scott Alexander",
     "[speech]",
   ],
 
@@ -1724,21 +1736,15 @@ content = {
     "[speech]",
   ],
 
-  'Not_Today': [
-    "Not Today",
-    "By G.R.R. Martin",
-    "[speech]",
-  ],
-
   'Nothing_Is_Mere': [
     "Nothing is Mere",
     "By John Keats and Richard Feynman",
     "[speech]",
   ],
 
-  'On_Wanting_Things': [
-    "On Wanting Things",
-    "By Anna Tchetchetkine",
+  'Not_Today': [
+    "Not Today",
+    "By G.R.R. Martin",
     "[speech]",
   ],
 
@@ -1757,6 +1763,12 @@ content = {
   'Only_Human': [
     "Only Human",
     "By Jai Dhyani",
+    "[speech]",
+  ],
+
+  'On_Wanting_Things': [
+    "On Wanting Things",
+    "By Anna Tchetchetkine",
     "[speech]",
   ],
 
@@ -1787,6 +1799,12 @@ content = {
   'Pale_Blue_Dot': [
     "The Pale Blue Dot",
     "By Carl Sagan",
+    "[speech]",
+  ],
+
+  'Pascal_Cuts_Both_Ways': [
+    "Pascal Cuts Both Ways",
+    "By Daniel Speyer",
     "[speech]",
   ],
 
@@ -1827,12 +1845,6 @@ content = {
     "[speech]",
   ],
 
-  'RMS_Carpathia': [
-    "RMS Carpathia",
-    "By My Lord She's A Cactus",
-    "[speech]",
-  ],
-
   'Radical_Acceptance_Practice': [
     "Radical Acceptance Practice",
     "By Ozymandias (Adapted by others)",
@@ -1859,6 +1871,12 @@ content = {
   'Replication_Crisis': [
     "The Replication Crisis",
     "By Rivka Fleischman",
+    "[speech]",
+  ],
+
+  'RMS_Carpathia': [
+    "RMS Carpathia",
+    "By My Lord She's A Cactus",
     "[speech]",
   ],
 
@@ -2026,12 +2044,6 @@ content = {
     "[speech]",
   ],
 
-  'The_Goddess_of_Everything_Else': [
-    "The Goddess of Everything Else",
-    "By Scott Alexander",
-    "[speech]",
-  ],
-
   'The_Goddess_of_Everything_Else_Abridged': [
     "The Goddess of Everything Else (Abridged)",
     "By Scott Alexander",
@@ -2040,6 +2052,12 @@ content = {
 
   'The_Goddess_of_Everything_Else_First_Person': [
     "The Goddess of Everything Else (First Person Version)",
+    "By Scott Alexander",
+    "[speech]",
+  ],
+
+  'The_Goddess_of_Everything_Else': [
+    "The Goddess of Everything Else",
     "By Scott Alexander",
     "[speech]",
   ],
@@ -2074,6 +2092,12 @@ content = {
     "[speech]",
   ],
 
+  'There_Will_Always_Be_Darkness': [
+    "There Will Always Be Darkness",
+    "My Little Poney: Friendship Is Magic",
+    "[speech]",
+  ],
+
   'The_Scientific_Frontier': [
     "The Scientific Frontier / Truth and Beauty",
     "By Chelsea Voss",
@@ -2101,12 +2125,6 @@ content = {
   'The_Virtues_of_Solstice': [
     "The Virtues of Solstice",
     "By Cody Wild and Raymond Arnold",
-    "[speech]",
-  ],
-
-  'There_Will_Always_Be_Darkness': [
-    "There Will Always Be Darkness",
-    "My Little Poney: Friendship Is Magic",
     "[speech]",
   ],
 
@@ -2214,12 +2232,6 @@ content = {
     "[speech]",
   ],
 
-  'We_Are_Gathered': [
-    "We Are Gathered",
-    "by Daniel Speyer",
-    "[speech]",
-  ],
-
   'We_Are_Gathered_2019': [
     "We Are Gathered 2019",
     "by Daniel Speyer",
@@ -2232,21 +2244,15 @@ content = {
     "[speech]",
   ],
 
+  'We_Are_Gathered': [
+    "We Are Gathered",
+    "by Daniel Speyer",
+    "[speech]",
+  ],
+
   'We_Are_Here': [
     "We Are Here",
     "By Daniel Speyer",
-    "[speech]",
-  ],
-
-  'We_Still_Suffer': [
-    "We Still Suffer",
-    "By Matt Elder",
-    "[speech]",
-  ],
-
-  'We_will_not_die_of_this': [
-    "We will not die of this!",
-    "By Miranda Dixon-Luinenburg",
     "[speech]",
   ],
 
@@ -2268,6 +2274,18 @@ content = {
     "[speech]",
   ],
 
+  'We_Still_Suffer': [
+    "We Still Suffer",
+    "By Matt Elder",
+    "[speech]",
+  ],
+
+  'We_will_not_die_of_this': [
+    "We will not die of this!",
+    "By Miranda Dixon-Luinenburg",
+    "[speech]",
+  ],
+
   'What_Does_It_Mean_To_Be_Forever_Young': [
     "What Does It Mean To Be Forever Young?",
     "By Daniel Speyer",
@@ -2286,15 +2304,15 @@ content = {
     "[speech]",
   ],
 
-  'What_Resembles_The_Grave_But_Isnt': [
-    "What Resembles The Grave But Isn't",
-    "By Anne Boyer",
-    "[speech]",
-  ],
-
   'What_is_Solstice_2024': [
     "What is Solstice? (2024)",
     "by Daniel Speyer",
+    "[speech]",
+  ],
+
+  'What_Resembles_The_Grave_But_Isnt': [
+    "What Resembles The Grave But Isn't",
+    "By Anne Boyer",
     "[speech]",
   ],
 
@@ -2307,6 +2325,12 @@ content = {
   'When_Humanity_Was_Young': [
     "When Humanity Was Young",
     "By Matt Elder",
+    "[speech]",
+  ],
+
+  'Why_Assume_That': [
+    "Why Assume That?",
+    "By Daniel Speyer",
     "[speech]",
   ],
 
@@ -2363,12 +2387,6 @@ content = {
     "by Tilia Bell",
     "[speech]",
   ],
-
-  'd6_activity': [
-    "d6 Activity",
-    "By Cy Carson",
-    "[speech]",
-  ],
 };
 for (let k in content) {
   let v = content[k];
@@ -2377,8 +2395,8 @@ for (let k in content) {
 
 
 sections = [
-  "A Little Darker",
   "Afterwards",
+  "A Little Darker",
   "Autumn",
   "Beforehand",
   "Bonfire",
@@ -2402,8 +2420,8 @@ sections = [
   "Hope",
   "Intermission",
   "Into Darkness",
-  "Light Renewed",
   "Light",
+  "Light Renewed",
   "Morning",
   "Night",
   "Preparation",
@@ -2415,7 +2433,7 @@ sections = [
 ];
 
 programs = [
- "Austin_2022",  "Austin_2023",  "Bay_2014",  "Bay_2015",  "Bay_2016",  "Bay_2018",  "Bay_2019",  "Bay_2022",  "Bay_2023",  "Bay_Outdoor_2016",  "Boston_2013",  "Boston_2015",  "Boston_2016",  "Boston_2017",  "Boston_2018",  "Boston_2019",  "Boston_2022",  "Boston_2023",  "Boston_2024",  "Childrens_Version",  "Frankfurt_2017",  "Frankfurt_2018",  "Frankfurt_2019",  "Miami_2022",  "Miami_2022_options",  "Montreal_2024",  "NYC_2011",  "NYC_2015",  "NYC_2016",  "NYC_2017",  "NYC_2018",  "NYC_2019",  "NYC_2021",  "NYC_2022",  "NYC_2023",  "NYC_2024",  "NYC_2025_tentative",  "North_America_2020",  "Portland_2022",  "Seattle_2017",  "Small_DC_2020",  "Washington_DC_2015",  "Washington_DC_2019",  "Washington_DC_2021",  "Washington_DC_2022",  "Washington_DC_2023",
+ "Austin_2022",  "Austin_2023",  "Bay_2014",  "Bay_2015",  "Bay_2016",  "Bay_2018",  "Bay_2019",  "Bay_2022",  "Bay_2023",  "Bay_Outdoor_2016",  "Boston_2013",  "Boston_2015",  "Boston_2016",  "Boston_2017",  "Boston_2018",  "Boston_2019",  "Boston_2022",  "Boston_2023",  "Boston_2024",  "Childrens_Version",  "Frankfurt_2017",  "Frankfurt_2018",  "Frankfurt_2019",  "Miami_2022",  "Miami_2022_options",  "Montreal_2024",  "North_America_2020",  "NYC_2011",  "NYC_2015",  "NYC_2016",  "NYC_2017",  "NYC_2018",  "NYC_2019",  "NYC_2021",  "NYC_2022",  "NYC_2023",  "NYC_2024",  "NYC_2025",  "Portland_2022",  "Seattle_2017",  "Small_DC_2020",  "Washington_DC_2015",  "Washington_DC_2019",  "Washington_DC_2021",  "Washington_DC_2022",  "Washington_DC_2023",
 ];
 
 taglines = {
@@ -2447,37 +2465,37 @@ recordings = {
   'Beyond_All_Towers': 'gen/Beyond_All_Towers-from-midi.mp3',
   'Bitter_Wind_March': 'Bitter_Wind_March-soundcloud.mp3',
   'Bold_Orion': 'Bold_Orion_DC_2022.mp3',
-  'Brighter_Than_Today': 'Brighter_than_Today_DC_2022.mp3',
+  'Brighter_Than_Today': 'Brighter_Than_Today-soundcloud.mp3',
   'Bring_the_Light_Reprise': 'gen/Bring_the_Light_Reprise-from-midi.mp3',
   'Chasing_Patterns': 'gen/Chasing_Patterns-from-midi.mp3',
   'Contract_Drafting_Em': 'gen/Contract_Drafting_Em-from-midi.mp3',
-  'Endless_Light': 'endless_lights_nyc2019.mp3',
+  'Endless_Light': 'Endless_Light-soundcloud.mp3',
   'Find_My_Tribe': 'gen/Find_My_Tribe-transcript-from_midi.mp3',
   'Gather_Round': 'Gather_Round-soundcloud.mp3',
   'Gonna_Be_A_Cyborg': 'Gonna_Be_A_Cyborg.mp3',
-  'Here_and_Now': 'here_and_now_nyc2019.mp3',
-  'Holding_Up_The_Sky': 'gen/Holding_Up_The_Sky-from-midi.mp3',
+  'Here_and_Now': 'Here_and_Now-soundcloud.mp3',
+  'Holding_Up_The_Sky': 'Holding-Up-The-Sky-crude-live-recording.m4a',
   'Howl_Abridged': 'gen/Howl_Abbridged-from-midi.mp3',
   'Hymn_to_the_Breaking_Strain': 'Hymn-Breaking-Strain-2020.mp3',
-  'I_Have_Seen_the_Tops_of_Clouds': 'gen/I_Have_Seen_the_Tops_of_Clouds-from-midi.mp3',
+  'I_Have_Seen_the_Tops_of_Clouds': 'Tops_Of_Clouds_Alternate_recording.m4a',
   'Invisible_Republic_Anthem': 'gen/Invisible_Republic-from-midi.mp3',
-  'La_Vie_Boheme': 'gen/La_Vie_Boheme-from-midi.mp3',
   'Landsailor': 'gen/Landsailor-from_midi.mp3',
+  'La_Vie_Boheme': 'gen/La_Vie_Boheme-from-midi.mp3',
   'Let_There_Be_Love': 'let_there_be_love_nyc2019.mp3',
   'Little_Echo': 'gen/Little_Echo-from-midi.mp3',
   'Lucifer': 'boston-2023-lucifer.mp3',
   'Necronomicon': 'Necronomicon_DC_2022.mp3',
   'Next_Right_Thing': 'boston-2023-the-next-right-thing.mp3',
-  'O_Tannenbaum': 'gen/O_Tannenbaum-from-midi.mp3',
   'One_Shot': 'gen/One_Shot-from-midi.mp3',
+  'O_Tannenbaum': 'gen/O_Tannenbaum-from-midi.mp3',
   'Seikilos_Epitaph': 'Seikilos_Epitaph_DC_2024.mp3',
   'Song_of_the_Artesian_Water': 'Song_of_the_Artesian_Water_v2.m4a',
   'Sons_of_Martha': 'gen/Sons_of_Martha-from-midi.mp3',
   'Sound_of_Silence': 'Sound-of-Silence-2020.mp3',
-  'That_Problem_Solved': 'gen/That_Problem_Solved-from-midi.mp3',
+  'That_Problem_Solved': 'That_Problem_Solved-first-two-verses.mp3',
   'Thats_Coordination': 'Thats_Coordination_DC_2024.mp3',
   'The_Fallen_Star': 'The_Fallen_Star.m4a',
-  'Time_Wrote_the_Rocks': 'time_wrote_the_rocks_nyc2019.mp3',
+  'Time_Wrote_the_Rocks': 'Time_Wrote_the_Rocks-soundcloud.mp3',
   'Toast_to_the_Fallen': 'gen/Toast_to_the_Fallen-from-midi.mp3',
   'Uplift': 'Uplift-2020.mp3',
   'Voicing_of_Fear': 'voicing_of_fear_nyc2019.mp3',
