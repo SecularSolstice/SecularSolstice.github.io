@@ -324,6 +324,11 @@ div.figure > img {
     opacity: 0.8;
 }
 
+.lyrics_button {
+    padding: 3px;
+    background: #7773;
+}
+
 @media (max-width: 600px) {
     body {
         max-width: 95%;

@@ -28,3 +28,16 @@ window.onload = function() {
 	document.getElementsByTagName('body')[0].append(toggle);
     }
 }
+
+function choose(klass, choice) {
+    console.log({klass,choice});
+    for (let node of document.getElementsByClassName(klass)) {
+        node.style.display = 'none';
+    }
+    document.getElementById(`${choice}_${klass}`).style.display='block';
+    for (let node of document.getElementsByClassName(klass+'_button')) {
+        node.style.border = 'outset 2px grey';
+    }
+    document.getElementById(`${choice}_${klass}_button`).style.border = 'inset 2px grey';
+}
+    

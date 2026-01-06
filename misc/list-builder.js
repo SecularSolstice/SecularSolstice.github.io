@@ -46,7 +46,7 @@ $(() => {
             annots[i].empty()
 		.css('z-index','0')
 		.css('white-space','nowrap');
-            li = lines[i].split(':')[0];
+            li = lines[i].split(':')[0].split('(')[0].trim();
             if (li in content) {
 		let href = (content[li][2]=='[speech]' ? `/speeches/gen/${li}.html` : `/songs/${li}/gen`);
 		$('<a>').text(content[li][0]+' ').attr({href}).css({fontWeight:'bold'}).appendTo(annots[i]);
@@ -66,8 +66,9 @@ $(() => {
 	val = this.value;
 	lastsp = val.lastIndexOf(' ',ss-1);
 	lastrt = val.lastIndexOf('\n',ss-1);
+	lastop = val.lastIndexOf('(',ss-1);
 	lasthash = val.lastIndexOf('#',ss-1);
-	wordstart = Math.max(lastsp,lastrt)+1;
+	wordstart = Math.max(lastsp,lastrt,lastop)+1;
 	prefix = val.substring(wordstart,ss);
 	if (prefix=='') return;
 	//dbg(prefix);
@@ -75,6 +76,13 @@ $(() => {
 	if (lasthash > lastrt) {
             for (i in sections) {
 		if (sections[i].startsWith(prefix)) options.push(sections[i]);
+            }
+        } else if (lastop > lastrt) {
+            let primary = val.substr(Math.max(lastrt,0),lastop).trim();
+            console.log({lastrt,lastop,primary});
+            for (let c of variants[primary]) {
+                console.log({c,prefix,sw:c.startsWith(prefix)})
+                if (c.startsWith(prefix)) options.push(c);
             }
 	} else {
             for (c in content) {
@@ -129,13 +137,20 @@ $(() => {
 	for (let line of lines) {
 	    let item;
 	    let more;
-	    if (line.indexOf(':') == -1) {
-		item = line.trim();
-		more = ''
-	    } else {
+            let variant;
+	    if (line.indexOf(':') > -1) {
 		item = line.substr(0,line.indexOf(':')).trim();
 		more = line.substr(line.indexOf(':')+1).trim();
-	    }
+                variant = '';
+            } else if (line.indexOf('(') > -1) {
+                item = line.split('(')[0].trim();
+                more = '';
+                variant = line.split('(')[1].split(')')[0].trim() + '--';
+	    } else {
+		item = line.trim();
+		more = '';
+                variant = '';
+            }
 	    console.log({line,item,more});
 	    if (item.startsWith('#')) {
 		slides.push({type:'section', 'title':item.replace(/#+ */,'')});
@@ -145,7 +160,7 @@ $(() => {
 		if (content[item][2] == '[speech]') {
 		    slides.push({type:'text', title:content[item][0], link:item, specifier:more});
 		} else {
-		    let lyrics = (await read(`../songs/${item}/gen/${item}-lyrics.txt`)).split('\n');
+                    let lyrics = (await read(`../songs/${item}/gen/${item}-${variant}lyrics.txt`)).split('\n');
 		    let readme = (await read(`../songs/${item}/README.md`)).replace(/\n/g, ' ');
 		    let youtube = null;
 		    let mp3 = null;

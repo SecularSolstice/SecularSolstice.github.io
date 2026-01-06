@@ -24,6 +24,12 @@ for line in open(f'{basedir}/lists/{name}.list'):
             continue
         sections.append(Struct(name=line[1:].strip(), content=[]))
     else:
+        m = re.match('([^ ()]+) *\\( *([^ )]*) *\\)', line)
+        if m:
+            line,variant = m.groups()
+            variant += '--'
+        else:
+            variant = ''
         cont = Struct(ref=line)
         if line=='Brighter_Than_Today': # Special Case
             sections[-2].content.append(cont)
@@ -43,7 +49,7 @@ for line in open(f'{basedir}/lists/{name}.list'):
         if cont.ref == 'When_I_Die': # Special Case:
             cont.instructions = 'hold on this title card as if it were a speech'
             continue
-        lyricfiles = glob(f'{basedir}/songs/{line}/gen/*-lyrics.txt')
+        lyricfiles = glob(f'{basedir}/songs/{line}/gen/{line}-{variant}lyrics.txt')
         if lyricfiles:
             cont.lyrics=[]
             lyrics = open(lyricfiles[0]).read().strip()

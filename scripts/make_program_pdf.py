@@ -6,6 +6,7 @@ from tempfile import mkdtemp
 from os.path import exists, dirname
 from os import remove
 from glob import glob
+import re
 
 fn = sys.argv[1]
 inf = open(fn)
@@ -24,20 +25,26 @@ for line in inf:
         continue
     i += 1
     content = line.split(': ')[0]
+    m = re.match('([^ ()]+) *\\( *([^ )]*) *\\)', content)
+    if m:
+        content,variant = m.groups()
+        variant += '--'
+    else:
+        variant = ''
     print(f'Trying "{content}" ({i})')
     if exists(f'../speeches/{content}.md'):
         run(['pandoc', ('../speeches/%s.md' % content), '-V', 'geometry:papersize={ 8.5in, 14in }', '-V', 'geometry:margin=0.5in', '-V', 'fontsize=17pt','-V', 'documentclass=extarticle', '-o', f'{outd}/{i}.pdf'], check=True)
         continue
-    g=glob(f'../songs/{content}/*-chord-chart.pdf')
+    g=glob(f'../songs/{content}/*chord-chart.pdf')
     if g:
         run(['cp', g[0], f'{outd}/{i}.pdf'], check=True)            
         continue
-    for format in ['sheet-music-compact-legal', 'sheet-music-legal', 'sheet-music-english', 'sheet-music-compact', 'sheet-music-modern', 'sheet-music', 'chord-sheet-2col-legal', 'chord-sheet-2col', 'chord-sheet-legal', 'chord-sheet', 'chord-chart-tools-drones', 'chord-chart', 'lyrics']:
+    for format in ['sheet-music-compact-legal', 'sheet-music-legal', 'sheet-music-english', 'sheet-music-compact', 'sheet-music-modern', 'sheet-music', 'chord-sheet-2col-legal', 'chord-sheet-2col', 'chord-sheet-legal', 'chord-sheet', 'lyrics']:
         if content=='Here_and_Now' and format=='chord-chart':
             continue
         if content=='Howl_Abridged' and format=='sheet-music':
             continue
-        g=glob(f'../songs/{content}/gen/*-{format}.*')
+        g=glob(f'../songs/{content}/gen/{content}-{variant}{format}.*')
         if g:
             print('  found %s'%format)
             found=False

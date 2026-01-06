@@ -2,7 +2,7 @@
 
 import sys,csv,json,os,re,io
 from glob import glob
-    
+
 fn = sys.argv[1]
 
 try:
@@ -39,6 +39,13 @@ def process_instruction(line):
         return False
 
 def process_song(line):
+    m = re.match('([^ ()]*) *\\((.*)\\)', line)
+    if m:
+        line, variant = m.groups()
+        vq=f'?variant={variant}'
+    else:
+        variant=''
+        vq=''
     try:
         readme = open('../songs/%s/README.md' % line)
     except IOError:
@@ -53,7 +60,9 @@ def process_song(line):
             else:
                 outf.write(' &#x25e6; '+rl[2:])
         elif rl[:1]=='#':
-            outf.write('<li><b><a href=../../songs/%s/gen/>%s</a></b> ' % (line, rl[1:]))
+            outf.write('<li><b><a href=../../songs/%s/gen/%s>%s</a></b> ' % (line, vq, rl[1:]))
+    if variant:
+        outf.write(f' &#x25e6; <span style=font-size:75%>{variant} variant</span>')
     outf.write('\n')
     return True
 

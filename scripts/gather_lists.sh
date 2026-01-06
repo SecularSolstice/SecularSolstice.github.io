@@ -4,7 +4,7 @@ set -ex
 
 cd $(dirname $0)/..
 
-echo 'content = {'
+echo 'const content = {'
 
 for i in  songs/*/README.md; do
     echo
@@ -30,20 +30,36 @@ echo "}"
 echo
 echo
 
+echo "const variants = {"
+for SONG in songs/*; do
+    pushd $SONG >/dev/null || continue
+    eval $(grep PREFIX= Makefile )
+    V1=$(ls gen/${PREFIX}*--* | sed "s@gen/${PREFIX}@@" | sed 's/--.*//' | sort | uniq)
+    V2=$(ls *--* | sed 's/--.*//' | sort | uniq)
+    VARIANTS=$( (echo $V1; echo $V2) | sort | uniq)
+    if [[ -n "$VARIANTS" ]]; then
+        echo -n "  '$SONG': [" | sed 's@songs/@@'
+        echo "$VARIANTS" | sed 's/^/"/' | sed 's/$/"/' | tr '\n' ','
+        echo " ],"
+    fi
+    popd >/dev/null
+done
+echo "};"
+
 LISTS=$(ls lists/*.list | grep -v All_)
-echo 'sections = ['
+echo 'const sections = ['
 grep -h '^#' $LISTS | sed 's/^# */  "/' | sed $'s/[ \t]*$/",/' | sort | uniq
 echo '];'
 
 echo
 
-echo 'programs = ['
+echo 'const programs = ['
 echo $LISTS | sed 's@\.list@",@g' | sed 's@lists/@ "@g'
 echo '];'
 
 echo
 
-echo 'taglines = {'
+echo 'const taglines = {'
 for LIST in $LISTS; do
     BN=$(basename $LIST)
     TL=$(grep '{' $LIST)  && echo "  ${BN/.list/}: '$TL',"
@@ -52,7 +68,7 @@ echo '}'
 
 echo
 
-echo "recordings = {"
+echo "const recordings = {"
 pushd songs >/dev/null
 for i in *; do
     pushd $i >/dev/null || continue

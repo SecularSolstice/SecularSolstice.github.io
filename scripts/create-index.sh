@@ -40,41 +40,68 @@ pandoc -f markdown README.md
 echo "<p><a href=https://github.com/SecularSolstice/SecularSolstice.github.io/edit/master/songs/$(basename $PWD)/README.md class=editbutton>edit description</a></p>"
 echo '</div>'
 
-echo "<h2>Lyrics</h2><p class=lyrics>"
+echo "<h2>Lyrics</h2>"
 
-cat gen/*lyrics.txt 2>/dev/null |
-    sed 's/&/\&amp;/g' |
-    sed 's/</\&lt;/g' |    
-    sed 's/>/\&gt;/g' |    
-    tr '\n' '>' |          # So that we can use sed to mess with lines
-    sed 's/ *>/>/g'  |     # Trailing spaces confuse what follows
-    sed 's/>>>*/>>/g' |    # No more than one skipped line
-    sed 's/^>*//' |        # No leading skipped lines
-    sed 's/>$//' |         # No trailing skipped lines 
-    tr '>' '\n' |          # Back to normal
-    sed 's/^   /\&nbsp; \&nbsp; \&nbsp; /' |
-    awk '{print $0 "<br>"}' 
+if [[ $# -gt 0 ]]; then
+   echo "<ul><b>Variants:"
+   for V in default $@; do
+       echo "<a class=lyrics_button onclick=\"choose('lyrics','${V}')\" id='${V}_lyrics_button'>${V}</a>"
+   done
+   echo "</b></ul>"
+fi
 
-echo "</p>"
+for V in default $@; do
+    echo "<p class=lyrics id='${V}_lyrics'>"
+    if [[ ${V} == "default" ]]; then
+        FN=`ls gen/*lyrics.txt | grep -v -- -- `;
+    else
+        FN=gen/*${V}--lyrics.txt
+    fi
+    cat $FN 2>/dev/null |
+        sed 's/&/\&amp;/g' |
+        sed 's/</\&lt;/g' |    
+        sed 's/>/\&gt;/g' |    
+        tr '\n' '>' |          # So that we can use sed to mess with lines
+        sed 's/ *>/>/g'  |     # Trailing spaces confuse what follows
+        sed 's/>>>*/>>/g' |    # No more than one skipped line
+        sed 's/^>*//' |        # No leading skipped lines
+        sed 's/>$//' |         # No trailing skipped lines 
+        tr '>' '\n' |          # Back to normal
+        sed 's/^   /\&nbsp; \&nbsp; \&nbsp; /' |
+        awk '{print $0 "<br>"}' 
+    echo "</p>"
+done
+
+if [[ $# -gt 0 ]]; then
+    echo '<script>choose("lyrics",(new URLSearchParams(location.search)).get("variant") || "default");</script>'
+fi
 
 echo "<h2>Files</h2><ul>"
-FILES=$( ls gen/*.pdf gen/*.midi gen/*.html gen/*.mp3 gen/*.txt gen/*.png gen/*.chordpro gen/*.cho 2>/dev/null |
-               grep -v index |
-               sed 's@gen/@@' |
-               sort)
-for f in $FILES; do
-    echo "<li><a href=$f>$f</a>"
-done
-for f in *; do
-    if     [ "$f" != "gen" ] &&
-           [ "$f" != "Makefile" ] &&
-           [ "$f" != "README.md" ] &&
-           [[ "$f" =~ ^[^~]*$ ]]; then
+for V in Default $@; do
+    echo "<h4>${V}</h4>"
+    if [[ $V == 'Default' ]]; then
+        VPAT='-v -- --'
+    else
+        VPAT="${V}--"
+    fi
+    FILES=$( ls -d * |
+                 egrep -v "^(gen|Makefile|README.md)$" |
+                 grep $VPAT |
+                 grep -v '~$' )
+    for f in $FILES; do
         echo "<li><a href=../$f>$f</a>"
         if file $f | grep text > /dev/null; then
             echo "<a href=https://github.com/SecularSolstice/SecularSolstice.github.io/edit/master/songs/$(basename $PWD)/$f class=editbutton>edit</a>"
         fi
-    fi
+    done
+    FILES=$( ls gen/*.pdf gen/*.midi gen/*.html gen/*.mp3 gen/*.txt gen/*.png gen/*.chordpro gen/*.cho 2>/dev/null |
+                 grep -v index |
+                 grep $VPAT |
+                 sed 's@gen/@@' |
+                 sort)
+    for f in $FILES; do
+        echo "<li><a href=$f>$f</a>"
+    done
 done
 
 echo "</ul>"
