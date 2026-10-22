@@ -981,6 +981,12 @@ const content = {
     "It's nice to have friends",
   ],
 
+  'Zombie_The_Cranberries': [
+    "Zombie",
+    "by The Cranberries",
+    "All the things that can only be done while here",
+  ],
+
   '500_Million_2020_Addendum': [
     "500 Million: 2020 Addendum",
     "By Maia Werbos",
@@ -1561,6 +1567,12 @@ const content = {
     "[speech]",
   ],
 
+  'Jodie_Speech_2025': [
+    "Jodie's 2025 speech at Montreal's solstice",
+    "By Jodie",
+    "[speech]",
+  ],
+
   'John_Snow_and_the_Broad_St_Pump': [
     "John Snow and the Broad Street Pump",
     "By Kathleen Tuthill and Daniel Speyer",
@@ -1648,6 +1660,12 @@ const content = {
     "[speech]",
   ],
 
+  'Matt_Speech_2025': [
+    "Matt's 2025 speech at Montreal's solstice",
+    "By Matt",
+    "[speech]",
+  ],
+
   'Meditation_on_the_future': [
     "Meditation on the Future",
     "By Raymond Arnold and Nate Soares",
@@ -1715,6 +1733,12 @@ const content = {
 
   'Ms_Poppins': [
     "Ms. Poppins",
+    "[speech]",
+  ],
+
+  'Natural_Questions': [
+    "Natural Questions",
+    "By Seneca",
     "[speech]",
   ],
 
@@ -2080,6 +2104,12 @@ const content = {
     "[speech]",
   ],
 
+  'The_Meditation_on_Winter': [
+    "The Meditation on Winter",
+    "By Raymond Arnold",
+    "[speech]",
+  ],
+
   'The_Next_War': [
     "The Next War",
     "By Willfred Owen",
@@ -2413,6 +2443,7 @@ const sections = [
   "Dawm",
   "Dawn",
   "Day",
+  "Daylight",
   "Days to Come",
   "Dim",
   "Dusk",
@@ -2430,6 +2461,7 @@ const sections = [
   "Night",
   "Preparation",
   "Spring",
+  "Sunrise",
   "Tomorrow",
   "Tomorrows",
   "Twilight",
@@ -2437,10 +2469,11 @@ const sections = [
 ];
 
 const programs = [
- "Austin_2022",  "Austin_2023",  "Bay_2014",  "Bay_2015",  "Bay_2016",  "Bay_2018",  "Bay_2019",  "Bay_2022",  "Bay_2023",  "Bay_Outdoor_2016",  "Boston_2013",  "Boston_2015",  "Boston_2016",  "Boston_2017",  "Boston_2018",  "Boston_2019",  "Boston_2022",  "Boston_2023",  "Boston_2024",  "Childrens_Version",  "Frankfurt_2017",  "Frankfurt_2018",  "Frankfurt_2019",  "Miami_2022",  "Miami_2022_options",  "Montreal_2024",  "North_America_2020",  "NYC_2011",  "NYC_2015",  "NYC_2016",  "NYC_2017",  "NYC_2018",  "NYC_2019",  "NYC_2021",  "NYC_2022",  "NYC_2023",  "NYC_2024",  "NYC_2025",  "Portland_2022",  "Seattle_2017",  "Small_DC_2020",  "Washington_DC_2015",  "Washington_DC_2019",  "Washington_DC_2021",  "Washington_DC_2022",  "Washington_DC_2023",
+ "Austin_2022",  "Austin_2023",  "Bay_2013",  "Bay_2014",  "Bay_2015",  "Bay_2016",  "Bay_2018",  "Bay_2019",  "Bay_2022",  "Bay_2023",  "Bay_Outdoor_2016",  "Boston_2013",  "Boston_2015",  "Boston_2016",  "Boston_2017",  "Boston_2018",  "Boston_2019",  "Boston_2022",  "Boston_2023",  "Boston_2024",  "Childrens_Version",  "Frankfurt_2017",  "Frankfurt_2018",  "Frankfurt_2019",  "Miami_2022",  "Miami_2022_options",  "Montreal_2024",  "Montreal_2025",  "North_America_2020",  "NYC_2011",  "NYC_2015",  "NYC_2016",  "NYC_2017",  "NYC_2018",  "NYC_2019",  "NYC_2021",  "NYC_2022",  "NYC_2023",  "NYC_2024",  "NYC_2025",  "Portland_2022",  "Seattle_2017",  "Small_DC_2020",  "Washington_DC_2015",  "Washington_DC_2019",  "Washington_DC_2021",  "Washington_DC_2022",  "Washington_DC_2023",
 ];
 
 const taglines = {
+  Bay_2013: '{December 7, 2013}',
   Boston_2017: '{The Wisdom of Lovecraft}',
   Boston_2018: '{101 Years Since Spanish Flu}',
   Boston_2019: '{101 Years Since WWI}',
